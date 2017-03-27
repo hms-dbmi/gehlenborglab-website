@@ -2,7 +2,7 @@ language: ruby
 before_script:
   - npm install
 script:
-  - jekyll build
-  - echo 'TODO: link check'
+  - bundle exec jekyll build
+  # TODO: link check
 deploy:
-  - echo 'TODO: s3 sync'
+  # TODO: s3 sync
