@@ -1,0 +1,99 @@
+---
+layout: docs
+---
+<h2>{{ page.name }}</h2>
+
+<div class="usa-grid-full">
+  <div class="usa-width-two-thirds">
+    <h3>Description</h3>
+    {{ content }}
+
+    {% if page.grants.size > 0 %}
+    <h3>Funding</h3>
+    <ul>
+    {% for grant in page.grants %}
+      {% assign grant_details = site.data.grants[grant] %}
+      <li><a href="{{ grant_details.url }}" >{{ grant_details.name }}</a> ({{ grant_details.number }})
+      <br>
+      {{ grant_details.funder }}
+      </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+
+  <aside class="usa-width-one-third">
+    <h3>Team</h3>
+    <ul>
+    {% for project_member in page.members %}
+      {% for team_member in site.members %}
+        {% if project_member == team_member.identifier %}
+          {% assign member_details = team_member %}        
+          <li><a href="{{ member_details.url }}">{{ member_details.name }}</a></li>  
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+
+    {% if page.collaborators.size > 0 %}    
+    <h3>Collaborators</h3>
+    <ul>
+    {% for collaborator in page.collaborators %}
+    {% assign collaborator_details = site.data.collaborators[collaborator] %}
+      <li><a href="{{collaborator_details.url}}">{{ collaborator_details.name }}</a></li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if page.websites.size > 0 %}
+    <h3>Websites</h3>
+    <ul>
+      {% for website in page.websites %}
+        <li>
+          <a href="{{ website.url }}">{{ website.name }}</a>
+          {% if website.description %}
+            <br>
+            <small>{{ website.description }}</small>
+          {% endif %}
+        </li>  
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if page.github_repositories.size > 0 or page.docker_repositories.size > 0 %}
+    <h3>Software</h3>
+
+    {% if page.github_repositories.size > 0 %}
+    <h6>GitHub</h6>
+    <ul>
+      {% for repository in page.github_repositories %}
+        <li>
+          <a href="{{ repository.url }}">{{ repository.name }}</a>
+          {% if repository.description %}
+            <br>
+            <small>{{ repository.description }}</small>
+          {% endif %}
+        </li>  
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if page.docker_repositories.size > 0 %}
+    <h6>Docker</h6>
+    <ul>
+      {% for repository in page.docker_repositories %}
+        <li>
+          <a href="{{ repository.url }}">{{ repository.name }}</a>
+          {% if repository.description %}
+            <br>
+            <small>{{ repository.description }}</small>
+          {% endif %}
+        </li>  
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% endif %}
+
+  </aside>
+</div>

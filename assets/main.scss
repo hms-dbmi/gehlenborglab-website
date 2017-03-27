@@ -1,0 +1,29 @@
+---
+---
+
+@import '../node_modules/uswds/src/stylesheets/uswds.scss';
+@import 'variables.scss';// Custom Sass variables file
+@import '../node_modules/uswds/src/stylesheets/uswds.scss';
+
+.site-header {
+  background-color: $color-white;
+}
+
+.site-logo {
+  font-family: $font-sans;
+}
+
+.usa-logo {
+  a {
+    color: $color-primary;
+  }
+}
+
+.usa-footer-primary-section {
+  background-color: $color-white;
+  border-top: 1px $color-gray-light solid;
+}
+
+.usa-footer-secondary_section {
+  background-color: $color-white;
+}
