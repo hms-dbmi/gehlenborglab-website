@@ -3,6 +3,13 @@ before_script:
   - npm install
 script:
   - bundle exec jekyll build
-  # TODO: link check
 deploy:
-  # TODO: s3 sync
+  provider: s3
+  access_key_id: AKIAIEEFPIJXM4CLMVHQ
+  secret_access_key:
+    secure: i0ES/GLvanA3WAeT3t2YuLW0F6w/F7SRseCIBUy5x3rFCdSSIwkd1o3nVwMgacR7LxtWyc7wEYiui22RK3PU0/yYfjboi7VsyrwvccTVOS6Olul2ZoOXPE+opwXD3yAc5hvVJG7Z3/H7t7z9s4Wfdp6Bi5g7ejNKVpxByRIVH7bxb0U0ET5hWgLiRF9/Y8BQbSO6WBm2mLE0T2Vm9ADe8Ii+lmyh/8LSCXcjNrGBMY+rD31+lQ11BDNJkUFDquYOWziDWflSXvjGmOfSDihtS/hR308vDWHSSiXXjoosIYJYUX6LcD9ph1VMIGbxbTLV1WQVyQ99BOctYXJxXLOS/8DMNxa8w49wiciUc+e/L2lvcCCyWlOko7Jye764LcJFMRn/O9saiwmTSxtx8TpjWQnEHQ2MjBNEZhq4hvHuN621r4J+wRdyJsLlc3scZKtoby5mZlwEtUvw/7LqoA5a5p+DjLt9+YdXCa1BVyD83a3tuji4Gz7QXEnSv6ky8KJIv4IYru5RR5WjQKHc8xRZzxmlZo6EqMoENTFFM9yTBc3mcbBoQIX7QSaXKkYDLcFMiizquPpOhOPQFPsaT4Odc6DtEOrB5SyH/thZTvgWSDypFw8iaAfqzyWf2FQ1dEYOgGW18z5t2LVI1Wky+lDt5CkczxhmyWPyrFMYG6r29Ns=
+  bucket: gehlenborglab-website
+  skip_cleanup: true
+  region: us-east-1
+  acl: public_read
+  local_dir: _site
