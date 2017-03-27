@@ -36,6 +36,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - .travis.yml
 include: ["_layouts"]
 
 collections:
