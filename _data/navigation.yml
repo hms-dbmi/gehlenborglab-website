@@ -24,14 +24,6 @@ primary:
         href: /research/themes/
       - text: Projects
         href: /research/projects/
-  - text: Teaching
-    links:
-      - text: BMI 650 - Biomedical Informatics Bootcamp
-        href: /teaching/bmi-650/
-      - text: BMI 706 - Data Visualization for Biomedical Applications
-        href: /teaching/bmi-706/
-  - text: Software
-    href: /software/
   - text: Publications
     href: /publications/
   - text: Contact
@@ -52,11 +44,12 @@ primary:
 
 secondary: []
 
-footer:
-  - text: Department of Biomedical Informatics
-    href: http://dbmi.hms.harvard.edu
-  - text: Harvard Medical School
-    href: http://hms.harvard.edu
+# These nav links can only be relative: including the protocol + host does not work.
+#footer:
+#  - text: Department of Biomedical Informatics
+#    href: http://dbmi.hms.harvard.edu
+#  - text: Harvard Medical School
+#    href: http://hms.harvard.edu
 
 members:
   - text: Biography
