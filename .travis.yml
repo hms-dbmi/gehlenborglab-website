@@ -2,7 +2,9 @@ language: ruby
 before_script:
   - npm install
 script:
+  - set -e
   - bundle exec jekyll build
+  - htmlproofer --assume-extension ./_site
 deploy:
   provider: s3
   access_key_id: AKIAIEEFPIJXM4CLMVHQ
