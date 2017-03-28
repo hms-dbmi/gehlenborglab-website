@@ -47,6 +47,9 @@ collections:
   projects:
     output: true
     permalink: /research/:collection/:path/
+  projects2:
+    output: true
+    permalink: /research/:collection/:path/
   themes:
     output: true
     permalink: /research/:path/
@@ -54,5 +57,8 @@ collections:
     output: true
     permalink: /team/:collection/:path/
   publications:
+    output: true
+    permalink: /:collection/:path/
+  news:
     output: true
     permalink: /:collection/:path/

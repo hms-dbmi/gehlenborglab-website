@@ -11,6 +11,8 @@
 #
 primary:
   - text: About
+    href: /about
+  - text: News
     href: /news/
   - text: Team
     links:
@@ -27,29 +29,9 @@ primary:
   - text: Publications
     href: /publications/
   - text: Contact
-    href: /contact/
-
-#  - text: Navigation section
-#    links:
-#      - text: Demo link A
-#        href: /two/a/
-#      - text: Demo link B
-#        href: /two/b/
-#      - text: Demo link C
-#        href: /two/c/
-#  - text: Referenced section
-#    links: footer
-#  - text: About
-#    href: /about/
+    href: /contact
 
 secondary: []
-
-# These nav links can only be relative: including the protocol + host does not work.
-#footer:
-#  - text: Department of Biomedical Informatics
-#    href: http://dbmi.hms.harvard.edu
-#  - text: Harvard Medical School
-#    href: http://hms.harvard.edu
 
 members:
   - text: Biography
@@ -60,13 +42,3 @@ members:
     href: '#projects'
   - text: Courses
     href: '#courses'
-
-docs:
-  - text: Documentation
-    href: /docs/
-  - text: Installation
-    href: /docs/install/
-  - text: Upgrading
-    href: /docs/upgrade/
-  - text: Help
-    href: /docs/help/
