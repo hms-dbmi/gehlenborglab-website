@@ -9,6 +9,16 @@ permalink: /research/themes/
 ### {{ theme.name }}
 {{ theme.content }}
 {% if theme.projects.size > 0 %}
-<h6>Projects</h6>{% for project in theme.projects %}{% for project_details in site.projects %}{% if project_details.identifier == project %}<a href="{{ project_details.url }}">{{ project_details.name }}</a>{% endif %}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}
+<h6>Projects</h6>
+<ul>
+{% for project in theme.projects %}
+{% for site_project in site.projects %}
+{% assign site_project_id = site_project.url | split: '/' | last %}
+{% if site_project_id == project %}
+<li><a href="{{ site_project.url }}">{{ site_project.name }}</a></li>
+{% endif %}
+{% endfor %}
+{% endfor %}
+</ul>
 {% endif %}
 {% endfor %}
