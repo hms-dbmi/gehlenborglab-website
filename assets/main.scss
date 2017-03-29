@@ -1,6 +1,9 @@
 ---
 ---
 
+$font-path: 'uswds/fonts';
+$image-path: 'uswds/img';
+
 @import '../node_modules/uswds/src/stylesheets/uswds.scss';
 @import 'variables.scss';// Custom Sass variables file
 @import '../node_modules/uswds/src/stylesheets/uswds.scss';
