@@ -11,9 +11,16 @@ layout: docs
     <h3 id="biography">Biography</h3>
     {{ content }}
 
-    <h3 id="courses">Courses</h3>
-    {{ page.courses }}
-  
+    <h3 id="news">News</h3>
+      <ul>
+      {% for news in site.news %}
+        {% for member in news.members %}
+          {% if member == id %}
+            <li><a href="{{ news.url }}">{{ news.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </ul>    
   </div>
 
   <aside class="usa-width-one-third">
@@ -31,17 +38,6 @@ layout: docs
         {% for member in project.members %}
           {% if member == id %}
             <li><a href="{{ project.url }}">{{ project.name }}</a></li>  
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-      </ul>
-
-    <h3 id="news">News</h3>
-      <ul>
-      {% for news in site.news %}
-        {% for member in news.members %}
-          {% if member == id %}
-            <li><a href="{{ news.url }}">{{ news.title }}</a></li>
           {% endif %}
         {% endfor %}
       {% endfor %}
