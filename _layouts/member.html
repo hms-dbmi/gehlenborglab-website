@@ -11,16 +11,26 @@ layout: docs
     <h3 id="biography">Biography</h3>
     {{ content }}
 
-    <h3 id="news">News</h3>
-      <ul>
-      {% for news in site.news %}
-        {% for member in news.members %}
-          {% if member == id %}
-            <li><a href="{{ news.url }}">{{ news.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+    {% for news in site.news %}
+      {% for member in news.members %}
+        {% if member == id %}
+          {% assign has_news = true %}
+          <!-- Is there better idiom to do this with liquid? -->
+        {% endif %}
       {% endfor %}
-      </ul>    
+    {% endfor %}
+    {% if has_news %}
+      <h3 id="news">News</h3>
+      <ul>
+        {% for news in site.news %}
+          {% for member in news.members %}
+            {% if member == id %}
+              <li><a href="{{ news.url }}">{{ news.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
 
   <aside class="usa-width-one-third">
