@@ -23,5 +23,15 @@ layout: docs
           {% endfor %}
       </ul>
     <h3>Publications</h3>
+      <ul>
+          {% for news_publication_id in page.publications %}
+            {% for site_publication in site.publications %}
+                {% assign site_publication_id = site_publication.url | split: '/' | last %}
+                {% if site_publication_id == news_publication_id %}
+                    <li><a href="{{ site_publication.url }}">{{ site_publication.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+          {% endfor %}
+      </ul>
   </aside>
 </div>

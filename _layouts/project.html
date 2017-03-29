@@ -42,7 +42,7 @@ layout: docs
     <ul>
     {% for collaborator in page.collaborators %}
     {% assign collaborator_details = site.data.collaborators[collaborator] %}
-      <li><a href="{{collaborator_details.url}}">{{ collaborator_details.name }}</a></li>
+      <li><a href="{{collaborator_details.url}}">{{ collaborator_details.name_plain }}</a></li>
     {% endfor %}
     </ul>
     {% endif %}
