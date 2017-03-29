@@ -5,5 +5,5 @@ permalink: /news/
 ---
 ## News
 {% for news in site.news %}
-- [{{ news.name }}]({{news.url}})
+- [{{ news.title }}]({{news.url}})
 {% endfor %}
