@@ -14,7 +14,6 @@ permalink: /publications/
 {% endif %}
 {% endif %}
 {% assign prev_year = publication.year %}
-{{ publication.title }}.
 {{ publication.citation }}
 [Details]({{publication.url}})
 {% endfor %}
