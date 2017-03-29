@@ -12,4 +12,5 @@ members:
   - jacob-luber
   - nils-gehlenborg
 --
+
 We present HiGlass (http://higlass.io), a viewer for Hi-C and other genomic interaction maps that supports continuous zooming and panning for navigation across genomic loci and resolutions. A key feature of HiGlass is synchronized navigation of multiple views showing matrices from different experimental conditions, types or cell lines. We demonstrate how user-defined view compositions of Hi-C and other genomic data can be used to efficiently identify salient outcomes of experimental perturbations and generate new hypotheses.
