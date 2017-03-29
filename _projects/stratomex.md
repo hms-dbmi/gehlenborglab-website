@@ -2,16 +2,15 @@
 layout: project
 
 name: Caleydo StratomeX
-identifier: stratomex
 
 members:
-  - nils_gehlenborg
+  - nils-gehlenborg
 
 collaborators:
-  - alexander_lex
-  - marc_streit
-  - hanspeter_pfister
-  - peter_park
+  - alexander-lex
+  - marc-streit
+  - hanspeter-pfister
+  - peter-park
 
 websites:
   - name: StratomeX Website

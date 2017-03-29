@@ -2,7 +2,6 @@
 layout: project
 
 name: 4D Nucleome Data Portal
-identifier: 4d_nucleome_data_portal
 
 members:
   - nils_gehlenborg

@@ -1,9 +1,8 @@
 ---
 layout: member
 
-name: Chuck McCallum
+name_plain: Chuck McCallum
 name_degree: Chuck McCallum, BA, MLIS
-identifier: chuck_mccallum
 
 photo: placeholder.png
 

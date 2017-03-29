@@ -2,16 +2,15 @@
 layout: project
 
 name: Refinery Platform
-identifier: refinery-platform
 
 members:
-  - nils_gehlenborg
-  - scott_ouellette
-  - jennifer_marx
-  - chuck_mccallum
-  - stefan_luger
-  - jeremy_liu
-  - anton_xue
+  - nils-gehlenborg
+  - scott-ouellette
+  - jennifer-marx
+  - chuck-mccallum
+  - stefan-luger
+  - jeremy-liu
+  - anton-xue
 
 collaborators:
   - shannan_ho_sui

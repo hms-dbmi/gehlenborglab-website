@@ -1,6 +1,8 @@
 ---
 layout: docs
 ---
+{% assign id = page.url | split: '/' | last %}
+
 <h2>{{ page.name_degree }}</h2>
 <h6>{{ page.title }}</h6>
 
@@ -27,8 +29,19 @@ layout: docs
       <ul>
       {% for project in site.projects %}
         {% for member in project.members %}
-          {% if member == page.identifier %}
+          {% if member == id %}
             <li><a href="{{ project.url }}">{{ project.name }}</a></li>  
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </ul>
+
+    <h3 id="news">News</h3>
+      <ul>
+      {% for news in site.news %}
+        {% for member in news.members %}
+          {% if member == id %}
+            <li><a href="{{ news.url }}">{{ news.title }}</a></li>
           {% endif %}
         {% endfor %}
       {% endfor %}

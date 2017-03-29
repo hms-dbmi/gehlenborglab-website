@@ -1,9 +1,8 @@
 ---
 layout: member
 
-name: Jake Conway
+name_plain: Jake Conway
 name_degree: Jake Conway, BSc
-identifier: jake_conway
 
 photo: placeholder.png
 

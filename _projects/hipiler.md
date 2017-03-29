@@ -2,12 +2,11 @@
 layout: project
 
 name: HiPiler
-identifier: hipiler
 
 members:
-  - fritz_lekschas
-  - peter_kerpedjiev
-  - nils_gehlenborg
+  - fritz-lekschas
+  - peter-kerpedjiev
+  - nils-gehlenborg
 
 websites:
 
