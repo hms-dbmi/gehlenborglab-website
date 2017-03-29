@@ -1,9 +1,8 @@
 ---
 layout: member
 
-name: Fritz Lekschas
+name_plain: Fritz Lekschas
 name_degree: Fritz Lekschas, BSc, MSc
-identifier: fritz_lekschas
 
 photo: placeholder.png
 

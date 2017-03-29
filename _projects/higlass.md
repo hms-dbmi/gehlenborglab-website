@@ -2,21 +2,20 @@
 layout: project
 
 name: HiGlass
-identifier: higlass
 
 members:
-  - peter_kerpedjiev
-  - chuck_mccallum
-  - fritz_lekschas
-  - nikhil_kumar
-  - alaleh_ahzir
-  - jacob_luber
-  - nils_gehlenborg
+  - peter-kerpedjiev
+  - chuck-mccallum
+  - fritz-lekschas
+  - nikhil-kumar
+  - alaleh-ahzir
+  - jacob-luber
+  - nils-gehlenborg
 
 collaborators:
-  - leonid_mirny
-  - hanspeter_pfister
-  - peter_park
+  - leonid-mirny
+  - hanspeter-pfister
+  - peter-park
 
 websites:
   - name: HiGlass Demo Site

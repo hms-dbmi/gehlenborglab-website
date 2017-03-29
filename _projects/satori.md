@@ -2,11 +2,10 @@
 layout: project
 
 name: SATORI
-identifier: satori
 
 members:
-  - fritz_lekschas
-  - nils_gehlenborg
+  - fritz-lekschas
+  - nils-gehlenborg
 
 websites:
   - name: SATORI Project

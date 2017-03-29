@@ -1,9 +1,8 @@
 ---
 layout: member
 
-name: Nils Gehlenborg
+name_plain: Nils Gehlenborg
 name_degree: Nils Gehlenborg, PhD
-identifier: nils_gehlenborg
 
 photo: nils-gehlenborg.png
 

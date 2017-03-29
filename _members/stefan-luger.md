@@ -1,9 +1,8 @@
 ---
 layout: member
 
-name: Stefan Luger
+name_plain: Stefan Luger
 name_degree: Stefan Luger, BSc
-identifier: stefan_luger
 
 photo: placeholder.png
 

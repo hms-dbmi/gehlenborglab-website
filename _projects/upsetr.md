@@ -2,15 +2,14 @@
 layout: project
 
 name: UpSetR
-identifier: upsetr
 
 members:
-  - jake_conway
-  - megan_paul
-  - nils_gehlenborg
+  - jake-conway
+  - megan-paul
+  - nils-gehlenborg
 
 collaborators:
-  - alexander_lex
+  - alexander-lex
 
 websites:
   - name: UpSetR R Package

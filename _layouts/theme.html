@@ -1,6 +1,8 @@
 ---
 layout: docs
 ---
+{% assign id = page.url | split: '/' | last %}
+
 <h2>{{ page.name }}</h2>
 
 <div class="usa-grid-full">
@@ -28,8 +30,8 @@ layout: docs
     {% for project_member in page.members %}
       {% for team_member in site.members %}
         {% if project_member == team_member.identifier %}
-          {% assign member_details = team_member %}        
-          <li><a href="{{ member_details.url }}">{{ member_details.name }}</a></li>  
+          {% assign member_details = team_member %}
+          <li><a href="{{ member_details.url }}">{{ member_details.name }}</a></li>
         {% endif %}
       {% endfor %}
     {% endfor %}
@@ -45,7 +47,7 @@ layout: docs
             <br>
             <small>{{ website.description }}</small>
           {% endif %}
-        </li>  
+        </li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -63,7 +65,7 @@ layout: docs
             <br>
             <small>{{ repository.description }}</small>
           {% endif %}
-        </li>  
+        </li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -78,7 +80,7 @@ layout: docs
             <br>
             <small>{{ repository.description }}</small>
           {% endif %}
-        </li>  
+        </li>
       {% endfor %}
     </ul>
     {% endif %}

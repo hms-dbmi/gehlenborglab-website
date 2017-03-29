@@ -1,9 +1,8 @@
 ---
 layout: member
 
-name: Jacob Luber
+name_plain: Jacob Luber
 name_degree: Jacob Luber, BSc
-identifier: jacbo_luber
 
 photo: placeholder.png
 

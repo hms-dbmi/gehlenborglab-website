@@ -1,9 +1,8 @@
 ---
 layout: member
 
-name: Anton Xue
+name_plain: Anton Xue
 name_degree: Anton Xue
-identifier: anton_xue
 
 photo: placeholder.png
 

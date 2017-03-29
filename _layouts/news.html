@@ -1,0 +1,37 @@
+---
+layout: docs
+---
+{% assign id = page.url | split: '/' | last %}
+
+<h2>{{ page.title }}</h2>
+
+<div class="usa-grid-full">
+  <div class="usa-width-two-thirds">
+    {{ content }}
+  </div>
+
+  <aside class="usa-width-one-third">
+    <h3>People</h3>
+      <ul>
+          {% for news_member_id in page.members %}
+            {% for site_member in site.members %}
+                {% assign site_member_id = site_member.url | split: '/' | last %}
+                {% if site_member_id == news_member_id %}
+                    <li><a href="{{ site_member.url }}">{{ site_member.name_plain }}</a></li>
+                {% endif %}
+            {% endfor %}
+          {% endfor %}
+      </ul>
+    <h3>Publications</h3>
+      <ul>
+          {% for news_publication_id in page.publications %}
+            {% for site_publication in site.publications %}
+                {% assign site_publication_id = site_publication.url | split: '/' | last %}
+                {% if site_publication_id == news_publication_id %}
+                    <li><a href="{{ site_publication.url }}">{{ site_publication.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+          {% endfor %}
+      </ul>
+  </aside>
+</div>
