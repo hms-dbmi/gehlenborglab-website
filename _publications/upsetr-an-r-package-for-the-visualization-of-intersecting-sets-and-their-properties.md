@@ -1,7 +1,7 @@
 ---
 layout: publication
 
-name: UpSetR: An R Package For The Visualization Of Intersecting Sets And Their Properties
+name: "UpSetR: An R Package For The Visualization Of Intersecting Sets And Their Properties"
 
 members:
   - jake-conway
