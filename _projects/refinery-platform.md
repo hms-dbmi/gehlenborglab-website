@@ -13,9 +13,9 @@ members:
   - anton-xue
 
 collaborators:
-  - shannan_ho_sui
-  - win_hide
-  - marc_streit
+  - shannan-ho-sui
+  - win-hide
+  - marc-streit
 
 websites:
   - name: Refinery Platform Project

@@ -43,10 +43,10 @@ layout: docs
     {% if page.collaborators.size > 0 %}    
     <h3>Collaborators</h3>
     <ul>
-    {% for collaborator in page.collaborators %}
-    {% assign collaborator_details = site.data.collaborators[collaborator] %}
-      <li><a href="{{collaborator_details.url}}">{{ collaborator_details.name_plain }}</a></li>
-    {% endfor %}
+      {% for collaborator in page.collaborators %}
+        {% assign collaborator_details = site.data.collaborators[collaborator] %}
+        <li><a href="{{collaborator_details.url}}">{{ collaborator_details.name_plain }}</a></li>
+      {% endfor %}
     </ul>
     {% endif %}
 
