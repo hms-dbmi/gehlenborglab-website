@@ -4,7 +4,7 @@ before_script:
 script:
   - set -e
   - bundle exec jekyll build
-  - htmlproofer --url-ignore '/#|img\/members/' --alt-ignore '/.*/' --disable-external --assume-extension ./_site
+  - bundle exec htmlproofer --url-ignore '/#|img\/members/' --alt-ignore '/.*/' --disable-external --assume-extension ./_site
 deploy:
   provider: s3
   access_key_id: AKIAIEEFPIJXM4CLMVHQ
