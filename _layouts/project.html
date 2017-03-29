@@ -15,7 +15,10 @@ layout: docs
     <ul>
     {% for grant in page.grants %}
       {% assign grant_details = site.data.grants[grant] %}
-      <li><a href="{{ grant_details.url }}" >{{ grant_details.name }}</a> ({{ grant_details.number }})
+      <li><a href="{{ grant_details.url }}" >{{ grant_details.name }}</a>
+        {% if grant_details.number %}
+          ({{ grant_details.number }})
+        {% endif %}
       <br>
       {{ grant_details.funder }}
       </li>
