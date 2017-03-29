@@ -11,7 +11,7 @@
 #
 primary:
   - text: About
-    href: /about
+    href: /about/
   - text: News
     href: /news/
   - text: Team
@@ -29,7 +29,7 @@ primary:
   - text: Publications
     href: /publications/
   - text: Contact
-    href: /contact
+    href: /contact/
 
 secondary: []
 

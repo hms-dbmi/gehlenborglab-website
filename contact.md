@@ -1,6 +1,6 @@
 ---
 layout: landing
-
+permalink: /contact/
 hero:
   image: /assets/img/hero_longwood.png
   callout:
