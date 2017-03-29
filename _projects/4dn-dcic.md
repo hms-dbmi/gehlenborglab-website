@@ -4,8 +4,8 @@ layout: project
 name: 4D Nucleome Data Portal
 
 members:
-  - nils_gehlenborg
-  - peter_kerpedjiev
+  - nils-gehlenborg
+  - peter-kerpedjiev
 
 resources:
   website: https://data.4dnucleome.org
