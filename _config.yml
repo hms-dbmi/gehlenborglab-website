@@ -41,7 +41,6 @@ exclude:
   - README.md
   - .travis.yml
   - vendor
-include: ["_layouts"]
 
 collections:
   projects:
