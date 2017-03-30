@@ -1,0 +1,13 @@
+<ul>
+{% for grant in page.grants %}
+  {% assign grant_details = site.data.grants[grant] %}
+  {% if grant_details %}
+    <li><a href="{{ grant_details.url }}">{{ grant_details.name }}</a> ({{ grant_details.number }})
+    <br>
+    {{ grant_details.funder }}
+    </li>
+  {% else %}
+    <ERROR no match for grant "{{ grant }}"/>
+  {% endif %}
+{% endfor %}
+</ul>

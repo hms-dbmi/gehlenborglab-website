@@ -1,11 +1,9 @@
 ---
 layout: landing
 permalink: /contact/
+title: Contact Us
 hero:
   image: /assets/img/hero_longwood.png
-  callout:
-    alt: "Come and visit us!"
-    text: Stop by if you are in the area.
 ---
 
 ## Visit Us in Person

@@ -12,8 +12,9 @@ layout: docs
     {% endif %}
     <h3>Abstract</h3>
     {{ content }}
+    
     {% if page.publisher %}
-      <h3>Publisher</h3>
+      <h3>Publisher URL</h3>
       <a href="{{ page.publisher }}">{{ page.publisher }}</a>
     {% endif %}
     {% if page.pdf %}
@@ -22,17 +23,31 @@ layout: docs
     {% endif %}
   </div>
 
-  <aside class="usa-width-one-third">
-    <h3>Team</h3>
-    <ul>
-    {% for publication_member in page.members %}
-      {% for site_member in site.members %}
-        {% assign site_member_id = site_member.url | split: '/' | last %}
-        {% if publication_member == site_member_id %}
-          <li><a href="{{ site_member.url }}">{{ site_member.name_plain }}</a></li>
+    {% for news in site.news %}
+      {% for publication in news.publications %}
+        {% if publication == id %}
+          {% assign has_news = true %}
+          <!-- We could wrap the loop below with a capture,
+               which might be more efficient, but probably less clear. -->
         {% endif %}
       {% endfor %}
     {% endfor %}
-    </ul>
+    {% if has_news %}
+      <h3>News</h3>
+      <ul>
+        {% for news in site.news %}
+          {% for publication in news.publications %}
+            {% if publication == id %}
+              <li><a href="{{ news.url }}">{{ news.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+
+  <aside class="usa-width-one-third">
+    <h3>Team</h3>
+    {% include list-members.html %}
   </aside>
 </div>

@@ -12,30 +12,13 @@ layout: docs
 
     {% if page.grants.size > 0 %}
     <h3>Funding</h3>
-    <ul>
-    {% for grant in page.grants %}
-      {% assign grant_details = site.data.grants[grant] %}
-      <li><a href="{{ grant_details.url }}" >{{ grant_details.name }}</a> ({{ grant_details.number }})
-      <br>
-      {{ grant_details.funder }}
-      </li>
-    {% endfor %}
-    </ul>
+    {% include list-grants.html %}
     {% endif %}
   </div>
 
   <aside class="usa-width-one-third">
     <h3>Team</h3>
-    <ul>
-    {% for project_member in page.members %}
-      {% for team_member in site.members %}
-        {% if project_member == team_member.identifier %}
-          {% assign member_details = team_member %}
-          <li><a href="{{ member_details.url }}">{{ member_details.name }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    </ul>
+    {% include list-members.html %}
 
     {% if page.websites.size > 0 %}
     <h3>Websites</h3>

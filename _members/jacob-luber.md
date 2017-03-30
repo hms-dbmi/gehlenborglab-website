@@ -1,12 +1,12 @@
 ---
 layout: member
 
-name_plain: Jacob Luber
+title: Jacob Luber
 name_degree: Jacob Luber, BSc
 
 photo: placeholder.png
 
-title: Graduate Student in Biomedical Informatics
+job_title: Graduate Student in Biomedical Informatics
 role: alumni
 
 start: September 2016

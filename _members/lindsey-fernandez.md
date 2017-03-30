@@ -1,12 +1,12 @@
 ---
 layout: member
 
-name_plain: Lindsey Fernandez
+title: Lindsey Fernandez
 name_degree: Lindsey Fernandez, BSE
 
 photo: placeholder.png
 
-title: BD2K Summer Institute Intern
+job_title: BD2K Summer Institute Intern
 role: alumni
 
 start: June 2015

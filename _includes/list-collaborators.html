@@ -1,0 +1,10 @@
+<ul>
+{% for collaborator in page.collaborators %}
+{% assign collaborator_details = site.data.collaborators[collaborator] %}
+{% if collaborator_details %}
+  <li><a href="{{collaborator_details.url}}">{{ collaborator_details.title }}</a></li>
+{% else %}
+  <ERROR no match for collaborator "{{collaborator}}"/>
+{% endif %}
+{% endfor %}
+</ul>
