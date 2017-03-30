@@ -7,18 +7,14 @@ top: false
 # with 'text' and 'href' properties.
 links: footer
 
-# The optional heading for the footer.
-heading: Gehlenborg Lab @ Harvard Medical School
-
 # An array of agency logos to show, side by side, in the lower left
 # of the footer on large screens.
 logos:
-  - src: /assets/img/logos/hms-shield.svg
+  - src: /assets/img/logos/hms.svg
     alt: Harvard Medical School
 
 contact:
-  text: 10 Shattuck Street, Boston, MA 02115, USA
-  heading: Contact us
   address: |
-    [GitHub](https://github.com/hms-dbmi/)
-    [Department](http://dbmi.hms.harvard.edu)
+    Gehlenborg Lab <br>
+    Department of Biomedical Informatics <br>
+    Harvard Medical School
