@@ -12,22 +12,7 @@ layout: docs
 
     {% if page.grants.size > 0 %}
     <h3>Funding</h3>
-    <ul>
-    {% for grant in page.grants %}
-      {% assign grant_details = site.data.grants[grant] %}
-      {% if grant_details %}
-        <li><a href="{{ grant_details.url }}" >{{ grant_details.name }}</a>
-          {% if grant_details.number %}
-            ({{ grant_details.number }})
-          {% endif %}
-        <br>
-        {{ grant_details.funder }}
-        </li>
-      {% else %}
-        <ERROR no match for grant "{{grant}}"/>
-      {% endif %}
-    {% endfor %}
-    </ul>
+    {% include grant-list.html %}
     {% endif %}
   </div>
 
