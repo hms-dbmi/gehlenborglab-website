@@ -12,42 +12,17 @@ layout: docs
 
     {% if page.grants.size > 0 %}
     <h3>Funding</h3>
-    <ul>
-    {% for grant in page.grants %}
-      {% assign grant_details = site.data.grants[grant] %}
-      <li><a href="{{ grant_details.url }}" >{{ grant_details.name }}</a>
-        {% if grant_details.number %}
-          ({{ grant_details.number }})
-        {% endif %}
-      <br>
-      {{ grant_details.funder }}
-      </li>
-    {% endfor %}
-    </ul>
+    {% include list-grants.html %}
     {% endif %}
   </div>
 
   <aside class="usa-width-one-third">
     <h3>Team</h3>
-    <ul>
-    {% for project_member in page.members %}
-      {% for site_member in site.members %}
-        {% assign site_member_id = site_member.url | split: '/' | last %}
-        {% if project_member == site_member_id %}
-          <li><a href="{{ site_member.url }}">{{ site_member.name_plain }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    </ul>
+    {% include list-members.html %}
 
     {% if page.collaborators.size > 0 %}    
     <h3>Collaborators</h3>
-    <ul>
-      {% for collaborator in page.collaborators %}
-        {% assign collaborator_details = site.data.collaborators[collaborator] %}
-        <li><a href="{{collaborator_details.url}}">{{ collaborator_details.name_plain }}</a></li>
-      {% endfor %}
-    </ul>
+    {% include list-collaborators.html %}
     {% endif %}
 
     {% if page.websites.size > 0 %}

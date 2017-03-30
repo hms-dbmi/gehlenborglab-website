@@ -1,0 +1,11 @@
+<ul>
+{% for publication_id in page.publications %}
+  {% assign publication_url = '/publications/' | append: publication_id | append: '/' %}
+  {% assign publications = site.publications | where: "url", publication_url %}
+  {% if publications.size == 1 %}
+    <li><a href="{{ publications[0].url }}">{{ publications[0].title }}</a></li>
+  {% else %}
+    <ERROR "{{ publication_id }}" matches "{{ publications }}"/>
+  {% endif %}
+{% endfor %}
+</ul>
