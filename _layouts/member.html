@@ -15,7 +15,8 @@ layout: docs
       {% for member in news.members %}
         {% if member == id %}
           {% assign has_news = true %}
-          <!-- Is there better idiom to do this with liquid? -->
+          <!-- We could wrap the loop below with a capture,
+               which might be more efficient, but probably less clear. -->
         {% endif %}
       {% endfor %}
     {% endfor %}
