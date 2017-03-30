@@ -15,10 +15,14 @@ layout: docs
     <ul>
     {% for grant in page.grants %}
       {% assign grant_details = site.data.grants[grant] %}
-      <li><a href="{{ grant_details.url }}" >{{ grant_details.name }}</a> ({{ grant_details.number }})
-      <br>
-      {{ grant_details.funder }}
-      </li>
+      {% if grant_details %}
+        <li><a href="{{ grant_details.url }}">{{ grant_details.name }}</a> ({{ grant_details.number }})
+        <br>
+        {{ grant_details.funder }}
+        </li>
+      {% else %}
+        <ERROR no match for grant "{{ grant }}"/>
+      {% endif %}
     {% endfor %}
     </ul>
     {% endif %}
@@ -27,14 +31,15 @@ layout: docs
   <aside class="usa-width-one-third">
     <h3>Team</h3>
     <ul>
-    {% for project_member in page.members %}
-      {% for team_member in site.members %}
-        {% if project_member == team_member.identifier %}
-          {% assign member_details = team_member %}
-          <li><a href="{{ member_details.url }}">{{ member_details.name }}</a></li>
+      {% for member_id in page.members %}
+        {% assign member_url = '/team/members/' | append: member_id | append: '/' %}
+        {% assign members = site.members | where: "url", member_url %}
+        {% if members.size == 1 %}
+          <li><a href="{{ members[0].url }}">{{ members[0].name_plain }}</a></li>
+        {% else %}
+          <ERROR "{{ member_id }}" matches "{{ members }}"/>
         {% endif %}
       {% endfor %}
-    {% endfor %}
     </ul>
 
     {% if page.websites.size > 0 %}
