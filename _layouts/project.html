@@ -12,26 +12,17 @@ layout: docs
 
     {% if page.grants.size > 0 %}
     <h3>Funding</h3>
-    {% include grant-list.html %}
+    {% include list-grants.html %}
     {% endif %}
   </div>
 
   <aside class="usa-width-one-third">
     <h3>Team</h3>
-    {% include member-list.html %}
+    {% include list-members.html %}
 
     {% if page.collaborators.size > 0 %}    
     <h3>Collaborators</h3>
-    <ul>
-      {% for collaborator in page.collaborators %}
-        {% assign collaborator_details = site.data.collaborators[collaborator] %}
-        {% if collaborator_details %}
-          <li><a href="{{collaborator_details.url}}">{{ collaborator_details.name_plain }}</a></li>
-        {% else %}
-          <ERROR no match for collaborator "{{collaborator}}"/>
-        {% endif %}
-      {% endfor %}
-    </ul>
+    {% include list-collaborators.html %}
     {% endif %}
 
     {% if page.websites.size > 0 %}
