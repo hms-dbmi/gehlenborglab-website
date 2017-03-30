@@ -1,12 +1,12 @@
 ---
 layout: member
 
-name_plain: Jake Conway
+title: Jake Conway
 name_degree: Jake Conway, BSc
 
 photo: placeholder.png
 
-title: Graduate Student in Biomedical Informatics
+job_title: Graduate Student in Biomedical Informatics
 role: external
 
 start: June 2015

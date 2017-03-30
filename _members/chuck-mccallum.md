@@ -1,12 +1,12 @@
 ---
 layout: member
 
-name_plain: Chuck McCallum
+title: Chuck McCallum
 name_degree: Chuck McCallum, BA, MLIS
 
 photo: placeholder.png
 
-title: Software Developer
+job_title: Software Developer
 role: software_developer
 
 start: September 2016

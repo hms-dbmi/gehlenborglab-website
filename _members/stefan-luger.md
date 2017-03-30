@@ -1,12 +1,12 @@
 ---
 layout: member
 
-name_plain: Stefan Luger
+title: Stefan Luger
 name_degree: Stefan Luger, BSc
 
 photo: placeholder.png
 
-title: External Master's Student
+job_title: External Master's Student
 role: alumni
 
 start: September 2014
