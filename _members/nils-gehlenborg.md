@@ -6,7 +6,7 @@ name_degree: Nils Gehlenborg, PhD
 
 photo: nils-gehlenborg.png
 
-title: Assistant Professor of Biomedical Informatics
+job_title: Assistant Professor of Biomedical Informatics
 role: pi
 
 start: April 2015

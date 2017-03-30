@@ -6,7 +6,7 @@ name_degree: Fritz Lekschas, BSc, MSc
 
 photo: placeholder.png
 
-title: Graduate Student in Computer Science
+job_title: Graduate Student in Computer Science
 role: external
 
 start: April 2015

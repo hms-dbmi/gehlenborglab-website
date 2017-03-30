@@ -6,7 +6,7 @@ name_degree: Peter Kerpedjiev, PhD
 
 photo: peter-kerpedjiev.png
 
-title: Research Fellow in Biomedical Informatics
+job_title: Research Fellow in Biomedical Informatics
 role: postdoc
 
 start: April 2016

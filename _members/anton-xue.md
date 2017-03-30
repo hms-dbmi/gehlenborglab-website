@@ -6,7 +6,7 @@ name_degree: Anton Xue
 
 photo: placeholder.png
 
-title: High School Intern
+job_title: High School Intern
 role: alumni
 
 start: June 2014

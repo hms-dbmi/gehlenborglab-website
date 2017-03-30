@@ -6,7 +6,7 @@ name_degree: Scott Ouellette, BSc
 
 photo: scott_ouellette.png
 
-title: Software Developer
+job_title: Software Developer
 role: software_developer
 
 start: July 2015

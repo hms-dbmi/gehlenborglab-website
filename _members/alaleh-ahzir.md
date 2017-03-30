@@ -6,7 +6,7 @@ name_degree: Alaleh Ahzir
 
 photo: placeholder.png
 
-title: BD2K Summer Institute Intern
+job_title: BD2K Summer Institute Intern
 role: alumni
 
 start: June 2016

@@ -6,7 +6,7 @@ name_degree: Jennifer K Marx, MEng
 
 photo: placeholder.png
 
-title: Software Developer
+job_title: Software Developer
 role: software_developer
 
 start: April 2015

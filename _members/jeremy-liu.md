@@ -6,7 +6,7 @@ name_degree: Jeremy Liu
 
 photo: placeholder.png
 
-title: i2b2 Summer Institute Intern
+job_title: i2b2 Summer Institute Intern
 role: alumni
 
 start: June 2014
