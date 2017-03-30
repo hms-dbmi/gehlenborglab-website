@@ -5,6 +5,7 @@ title: "Characterization of HPV and Host-Genome Interactions in Primary Head and
 
 members:
   - nils-gehlenborg
+  - foo-bar
   
 year: 2014
 publisher: "http://www.pnas.org/content/early/2014/10/10/1416074111.abstract"

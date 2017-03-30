@@ -17,13 +17,14 @@ layout: docs
   <aside class="usa-width-one-third">
     <h3>Team</h3>
     <ul>
-    {% for publication_member in page.members %}
-      {% for site_member in site.members %}
-        {% assign site_member_id = site_member.url | split: '/' | last %}
-        {% if publication_member == site_member_id %}
-          <li><a href="{{ site_member.url }}">{{ site_member.name_plain }}</a></li>
-        {% endif %}
-      {% endfor %}
+    {% for member_id in page.members %}
+      {% assign member_url = '/team/members/' | append: member_id | append: '/' %}
+      {% assign members = site.members | where: "url", member_url %}
+      {% if members.size == 1 %}
+        <li><a href="{{ members[0].url }}">{{ members[0].name_plain }}</a></li>
+      {% else %}
+        <ERROR "{{ member_id }}" matches "{{ members }}"/>
+      {% endif %}
     {% endfor %}
     </ul>
   </aside>

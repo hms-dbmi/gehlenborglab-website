@@ -4,6 +4,7 @@ before_script:
 script:
   - set -e
   - bundle exec jekyll build
+  - ! grep -n '<ERROR' -r _site
   - bundle exec htmlproofer \
                 --url-ignore '/#|img\/members/' \
                 --alt-ignore '/.*/' \
