@@ -11,6 +11,28 @@ layout: docs
     <h3 id="biography">Biography</h3>
     {{ content }}
 
+    {% for publication in site.publications %}
+      {% for member in publication.members %}
+        {% if member == id %}
+          {% assign has_publications = true %}
+          <!-- We could wrap the loop below with a capture,
+               which might be more efficient, but probably less clear. -->
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if has_publications %}
+      <h3>Publications</h3>
+      <ul>
+        {% for publication in site.publications %}
+          {% for member in publication.members %}
+            {% if member == id %}
+              <li><a href="{{ publication.url }}">{{ publication.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     {% for news in site.news %}
       {% for member in news.members %}
         {% if member == id %}
