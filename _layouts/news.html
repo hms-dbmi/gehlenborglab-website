@@ -29,17 +29,7 @@ layout: docs
 
     {% if page.members.size > 0 %}
       <h3>People</h3>
-      <ul>
-        {% for member_id in page.members %}
-          {% assign member_url = '/team/members/' | append: member_id | append: '/' %}
-          {% assign members = site.members | where: "url", member_url %}
-          {% if members.size == 1 %}
-            <li><a href="{{ members[0].url }}">{{ members[0].name_plain }}</a></li>
-          {% else %}
-            <ERROR "{{ member_id }}" matches "{{ members }}"/>
-          {% endif %}
-        {% endfor %}
-      </ul>
+      {% include member-list.html %}
     {% endif %}
 
   </aside>
