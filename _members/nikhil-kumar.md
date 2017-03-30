@@ -1,7 +1,7 @@
 ---
 layout: member
 
-name_plain: Nikhil Kumar
+title: Nikhil Kumar
 name_degree: Nikhil Kumar, BSc
 
 photo: placeholder.png

@@ -3,7 +3,7 @@
   {% assign member_url = '/team/members/' | append: member_id | append: '/' %}
   {% assign members = site.members | where: "url", member_url %}
   {% if members.size == 1 %}
-    <li><a href="{{ members[0].url }}">{{ members[0].name_plain }}</a></li>
+    <li><a href="{{ members[0].url }}">{{ members[0].title }}</a></li>
   {% else %}
     <ERROR "{{ member_id }}" matches "{{ members }}"/>
   {% endif %}

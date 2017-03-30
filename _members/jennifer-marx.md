@@ -1,7 +1,7 @@
 ---
 layout: member
 
-name_plain: Jennifer K Marx
+title: Jennifer K Marx
 name_degree: Jennifer K Marx, MEng
 
 photo: placeholder.png

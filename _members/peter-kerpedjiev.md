@@ -1,7 +1,7 @@
 ---
 layout: member
 
-name_plain: Peter Kerpedjiev
+title: Peter Kerpedjiev
 name_degree: Peter Kerpedjiev, PhD
 
 photo: peter-kerpedjiev.png

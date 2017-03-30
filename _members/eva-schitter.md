@@ -1,7 +1,7 @@
 ---
 layout: member
 
-name_plain: Eva Christina Schitter
+title: Eva Christina Schitter
 name_degree: Eva Christina Schitter, BSc
 
 photo: placeholder.png

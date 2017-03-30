@@ -1,7 +1,7 @@
 ---
 layout: member
 
-name_plain: Megan Paul
+title: Megan Paul
 name_degree: Megan Paul
 
 photo: placeholder.png

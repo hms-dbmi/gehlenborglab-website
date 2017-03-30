@@ -28,7 +28,7 @@ subnav:
 <ul>
 {% for member in site.members %}
 {% if member.role == "pi" %}
-<li><a href="{{member.url}}">{{ member.name_plain }}</a> (since {{member.start}})<br>{{ member.title }}</li>
+<li><a href="{{member.url}}">{{ member.title }}</a> (since {{member.start}})<br>{{ member.title }}</li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -39,7 +39,7 @@ subnav:
 <ul>
 {% for member in site.members %}
 {% if member.role == "postdoc" %}
-<li><a href="{{member.url}}">{{ member.name_plain }}</a> (since {{member.start}})<br>{{ member.title }}</li>
+<li><a href="{{member.url}}">{{ member.title }}</a> (since {{member.start}})<br>{{ member.title }}</li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -50,7 +50,7 @@ subnav:
 <ul>
 {% for member in site.members %}
 {% if member.role == "external" %}
-<li><a href="{{member.url}}">{{ member.name_plain }}</a> (since {{member.start}})<br>{{ member.title }}</li>
+<li><a href="{{member.url}}">{{ member.title }}</a> (since {{member.start}})<br>{{ member.title }}</li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -61,7 +61,7 @@ subnav:
 <ul>
 {% for member in site.members %}
 {% if member.role == "software_developer" %}
-<li><a href="{{member.url}}">{{ member.name_plain }}</a> (since {{member.start}})<br>{{ member.title }}</li>
+<li><a href="{{member.url}}">{{ member.title }}</a> (since {{member.start}})<br>{{ member.title }}</li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -73,7 +73,7 @@ subnav:
 <ul>
 {% for member in site.members %}
 {% if member.role == "visitor" %}
-<li><a href="{{member.url}}">{{ member.name_plain }}</a> (since {{member.start}})<br>{{ member.title }}</li>
+<li><a href="{{member.url}}">{{ member.title }}</a> (since {{member.start}})<br>{{ member.title }}</li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -84,7 +84,7 @@ subnav:
 <ul>
 {% for member in site.members %}
 {% if member.role == "administration" %}
-<li><a href="{{member.url}}">{{ member.name_plain }}</a> (since {{member.start}})<br>{{ member.title }}</li>
+<li><a href="{{member.url}}">{{ member.title }}</a> (since {{member.start}})<br>{{ member.title }}</li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -95,7 +95,7 @@ subnav:
 <ul>
 {% for member in site.members %}
 {% if member.role == "alumni" %}
-<li><a href="{{member.url}}">{{ member.name_plain }}</a> ({{member.start}} - {{member.end}})<br>{{ member.title }}</li>
+<li><a href="{{member.url}}">{{ member.title }}</a> ({{member.start}} - {{member.end}})<br>{{ member.title }}</li>
 {% endif %}
 {% endfor %}
 </ul>
@@ -105,6 +105,6 @@ subnav:
 <h3 id="collaborators">Collaborators</h3>
 <ul>
 {% for member in site.data.collaborators %}
-<li><a href="{{member[1].url}}">{{ member[1].name_plain }}</a><br>{{member[1].affiliation}}</li>
+<li><a href="{{member[1].url}}">{{ member[1].title }}</a><br>{{member[1].affiliation}}</li>
 {% endfor %}
 </ul>

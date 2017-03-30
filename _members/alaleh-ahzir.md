@@ -1,7 +1,7 @@
 ---
 layout: member
 
-name_plain: Alaleh Ahzir
+title: Alaleh Ahzir
 name_degree: Alaleh Ahzir
 
 photo: placeholder.png

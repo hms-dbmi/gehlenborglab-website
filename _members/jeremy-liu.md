@@ -1,7 +1,7 @@
 ---
 layout: member
 
-name_plain: Jeremy Liu
+title: Jeremy Liu
 name_degree: Jeremy Liu
 
 photo: placeholder.png

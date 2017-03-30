@@ -1,7 +1,7 @@
 ---
 layout: member
 
-name_plain: Lindsey Fernandez
+title: Lindsey Fernandez
 name_degree: Lindsey Fernandez, BSE
 
 photo: placeholder.png

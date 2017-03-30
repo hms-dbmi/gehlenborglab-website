@@ -1,32 +1,32 @@
 alexander-lex:
-  name_plain: Alexander Lex
+  title: Alexander Lex
   url: http://alexander-lex.net/
   affiliation: University of Utah
 marc-streit:
-  name_plain: Marc Streit
+  title: Marc Streit
   url: http://marc-streit.com/
   affiliation: Johannes Kepler University Linz
 hanspeter-pfister:
-  name_plain: Hanspeter Pfister
+  title: Hanspeter Pfister
   url: http://vcg.seas.harvard.edu/
   affiliation: Harvard John A Paulson School of Engineering and Applied Sciences
 peter-park:
-  name_plain: Peter J Park
+  title: Peter J Park
   url: http://compbio.hms.harvard.edu/
   affiliation: Harvard Medical School
 peter-kharchenko:
-  name_plain: Peter Kharchenko
+  title: Peter Kharchenko
   url: http://pklab.med.harvard.edu/
   affiliation: Harvard Medical School
 leonid-mirny:
-  name_plain: Leonid Mirny
+  title: Leonid Mirny
   url: http://mirnylab.mit.edu/
   affiliation: Massachussetts Institute of Technology
 shannan-ho-sui:
-  name_plain: Shannan Ho Sui
+  title: Shannan Ho Sui
   url: http://bioinformatics.sph.harvard.edu/
   affiliation: Harvard TH Chan School of Public Health
 win-hide:
-  name_plain: Win Hide
+  title: Win Hide
   url: http://sitran.org/people/hide/
   affiliation: The University of Sheffield

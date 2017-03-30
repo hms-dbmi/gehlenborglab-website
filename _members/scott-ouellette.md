@@ -1,7 +1,7 @@
 ---
 layout: member
 
-name_plain: Scott Ouellette
+title: Scott Ouellette
 name_degree: Scott Ouellette, BSc
 
 photo: scott_ouellette.png
