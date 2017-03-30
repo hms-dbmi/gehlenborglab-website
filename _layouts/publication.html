@@ -12,6 +12,28 @@ layout: docs
 
     <h3>Publisher URL</h3>
     <a href="{{ page.publisher }}">{{ page.publisher }}</a>
+
+    {% for news in site.news %}
+      {% for publication in news.publications %}
+        {% if publication == id %}
+          {% assign has_news = true %}
+          <!-- We could wrap the loop below with a capture,
+               which might be more efficient, but probably less clear. -->
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if has_news %}
+      <h3>News</h3>
+      <ul>
+        {% for news in site.news %}
+          {% for publication in news.publications %}
+            {% if publication == id %}
+              <li><a href="{{ news.url }}">{{ news.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
 
   <aside class="usa-width-one-third">
