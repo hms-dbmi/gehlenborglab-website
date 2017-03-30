@@ -3,15 +3,25 @@ layout: docs
 ---
 {% assign id = page.url | split: '/' | last %}
 
-<h2>{{ page.name }}</h2>
+<h2>{{ page.title }}</h2>
 
 <div class="usa-grid-full">
   <div class="usa-width-two-thirds">
+    {% if page.image_url %}
+      <img src="{{ page.image_url }}">
+    {% endif %}
     <h3>Abstract</h3>
     {{ content }}
-
-    <h3>Publisher URL</h3>
-    <a href="{{ page.publisher }}">{{ page.publisher }}</a>
+    
+    {% if page.publisher %}
+      <h3>Publisher URL</h3>
+      <a href="{{ page.publisher }}">{{ page.publisher }}</a>
+    {% endif %}
+    {% if page.pdf %}
+      <h3>PDF</h3>
+      <a href="{{ page.pdf }}">{{ page.pdf }}</a>
+    {% endif %}
+  </div>
 
     {% for news in site.news %}
       {% for publication in news.publications %}
