@@ -10,6 +10,7 @@ layout: docs
     {% if page.image_url %}
       <img src="{{ page.image_url }}">
     {% endif %}
+
     {% assign stripped = content | strip %}
     {% if stripped != '' %}
       <h3>Abstract</h3>
@@ -20,6 +21,7 @@ layout: docs
       <h3>Publisher URL</h3>
       <a href="{{ page.publisher }}">{{ page.publisher }}</a>
     {% endif %}
+
     {% if page.pdf %}
       <h3>PDF</h3>
       <a href="{{ page.pdf }}">{{ page.pdf }}</a>
