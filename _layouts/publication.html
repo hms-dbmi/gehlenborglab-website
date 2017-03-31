@@ -10,8 +10,11 @@ layout: docs
     {% if page.image_url %}
       <img src="{{ page.image_url }}">
     {% endif %}
-    <h3>Abstract</h3>
-    {{ content }}
+    {% assign stripped = content | strip %}
+    {% if stripped != '' %}
+      <h3>Abstract</h3>
+      {{ content }}
+    {% endif %}
     
     {% if page.publisher %}
       <h3>Publisher URL</h3>
