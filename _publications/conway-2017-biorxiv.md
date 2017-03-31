@@ -5,7 +5,7 @@ members:
   - jake-conway
   - nils-gehlenborg
   
-year: 0
+year: 9999
 publisher: "http://biorxiv.org/content/early/2017/03/25/120600"
 citation: TODO
 ---

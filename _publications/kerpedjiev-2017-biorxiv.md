@@ -10,7 +10,7 @@ members:
   - jacob-luber
   - nils-gehlenborg
 
-year: 0
+year: 9999
 publisher: "http://biorxiv.org/TODO"
 citation: TODO
 ---
