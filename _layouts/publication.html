@@ -23,6 +23,7 @@ layout: docs
     {% endif %}
   </div>
 
+  <aside class="usa-width-one-third">
     {% for news in site.news %}
       {% for publication in news.publications %}
         {% if publication == id %}
@@ -44,9 +45,7 @@ layout: docs
         {% endfor %}
       </ul>
     {% endif %}
-  </div>
 
-  <aside class="usa-width-one-third">
     <h3>Team</h3>
     {% include list-members.html %}
   </aside>
