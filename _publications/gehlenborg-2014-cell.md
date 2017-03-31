@@ -1,6 +1,4 @@
 ---
-layout: publication
-
 title: "Integrated Genomic Characterization of Papillary Thyroid Carcinoma"
 
 members:

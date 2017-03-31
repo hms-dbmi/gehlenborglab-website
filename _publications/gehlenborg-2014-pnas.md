@@ -1,6 +1,4 @@
 ---
-layout: publication
-
 title: "Characterization of HPV and Host-Genome Interactions in Primary Head and Neck Cancers"
 
 members:

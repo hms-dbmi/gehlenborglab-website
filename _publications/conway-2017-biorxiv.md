@@ -1,6 +1,4 @@
 ---
-layout: publication
-
 title: "UpSetR: An R Package For The Visualization Of Intersecting Sets And Their Properties"
 
 members:

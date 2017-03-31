@@ -1,6 +1,4 @@
 ---
-layout: publication
-
 title: "HiGlass: Composable Linked Views for Multiscale Visualization of Genome Interaction Maps"
 
 members:
