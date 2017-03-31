@@ -1,13 +1,11 @@
 ---
-layout: publication
-
 title: "UpSetR: An R Package For The Visualization Of Intersecting Sets And Their Properties"
 
 members:
   - jake-conway
   - nils-gehlenborg
   
-year: 0
+year: 9999
 publisher: "http://biorxiv.org/content/early/2017/03/25/120600"
 citation: TODO
 ---

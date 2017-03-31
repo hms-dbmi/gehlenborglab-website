@@ -58,3 +58,9 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication

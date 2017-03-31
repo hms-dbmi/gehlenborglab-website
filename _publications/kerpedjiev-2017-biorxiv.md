@@ -1,6 +1,4 @@
 ---
-layout: publication
-
 title: "HiGlass: Composable Linked Views for Multiscale Visualization of Genome Interaction Maps"
 
 members:
@@ -12,7 +10,7 @@ members:
   - jacob-luber
   - nils-gehlenborg
 
-year: 0
+year: 9999
 publisher: "http://biorxiv.org/TODO"
 citation: TODO
 ---

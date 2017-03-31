@@ -4,10 +4,10 @@ title: Publications
 permalink: /publications/
 ---
 
-{% assign sorted = site.publications | sort: 'year' %}
+{% assign sorted = site.publications | sort: 'year' | reverse %}
 {% for publication in sorted %}
 {% if publication.year != prev_year %}
-{% if publication.year == 0 %}
+{% if publication.year == 9999 %}
 ## Preprints
 {% else %}
 ## {{ publication.year }}
