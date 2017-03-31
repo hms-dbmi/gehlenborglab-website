@@ -17,6 +17,10 @@ collaborators:
   - hanspeter-pfister
   - peter-park
 
+
+publications:
+  - kerpedjiev-2017-biorxiv
+
 websites:
   - name: HiGlass Demo Site
     description: Website demonstrating the capabilities of HiGlass. Includes extensive examples and documentation.

@@ -10,19 +10,25 @@ layout: docs
     {% if page.image_url %}
       <img src="{{ page.image_url }}">
     {% endif %}
-    <h3>Abstract</h3>
-    {{ content }}
+
+    {% assign stripped = content | strip %}
+    {% if stripped != '' %}
+      <h3>Abstract</h3>
+      {{ content }}
+    {% endif %}
     
     {% if page.publisher %}
       <h3>Publisher URL</h3>
       <a href="{{ page.publisher }}">{{ page.publisher }}</a>
     {% endif %}
+
     {% if page.pdf %}
       <h3>PDF</h3>
       <a href="{{ page.pdf }}">{{ page.pdf }}</a>
     {% endif %}
   </div>
 
+  <aside class="usa-width-one-third">
     {% for news in site.news %}
       {% for publication in news.publications %}
         {% if publication == id %}
@@ -44,9 +50,29 @@ layout: docs
         {% endfor %}
       </ul>
     {% endif %}
-  </div>
 
-  <aside class="usa-width-one-third">
+    {% for project in site.projects %}
+      {% for publication in project.publications %}
+        {% if publication == id %}
+          {% assign has_projects = true %}
+          <!-- We could wrap the loop below with a capture,
+               which might be more efficient, but probably less clear. -->
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if has_projects %}
+      <h3>Projects</h3>
+      <ul>
+        {% for project in site.projects %}
+          {% for publication in project.publications %}
+            {% if publication == id %}
+              <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <h3>Team</h3>
     {% include list-members.html %}
   </aside>
