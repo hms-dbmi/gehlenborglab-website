@@ -51,6 +51,28 @@ layout: docs
       </ul>
     {% endif %}
 
+    {% for project in site.projects %}
+      {% for publication in project.publications %}
+        {% if publication == id %}
+          {% assign has_projects = true %}
+          <!-- We could wrap the loop below with a capture,
+               which might be more efficient, but probably less clear. -->
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if has_projects %}
+      <h3>Projects</h3>
+      <ul>
+        {% for project in site.projects %}
+          {% for publication in project.publications %}
+            {% if publication == id %}
+              <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <h3>Team</h3>
     {% include list-members.html %}
   </aside>
