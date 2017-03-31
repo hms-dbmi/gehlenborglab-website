@@ -10,6 +10,11 @@ layout: docs
     <h3>Description</h3>
     {{ content }}
 
+    {% if page.publications.size > 0 %}
+    <h3>Publications</h3>
+    {% include list-publications.html %}
+    {% endif %}
+
     {% if page.grants.size > 0 %}
     <h3>Funding</h3>
     {% include list-grants.html %}
