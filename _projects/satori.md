@@ -31,5 +31,7 @@ docker_repositories:
 
 grants:
   - hsci_csbi
+  
+blurb: An ontology-guided visual exploration system that combines a powerful metadata search with a tree map and a node-link diagram that visualize the repository structure, provide context to retrieved data sets, and serve as an interface to drive semantic querying and browsing of the repository.
 ---
 To enable exploration of biomedical data repositories, we have developed SATORI—an ontology-guided visual exploration system—that combines a powerful metadata search with a tree map and a node-link diagram that visualize the repository structure, provide context to retrieved data sets, and serve as an interface to drive semantic querying and browsing of the repository. The requirements for SATORI were derived in semi-structured interviews with biomedical data scientists. We demonstrate its utility by describing several usage scenarios using a stem cell data reposito ry, discoveries we made in the process of developing them, and an evaluation of SATORI with domain experts. We have integrated an open-source, web-based implementation of SATORI in the data repository of the [Refinery Platform]() for biomedical data analysis and visualization.
