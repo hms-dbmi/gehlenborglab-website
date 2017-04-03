@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Chuck McCallum
 name_degree: Chuck McCallum, BA, MLIS
 

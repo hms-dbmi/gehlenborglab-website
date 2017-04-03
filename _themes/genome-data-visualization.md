@@ -1,6 +1,4 @@
 ---
-layout: theme
-
 name: Visualization of Genomic Data
 
 projects:

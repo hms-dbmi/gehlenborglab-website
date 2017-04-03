@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Jake Conway
 name_degree: Jake Conway, BSc
 

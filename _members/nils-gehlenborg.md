@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Nils Gehlenborg
 name_degree: Nils Gehlenborg, PhD
 

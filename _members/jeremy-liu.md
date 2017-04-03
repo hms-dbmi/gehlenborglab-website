@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Jeremy Liu
 name_degree: Jeremy Liu
 

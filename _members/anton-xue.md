@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Anton Xue
 name_degree: Anton Xue
 

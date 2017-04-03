@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Jacob Luber
 name_degree: Jacob Luber, BSc
 

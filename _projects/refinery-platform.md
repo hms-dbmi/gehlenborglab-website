@@ -1,6 +1,4 @@
 ---
-layout: project
-
 name: Refinery Platform
 
 members:

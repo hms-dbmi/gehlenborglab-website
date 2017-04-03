@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Fritz Lekschas
 name_degree: Fritz Lekschas, BSc, MSc
 

@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Alaleh Ahzir
 name_degree: Alaleh Ahzir
 

@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Jennifer K Marx
 name_degree: Jennifer K Marx, MEng
 

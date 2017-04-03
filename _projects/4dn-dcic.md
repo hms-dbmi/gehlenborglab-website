@@ -1,6 +1,4 @@
 ---
-layout: project
-
 name: 4D Nucleome Data Portal
 
 members:
