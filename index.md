@@ -5,7 +5,7 @@
 layout: landing
 
 hero:
-  image: /assets/img/hero_longwood.png
+  image: /assets/img/site/hero_backbay.jpg
   callout:
     alt: "We are hiring!"
     text: Postdocs in genomics and visualization wanted now.

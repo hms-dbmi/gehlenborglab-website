@@ -3,7 +3,7 @@ layout: landing
 permalink: /contact/
 title: Contact Us
 hero:
-  image: /assets/img/hero_longwood.png
+  image: /assets/img/site/hero_longwood.jpg
 ---
 
 ## Visit Us in Person

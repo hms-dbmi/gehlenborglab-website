@@ -2,6 +2,9 @@
 layout: docs
 title: About
 permalink: /about/
+
+hero:
+  image: /assets/img/site/hero_backbay.jpg
 ---
 
 The Gehlenborg lab develops computational tools that enable data-driven 

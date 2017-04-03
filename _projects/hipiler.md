@@ -8,6 +8,9 @@ members:
   - peter-kerpedjiev
   - nils-gehlenborg
 
+collaborators:
+  - hanspeter-pfister
+
 websites:
 
 github_repositories:

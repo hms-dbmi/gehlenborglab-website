@@ -11,6 +11,9 @@ members:
 collaborators:
   - alexander-lex
 
+publications:
+  - conway-2017-biorxiv
+
 websites:
   - name: UpSetR R Package
     description: 
