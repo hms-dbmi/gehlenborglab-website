@@ -1,8 +1,8 @@
 ---
-title: Eva Christina Schitter
-name_degree: Eva Christina Schitter, BSc
+title: Eva Christine Schitter
+name_degree: Eva Christine Schitter, BSc
 
-photo: placeholder.png
+photo: Eva_Schitter.png
 
 job_title: Visiting Graduate Student in Biomedical Informatics
 role: visitor
