@@ -4,7 +4,8 @@ title: News
 permalink: /news/
 ---
 ## News
-{% for news in site.news %}
+{% assign reversed = site.news | reverse %}
+{% for news in reversed %}
 #### [{{ news.date | date: "%B %-d, %Y" }}: {{ news.title }}]({{news.url}})
 {{ news.blurb }}
 {% endfor %}

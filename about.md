@@ -15,3 +15,10 @@ genomics studies, integration of visual and computational approaches
 to support sense-making in biology, and software to support reproducible 
 research in epigenomics and genomics. Research is funded by NIH/NHGRI, 
 the NIH Common Fund, and the Harvard Stem Cell Institute.
+
+### Latest News
+{% assign latest_news = site.news | reverse | slice: 0,3 %}
+{% for news in latest_news %}
+#### [{{ news.date | date: "%B %-d, %Y" }}: {{ news.title }}]({{news.url}})
+{{ news.blurb }}
+{% endfor %}
