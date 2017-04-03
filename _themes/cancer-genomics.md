@@ -4,4 +4,3 @@ projects:
   - stratomex
   - tcga  
 ---
-Cancer Genomics

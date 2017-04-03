@@ -7,4 +7,3 @@ projects:
   - domino
   - vistories
 ---
-The lab is actively engaged in information visualization research.
