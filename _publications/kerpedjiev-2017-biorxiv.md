@@ -3,8 +3,9 @@ title: "HiGlass: Composable Linked Views for Multiscale Visualization of Genome 
 
 members:
   - peter-kerpedjiev
+  - fritz-lekschas  
   - chuck-mccallum
-  - fritz-lekschas
+  - scott-ouellette
   - nikhil-kumar
   - alaleh-ahzir
   - jacob-luber
