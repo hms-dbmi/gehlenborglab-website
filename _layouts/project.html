@@ -15,21 +15,6 @@ layout: docs
     {% include list-publications.html %}
     {% endif %}
 
-    {% if page.grants.size > 0 %}
-    <h3>Funding</h3>
-    {% include list-grants.html %}
-    {% endif %}
-  </div>
-
-  <aside class="usa-width-one-third">
-    <h3>Team</h3>
-    {% include list-members.html %}
-
-    {% if page.collaborators.size > 0 %}    
-    <h3>Collaborators</h3>
-    {% include list-collaborators.html %}
-    {% endif %}
-
     {% if page.websites.size > 0 %}
     <h3>Websites</h3>
     <ul>
@@ -40,7 +25,7 @@ layout: docs
             <br>
             <small>{{ website.description }}</small>
           {% endif %}
-        </li>  
+        </li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -58,7 +43,7 @@ layout: docs
             <br>
             <small>{{ repository.description }}</small>
           {% endif %}
-        </li>  
+        </li>
       {% endfor %}
     </ul>
     {% endif %}
@@ -73,12 +58,26 @@ layout: docs
             <br>
             <small>{{ repository.description }}</small>
           {% endif %}
-        </li>  
+        </li>
       {% endfor %}
     </ul>
     {% endif %}
 
     {% endif %}
 
+    {% if page.grants.size > 0 %}
+    <h3>Funding</h3>
+    {% include list-grants.html %}
+    {% endif %}
+  </div>
+
+  <aside class="usa-width-one-third">
+    <h3>Team</h3>
+    {% include list-members.html %}
+
+    {% if page.collaborators.size > 0 %}    
+    <h3>Collaborators</h3>
+    {% include list-collaborators.html %}
+    {% endif %}
   </aside>
 </div>
