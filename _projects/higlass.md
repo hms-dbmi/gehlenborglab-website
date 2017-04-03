@@ -17,7 +17,6 @@ collaborators:
   - hanspeter-pfister
   - peter-park
 
-
 publications:
   - kerpedjiev-2017-biorxiv
 

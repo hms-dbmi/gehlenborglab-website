@@ -7,6 +7,12 @@ members:
   - nils-gehlenborg
   - peter-kerpedjiev
 
+collaborators:
+  - leonid-mirny
+  - hanspeter-pfister
+  - peter-park
+  - peter-kharchenko
+
 resources:
   website: https://data.4dnucleome.org
   github: https://github.com/4dn-dcic
