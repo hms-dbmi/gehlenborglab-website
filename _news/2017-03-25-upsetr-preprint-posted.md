@@ -1,5 +1,4 @@
 ---
-layout: news
 title:  UpSetR Preprint Posted
 members:
   - jake-conway

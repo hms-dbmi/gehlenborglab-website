@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Scott Ouellette
 name_degree: Scott Ouellette, BSc
 

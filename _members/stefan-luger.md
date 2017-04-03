@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Stefan Luger
 name_degree: Stefan Luger, BSc
 

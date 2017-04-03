@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Peter Kerpedjiev
 name_degree: Peter Kerpedjiev, PhD
 

@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Nikhil Kumar
 name_degree: Nikhil Kumar, BSc
 

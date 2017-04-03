@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Matthew Roy
 name_degree: Matthew Roy, BSc
 

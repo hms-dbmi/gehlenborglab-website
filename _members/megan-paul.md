@@ -1,6 +1,4 @@
 ---
-layout: member
-
 title: Megan Paul
 name_degree: Megan Paul
 

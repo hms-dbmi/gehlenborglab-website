@@ -1,6 +1,4 @@
 ---
-layout: theme
-
 name: Reproducible Research
 projects:
   - refinery-platform

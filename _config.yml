@@ -64,3 +64,23 @@ defaults:
       type: publications
     values:
       layout: publication
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: news
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+  - scope:
+      path: ""
+      type: members
+    values:
+      layout: member
+  - scope:
+      path: ""
+      type: themes
+    values:
+      layout: theme

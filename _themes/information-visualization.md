@@ -1,6 +1,4 @@
 ---
-layout: theme
-
 name: Information Visualization
 projects:
   - upsetr

@@ -1,6 +1,4 @@
 ---
-layout: theme
-
 name: Chromosome Conformation and Nuclear Organization
 projects:
   - higlass
