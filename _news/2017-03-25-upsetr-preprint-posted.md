@@ -6,6 +6,7 @@ members:
   - nils-gehlenborg
 publications:
   - conway-2017-biorxiv
+blurb: UpSetR is an open source R package that employs a scalable matrix-based visualization of sets.
 ---
 
 Venn and Euler diagrams are a popular yet inadequate solution for quantitative visualization of set intersections. A scalable alternative to Venn and Euler diagrams for visualizing intersecting sets and their properties is needed. We developed UpSetR, an open source R package that employs a scalable matrix-based visualization to show intersections of sets, their size, and other properties. A preprint describing the R package has been posted to [bioRxiv](http://biorxiv.org/content/early/2017/03/25/120600).
