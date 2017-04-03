@@ -7,8 +7,12 @@ permalink: /publications/
 ## Preprints
 {% for publication in site.publications %}
 {% if publication.type == 'preprint' %}
-{{ publication.citation }}
-[Details]({{publication.url}})
+
+{{ publication.cite.authors }}.
+“[{{ publication.title }}]({{publication.url}})”
+{{ publication.cite.published }}
+({{ publication.year }})
+
 {% endif %}
 {% endfor %}
 
@@ -19,7 +23,11 @@ permalink: /publications/
 ## {{ publication.year }}
 {% endif %}
 {% assign prev_year = publication.year %}
-{{ publication.citation }}
-[Details]({{publication.url}})
+
+{{ publication.cite.authors }}.
+“[{{ publication.title }}]({{publication.url}})”
+{{ publication.cite.published }}
+({{ publication.year }})
+
 {% endif %}
 {% endfor %}
