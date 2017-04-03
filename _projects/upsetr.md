@@ -34,5 +34,6 @@ grants:
   - nih_k99hg007583
   - nih_r00hg007583
 
+blurb: An R package to generate static UpSet plots.
 ---
 UpSetR is an R package to generate static UpSet plots. The UpSet technique visualizes set intersections in a matrix layout and introduces aggregates based on groupings and queries. The matrix layout enables the effective representation of associated data, such as the number of elements in the aggregates and intersections, as well as additional summary statistics derived from subset or element attributes.
