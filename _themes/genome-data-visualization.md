@@ -4,5 +4,5 @@ name: Visualization of Genomic Data
 projects:
   - higlass
   - hipiler
+  - stratomex
 ---
-Visualization of genomic data ....

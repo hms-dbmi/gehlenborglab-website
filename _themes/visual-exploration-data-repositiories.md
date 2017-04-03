@@ -4,4 +4,3 @@ projects:
   - refinery-platform
   - satori
 ---
-Discovering data sets ...

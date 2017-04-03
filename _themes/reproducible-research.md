@@ -5,4 +5,3 @@ projects:
   - avocado
   - vistories
 ---
-Tools for Reproducible research
