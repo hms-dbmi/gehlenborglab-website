@@ -8,7 +8,7 @@ script:
   - bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
 deploy:
   provider: s3
-  bucket: gehlenborglab-site
+  bucket: gehlenborglab.org
   skip_cleanup: true
   region: us-east-1
   acl: public_read
