@@ -6,7 +6,15 @@ hero:
   image: /assets/img/site/hero_longwood.jpg
 ---
 
-## Visit Us in Person
+## Send Us an Email
+
+We are still using email! To contact Nils, just send an email to [nils@hms.harvard.edu](mailto:nils@hms.harvard.edu). To schedule a meeting with Nils, please contact Matt Roy at [matthew_roy@hms.harvard.edu](mailto:matthew_roy@hms.harvard.edu).
+
+## Follow Us on Twitter
+
+To hear the latest about our work, follow Nils on Twitter at [@nils_gehlenborg](https://twitter.com/nils_gehlenborg).
+
+## Mail Us a Letter
 
 Harvard Medical School \\
 Department of Biomedical Informatics \\
