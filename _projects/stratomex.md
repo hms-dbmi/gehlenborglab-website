@@ -4,6 +4,11 @@ name: Caleydo StratomeX
 members:
   - nils-gehlenborg
 
+publications:
+  - kern-2017-biorxiv
+  - gehlenborg-2014-nature-stratifications
+  - gehlenborg-2012-computer-graphics
+
 collaborators:
   - alexander-lex
   - marc-streit

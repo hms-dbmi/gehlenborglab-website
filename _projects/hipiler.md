@@ -9,9 +9,18 @@ members:
 collaborators:
   - hanspeter-pfister
 
+publications:
+  - lekschas-2017-biorxiv
+
 websites:
 
 github_repositories:
+  - name: HiPiler Application
+    description: 
+    url: https://github.com/flekschas/hipiler
+  - name: Clodius
+    description: A tool to tile 1D and 2D genomic data sets for use with HiGlass and HiPiler.
+    url: https://github.com/hms-dbmi/clodius
 
 docker_repositories:
 

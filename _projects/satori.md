@@ -5,6 +5,9 @@ members:
   - fritz-lekschas
   - nils-gehlenborg
 
+publications:
+  - lekschas-2017-satori
+
 websites:
   - name: SATORI Project
     description: 
