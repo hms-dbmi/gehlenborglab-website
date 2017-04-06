@@ -10,8 +10,6 @@
 #   links: primary
 #
 primary:
-  - text: About
-    href: /about/
   - text: News
     href: /news/
   - text: Team

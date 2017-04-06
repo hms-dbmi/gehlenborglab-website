@@ -5,6 +5,8 @@ permalink: /research/themes/
 ---
 ## Research Themes
 
+<p class="usa-font-lead">Our research cuts across a diverse set of themes. We are interested in answering fundamental questions in both biology and data visualization.</p>
+
 {% for theme in site.themes %}
 ### {{ theme.name }}
 {{ theme.content }}
