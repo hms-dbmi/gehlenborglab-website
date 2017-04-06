@@ -50,6 +50,9 @@ docker_repositories:
 
 grants:
   - nih_u01ca200059
----
-HiGlass is a tool for exploring genomic contact matrices and tracks. It can be configured to explore and compare contact matrices across multiple scales.
+  - nih_r00hg007583
 
+blurb:
+  - HiGlass is a tool for exploring genomic contact matrices and tracks. It can be configured to explore and compare contact matrices across multiple scales.
+---
+ HiGlass is a web-based viewer for genome interaction maps featuring synchronized navigation of multiple views as well as continuous zooming and panning for navigation across genomic loci and resolutions. It can be used for visual comparison of Hi-C and other genomic data from different experimental conditions to efficiently identify salient outcomes of experimental perturbations, generate new hypotheses, and share the results with the community.
