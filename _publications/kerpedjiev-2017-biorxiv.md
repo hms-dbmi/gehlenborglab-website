@@ -1,5 +1,5 @@
 ---
-title: "HiGlass: Composable Linked Views for Multiscale Visualization of Genome Interaction Maps"
+title: "HiGlass: Web-based Visual Comparison And Exploration Of Genome Interaction Maps"
 
 members:
   - peter-kerpedjiev
