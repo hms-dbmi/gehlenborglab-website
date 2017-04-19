@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "uswds": "^1.0.0"
-  }
+  },
+  "private": true
 }

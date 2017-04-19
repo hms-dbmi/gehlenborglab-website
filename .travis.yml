@@ -1,6 +1,7 @@
 language: ruby
+before_install:
+  - npm install -g npm@3.10.9
 before_script:
-  - npm install frctl/nunjucks
   - npm install frctl/fractal
   - npm install
 script:
