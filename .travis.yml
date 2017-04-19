@@ -1,5 +1,7 @@
 language: ruby
 before_script:
+  - npm install frctl/nunjucks
+  - npm install frctl/fractal
   - npm install
 script:
   - set -e
