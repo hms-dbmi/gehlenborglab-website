@@ -5,18 +5,33 @@ permalink: /news/
 ---
 ## News
 
-<div class="usa-grid-full">
-  <div class="usa-width-one-third">
-  <h3>2017</h3>
+{% assign latest_news = site.news | reverse | slice: 0,5 %}
+{% assign end_year = latest_news[0].date | date: "%Y" %}
+{% assign start_year = latest_news[-1].date | date: "%Y" %}
+
+{% for year in (start_year..end_year) %}
+  {% capture year_string %}{{ year }}{% endcapture %}
+  
+  <div class="usa-grid-full">
+    <div class="usa-width-one-third">
+      <h3>{{ year }}</h3>
+    </div>
+    <div class="usa-width-two-thirds">
+      
+      {% for news in latest_news %}
+        {% assign news_year = news.date | date: "%Y" %}
+        {% if news_year == year_string %}
+      
+          <h3>{{ news.title }}</h3>
+          <p>
+            <b>{{ news.date | date: "%-d %B %Y" }}</b> | 
+            {{ news.blurb }} <a href="{{news.url}}">More ...</a>
+          </p>
+      
+        {% endif %}
+      {% endfor %}
+      
+    </div>
   </div>
-  <div class="usa-width-two-thirds">
-  {% assign latest_news = site.news | reverse | slice: 0,5 %}
-  {% for news in latest_news %}
-    <h3>{{ news.title }}</h3>
-      <p>
-        <b>{{ news.date | date: "%-d %B %Y" }}</b> | 
-        {{ news.blurb }} <a href="{{news.url}}">More ...</a>
-      </p>
-  {% endfor %}
-  </div>
-</div>
+  
+{% endfor %}
