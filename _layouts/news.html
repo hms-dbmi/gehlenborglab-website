@@ -3,10 +3,14 @@ layout: docs
 ---
 {% assign id = page.url | split: '/' | last %}
 
-<h2>{{ page.title }}</h2>
+<h2>
+    {{ page.title }}
+</h2>
 
 <div class="usa-grid-full">
   <div class="usa-width-two-thirds">
+    <p><small>Posted on {{ page.date | date: "%-d %B %Y" }}</small></p>
+
     {{ content }}
 
     {% if page.publications.size > 0 %}
