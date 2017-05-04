@@ -6,7 +6,6 @@ before_script:
 script:
   - set -e
   - bundle exec jekyll build
-  - ./post-build.sh
   - "! grep -n '<ERROR' -r _site"
   - bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
 deploy:
