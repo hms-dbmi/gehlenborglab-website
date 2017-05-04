@@ -5,6 +5,7 @@ Instead, when the master branch is updated, Travis builds `_site` and pushes it
 to the appropriate S3 bucket. For local development:
 
 ```
+$ gem install bundler
 $ bundle install
 $ npm install
 $ jekyll serve &
