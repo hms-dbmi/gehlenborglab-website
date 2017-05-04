@@ -51,6 +51,14 @@ layout: docs
       <img src="/assets/img/members/{{ page.photo }}">
     </div>
 
+    <br>
+    <div id="services">
+      {% for service in page.services %}
+        <a href="{{ service[1] }}"><img src="/assets/img/services/{{ service[0] }}.png"></a>
+        &nbsp;
+      {% endfor %}
+    </div>
+
     <h3 id="projects">Projects</h3>
       <ul>
       {% for project in site.projects %}
