@@ -7,8 +7,8 @@ layout: docs
 
 <div class="usa-grid-full">
   <div class="usa-width-two-thirds">
-    {% if page.image_url %}
-      <img src="{{ page.image_url }}">
+    {% if page.image %}
+      <img src="/assets/img/publications/fullsize/{{ page.image }}">
     {% endif %}
 
     {% assign stripped = content | strip %}

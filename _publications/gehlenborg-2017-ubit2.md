@@ -1,5 +1,6 @@
 ---
 title: "UBiT2: a client-side web-application for gene expression data analysis"
+image: ubit2.png
 
 members:
   - nils-gehlenborg
