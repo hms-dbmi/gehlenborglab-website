@@ -8,6 +8,7 @@ permalink: /publications/
 {% for publication in site.publications %}
 {% if publication.type == 'preprint' %}
 
+{% if publication.image %}<img class="thumb" src="/assets/img/publications/thumbnail/{{ publication.image }}">{% endif %}
 {{ publication.cite.authors }}.
 “[{{ publication.title }}]({{publication.url}})”
 {{ publication.cite.published }}

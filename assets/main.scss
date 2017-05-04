@@ -34,3 +34,9 @@ $image-path: 'uswds/img';
 .usa-footer-secondary_section {
   //background-color: $color-white;
 }
+
+.thumb {
+  float: left;
+  margin-right: 1em;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.75);
+}

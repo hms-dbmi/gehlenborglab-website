@@ -1,5 +1,6 @@
 ---
 title: "UpSetR: An R Package for the Visualization of Intersecting Sets and their Properties"
+image: upsetr.png
 
 members:
   - jake-conway
