@@ -2,7 +2,7 @@
 title: Jake Conway
 name_degree: Jake Conway, BSc
 
-photo: placeholder.png
+photo: jake-conway.jpg
 
 job_title: Graduate Student in Biomedical Informatics
 role: external
