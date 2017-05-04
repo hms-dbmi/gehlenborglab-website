@@ -30,6 +30,26 @@ layout: docs
     </ul>
     {% endif %}
 
+    {% capture media_list %}
+      {% for media in site.data.media %}
+        {% for project in media.projects %}
+          {% if project == id %}
+            <li>
+              {{ media.outlet }} ({{ media.date }}):
+              <a href="{{ media.url }}">{{ media.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endcapture %}
+    {% assign media_list = media_list | strip %}
+    {% if media_list != '' %}
+      <h3 id="media">Media</h3>
+      <ul>
+        {{ media_list }}
+      </ul>
+    {% endif %}
+
     {% if page.github_repositories.size > 0 or page.docker_repositories.size > 0 %}
     <h3>Software</h3>
 

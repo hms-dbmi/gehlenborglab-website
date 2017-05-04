@@ -52,14 +52,34 @@ layout: docs
     </div>
 
     <h3 id="projects">Projects</h3>
-      <ul>
-      {% for project in site.projects %}
-        {% for member in project.members %}
+    <ul>
+    {% for project in site.projects %}
+      {% for member in project.members %}
+        {% if member == id %}
+          <li><a href="{{ project.url }}">{{ project.name }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+
+    {% capture media_list %}
+      {% for media in site.data.media %}
+        {% for member in media.members %}
           {% if member == id %}
-            <li><a href="{{ project.url }}">{{ project.name }}</a></li>  
+            <li>
+              {{ media.outlet }} ({{ media.date }}):
+              <a href="{{ media.url }}">{{ media.title }}</a>
+            </li>
           {% endif %}
         {% endfor %}
       {% endfor %}
+    {% endcapture %}
+    {% assign media_list = media_list | strip %}
+    {% if media_list != '' %}
+      <h3 id="media">Media</h3>
+      <ul>
+        {{ media_list }}
       </ul>
+    {% endif %}
   </aside>
 </div>
