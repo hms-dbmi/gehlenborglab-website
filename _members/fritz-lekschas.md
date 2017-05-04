@@ -7,6 +7,9 @@ photo: placeholder.png
 job_title: Graduate Student in Computer Science
 role: external
 
+services:
+  github: https://github.com/flekschas
+  
 start: April 2015
 end:
 ---

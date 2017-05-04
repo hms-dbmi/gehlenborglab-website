@@ -7,6 +7,9 @@ photo: peter-kerpedjiev.png
 job_title: Research Fellow in Biomedical Informatics
 role: postdoc
 
+services:
+  github: https://github.com/pkerpedjiev
+  
 start: April 2016
 end: 
 ---

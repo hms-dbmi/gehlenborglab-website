@@ -7,6 +7,9 @@ photo: placeholder.png
 job_title: External Master's Student
 role: alumni
 
+services:
+  github: https://github.com/sluger
+
 start: September 2014
 end: December 2015
 ---

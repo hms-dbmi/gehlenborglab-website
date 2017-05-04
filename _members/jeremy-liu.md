@@ -6,7 +6,7 @@ photo: placeholder.png
 
 job_title: i2b2 Summer Institute Intern
 role: alumni
-
+  
 start: June 2014
 end: August 2014
 ---

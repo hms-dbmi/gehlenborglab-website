@@ -6,7 +6,7 @@ photo: placeholder.png
 
 job_title: High School Intern
 role: alumni
-
+  
 start: June 2014
 end: June 2015
 ---

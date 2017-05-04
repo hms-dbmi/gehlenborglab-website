@@ -7,6 +7,9 @@ photo: placeholder.png
 job_title: Graduate Student in Biomedical Informatics
 role: alumni
 
+services:
+  github: https://github.com/jacobluber
+  
 start: September 2016
 end: December 2016
 ---

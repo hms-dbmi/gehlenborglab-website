@@ -6,7 +6,7 @@ photo: placeholder.png
 
 job_title: BD2K Summer Institute Intern
 role: alumni
-
+  
 start: June 2015
 end: August 2015
 ---

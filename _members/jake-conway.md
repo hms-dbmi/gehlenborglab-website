@@ -7,6 +7,9 @@ photo: placeholder.png
 job_title: Graduate Student in Biomedical Informatics
 role: external
 
+services:
+  github: https://github.com/JakeConway
+  
 start: June 2015
 end: 
 ---

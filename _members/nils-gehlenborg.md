@@ -7,6 +7,9 @@ photo: nils-gehlenborg.png
 job_title: Assistant Professor of Biomedical Informatics
 role: pi
 
+services:
+  github: https://github.com/ngehlenborg
+  
 start: April 2015
 end:
 ---
