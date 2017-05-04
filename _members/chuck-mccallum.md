@@ -2,7 +2,7 @@
 title: Chuck McCallum
 name_degree: Chuck McCallum, BA, MLIS
 
-photo: placeholder.png
+photo: chuck-mccallum.jpg
 
 job_title: Software Developer
 role: software_developer
