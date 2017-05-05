@@ -9,6 +9,7 @@ role: software_developer
 
 services:
   github: https://github.com/mccalluc/
+  home: http://mccalluc.github.io/
 
 start: September 2016
 end:
