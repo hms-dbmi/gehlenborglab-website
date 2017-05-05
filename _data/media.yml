@@ -3,6 +3,7 @@
   outlet: 'The OpenHelix Blog'
   date: '2014'
   url: 'http://blog.openhelix.eu/?p=20201'
+  blurb: '"Looking for both effective and efficient representation of the types of data genomics researchers need, this interactive tool is a really nice way to explore which items belong in which subset. And, of course, which ones don’t.  But that’s just the beginning."'
   members:
     - nils-gehlenborg
   projects:

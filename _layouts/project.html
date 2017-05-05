@@ -34,10 +34,13 @@ layout: docs
       {% for media in site.data.media %}
         {% for project in media.projects %}
           {% if project == id %}
-            <li>
+            <dt>
               {{ media.outlet }} ({{ media.date }}):
               <a href="{{ media.url }}">{{ media.title }}</a>
-            </li>
+            </dt>
+            <dd>
+              {{ media.blurb }}
+            </dd>
           {% endif %}
         {% endfor %}
       {% endfor %}
@@ -45,9 +48,9 @@ layout: docs
     {% assign media_list = media_list | strip %}
     {% if media_list != '' %}
       <h3 id="media">Media</h3>
-      <ul>
+      <dl>
         {{ media_list }}
-      </ul>
+      </dl>
     {% endif %}
 
     {% if page.github_repositories.size > 0 or page.docker_repositories.size > 0 %}
