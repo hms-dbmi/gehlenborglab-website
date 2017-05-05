@@ -1,5 +1,6 @@
 ---
 title: "HiGlass: Web-based Visual Comparison And Exploration Of Genome Interaction Maps"
+image: higlass.png
 
 members:
   - peter-kerpedjiev

@@ -1,5 +1,6 @@
 ---
 title: "SATORI: A System for Ontology-Guided Visual Exploration of Biomedical Data Repositories"
+image: satori.png
 
 members:
   - nils-gehlenborg

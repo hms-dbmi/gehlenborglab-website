@@ -1,5 +1,6 @@
 ---
 title: "Interactive Visual Exploration And Refinement Of Cluster Assignments"
+image: stratomex.png
 
 members:
   - nils-gehlenborg
