@@ -2,7 +2,7 @@
 title: Jacob Luber
 name_degree: Jacob Luber, BSc
 
-photo: placeholder.png
+photo: jacob-luber.jpg
 
 job_title: Graduate Student in Biomedical Informatics
 role: alumni

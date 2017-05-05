@@ -2,7 +2,7 @@
 title: Fritz Lekschas
 name_degree: Fritz Lekschas, BSc, MSc
 
-photo: placeholder.png
+photo: fritz-lekschas.jpg
 
 job_title: Graduate Student in Computer Science
 role: external
