@@ -28,10 +28,9 @@ layout: docs
       <a href="{{ page.publisher }}">{{ page.publisher }}</a>
     {% endif %}
 
-    {% if page.pdf %}
-      <h3>PDF</h3>
-      <a href="{{ page.pdf }}">{{ page.pdf }}</a>
-    {% endif %}
+    <h3>PDF</h3>
+    {% assign basename = page.id | split: '/' | last %}
+    <a href="http://pdfs.gehlenborglab.org/{{ basename }}.pdf">http://pdfs.gehlenborglab.org/{{ basename }}.pdf</a>
   </div>
 
   <aside class="usa-width-one-third">
