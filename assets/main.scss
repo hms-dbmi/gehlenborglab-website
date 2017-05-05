@@ -35,8 +35,21 @@ $image-path: 'uswds/img';
   //background-color: $color-white;
 }
 
-.thumb {
-  float: left;
-  margin-right: 1em;
-  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.75);
+img.thumb {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 0.2em
+}
+
+table.publications td {
+  border: none;
+  padding-right: 0.2em;
+  vertical-align:top;
+  img {
+    width: 120px; // Match image file width
+  }
+  p {
+    // When the citation is parsed as markdown, it also gets a wrapping <p>,
+    // which we don't really need in this context.
+    margin: 0;
+  }
 }
