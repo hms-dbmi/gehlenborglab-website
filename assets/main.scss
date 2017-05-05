@@ -34,3 +34,22 @@ $image-path: 'uswds/img';
 .usa-footer-secondary_section {
   //background-color: $color-white;
 }
+
+img.thumb {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 0.2em
+}
+
+table.publications td {
+  border: none;
+  padding-right: 0.2em;
+  vertical-align:top;
+  img {
+    width: 120px; // Match image file width
+  }
+  p {
+    // When the citation is parsed as markdown, it also gets a wrapping <p>,
+    // which we don't really need in this context.
+    margin: 0;
+  }
+}

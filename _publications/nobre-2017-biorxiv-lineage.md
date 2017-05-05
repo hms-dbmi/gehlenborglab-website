@@ -1,5 +1,6 @@
 ---
 title: "Lineage: Visualizing Multivariate Clinical Data in Genealogy Graphs"
+image: lineage.png
 
 members:
   - nils-gehlenborg

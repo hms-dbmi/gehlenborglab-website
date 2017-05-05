@@ -1,5 +1,6 @@
 ---
 title: "StratomeX: Visual Analysis of Large-Scale Heterogeneous Genomics Data for Cancer Subtype Characterization"
+image: stratomex.png
 
 members:
   - nils-gehlenborg

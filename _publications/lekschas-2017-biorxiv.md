@@ -1,5 +1,6 @@
 ---
 title: "HiPiler: Visual Exploration Of Large Genome Interaction Matrices With Interactive Small Multiples"
+image: hipiler.png
 
 members:
   - fritz-lekschas  

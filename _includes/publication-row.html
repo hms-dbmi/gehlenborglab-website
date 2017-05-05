@@ -1,0 +1,13 @@
+<tr>
+<td>
+{% if publication.image %}
+<a href="{{publication.url}}"><img class="thumb" src="/assets/img/publications/thumbnail/{{ publication.image }}"></a>
+{% endif %}
+</td>
+<td markdown="1">
+{{ publication.cite.authors }}.
+“<a href="{{publication.url}}">{{ publication.title }}</a>”
+{{ publication.cite.published }}
+({{ publication.year }})
+</td>
+</tr>
