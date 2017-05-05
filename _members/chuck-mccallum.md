@@ -7,6 +7,9 @@ photo: chuck-mccallum.jpg
 job_title: Software Developer
 role: software_developer
 
+services:
+  github: https://github.com/mccalluc/
+
 start: September 2016
 end:
 ---

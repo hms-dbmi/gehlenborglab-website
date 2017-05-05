@@ -7,6 +7,9 @@ photo: jkmarx.png
 job_title: Software Engineer
 role: software_developer
 
+services:
+  github: https://github.com/jkmarx
+  
 start: May 2015
 end: 
 ---

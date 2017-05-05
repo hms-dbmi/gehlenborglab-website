@@ -7,6 +7,9 @@ photo: scott_ouellette.png
 job_title: Software Developer
 role: software_developer
 
+services:
+  github: https://github.com/scottx611x
+  
 start: July 2015
 end:
 ---
