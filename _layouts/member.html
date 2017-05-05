@@ -27,6 +27,29 @@ layout: docs
       </ul>
     {% endif %}
 
+    {% capture media_list %}
+      {% for media in site.data.media %}
+        {% for member in media.members %}
+          {% if member == id %}
+            <dt>
+              {{ media.outlet }} ({{ media.date }}):
+              <a href="{{ media.url }}">{{ media.title }}</a>
+            </dt>
+            <dd>
+              {{ media.blurb }}
+            </dd>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endcapture %}
+    {% assign media_list = media_list | strip %}
+    {% if media_list != '' %}
+      <h3 id="media">Media</h3>
+      <dl>
+        {{ media_list }}
+      </dl>
+    {% endif %}
+
     {% capture publications_list %}
       {% for publication in site.publications %}
         {% for member in publication.members %}
@@ -52,14 +75,15 @@ layout: docs
     </div>
 
     <h3 id="projects">Projects</h3>
-      <ul>
-      {% for project in site.projects %}
-        {% for member in project.members %}
-          {% if member == id %}
-            <li><a href="{{ project.url }}">{{ project.name }}</a></li>  
-          {% endif %}
-        {% endfor %}
+    <ul>
+    {% for project in site.projects %}
+      {% for member in project.members %}
+        {% if member == id %}
+          <li><a href="{{ project.url }}">{{ project.name }}</a></li>
+        {% endif %}
       {% endfor %}
-      </ul>
+    {% endfor %}
+    </ul>
+
   </aside>
 </div>
