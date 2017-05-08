@@ -7,6 +7,16 @@ layout: docs
 
 <div class="usa-grid-full">
   <div class="usa-width-two-thirds">
+    {% if page.gallery.size > 0 %}
+      <img src="/assets/img/publications/fullsize/{{ page.gallery | first }}">
+      <br>
+      {% for image in page.gallery %}
+        <a href="/assets/img/publications/fullsize/{{ image }}" data-lightbox="lightbox-group">
+          <img class="thumb" src="/assets/img/publications/thumbnail/{{ image }}">
+        </a>
+      {% endfor %}
+    {% endif %}
+
     <h3>Description</h3>
     {{ content }}
 
