@@ -8,12 +8,15 @@ layout: docs
 <div class="usa-grid-full">
   <div class="usa-width-two-thirds">
     {% if page.gallery.size > 0 %}
-      <img src="/assets/img/publications/fullsize/{{ page.gallery | first }}">
+      <img src="/assets/img/publications/fullsize/{{ page.gallery.first[0] }}">
       <br>
       {% for image in page.gallery %}
-        <a href="/assets/img/publications/fullsize/{{ image }}" data-lightbox="lightbox-group">
-          <img class="thumb" src="/assets/img/publications/thumbnail/{{ image }}">
-        </a>
+        <a href="/assets/img/publications/fullsize/{{ image[0] }}"
+           data-lightbox="lightbox-group"
+           data-title="{{ image[1] }}"
+          ><img class="thumb"
+                src="/assets/img/publications/thumbnail/{{ image[0] }}"
+                alt="{{ image[1] }}"></a>
       {% endfor %}
     {% endif %}
 
