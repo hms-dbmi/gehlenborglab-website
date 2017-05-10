@@ -1,5 +1,6 @@
 ---
 title: "Comprehensive molecular profiling of lung adenocarcinoma"
+image: adenocarcinoma.png
 
 members:
   - nils-gehlenborg
