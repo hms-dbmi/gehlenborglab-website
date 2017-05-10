@@ -1,5 +1,6 @@
 ---
 title: "Genomic Classification of Cutaneous Melanoma"
+image: cutaneous-melanoma.png
 
 members:
   - nils-gehlenborg

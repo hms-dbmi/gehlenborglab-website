@@ -1,5 +1,6 @@
 ---
 title: "Comprehensive Genomic Characterization of Head and Neck Squamous Cell Carcinomas"
+image: characterize-squamus.png
 
 members:
   - nils-gehlenborg

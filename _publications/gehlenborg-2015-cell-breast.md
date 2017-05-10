@@ -1,5 +1,6 @@
 ---
 title: "Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer"
+image: lobular-breast.png
 
 members:
   - nils-gehlenborg
