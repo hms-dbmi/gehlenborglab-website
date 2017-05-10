@@ -1,5 +1,6 @@
 ---
 title: "Molecular Profiling Reveals Biologically Discrete Subsets and Pathways of Progression in Diffuse Glioma"
+image: profiling-glioma.png
 
 members:
   - nils-gehlenborg
