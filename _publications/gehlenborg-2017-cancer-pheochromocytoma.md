@@ -1,5 +1,6 @@
 ---
 title: "Comprehensive Molecular Characterization of Pheochromocytoma and Paraganglioma"
+image: pheochromocytoma.png
 
 members:
   - nils-gehlenborg

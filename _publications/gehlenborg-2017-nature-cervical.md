@@ -1,5 +1,6 @@
 ---
 title: "Integrated genomic and molecular characterization of cervical cancer"
+image: cervical.png
 
 members:
   - nils-gehlenborg

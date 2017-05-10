@@ -1,5 +1,6 @@
 ---
 title: "Integrated genomic characterization of oesophageal carcinoma"
+image: oesophageal.png
 
 members:
   - nils-gehlenborg
