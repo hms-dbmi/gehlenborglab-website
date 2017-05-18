@@ -7,8 +7,13 @@ layout: docs
 
 <div class="usa-grid-full">
   <div class="usa-width-two-thirds">
+    <h3>Description</h3>
+    {{ content }}
+
     {% if page.gallery.size > 0 %}
+      <h3>Gallery</h3>
       <img src="/assets/img/publications/fullsize/{{ page.gallery.first[0] }}">
+      <small>{{ page.gallery.first[1] }}</small>
       <br>
       {% for image in page.gallery %}
         <a href="/assets/img/publications/fullsize/{{ image[0] }}"
@@ -19,9 +24,6 @@ layout: docs
                 alt="{{ image[1] }}"></a>
       {% endfor %}
     {% endif %}
-
-    <h3>Description</h3>
-    {{ content }}
 
     {% if page.publications.size > 0 %}
     <h3>Publications</h3>
