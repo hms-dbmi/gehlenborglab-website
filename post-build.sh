@@ -6,6 +6,8 @@ mkdir $DIR/thumbnail || echo "Couldn't mkdir: may already exist. Continuing."
 for F in $(ls $DIR/fullsize); do
     # Match CSS width:
     convert $DIR/fullsize/$F \
+        -gravity center \
         -thumbnail 120x90 \
+        -extent 120x90 \
         $DIR/thumbnail/$F
 done

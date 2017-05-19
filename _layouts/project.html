@@ -10,6 +10,21 @@ layout: docs
     <h3>Description</h3>
     {{ content }}
 
+    {% if page.gallery.size > 0 %}
+      <h3>Gallery</h3>
+      <img src="/assets/img/publications/fullsize/{{ page.gallery.first[0] }}">
+      <small>{{ page.gallery.first[1] }}</small>
+      <br>
+      {% for image in page.gallery %}
+        <a href="/assets/img/publications/fullsize/{{ image[0] }}"
+           data-lightbox="lightbox-group"
+           data-title="{{ image[1] }}"
+          ><img class="thumb"
+                src="/assets/img/publications/thumbnail/{{ image[0] }}"
+                alt="{{ image[1] }}"></a>
+      {% endfor %}
+    {% endif %}
+
     {% if page.publications.size > 0 %}
     <h3>Publications</h3>
     {% include list-publications.html %}
