@@ -18,10 +18,9 @@ layout: docs
     {% endif %}
 
     <h3>Citation</h3>
-    {{ page.cite.authors }}.
-    “{{ page.title }}”
-    {{ page.cite.published }}
-    ({{ page.year }})    
+    {% capture citation %}{{ page.cite.authors }}. “{{ page.title }}” {{ page.cite.published }} ({{ page.year }}).{% endcapture %}
+    {{ citation | markdownify }}
+    <!-- If we markdownify just one field, it is wrapped by <p> -->
     
     {% if page.publisher %}
       <h3>Publisher URL</h3>
