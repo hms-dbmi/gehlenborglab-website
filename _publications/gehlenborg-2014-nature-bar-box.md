@@ -1,5 +1,6 @@
 ---
 title: "Points of View: Bar Charts and Box Plots"
+image: pov-bar-box.png
 
 members:
   - nils-gehlenborg

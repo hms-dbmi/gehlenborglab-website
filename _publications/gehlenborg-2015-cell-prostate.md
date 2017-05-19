@@ -1,5 +1,6 @@
 ---
 title: "The Molecular Taxonomy of Primary Prostate Cancer"
+image: taxonomy-prostate.png
 
 members:
   - nils-gehlenborg

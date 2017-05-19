@@ -1,5 +1,6 @@
 ---
 title: "AVOCADO: Visualization of Workflow-Derived Data Provenance for Reproducible Biomedical Research"
+image: avocado.png
 
 members:
   - nils-gehlenborg

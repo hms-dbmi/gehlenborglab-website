@@ -1,5 +1,6 @@
 ---
 title: "Integrated Molecular Characterization of Uterine Carcinosarcoma"
+image: uterine.png
 
 members:
   - nils-gehlenborg

@@ -1,5 +1,6 @@
 ---
 title: "Comprehensive and Integrative Genomic Characterization of Diffuse Lower Grade Gliomas"
+image: characterize-gliomas.png
 
 members:
   - nils-gehlenborg

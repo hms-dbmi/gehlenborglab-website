@@ -1,5 +1,6 @@
 ---
 title: "Domino: Extracting, Comparing, and Manipulating Subsets across Multiple Tabular Datasets"
+image: domino.png
 
 members:
   - nils-gehlenborg

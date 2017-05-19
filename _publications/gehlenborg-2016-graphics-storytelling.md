@@ -1,5 +1,6 @@
 ---
 title: "From Visual Exploration to Storytelling and Back Again"
+image: clue.png
 
 members:
   - nils-gehlenborg

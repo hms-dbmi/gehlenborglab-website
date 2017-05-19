@@ -1,5 +1,6 @@
 ---
 title: "Comparative analysis of metazoan chromatin organization"
+image: chromatin.png
 
 members:
   - nils-gehlenborg

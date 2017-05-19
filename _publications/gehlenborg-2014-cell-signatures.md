@@ -1,5 +1,6 @@
 ---
 title: "Multi-platform integration of 12 cancer types reveals cell-of-origin classes with distinct molecular signatures"
+image: multiplatform.png
 
 members:
   - nils-gehlenborg

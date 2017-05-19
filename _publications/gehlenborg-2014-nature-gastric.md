@@ -1,5 +1,6 @@
 ---
 title: "Comprehensive Molecular Characterization of Gastric Adenocarcinoma"
+image: gastric.png
 
 members:
   - nils-gehlenborg

@@ -1,5 +1,6 @@
 ---
 title: "Comprehensive Molecular Characterization of Urothelial Bladder Carcinoma"
+image: bladder.png
 
 members:
   - nils-gehlenborg
