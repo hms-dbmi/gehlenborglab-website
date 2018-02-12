@@ -5,7 +5,7 @@ name_degree: Samson Mataraso
 photo: samson-mataraso.png
 
 job_title: BD2K Summer Institute Intern
-role: Student
+role: student
 
 start: June 2017
 end: August 2017
