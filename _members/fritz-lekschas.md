@@ -5,7 +5,7 @@ name_degree: Fritz Lekschas, BSc, MSc
 photo: fritz-lekschas.jpg
 
 job_title: Graduate Student in Computer Science
-role: external
+role: student
 
 services:
   github: https://github.com/flekschas
