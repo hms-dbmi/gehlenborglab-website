@@ -7,11 +7,11 @@ members:
   - nils-gehlenborg
   
 year: 2017
-type: preprint
+type: article
 
-publisher: "http://biorxiv.org/content/early/2017/03/25/120600"
+publisher: "https://academic.oup.com/bioinformatics/article/33/18/2938/3884387"
 cite:
   authors: "JR Conway, A Lex, N Gehlenborg"
-  published: "bioRxiv 120600; doi: https://doi.org/10.1101/120600"
+  published: "*Bioinformatics* **33**: 2938–2940; doi: https://doi.org/10.1093/bioinformatics/btx364"
 ---
 Venn and Euler diagrams are a popular yet inadequate solution for quantitative visualization of set intersections. A scalable alternative to Venn and Euler diagrams for visualizing intersecting sets and their properties is needed. We developed UpSetR, an open source R package that employs a scalable matrix-based visualization to show intersections of sets, their size, and other properties. UpSetR is available at https://cran.r-project.org/package=UpSetR and released under the MIT License. A Shiny app is available at https://gehlenborglab.shinyapps.io/upsetr.
