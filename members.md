@@ -57,16 +57,6 @@ subnav:
 </div>
 
 <div class="usa-grid-full">
-<h3 id="students">Co-Advised Students</h3>
-<ul>
-{% for member in site.members %}
-{% if member.role == "external" %}
-<li><a href="{{member.url}}">{{ member.title }}</a><br>{{ member.job_title }}</li>{% endif %}
-{% endfor %}
-</ul>
-</div>
-
-<div class="usa-grid-full">
 <h3 id="software-developers">Software Developers</h3>
 <ul>
 {% for member in site.members %}
