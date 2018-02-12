@@ -13,4 +13,4 @@ services:
 start: January 2018
 end:
 ---
-Danielle is on her third and final co-op in the Department of Biomedical Informatics at Harvard Medical School. She is a rising senior at Northeastern University majoring in Computer Science, and is interested in Data Visualization.
+Danielle is on her third and final co-op in the Department of Biomedical Informatics at Harvard Medical School. She is a rising senior at Northeastern University majoring in Computer Science and is interested in Data Visualization.
