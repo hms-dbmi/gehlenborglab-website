@@ -5,6 +5,7 @@ members:
   - peter-kerpedjiev
   - chuck-mccallum
   - fritz-lekschas
+  - danielle-nguyen
   - nikhil-kumar
   - alaleh-ahzir
   - jacob-luber
