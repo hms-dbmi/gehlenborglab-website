@@ -9,13 +9,13 @@ role: pi
 
 services:
   github: https://github.com/ngehlenborg
-  twitter: https://twitter.com/nils_gehlenborg
+  twitter: https://twitter.com/ngehlenborg
   linked-in: https://www.linkedin.com/in/ngehlenborg/
   
 start: April 2015
 end:
 ---
-Nils Gehlenborg, PhD, is an Assistant Professor in the Department of Biomedical Informatics at Harvard Medical School. 
+Nils Gehlenborg, PhD, is an Assistant Professor in the Department of Biomedical Informatics at Harvard Medical School and the Director of the Master in Biomedical Informatics program.
 
 Nils received his PhD from the University of Cambridge and was a predoctoral fellow at the European Bioinformatics Institute (EMBL-EBI) in the Functional Genomics Group of Alvis Brazma. Dr Gehlenborg completed his postdoctoral training as a Research Associate in the lab of Peter J Park at the Center for Biomedical Informatics at Harvard Medical School. 
  
