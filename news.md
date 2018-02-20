@@ -31,6 +31,7 @@ permalink: /news/
         {% endif %}
       {% endfor %}
       
+      <br>
     </div>
   </div>
   
