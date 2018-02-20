@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "uswds": "1.0.0"
+    "uswds": "1.2.1"
   },
   "private": true
 }

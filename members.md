@@ -8,13 +8,13 @@ sidenav:
     href: /team/members/
 subnav:
   - text: Principal Investigator
-    href: '#principal-investigator'
+    href: '#pi'
   - text: Postdoctoral Fellows
-    href: '#postdoctoral-fellows'
+    href: '#postdoc'
   - text: Software Developers
-    href: '#software-developers'
+    href: '#software_developer'
   - text: Students
-    href: '#students'
+    href: '#student'
   - text: Administration
     href: '#administration'
   - text: Alumni
@@ -23,71 +23,23 @@ subnav:
     href: '#collaborators'
 ---
 ## Team
-<div class="usa-grid-full">
-<h3 id="principal-investigator">Principal Investigator</h3>
-<ul>
-{% for member in site.members %}
-{% if member.role == "pi" %}
-<li><a href="{{member.url}}">{{ member.title }}</a><br>{{ member.job_title }}</li>
-{% endif %}
-{% endfor %}
-</ul>
-</div>
 
-<div class="usa-grid-full">
-<h3 id="administration">Administration</h3>
-<ul>
-{% for member in site.members %}
-{% if member.role == "administration" %}
-<li><a href="{{member.url}}">{{ member.title }}</a><br>{{ member.job_title }}</li>
-{% endif %}
-{% endfor %}
-</ul>
-</div>
+{% assign roles = 'pi:Principal Investigator/administration:Administration/postdoc:Postdoctoral Fellows/software_developer:Software Developers/student:Students/visitor:Visitors' | split: '/' %}
 
+{% for role in roles %}
+{% assign pair = role | split: ':' %}
 <div class="usa-grid-full">
-<h3 id="postdoctoral-fellows">Postdoctoral Fellows</h3>
+<h3 id="{{pair[0]}}">{{pair[1]}}</h3>
 <ul>
 {% for member in site.members %}
-{% if member.role == "postdoc" %}
+{% if member.role == pair[0] %}
 <li><a href="{{member.url}}">{{ member.title }}</a><br>{{ member.job_title }}</li>
 {% endif %}
 {% endfor %}
 </ul>
+<br>
 </div>
-
-<div class="usa-grid-full">
-<h3 id="software-developers">Software Developers</h3>
-<ul>
-{% for member in site.members %}
-{% if member.role == "software_developer" %}
-<li><a href="{{member.url}}">{{ member.title }}</a><br>{{ member.job_title }}</li>
-{% endif %}
 {% endfor %}
-</ul>
-</div>
-
-<div class="usa-grid-full">
-<h3 id="students">Students</h3>
-<ul>
-{% for member in site.members %}
-{% if member.role == "student" %}
-<li><a href="{{member.url}}">{{ member.title }}</a><br>{{ member.job_title }}</li>
-{% endif %}
-{% endfor %}
-</ul>
-</div>
-
-<div class="usa-grid-full">
-<h3 id="visitors">Visitors</h3>
-<ul>
-{% for member in site.members %}
-{% if member.role == "visitor" %}
-<li><a href="{{member.url}}">{{ member.title }}</a><br>{{ member.job_title }}</li>
-{% endif %}
-{% endfor %}
-</ul>
-</div>
 
 <div class="usa-grid-full">
 <h3 id="alumni">Alumni</h3>
@@ -98,6 +50,7 @@ subnav:
 {% endif %}
 {% endfor %}
 </ul>
+<br>
 </div>
 
 <div class="usa-grid-full">
@@ -107,3 +60,5 @@ subnav:
 <li><a href="{{member[1].url}}">{{ member[1].title }}</a><br>{{member[1].affiliation}}</li>
 {% endfor %}
 </ul>
+<br>
+</div>

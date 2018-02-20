@@ -8,8 +8,9 @@ permalink: /news/
 {% assign latest_news = site.news | reverse | slice: 0,5 %}
 {% assign end_year = latest_news[0].date | date: "%Y" %}
 {% assign start_year = latest_news[-1].date | date: "%Y" %}
+{% assign years = (start_year..end_year) | reverse %}
 
-{% for year in (start_year..end_year) %}
+{% for year in years %}
   {% capture year_string %}{{ year }}{% endcapture %}
   
   <div class="usa-grid-full">
@@ -31,6 +32,7 @@ permalink: /news/
         {% endif %}
       {% endfor %}
       
+      <br>
     </div>
   </div>
   
