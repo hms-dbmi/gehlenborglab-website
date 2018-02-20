@@ -37,6 +37,7 @@ subnav:
 {% endif %}
 {% endfor %}
 </ul>
+<br>
 </div>
 {% endfor %}
 
@@ -49,6 +50,7 @@ subnav:
 {% endif %}
 {% endfor %}
 </ul>
+<br>
 </div>
 
 <div class="usa-grid-full">
@@ -58,3 +60,5 @@ subnav:
 <li><a href="{{member[1].url}}">{{ member[1].title }}</a><br>{{member[1].affiliation}}</li>
 {% endfor %}
 </ul>
+<br>
+</div>
