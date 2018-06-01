@@ -5,7 +5,7 @@ name_degree: Eva Christine Schitter, BSc
 photo: Eva_Schitter.png
 
 job_title: Visiting Graduate Student in Biomedical Informatics
-role: visitor
+role: alumni
 
 start: March 2017
 end:
