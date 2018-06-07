@@ -18,6 +18,7 @@ github_repositories:
     url: https://github.com/hms-dbmi/halyos
 
 grants:
+  - nih_u54hg007963
   - nih_r00hg007583
 
 blurb:
