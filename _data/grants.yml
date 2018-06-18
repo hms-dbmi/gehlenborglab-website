@@ -20,10 +20,10 @@ nih_r00hg007583:
 
 hsci_csbi:
   funder: Harvard Stem Cell Institute
-  number: 
+  number:
   name: Center for Stem Cell Bioinformatics
-  url: 
-  summary: 
+  url:
+  summary:
   start: August 2014
   end: August 2018
   role: Co-Investigator
@@ -53,7 +53,17 @@ nih_u54hg007963:
   number: NIH 5U54HG007963
   name: Patient Centered Information Commons
   url: https://projectreporter.nih.gov/project_info_details.cfm?aid=9483734&icde=39799723
-  summary: 
-  start: 
-  end: 
-  role: 
+  summary:
+  start:
+  end:
+  role:
+
+nih_1r01eb025024:
+  funder: National Institutes of Health (NIBIB) & National Science Foundation
+  number: NIH 1R01EB025024
+  name: QuBBD: Statistical & Visualization Methods for PGHD to Enable Precision Medicine
+  url: https://projectreporter.nih.gov/project_info_description.cfm?aid=9394127&icde=39934490
+  summary: The proposed research is relevant to public health by seeking to improve symptoms for patients with inflammatory bowel diseases, which are chronic, life-long conditions with waxing and waning symptoms. Developing novel statistical and visualization methods to provide a more nuanced understanding of the precise relationship between physical activity and sleep to disease activity is relevant to BD2K's mission.
+  start: September 2017
+  end: June 2020
+  role: Co-Investigator
