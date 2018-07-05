@@ -1,5 +1,5 @@
 ---
-title: Danielle Nguyen, Sabrina Nusrat, and Theresa Harbig Joining the Lab
+title: Gehlenborg Lab will present five talks at ISMB 2018
 members:
   - danielle-nguyen
   - peter-kerpedjiev
