@@ -2,6 +2,7 @@
 title: Danielle Nguyen, Sabrina Nusrat, and Theresa Harbig Joining the Lab
 members:
   - danielle-nguyen
+  - peter-kerpedjiev
   - sabrina-nusrat
   - theresa-harbig
   - fritz-lekschas
