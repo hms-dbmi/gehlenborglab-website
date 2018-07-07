@@ -50,7 +50,7 @@ layout: docs
         {% for project in media.projects %}
           {% if project == id %}
             <dt>
-              {{ media.outlet }} ({{ media.date }}):
+              <b>{{ media.outlet }} ({{ media.date }}) - </b>
               <a href="{{ media.url }}">{{ media.title }}</a>
             </dt>
             <dd>
