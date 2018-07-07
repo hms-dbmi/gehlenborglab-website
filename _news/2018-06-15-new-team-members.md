@@ -1,5 +1,5 @@
 ---
-title: Welcome to Trevor Manz, Angela Chen, and Lianhua Chi
+title: Welcome to Trevor Manz, Angela Chen, and Lina Chi!
 members:
   - trevor-manz
   - angela-chen
