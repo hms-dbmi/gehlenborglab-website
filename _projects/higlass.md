@@ -3,9 +3,10 @@ name: HiGlass
 
 members:
   - peter-kerpedjiev
-  - chuck-mccallum
   - fritz-lekschas
+  - chuck-mccallum
   - danielle-nguyen
+  - angela-chen
   - nikhil-kumar
   - alaleh-ahzir
   - jacob-luber
@@ -21,8 +22,11 @@ publications:
 
 websites:
   - name: HiGlass Demo Site
-    description: Website demonstrating the capabilities of HiGlass. Includes extensive examples and documentation.
+    description: Website demonstrating the capabilities of HiGlass.
     url: http://higlass.io
+  - name: HiGlass Documentation
+    description: User and developer documentations for HiGlass.
+    url: http://docs.higlass.io/
 
 github_repositories:
   - name: HiGlass Client
@@ -31,7 +35,7 @@ github_repositories:
   - name: HiGlass Server
     description:
     url: https://github.com/hms-dbmi/higlass-server
-  - name: HiGlass Docker
+ - name: HiGlass Docker
     description:
     url: https://github.com/hms-dbmi/higlass-docker
   - name: HiGlass Website
