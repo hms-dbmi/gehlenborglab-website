@@ -2,5 +2,6 @@
 name: Cancer Genomics
 projects:
   - stratomex
-  - tcga  
+  - tcga
+  - oncothreads
 ---
