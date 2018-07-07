@@ -1,6 +1,6 @@
 ---
 name: Personal Health Data
 projects:
-  - haylos
+  - halyos
   - precision-vista
 ---
