@@ -1,4 +1,31 @@
 -
+  title: 'Nils Gehlenborg wins 2018 John Kendrew Award'
+  outlet: 'EMBL Alumni News'
+  date: '2018'
+  url: 'https://www.embl.it/aboutus/alumni/news/news_2018/20180302_gehlenborg/'
+  blurb: '"EMBL alumnus Nils Gehlenborg is pushing forward the visualisation of complex genomic and clinical datasets with highly innovative contributions."'
+  members:
+    - nils-gehlenborg
+  projects:
+-
+  title: 'Data Visualization Innovations in Life Sciences and Drug Discovery'
+  outlet: 'Technology Networks'
+  date: '2018'
+  url: 'https://www.technologynetworks.com/informatics/articles/data-visualization-innovations-in-life-sciences-and-drug-discovery-296360'
+  blurb: '"Data visualization makes its comeback — from static plots to storytelling."'
+  members:
+    - nils-gehlenborg
+  projects:
+-
+  title: 'The most popular genes in the human genome'
+  outlet: 'Nature'
+  date: '2017'
+  url: 'https://www.nature.com/articles/d41586-017-07291-9'
+  blurb: '"Peter Kerpedjiev needed a crash course in genetics. A software engineer with some training in bioinformatics, he was pursuing a PhD and thought it would really help to know some fundamentals of biology. If I wanted to have an intelligent conversation with someone, what genes do I need to know about? he wondered."'
+  members:
+    - peter-kerpedjiev
+  projects:
+-
   title: 'TechBlog: HiPiler simplifies chromatin structure analysis'
   outlet: 'Nature News'
   date: '2017'
