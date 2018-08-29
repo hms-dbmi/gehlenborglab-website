@@ -18,7 +18,7 @@ collaborators:
   - peter-park
 
 publications:
-  - kerpedjiev-2017-biorxiv
+  - kerpedjiev-2018-genome-biology
 
 websites:
   - name: HiGlass Demo Site
