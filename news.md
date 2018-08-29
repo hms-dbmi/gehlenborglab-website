@@ -5,7 +5,7 @@ permalink: /news/
 ---
 ## News
 
-{% assign latest_news = site.news | reverse | slice: 0,5 %}
+{% assign latest_news = site.news | reverse %}
 {% assign end_year = latest_news[0].date | date: "%Y" %}
 {% assign start_year = latest_news[-1].date | date: "%Y" %}
 {% assign years = (start_year..end_year) | reverse %}
