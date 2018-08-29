@@ -1,5 +1,5 @@
 ---
-title: HiGlass Released and Preprint Posted
+title: HiGlass Published in Genome Biology
 members:
   - peter-kerpedjiev
   - fritz-lekschas
