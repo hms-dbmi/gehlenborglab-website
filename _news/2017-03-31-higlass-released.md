@@ -7,7 +7,7 @@ members:
   - chuck-mccallum
   - nils-gehlenborg
 publications:
-  - kerpedjiev-2017-biorxiv
+  - kerpedjiev-2018-genome-biology
 blurb: HiGlass is a web-based exploration tool for Hi-C and other genomic interaction maps that provides multi-scale and comparative visualizations.
 ---
 
