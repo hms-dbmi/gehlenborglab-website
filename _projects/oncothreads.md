@@ -11,7 +11,7 @@ collaborators:
 
 websites:
   - name: Demo
-    url: http://onco-app.s3-website-us-east-1.amazonaws.com/
+    url: http://oncothreads.gehlenborglab.org/
 
 github_repositories:
   - name: OncoThreads
