@@ -30,6 +30,9 @@ grants:
   - nih_r00hg007583
   - hsci_csbi
 
+gallery:
+  refinery-satori.png: 'Refinery has a cool tool called Satori'
+
 blurb: A cloud-based data management, analysis, and visualization platform for reproducible biomedical research.
 ---
 The Refinery Platform is a cloud-based data visualization and analysis system powered by an ISA-Tab-compatible data repository for public and private data sets. Analyses are implemented as Galaxy workflows and executed through the Galaxy API.
