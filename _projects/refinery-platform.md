@@ -33,6 +33,7 @@ grants:
 gallery:
   refinery-satori.png: 'Refinery has a cool tool called Satori'
   refinery-analyses.png: 'One can run multiple analysis workflows through Refinery backed by the popular Galaxy system'
+  refinery-provenance.png: 'Refinery has a provenance graph visualization feature'
 
 blurb: A cloud-based data management, analysis, and visualization platform for reproducible biomedical research.
 ---
