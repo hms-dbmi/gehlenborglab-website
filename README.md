@@ -27,3 +27,6 @@ This workaround should do the trick:
 ```
 sudo gem install nokogiri -v '1.6.8.1' -- --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libxml2 --use-system-libraries
 ```
+
+If you run into an error like: `./post-build.sh: line 8: convert: command not found` you will need to install [`ImageMagick`](https://www.imagemagick.org/script/index.php).
+If you use Homebrew you can run the following command: `brew install imagemagick`
