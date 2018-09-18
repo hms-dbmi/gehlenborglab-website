@@ -13,9 +13,9 @@ resources:
 grants:
 
 gallery:
-  consent.png: 'The current surgical informed process has many limitations that lead to many non-beneficial outcomes.'
-  sdm.png: 'Data-Driven Visual Consent will aid in shared decision making by allowing patients to take an active role in planning their treatment.'
-  process.png: 'Using AI and patient preferences to calculate a patient's personalized risk score, the application will render an intuitive visualization of the risks associated with the surgical outcomes.'
+  sdm.png: 'Data-Driven Visual Consent will aid in shared decision making by allowing patients to take an active role in treatment planning.'
+  consent.png: 'The current surgical informed process has many limitations that may lead to non-beneficial outcomes.'
+  process.png: 'The application utilizes machine learning to calculate risk and renders a visualization based on patient preferences.'
 
 blurb: Data-Driven Visual consent is a tool for patients to understand the risk of pursuing a surgical intervention. The application calculates personalized risk scores using patient data and preferences and renders an intuitive visualization.
 
