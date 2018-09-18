@@ -58,7 +58,7 @@ grants:
   - nih_r00hg007583
 
 gallery:
-  higlass-multivec.png: 'HiGlasss now supports multi-vector data, shown here in a stacked bar track view.'
+  higlass-multivec.png: 'HiGlass now supports multi-vector data, shown here in a stacked bar track view.'
 
 blurb:
   - HiGlass is a tool for exploring genomic contact matrices and tracks. It can be configured to explore and compare contact matrices across multiple scales.
