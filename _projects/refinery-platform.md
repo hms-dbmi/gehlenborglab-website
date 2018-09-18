@@ -31,9 +31,9 @@ grants:
   - hsci_csbi
 
 gallery:
-  refinery-satori.png: 'Refinery has a cool tool called Satori'
-  refinery-analyses.png: 'One can run multiple analysis workflows through Refinery backed by the popular Galaxy system'
-  refinery-provenance.png: 'Refinery has a provenance graph visualization feature'
+  refinery-satori.png: 'Refinery incorporates the Satori tool for ontology-guided visual exploration of DataSets within the system'
+  refinery-provenance.png: 'Refinery provides a visualization that gives users an interface to see the provenance of a given DataSet and its data files'
+  refinery-analyses.png: 'One can run multiple types of analysis workflows through Refinery backed by the popular Galaxy system'
   refinery-dashboard.png: 'Refinery has a dashboard that allows a user to view DataSet, Group, and Event information'
 
 blurb: A cloud-based data management, analysis, and visualization platform for reproducible biomedical research.
