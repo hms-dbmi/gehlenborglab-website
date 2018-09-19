@@ -20,6 +20,12 @@ collaborators:
 publications:
   - kerpedjiev-2018-genome-biology
 
+gallery:
+  higlass.png: 'HiGlass provides synchronized navigation of multiple views showing matrices from different experimental conditions, types or cell lines.'
+  higlass-red-diagonal.png: 'Visualizations in HiGlass are highly customizeable with a variety of track types available for displaying genomic contact and other data.'
+  higlass-tad-callers.png: 'A comparison of the outputs of seven different TAD callers, shown in HiGlass.'
+  higlass-detail-overview.png: 'Customizeable view linking lets users dynamically create detail-overview arrangements for comparing datasets at varying scales.'
+
 websites:
   - name: HiGlass Demo Site
     description: Website demonstrating the capabilities of HiGlass.

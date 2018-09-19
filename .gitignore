@@ -5,4 +5,6 @@ _site/
 node_modules
 .idea
 package-lock.json
+*.swp
+*.un~
 _projects/.Rhistory
