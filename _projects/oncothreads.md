@@ -23,8 +23,8 @@ docker_repositories:
 grants:
 
 gallery:
-  OncoThreads-default.png: 'Longitudinal data visualization of samples taken in different timepoints'
-  OncoThreads-global.png: 'Global view of actual timeline of samples and treatments for each patient'
+  OncoThreads-default.png: 'Longitudinal data visualization of samples taken in different timepoints.'
+  OncoThreads-global.png: 'Global view of actual timeline of samples and treatments for each patient.'
   OncoThreads-group.png: 'Within each timepoint and treatment block, samples can be grouped to show proportions of patients with a particular attribute value.'
 
   
