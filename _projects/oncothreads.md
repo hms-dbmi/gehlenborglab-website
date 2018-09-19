@@ -11,7 +11,7 @@ collaborators:
 
 websites:
   - name: Demo
-    url: http://onco-app.s3-website-us-east-1.amazonaws.com/
+    url: http://oncothreads.gehlenborglab.org/
 
 github_repositories:
   - name: OncoThreads
@@ -21,6 +21,13 @@ github_repositories:
 docker_repositories:
 
 grants:
+
+gallery:
+  OncoThreads-default.png: 'Longitudinal data visualization of samples taken in different timepoints.'
+  OncoThreads-global.png: 'Global view of actual timeline of samples and treatments for each patient.'
+  OncoThreads-group.png: 'Within each timepoint and treatment block, samples can be grouped to show proportions of patients with a particular attribute value.'
+
+  
 
 blurb: "OncoThreads is a visualization tool for longitudinal cancer genomics data."
 ---
