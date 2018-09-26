@@ -40,10 +40,13 @@ img.thumb {
   padding: 0.2em
 }
 
-table.publications td {
+table.publications td, table.projects td {
   border: none;
   padding-right: 0.2em;
   vertical-align:top;
+  h4 {
+    margin-top: 0; // So top of title matches top of image.
+  }
   img {
     width: 120px; // Match image file width
   }
