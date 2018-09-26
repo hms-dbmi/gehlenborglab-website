@@ -11,6 +11,9 @@ github_repositories:
     description:
     url: https://github.com/refinery-platform/django_docker_engine
 
+gallery:
+  django-docker.png: 'Components of django_docker_engine'
+
 blurb:
   - django-docker-engine is a Django app that manages the creation of, and proxies requests to, Docker containers. 
 ---
