@@ -12,6 +12,9 @@ websites:
     description: Website demonstrating the functionality of Halyos for a sample patient. All data is synthetic.
     url: http://halyos.gehlenborglab.org/
 
+gallery:
+  halyos.png: Screenshot
+
 github_repositories:
   - name: Halyos
     description: All code for Halyos is publicly available.

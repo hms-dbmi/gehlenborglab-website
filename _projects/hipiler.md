@@ -22,6 +22,9 @@ github_repositories:
     description: A tool to tile 1D and 2D genomic data sets for use with HiGlass and HiPiler.
     url: https://github.com/hms-dbmi/clodius
 
+gallery:
+  hipiler.png: Screenshot
+
 docker_repositories:
 
 grants:

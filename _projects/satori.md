@@ -16,6 +16,9 @@ websites:
     description: 
     url: http://satori.cloud.refinery-platform.org/#/
 
+gallery:
+  satori.png: Screenshot
+
 github_repositories:
   - name: Refinery Ontology Imports
     description: Batch import of ontology definition files into Refinery.
