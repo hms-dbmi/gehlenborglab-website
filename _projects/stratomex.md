@@ -22,6 +22,9 @@ websites:
     description: Prototype for a web-based StratomeX with Vistories support.
     url: https://stratomex.caleydoapp.org/
 
+gallery:
+  stratomex.png: Screenshot
+
 github_repositories:
   - name: Caleydo Core
     description: Repository for all Caleydo standalone tools and plugins.

@@ -20,6 +20,9 @@ websites:
     description: A web-based app to generate basic UpSetR plots.
     url: https://gehlenborglab.shinyapps.io/upsetr/
 
+gallery:
+  upsetr.png: Screenshot
+  
 github_repositories:
   - name: UpSetR
     description:
