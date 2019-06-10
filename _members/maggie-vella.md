@@ -1,13 +1,14 @@
 ---
-title: Maggie Vella
-name_degree: Maggie Vella, BA
+title: Margaret Vella
+name_degree: Margaret Vella, BS
 
 photo: placeholder.png
 
 job_title: Administrative and Research Assistant
 role: administration
 
-start: ???
+start: November 2018
 end:
 ---
-Maggie is assisting Nils with a wide range of administrative and research-related tasks and generally makes sure that everything is running smoothly.
+Margaret is the Project Manager for the Harvard Medical School HIVE Tools Component of HuBMAP.
+She works closely with Dr. Gehlenborg to ensure project milestones and collaborative efforts remain on track.
