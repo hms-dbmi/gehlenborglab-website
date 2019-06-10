@@ -3,8 +3,10 @@ name: Vitessce
 
 members:
   - nils-gehlenborg
-  - peter-kharchenko
   - chuck-mccallum
+
+collaborators:
+  - peter-kharchenko
 
 resources:
   website: http://vitessce.io/
