@@ -1,13 +1,13 @@
 ---
 title: Theresa Anisja Harbig
-name_degree: Theresa Anisja Harbig, BSc
+name_degree: Theresa Anisja Harbig, MSc
 
 photo: Theresa_Harbig.jpeg
 
-job_title: Visiting Graduate Student in Biomedical Informatics
-role: visitor
+job_title: Research Associate
+role: postdoc
 
-start: February 2018
-end: July 2018
+start: October 2018
+end:
 ---
-Theresa is a visiting student from Germany. She is currently completing her Master's in Bioinformatics with an emphasis on data visualization at Tuebingen University.
+Theresa received her Master's degree in Bioinformatics from the University of Tuebingen in 2018. Her main research interest is the development of techniques for the visualization of biological data, such as genomic or metagenomic data. Currently, she is working on the development of OncoThreads, a tool for the visualization of longitudinal cancer genomics data. Moreover, she is reviewing existing literature on techniques for genomic data visualization in order to develop taxonomies and tool recommendations. 
