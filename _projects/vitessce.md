@@ -4,6 +4,7 @@ name: Vitessce
 members:
   - nils-gehlenborg
   - chuck-mccallum
+  - margaret-vella
 
 collaborators:
   - peter-kharchenko
