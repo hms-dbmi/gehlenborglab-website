@@ -9,7 +9,7 @@ sidenav:
 subnav:
   - text: Principal Investigator
     href: '#pi'
-  - text: Postdoctoral Fellows
+  - text: Researchers
     href: '#postdoc'
   - text: Software Developers
     href: '#software_developer'
@@ -24,7 +24,7 @@ subnav:
 ---
 ## Team
 
-{% assign roles = 'pi:Principal Investigator/administration:Administration/postdoc:Postdoctoral Fellows/software_developer:Software Developers/student:Students/visitor:Visitors' | split: '/' %}
+{% assign roles = 'pi:Principal Investigator/administration:Administration/postdoc:Researchers/software_developer:Software Developers/student:Students/visitor:Visitors' | split: '/' %}
 
 {% for role in roles %}
 {% assign pair = role | split: ':' %}
