@@ -56,7 +56,7 @@ github_repositories:
 docker_repositories:
   - name: HiGlass Container
     description: 
-    url: https://hub.docker.com/r/gehlenborglab/higlass/
+    url: https://hub.docker.com/r/higlass/higlass-docker/
   - name: Clodius Container
     description: 
     url: https://hub.docker.com/r/gehlenborglab/clodius
