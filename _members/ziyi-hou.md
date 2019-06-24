@@ -7,6 +7,9 @@ photo: ziyi-hou.jpg
 job_title: Graduate Student in Biomedical Informatics
 role: student
 
+services:
+  github: https://github.com/hms-dbmi/map-explorer
+  
 start: January 2019
 end:
 ---
