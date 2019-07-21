@@ -30,7 +30,7 @@ theme: "jekyll-uswds"
 styles:
   - /assets/main.css
 sass:
-    sass_dir: _sass  
+    sass_dir: _sass
 gems:
   - jekyll-feed
 exclude:
@@ -55,6 +55,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  positions:
+    output: true
+    permalink: /team/:collection/:path/
   news:
     output: true
     permalink: /:collection/:path/
@@ -74,6 +77,11 @@ defaults:
       type: projects
     values:
       layout: project
+  - scope:
+      path: ""
+      type: positions
+    values:
+      layout: position
   - scope:
       path: ""
       type: members

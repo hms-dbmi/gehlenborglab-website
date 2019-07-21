@@ -1,0 +1,11 @@
+<ul>
+{% for project_id in page.project %}
+  {% assign project_url = '/research/projects/' | append: project_id | append: '/' %}
+  {% assign projects = site.projects | where: "url", project_url %}
+  {% if projects.size == 1 %}
+    <li><a href="{{ projects[0].url }}">{{ projects[0].name }}</a></li>
+  {% else %}
+    <ERROR "{{ project_id }}" matches "{{ projects.size }}"/>
+  {% endif %}
+{% endfor %}
+</ul>
