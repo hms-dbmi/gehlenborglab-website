@@ -5,7 +5,7 @@ name_degree: Undina Gisladottir, BS
 photo: undina-gisladottir.jpg
 
 job_title: Research Associate
-role: student
+role: postdoc
 
 start: June 2018
 end:
