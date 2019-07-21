@@ -5,7 +5,7 @@ name_degree: Peter Kerpedjiev, PhD
 photo: peter-kerpedjiev.png
 
 job_title: Research Fellow in Biomedical Informatics
-role: postdoc
+role: alumni
 
 services:
   github: https://github.com/pkerpedjiev
