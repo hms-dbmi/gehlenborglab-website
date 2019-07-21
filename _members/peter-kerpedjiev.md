@@ -9,8 +9,8 @@ role: postdoc
 
 services:
   github: https://github.com/pkerpedjiev
-  
+
 start: April 2016
-end: 
+end: November 2018
 ---
-Peter is currently a Postdoctoral Fellow in the lab of Nils Gehlenborg at Harvard Medical School. Previously, he was a PhD student working on modelling the tertiary structure of RNA molecules at the Theoretical Biochemistry Group at the University of Vienna.
+Peter was a Postdoctoral Fellow in the lab of Nils Gehlenborg at Harvard Medical School. Previously, he was a PhD student working on modelling the tertiary structure of RNA molecules at the Theoretical Biochemistry Group at the University of Vienna.
