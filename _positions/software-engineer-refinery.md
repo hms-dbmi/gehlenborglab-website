@@ -5,8 +5,6 @@ title: Software Engineer - Refinery Platform
 
 project:
   - refinery-platform
-
-permalink: /team/position/software-engineer-refinery-platform
 ---
 We are looking to hire a Software Engineer to join the Gehlenborg Lab to participate in the development of the [Refinery Platform](https://github.com/refinery-platform) for data visualization, management, and analysis, as well as the [Harvard Stem Cell Commons](https://hsci.stemcellcommons.org).
 
