@@ -2,8 +2,6 @@
 layout: position
 
 title: Postdoctoral Fellow
-
-permalink: /team/position/postdoctoral-fellow
 ---
 If your experience and skills are a good fit for our research interests but you don't see an open position that fits your interests, please don't hesitate to contact us. We are often able to find funding for applicants with strong background in our area of expertise.
 

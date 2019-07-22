@@ -6,8 +6,6 @@ title: Postdoctoral Fellow - Cancer Epigenome Visualization
 project:
   - higlass
   - hipiler
-
-permalink: /team/position/postdoctoral-fellow-cancer-epigenome-visualization
 ---
 We are hiring a Postdoctoral Fellow to join the Gehlenborg Lab to develop novel visualization methods and tools for the [Cistrome](http://cistrome.org) project. This project is highly interdisciplinary and being conducted in close cooperation with the group of X Shirley Liu at the Dana Farber Cancer Institute, providing an excellent opportunity for collaborative research.
 

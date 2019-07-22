@@ -5,8 +5,6 @@ title: Senior Data Curator - Human BioMolecular Atlas Program (HuBMAP)
 
 project:
   - vitessce
-
-permalink: /team/position/senior-data-curator-hubmap
 ---
 We are hiring a Senior Data Curator to join the Gehlenborg Lab to lead data curation efforts in the NIH Human BioMolecular Atlas Program (HuBMAP).
 
