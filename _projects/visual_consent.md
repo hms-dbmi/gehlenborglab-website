@@ -4,6 +4,7 @@ name: Data-Driven Visual Consent
 members:
   - nils-gehlenborg
   - undina-gisladottir
+  - drashko-nakikj
 
 collaborators:
   - gabriel-brat

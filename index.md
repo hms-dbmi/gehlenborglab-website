@@ -7,8 +7,8 @@ layout: landing
 hero:
   image: /assets/img/site/hero_backbay.jpg
   callout:
-    alt: "We are hiring!"
-    text: Postdocs in genomics and visualization wanted now.
+    alt: "New positions!"
+    text: Postdocs, curators, and software engineers wanted now.
   button:
     href: /team/open-positions/
     text: View position details
@@ -30,10 +30,9 @@ intro: |
   {% for news in latest_news %}
     <h3>{{ news.title }}</h3>
       <p>
-        <b>{{ news.date | date: "%-d %B %Y" }}</b> | 
+        <b>{{ news.date | date: "%-d %B %Y" }}</b> |
         {{ news.blurb }} <a href="{{news.url}}">More ...</a>
       </p>
   {% endfor %}
   </div>
 </div>
-

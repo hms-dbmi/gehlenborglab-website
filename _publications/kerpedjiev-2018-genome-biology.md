@@ -8,7 +8,7 @@ members:
   - chuck-mccallum
   - scott-ouellette
   - nikhil-kumar
-  - alaleh-ahzir
+  - alaleh-azhir
   - jacob-luber
   - nils-gehlenborg
 
