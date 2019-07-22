@@ -8,7 +8,7 @@ members:
   - danielle-nguyen
   - angela-chen
   - nikhil-kumar
-  - alaleh-ahzir
+  - alaleh-azhir
   - jacob-luber
   - nils-gehlenborg
 
@@ -55,10 +55,10 @@ github_repositories:
 
 docker_repositories:
   - name: HiGlass Container
-    description: 
+    description:
     url: https://hub.docker.com/r/higlass/higlass-docker/
   - name: Clodius Container
-    description: 
+    description:
     url: https://hub.docker.com/r/gehlenborglab/clodius
 
 grants:

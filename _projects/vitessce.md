@@ -5,6 +5,8 @@ members:
   - nils-gehlenborg
   - chuck-mccallum
   - margaret-vella
+  - thomas-chan
+  - mark-keller
 
 collaborators:
   - peter-kharchenko
@@ -22,4 +24,4 @@ gallery:
 blurb: Visual Integration Tool for Exploration of Spatial Single-Cell Experiments
 ---
 
-Vitessce is a demo of key concepts for a visual integration tool for exploration of (spatial) single-cell experiment data. This demo focusses on scalable, linked visualizations that support both spatial and non-spatial representation of cell-level and molecule-level data.
+Vitessce is a framework and visual integration tool for exploration of (spatial) single-cell experiment data. This demo focusses on scalable, linked visualizations that support both spatial and non-spatial representation of cell-level and molecule-level data.

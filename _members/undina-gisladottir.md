@@ -1,6 +1,6 @@
 ---
 title: Undina Gisladottir
-name_degree: Undina Gisladottir, BS
+name_degree: Undina Gisladottir, BS, MBI
 
 photo: undina-gisladottir.jpg
 
