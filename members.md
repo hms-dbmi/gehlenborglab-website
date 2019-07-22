@@ -1,7 +1,10 @@
 ---
-layout: docs
+layout: landing
 title: Team Members
 permalink: /team/members/
+
+hero:
+  image: /assets/img/site/hero_team.jpg
 
 sidenav:
   - text: Team
@@ -9,14 +12,14 @@ sidenav:
 subnav:
   - text: Principal Investigator
     href: '#pi'
+  - text: Administration
+    href: '#administration'
   - text: Researchers
     href: '#postdoc'
   - text: Software Developers
     href: '#software_developer'
   - text: Students
     href: '#student'
-  - text: Administration
-    href: '#administration'
   - text: Alumni
     href: '#alumni'
   - text: Collaborators

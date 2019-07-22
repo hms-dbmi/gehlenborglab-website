@@ -1,7 +1,10 @@
 ---
-layout: docs
+layout: landing
 
 title: Open Positions
+
+hero:
+  image: /assets/img/site/hero_team.jpg
 
 permalink: /team/open-positions/
 ---
