@@ -2,7 +2,7 @@
 title: Margaret Vella
 name_degree: Margaret Vella, BS
 
-photo: placeholder.png
+photo: margaret-vella.jpg
 
 job_title: Project Manager
 role: administration
