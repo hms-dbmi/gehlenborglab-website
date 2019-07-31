@@ -1,5 +1,7 @@
 # gehlenborglab-website [![Build Status](https://travis-ci.org/hms-dbmi/gehlenborglab-website.svg?branch=master)](https://travis-ci.org/hms-dbmi/gehlenborglab-website)
 
+(Need to set up your own Travis/Jekyll/S3 site? See [generate-static-site](https://github.com/hms-dbmi/generate-static-site).)
+
 The Gehlenborg Lab website uses Jekyll plugins beyond those supported by GitHub Pages.
 Instead, when the master branch is updated, Travis builds `_site` and pushes it
 to the appropriate S3 bucket. For local development:
