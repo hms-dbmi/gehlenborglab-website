@@ -5,7 +5,7 @@
 layout: landing
 
 hero:
-  image: /assets/img/site/hero_backbay.jpg
+  image: /assets/img/site/hero-gordonhall.jpg
   callout:
     alt: "New positions!"
     text: Postdocs, curators, and software engineers wanted now.
@@ -18,7 +18,7 @@ tagline: Data visualization to drive discovery.
 intro: |
   The Gehlenborg Lab in the [Department of Biomedical Informatics](http://dbmi.hms.harvard.edu) at [Harvard Medical School](http://hms.harvard.edu) is a group of data scientists and software developers who are passionate about driving biomedical discovery by creating efficient and effective visual interfaces between analysts and data. We focus on the development of visual analysis tools for genomic and other biomedical data to address challenges in basic and applied research. We are particularly interested in applying our approaches in cancer genomics, epigenomics, and chromosome conformation studies.
 
-  The most recent results of our work can always be found on the [bioRxiv](http://biorxiv.org/search/author1%3ANils%2BGehlenborg) and on [GitHub](https://github.com/search?utf8=%E2%9C%93&q=topic%3Agehlenborglab&type=Repositories).
+  The most recent results of our work can always be found on [bioRxiv](http://biorxiv.org/search/author1%3ANils%2BGehlenborg), [arXiv](https://arxiv.org/search/?query=gehlenborg&searchtype=author&source=header) and on [GitHub](https://github.com/search?utf8=%E2%9C%93&q=topic%3Agehlenborglab&type=Repositories).
 ---
 
 <div class="usa-grid-full">
