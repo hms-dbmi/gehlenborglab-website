@@ -5,7 +5,7 @@ name_degree: Mark Keller
 photo: placeholder.png
 
 job_title: DBMI Summer Institute Intern
-role: student
+role: alumni
 
 services:
   github: https://github.com/keller-mark
