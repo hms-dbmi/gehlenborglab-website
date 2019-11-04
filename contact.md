@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: home
 permalink: /contact/
 title: Contact Us
 hero:

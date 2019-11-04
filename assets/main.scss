@@ -18,7 +18,7 @@ $image-path: 'uswds/img';
 
 .usa-logo {
   a {
-    color: $color-primary-darker;
+    color: $color-primary-darkest;
   }
 }
 
@@ -27,16 +27,16 @@ $image-path: 'uswds/img';
 }
 
 .usa-footer-primary-section {
-  //background-color: $color-white;
-  //border-top: 1px $color-gray-light solid;
+  background-color: $color-white;
 }
 
 .usa-footer-secondary_section {
-  //background-color: $color-white;
+  border-top: 1px $color-gray-light solid;
+  background-color: $color-white;
 }
 
 img.thumb {
-  border: 2px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 0.2em
 }
 
@@ -55,4 +55,16 @@ table.publications td, table.projects td, table.positions td {
     // which we don't really need in this context.
     margin: 0;
   }
+}
+
+.usa-footer-contact-links {
+  text-align: left;
+  font-size: $small-font-size;
+}
+
+dt.media-mention {
+  line-height: $base-line-height;
+}
+dd.media-mention p {
+  font-size: $small-font-size;
 }

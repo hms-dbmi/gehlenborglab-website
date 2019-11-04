@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 title: Publications
 permalink: /publications/
 ---
@@ -19,7 +19,7 @@ permalink: /publications/
 {% assign sorted = site.publications | sort: 'year' | reverse %}
 {% for publication in sorted %}
   {% if publication.type != 'preprint' %}
-  
+
     {% if publication.year != prev_year %}
       <tr><td colspan="2">
         <h2>{{ publication.year }}</h2>

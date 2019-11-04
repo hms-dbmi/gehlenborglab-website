@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: home
 title: Team Members
 permalink: /team/members/
 
@@ -14,7 +14,7 @@ subnav:
     href: '#pi'
   - text: Administration
     href: '#administration'
-  - text: Researchers
+  - text: Postdoctoral Fellows
     href: '#postdoc'
   - text: Software Developers
     href: '#software_developer'
@@ -27,11 +27,10 @@ subnav:
 ---
 ## Team
 
-{% assign roles = 'pi:Principal Investigator/administration:Administration/postdoc:Researchers/software_developer:Software Developers/student:Students/visitor:Visitors' | split: '/' %}
+{% assign roles = 'pi:Principal Investigator/administration:Administration/postdoc:Postdoctoral Fellows/student:Students/software_developer:Software Developers' | split: '/' %}
 
 {% for role in roles %}
 {% assign pair = role | split: ':' %}
-<div class="usa-grid-full">
 <h3 id="{{pair[0]}}">{{pair[1]}}</h3>
 <ul>
 {% for member in site.members %}
@@ -40,11 +39,8 @@ subnav:
 {% endif %}
 {% endfor %}
 </ul>
-<br>
-</div>
 {% endfor %}
 
-<div class="usa-grid-full">
 <h3 id="alumni">Alumni</h3>
 <ul>
 {% for member in site.members %}
@@ -53,15 +49,10 @@ subnav:
 {% endif %}
 {% endfor %}
 </ul>
-<br>
-</div>
 
-<div class="usa-grid-full">
 <h3 id="collaborators">Collaborators</h3>
 <ul>
 {% for member in site.data.collaborators %}
 <li><a href="{{member[1].url}}">{{ member[1].title }}</a><br>{{member[1].affiliation}}</li>
 {% endfor %}
 </ul>
-<br>
-</div>

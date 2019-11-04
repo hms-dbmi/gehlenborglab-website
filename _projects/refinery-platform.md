@@ -3,12 +3,13 @@ name: Refinery Platform
 
 members:
   - nils-gehlenborg
-  - scott-ouellette
   - jennifer-marx
+  - ilan-gold
   - chuck-mccallum
+  - scott-ouellette
   - stefan-luger
-  - jeremy-liu
   - anton-xue
+  - jeremy-liu
 
 collaborators:
   - shannan-ho-sui

@@ -1,13 +1,40 @@
 ---
-layout: docs
+layout: page
 ---
 {% assign id = page.url | split: '/' | last %}
 <h2>{{ page.name_degree }}</h2>
-<h6>{{ page.job_title }}</h6>
 
 <div class="usa-grid-full">
+  <aside class="usa-width-one-third">
+    <div>
+      <img src="/assets/img/members/{{ page.photo }}">
+    </div>
+
+    <br>
+    <div id="services">
+      {% for service in page.services %}
+        <a href="{{ service[1] }}"><img style="height: 32px" src="/assets/img/services/{{ service[0] }}.png"></a>
+        &nbsp;
+      {% endfor %}
+    </div>
+
+    <h3 id="projects">Projects</h3>
+    <ul>
+    {% for project in site.projects %}
+      {% for member in project.members %}
+        {% if member == id %}
+          <li><a href="{{ project.url }}">{{ project.name }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ul>
+
+  </aside>
+
   <div class="usa-width-two-thirds">
     <h3 id="biography">Biography</h3>
+    <h6>{{ page.job_title }}</h6>
+    
     {{ content }}
 
     {% capture news_list %}
@@ -31,12 +58,14 @@ layout: docs
       {% for media in site.data.media %}
         {% for member in media.members %}
           {% if member == id %}
-            <dt>
-              <b>{{ media.outlet }} ({{ media.date }}) - </b>
+            <dt class="media-mention">
+              <b>{{ media.outlet }}</b> ({{ media.date }})<br>
               <a href="{{ media.url }}">{{ media.title }}</a>
             </dt>
-            <dd>
+            <dd class="media-mention">
+              <p>
               {{ media.blurb }}
+              </p>
             </dd>
           {% endif %}
         {% endfor %}
@@ -68,30 +97,4 @@ layout: docs
     {% endif %}
   </div>
 
-  <aside class="usa-width-one-third">
-    
-    <div>
-      <img src="/assets/img/members/{{ page.photo }}">
-    </div>
-
-    <br>
-    <div id="services">
-      {% for service in page.services %}
-        <a href="{{ service[1] }}"><img style="height: 32px" src="/assets/img/services/{{ service[0] }}.png"></a>
-        &nbsp;
-      {% endfor %}
-    </div>
-
-    <h3 id="projects">Projects</h3>
-    <ul>
-    {% for project in site.projects %}
-      {% for member in project.members %}
-        {% if member == id %}
-          <li><a href="{{ project.url }}">{{ project.name }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    </ul>
-
-  </aside>
 </div>
