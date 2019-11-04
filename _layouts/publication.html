@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: page
 ---
 {% assign id = page.url | split: '/' | last %}
 
@@ -21,7 +21,7 @@ layout: docs
     {% capture citation %}{{ page.cite.authors }}. “{{ page.title }}” {{ page.cite.published }} ({{ page.year }}).{% endcapture %}
     {{ citation | markdownify }}
     <!-- If we markdownify just one field, it is wrapped by <p> -->
-    
+
     {% if page.publisher %}
       <h3>Publisher URL</h3>
       <a href="{{ page.publisher }}">{{ page.publisher }}</a>

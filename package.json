@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "uswds": "1.2.1"
+    "bitters": "^3.0.0",
+    "bourbon": "^6.0.0",
+    "uswds": "^1.2.1"
   },
   "private": true
 }

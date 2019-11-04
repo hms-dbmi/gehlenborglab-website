@@ -16,7 +16,7 @@
 title: Gehlenborg Lab
 email: nils@hms.harvard.edu
 description: >
-  Data scientists and software developers who are passionate about driving biomedical
+  We are a team of data scientists and software developers who are passionate about driving biomedical
   discovery by creating efficient and effective visual interfaces between analysts and data.
 baseurl: ""
 # TODO: Is url used for anything? Always confusing when demo site points to the live one.
@@ -26,7 +26,7 @@ github_username:  ngehlenborg
 
 # Build settings
 markdown: kramdown
-theme: "jekyll-uswds"
+theme: "uswds-jekyll"
 styles:
   - /assets/main.css
 sass:
