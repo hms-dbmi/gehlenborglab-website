@@ -1,5 +1,6 @@
 ---
 title: "Interactive visual pattern search in sequential data using unsupervised deep representation learning"
+image: peax.png
 
 members:
   - fritz-lekschas

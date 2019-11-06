@@ -1,5 +1,6 @@
 ---
 title: "The human body at cellular resolution: the NIH Human Biomolecular Atlas Program"
+image: hubmap.png
 
 members:
   - chuck-mccallum
