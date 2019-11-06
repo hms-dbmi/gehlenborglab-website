@@ -9,7 +9,7 @@ You can either install `rvm` or:
 
 - A [tweak to `.bash_profile`](https://www.michaelehead.com/2016/02/06/installing-gems-without-sudo.html) will fix permission problems with `gem install`.
 - The default ruby version on MacOS is too old: I upgraded with `brew install ruby`,
-and following the post-install notes to update `PATH` in `.bash_profile`.
+and followed the post-install notes to update `PATH` in `.bash_profile`.
 
 With Ruby fixed, then:
 
@@ -18,6 +18,14 @@ $ gem install bundler
 $ bundle install
 $ npm install
 $ jekyll serve &
+```
+
+When Jekyll is watching the filesystem, it won't run post-processing hooks that
+generate thumbnails. You can do this manually:
+
+```
+brew install imagemagick
+./post-build.sh
 ```
 
 ## Workflow
