@@ -4,7 +4,14 @@
 
 The Gehlenborg Lab website uses Jekyll plugins beyond those supported by GitHub Pages.
 Instead, when the master branch is updated, Travis builds `_site` and pushes it
-to the appropriate S3 bucket. For local development:
+to the appropriate S3 bucket. You will need to need to have a working, up-to-date ruby environment:
+You can either install `rvm` or:
+
+- A [tweak to `.bash_profile`](https://www.michaelehead.com/2016/02/06/installing-gems-without-sudo.html) will fix permission problems with `gem install`.
+- The default ruby version on MacOS is too old: I upgraded with `brew install ruby`,
+and following the post-install notes to update `PATH` in `.bash_profile`.
+
+With Ruby fixed, then:
 
 ```
 $ gem install bundler
@@ -12,8 +19,6 @@ $ bundle install
 $ npm install
 $ jekyll serve &
 ```
-
-(The default Ruby and NPM worked for me; If you have problems, we should pin this more precisely.)
 
 ## Workflow
 
