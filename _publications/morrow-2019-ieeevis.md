@@ -1,5 +1,6 @@
 ---
 title: "Periphery Plots for Contextualizing Heterogeneous Time-Based Charts"
+image: periphery.png
 
 members:
   - trevor-manz

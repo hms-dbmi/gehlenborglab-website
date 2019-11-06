@@ -1,5 +1,6 @@
 ---
 title: "Halyos: A patient-facing visual EHR interface for longitudinal risk awareness"
+image: halyos.png
 
 members:
   - samson-mataraso
