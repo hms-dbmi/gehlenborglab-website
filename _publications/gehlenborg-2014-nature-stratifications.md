@@ -1,5 +1,6 @@
 ---
 title: "Guided Visual Exploration of Genomic Stratifications in Cancer"
+image: stratomex-diagram.jpg
 
 members:
   - nils-gehlenborg
