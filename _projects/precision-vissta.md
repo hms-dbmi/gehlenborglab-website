@@ -18,6 +18,16 @@ publications:
 grants:
   - nih_1r01eb025024
 
+websites:
+  - name: Precision VISSTA homepage
+    url: http://precisionvissta.web.unc.edu/
+  - name: Periphery Plots demo
+    url: https://precisionvissta.github.io/PeripheryPlots/
+
+github_repositories:
+  - name: Periphery Plots source code
+    url: https://github.com/PrecisionVISSTA/PeripheryPlots/
+
 blurb: An interactive visualization interface to explore time-varied mobile health and survey data, enabling precise recommendations for lifestyle modifications to improve inflammatory bowel disease (IBD) outcomes.
 ---
 
