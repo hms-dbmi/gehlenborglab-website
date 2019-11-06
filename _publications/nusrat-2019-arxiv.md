@@ -1,5 +1,6 @@
 ---
 title: "Tasks, Techniques, and Tools for Genomic Data Visualization"
+image: genomic-vis.jpg
 
 members:
   - sabrina-nusrat
