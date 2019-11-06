@@ -2,7 +2,7 @@
 title: Ilan Gold
 name_degree: Ilan Gold, BA
 
-photo: placeholder.png
+photo: ilan-gold.png
 
 job_title: Software Engineer
 role: software_developer
@@ -13,4 +13,4 @@ services:
 start: August 2019
 end:
 ---
-Ilan Gold joined the lab in August 2019.
+Ilan Gold is a software engineer with a B.A in Mathematics from the University of Pennsylvania.  He works on the backend of the Refinery Platform and enjoys learning new things, software-related and otherwise.
