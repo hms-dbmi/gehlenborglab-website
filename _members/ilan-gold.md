@@ -2,7 +2,7 @@
 title: Ilan Gold
 name_degree: Ilan Gold, BA
 
-photo: ilan-gold.png
+photo: ilan-gold.jpg
 
 job_title: Software Engineer
 role: software_developer
