@@ -11,16 +11,20 @@ collaborators:
   - peter-park
   - peter-kharchenko
 
-resources:
-  website: https://data.4dnucleome.org
-  github: https://github.com/4dn-dcic
+websites:
+  - name: 4D Nucleome Data Portal
+    url: https://data.4dnucleome.org
+
+github_repositories:
+  - name: 4DN Repos
+    url: https://github.com/4dn-dcic
 
 grants:
   - nih_u01ca200059
-  
+
 gallery:
   4dn-data-portal-browse.png: 'The 4DN DCIC data portal page lists available datasets and their associated metadata'
-  
+
 blurb: Collect, store, curate, display, and analyze data generated in the 4DN Network.
 ---
 

@@ -13,10 +13,12 @@ publications:
   - lekschas-2017-biorxiv
 
 websites:
+  - name: HiPiler Demo
+    url: http://hipiler.higlass.io/
 
 github_repositories:
   - name: HiPiler Application
-    description: 
+    description:
     url: https://github.com/flekschas/hipiler
   - name: Clodius
     description: A tool to tile 1D and 2D genomic data sets for use with HiGlass and HiPiler.
