@@ -69,6 +69,12 @@
     - nils-gehlenborg
     - jake-conway
   projects:
-    - upsetr    
-
-
+    - upsetr
+-
+  title: "What's behind a No. 1 ranking? Open-source LineUp software enables granular analysis of subjective ranking systems"
+  outlet: 'phys.org'
+  date: '2014'
+  url: 'https://phys.org/news/2014-01-open-source-lineup-software-enables-granular.html'
+  blurb: '"To shed light on the trustworthiness of rankings, Harvard researchers have created LineUp, an open-source application that empowers ordinary citizens to make quick, easy judgments about rankings based on multiple attributes."'
+  members:
+    - nils-gehlenborg
