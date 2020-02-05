@@ -1,6 +1,6 @@
 ---
 title: Trevor Manz
-name_degree: Trevor Manz, BA
+name_degree: Trevor Manz, BA, MPhil
 
 photo: trevor-manz.jpg
 
@@ -15,4 +15,4 @@ services:
 start: June 2018
 
 ---
-Trevor is a PhD candidate and NSF Graduate Research Fellow at the Department of Biomedical Informatics. He worked in the Gehlenborg lab previously and is currently finishing an MPhil in Computational Biology at the University of Cambridge. Trevor will join the lab again in Fall 2019 for the start of his PhD.
+Trevor is a PhD candidate and NSF Graduate Research Fellow at the Department of Biomedical Informatics. He is currently a rotation student in the lab working on Vitessce.
