@@ -10,6 +10,7 @@ members:
   - nikhil-kumar
   - alaleh-azhir
   - jacob-luber
+  - sehi-lyi
   - nils-gehlenborg
 
 collaborators:
