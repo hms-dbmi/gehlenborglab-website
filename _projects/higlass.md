@@ -11,6 +11,7 @@ members:
   - alaleh-azhir
   - jacob-luber
   - sehi-lyi
+  - mark-keller
   - nils-gehlenborg
 
 collaborators:
