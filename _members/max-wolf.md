@@ -7,9 +7,6 @@ photo: placeholder.png
 job_title: Curriculum Fellow in Biomedical Informatics
 role: postdoc
 
-services:
-  github: https://github.com/ilan-gold
-
 start: September 2019
 end:
 ---
