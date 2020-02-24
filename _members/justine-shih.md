@@ -5,7 +5,7 @@ name_degree: Justine Shih
 photo: placeholder.png
 
 job_title: DBMI Summer Institute Intern
-role: student
+role: alumni
 
 services:
   github: https://github.com/justineshih

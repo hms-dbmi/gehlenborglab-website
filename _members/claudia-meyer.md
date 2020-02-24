@@ -5,7 +5,7 @@ name_degree: Claudia Meyer
 photo: placeholder.png
 
 job_title: DBMI Summer Institute Intern
-role: student
+role: alumni
 
 start: June 2019
 end: August 2019

@@ -5,11 +5,11 @@ name_degree: Ziyi Hou, BS
 photo: ziyi-hou.jpg
 
 job_title: Graduate Student in Biomedical Informatics
-role: student
+role: alumni
 
 services:
   github: https://github.com/hms-dbmi/map-explorer
-  
+
 start: January 2019
 end:
 ---

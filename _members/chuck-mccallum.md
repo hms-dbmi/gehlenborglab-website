@@ -5,7 +5,7 @@ name_degree: Chuck McCallum, BA, MLIS
 photo: chuck-mccallum.jpg
 
 job_title: Software Developer
-role: software_developer
+role: staff
 
 services:
   github: https://github.com/mccalluc/
