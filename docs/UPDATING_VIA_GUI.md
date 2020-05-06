@@ -14,7 +14,7 @@ If you already have a fork, navigate to it: `https://github.com/my-username/gehl
 
 Navigate to the `_members` folder:
 
-<img alt="navigate to _members" src="/docs/img/03_members.png" width="400" />
+<img alt="navigate to _members" src="/docs/img/03_members.png" width="550" />
 
 #### Adding a lab member
 
@@ -39,11 +39,11 @@ Paste the template contents from your clipboard (Edit -> Paste).
 Edit the template to insert your information.
 
 - The information between the `---` lines must be formatted using the [YAML front matter syntax](https://jekyllrb.com/docs/front-matter/).
-- The information below the second `---` line must be formatted using [markdown syntax](https://guides.github.com/features/mastering-markdown/).
+- The information below the second `---` line (line 17 in the above image) must be formatted using [markdown syntax](https://guides.github.com/features/mastering-markdown/).
 
 When you are ready, scroll down. Click the "Create a **new branch** for this commit and start a pull request" option. Enter `firstname-lastname/details` and click the "Propose new file" button.
 
-<img alt="propose new file" src="/docs/img/08_propose_new_file.png" width="400" />
+<img alt="propose new file" src="/docs/img/08_propose_new_file.png" width="550" />
 
 The following page will appear. Click "compare across forks".
 
