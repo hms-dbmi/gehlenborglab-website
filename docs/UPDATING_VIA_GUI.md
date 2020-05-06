@@ -18,6 +18,8 @@ Navigate to the `_members` folder:
 
 [Click here](https://raw.githubusercontent.com/hms-dbmi/gehlenborglab-website/master/_members/template.md)
 to select all template contents and copy them to your clipboard (Edit -> Select All, then Edit -> Copy).
+
+
 <img alt="copy template contents" src="/docs/img/04_template_raw_copy.png" width="400" />
 
 Create a new member file
