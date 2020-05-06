@@ -44,7 +44,7 @@ git commit -m "Updated Firstname Lastname lab member details"
 Push the changes to GitHub
 
 ```sh
-git push --u origin master
+git push -u origin master
 ```
 
 Review your changes on GitHub by comparing them with the original (non-forked) `master` branch
