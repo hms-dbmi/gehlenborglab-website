@@ -41,7 +41,7 @@ Edit the template to insert your information.
 - The information between the `---` lines must be formatted using the [YAML front matter syntax](https://jekyllrb.com/docs/front-matter/).
 - The information below the second `---` line must be formatted using [markdown syntax](https://guides.github.com/features/mastering-markdown/).
 
-When you are ready, scroll down. Click the "Create a **new branch** for this commit and start a pull request" option. Enter `firstname-lastname` and click the "Propose new file" button.
+When you are ready, scroll down. Click the "Create a **new branch** for this commit and start a pull request" option. Enter `firstname-lastname/details` and click the "Propose new file" button.
 
 <img alt="propose new file" src="/docs/img/08_propose_new_file.png" width="400" />
 
@@ -75,7 +75,7 @@ Drag-and-drop or select your image file `firstname-lastname.png`
 
 Once again, follow the steps to start a pull request:
 
-Click the "Create a **new branch** for this commit and start a pull request" option. Enter `firstname-lastname` and click the "Propose changes" button.
+Click the "Create a **new branch** for this commit and start a pull request" option. Enter `firstname-lastname/photo` and click the "Propose changes" button.
 
 <img alt="propose new file" src="/docs/img/08_propose_new_file.png" width="400" />
 
