@@ -20,8 +20,7 @@ Lab member profiles live in the `_members/` folder. Each lab member has a separa
 If adding a new lab member, copy the template file to a file with your name, which you will edit to fill in your information
 
 ```sh
-cd _members
-cp template.md firstname-lastname.md # replace with your name
+cp _members/template.md _members/firstname-lastname.md # replace with your name
 ```
 
 To update your file, open it in any text editor.
@@ -29,16 +28,24 @@ To update your file, open it in any text editor.
 Run the following command to open with TextEdit on Mac
 
 ```sh
-open -a TextEdit firstname-lastname.md # replace with your name
+open -a TextEdit _members/firstname-lastname.md # replace with your name
 ```
 
 For more information about the markdown file format, please refer to [this guide](https://guides.github.com/features/mastering-markdown/).
 
-When you are finished editing the file, save it, and commit your changes
+If planning to add a photo, fill in the `photo: firstname-lastname.png` field of the file, replacing with your filename.
+
+When you are finished editing the markdown file, save it, and add it to your staged changes.
 
 ```sh
-git add firstname-lastname.md # replace with your name
-git commit -m "Updated Firstname Lastname lab member details"
+git add _members/firstname-lastname.md # replace with your name
+```
+
+To add a photo, move it to `assets/img/members/firstname-lastname.png` and stage that as well.
+
+```sh
+git add assets/img/members/firstname-lastname.png
+git commit -m "Updated Firstname Lastname photo"
 ```
 
 Push the changes to GitHub
