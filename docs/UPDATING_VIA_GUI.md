@@ -23,12 +23,15 @@ to select all template contents and copy them to your clipboard (Edit -> Select 
 <img alt="copy template contents" src="/docs/img/04_template_raw_copy.png" width="400" />
 
 Create a new member file
+
 <img alt="create members file" src="/docs/img/05_create_members_file.png" width="400" />
 
 Enter your name
+
 <img alt="enter your name" src="/docs/img/06_name_members_file.png" width="400" />
 
-Paste the template contents from your clipboard (Edit -> Paste)
+Paste the template contents from your clipboard (Edit -> Paste).
+
 <img alt="paste template contents" src="/docs/img/07_template_paste.png" width="400" />
 
 Edit the template to insert your information.
@@ -42,6 +45,7 @@ The following page will appear. Click "compare across forks".
 <img alt="click compare across forks" src="/docs/img/09_open_pr.png" width="400" />
 
 Use the first dropdown to select the option with the "hms-dbmi/" prefix.
+
 <img alt="choose hms-dbmi base repo" src="/docs/img/11_choose_base_repo.png" width="400" />
 
 Click the "Create pull request button" to finish.
