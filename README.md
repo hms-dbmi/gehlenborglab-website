@@ -1,5 +1,7 @@
 # gehlenborglab-website [![Build Status](https://travis-ci.org/hms-dbmi/gehlenborglab-website.svg?branch=master)](https://travis-ci.org/hms-dbmi/gehlenborglab-website)
 
+Looking for [website updating instructions](./docs/)?
+
 (Need to set up your own Travis/Jekyll/S3 site? See [generate-static-site](https://github.com/hms-dbmi/generate-static-site).)
 
 The Gehlenborg Lab website uses Jekyll plugins beyond those supported by GitHub Pages.

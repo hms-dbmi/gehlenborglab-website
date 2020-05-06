@@ -4,6 +4,8 @@
 
 Use the "Fork" button in the top right corner of the repository to fork it to your account.
 
+![fork](/docs/img/00_fork.png)
+
 ### Clone the forked repository
 
 ```sh
@@ -49,6 +51,11 @@ Review your changes on GitHub by comparing them with the original (non-forked) `
 
 [https://github.com/hms-dbmi/gehlenborglab-website/compare/](https://github.com/hms-dbmi/gehlenborglab-website/compare/)
 
+
 Click "compare across forks" and then select your fork.
+
+![compare changes](/docs/img/01_compare_changes.png)
+
+![select fork](/docs/img/02_select_fork.png)
 
 If everything looks good, click the green "Create pull request" button and make a pull request.

@@ -39,8 +39,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - UPDATING_VIA_GIT.md
-  - UPDATING_VIA_GUI.md
+  - docs/*
   - _members/template.md
   - .travis.yml
   - vendor
