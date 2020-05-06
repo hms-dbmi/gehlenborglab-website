@@ -1,16 +1,14 @@
 ## How to update the website using the command line and git
 
-### Clone the repository
+### Fork the repository
+
+Use the "Fork" button in the top right corner of the repository to fork it to your account.
+
+### Clone the forked repository
 
 ```sh
-git clone https://github.com/hms-dbmi/gehlenborglab-website.git # or use SSH if you prefer
+git clone https://github.com/firstname-lastname/gehlenborglab-website.git # replace with your name
 cd gehlenborglab-website
-```
-
-### Check out a new git branch for your changes
-
-```sh
-git checkout -b firstname-lastname # replace with your name
 ```
 
 ### Updating / adding lab member details
@@ -34,7 +32,7 @@ open -a TextEdit firstname-lastname.md # replace with your name
 
 For more information about the markdown file format, please refer to [this guide](https://guides.github.com/features/mastering-markdown/).
 
-When you are finished editing the file, save it, and commit the changes to your git branch
+When you are finished editing the file, save it, and commit your changes
 
 ```sh
 git add firstname-lastname.md # replace with your name
@@ -44,13 +42,13 @@ git commit -m "Updated Firstname Lastname lab member details"
 Push the changes to GitHub
 
 ```sh
-git push --set-upstream origin firstname-lastname # replace with your name
+git push --u origin master
 ```
 
-Review your changes on GitHub by comparing your `firstname-lastname` branch with the `master` branch
+Review your changes on GitHub by comparing them with the original (non-forked) `master` branch
 
-[https://github.com/hms-dbmi/gehlenborglab-website/compare?expand=1](https://github.com/hms-dbmi/gehlenborglab-website/compare?expand=1)
+[https://github.com/hms-dbmi/gehlenborglab-website/compare/](https://github.com/hms-dbmi/gehlenborglab-website/compare/)
 
-Use the "compare:" dropdown to select your `firstname-lastname` branch for comparison.
+Click "compare across forks" and then select your fork.
 
 If everything looks good, click the green "Create pull request" button and make a pull request.
