@@ -2,7 +2,7 @@
 title: Chris Briggs
 name_degree: Christine Briggs, PhD
 
-photo: first-last.png # this file is relative to `assets/img/members/`
+photo: placeholder.png
 
 job_title: Senior Data Curator
 role: Sr. Data Curator for the HuBMAP Consortium
