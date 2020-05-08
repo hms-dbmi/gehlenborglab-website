@@ -2,7 +2,7 @@
 title: First Last
 name_degree: First Last, MD PhD JD
 
-photo: first-last.png # this file is relative to `assets/img/members/`
+photo: placeholder.png # this file is relative to `assets/img/members/`
 
 job_title: Visiting Scholar
 role: student # or postdoc, administration, staff, alumni, etc.
