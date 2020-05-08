@@ -39,6 +39,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - docs/*
+  - _members/template.md
   - .travis.yml
   - vendor
 
