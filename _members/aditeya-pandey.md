@@ -5,7 +5,7 @@ name_degree: Aditeya Pandey, B.Tech.
 photo: aditeya-pandey.jpg
 
 job_title: Visiting Graduate Student in Computer Science
-role: PhD Student
+role: Student
 
 start: May 2020
 end: 
