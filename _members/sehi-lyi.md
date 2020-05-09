@@ -10,6 +10,7 @@ role: postdoc
 services:
   github: https://github.com/sehilyi
   home: http://sehilyi.com
+  twitter: https://twitter.com/sehi_lyi
   
 start: February 2020
 end:
