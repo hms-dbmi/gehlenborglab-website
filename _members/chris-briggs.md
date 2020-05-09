@@ -5,7 +5,7 @@ name_degree: Christine Briggs, PhD
 photo: placeholder.png
 
 job_title: Senior Data Curator
-role: Sr. Data Curator for the HuBMAP Consortium
+role: staff
 
 services:
   #github: 
