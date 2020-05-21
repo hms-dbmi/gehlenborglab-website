@@ -2,7 +2,7 @@
 title: Chris Briggs
 name_degree: Christine Briggs, PhD
 
-photo: placeholder.png
+photo: chris-briggs.png
 
 job_title: Senior Data Curator
 role: staff
