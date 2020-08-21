@@ -4,7 +4,7 @@ name_degree: Qianwen Wang, PhD
 
 photo: qianwen-wang.jpg # this file is relative to `assets/img/members/`
 
-job_title: Visiting Scholar
+job_title: Research Fellow in Biomedical Informatics
 role: postdoc # or postdoc, administration, staff, alumni, etc.
 
 services:
@@ -15,7 +15,7 @@ services:
 start: May 2020
 end:
 ---
-[Qianwen Wang](http://wangqianwen0418.github.io) is currently a visiting scholar in the Department of Biomedical Informatics at Harvard Medical School.
+[Qianwen Wang](http://wangqianwen0418.github.io) is a Research Fellow in Biomedical Informatics at Harvard Medical School.
 
 Qianwen Wang received her PhD from the Hong Kong University of Science and Technology, under the supervision of [Prof. Huamin Qu](http://huamin.org).
 During her PhD study, Qianwen Wang conducted research in interactive data visualization within the broad context of Human-Computer Interaction. 
