@@ -9,7 +9,7 @@ role: alumni
 
 services:
   github: https://github.com/tjv32
-  linkedin: https://www.linkedin.com/in/Thomas-J-Varley/
+  linked-in: https://www.linkedin.com/in/Thomas-J-Varley/
  
 start: June 2020
 end: August 2020
