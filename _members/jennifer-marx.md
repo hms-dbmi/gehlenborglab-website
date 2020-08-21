@@ -5,7 +5,7 @@ name_degree: Jennifer K Marx, MEng
 photo: jkmarx.png
 
 job_title: Software Engineer
-role: staff
+role: alumni
 
 services:
   github: https://github.com/jkmarx
