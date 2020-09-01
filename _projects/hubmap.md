@@ -32,13 +32,16 @@ websites:
   - name: HuBMAP Consortium Website
     description: Overview of the HuBMAP Consortium.
     url: https://hubmapconsortium.org
+  - name: Crafting a High-resolution Human Tissue Atlas
+    description: Press release for the first data release in September 2020.
+    url: https://dbmi.hms.harvard.edu/news/crafting-high-resolution-human-tissue-atlas
 
 github_repositories:
   - name: HuBMAP Portal User Interface
     description:
     url: https://github.com/hubmapconsortium/portal-ui
   - name: HuBMAP Metadata Validation
-    description:
+    description: 
     url: https://github.com/hubmapconsortium/ingest-validation-tools
   - name: Vitessce Source Code
     description:
