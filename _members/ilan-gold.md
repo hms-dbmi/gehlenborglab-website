@@ -4,7 +4,7 @@ name_degree: Ilan Gold, BA
 
 photo: ilan-gold.jpg
 
-job_title: Software Engineer
+job_title: Software Developer
 role: staff
 
 services:
