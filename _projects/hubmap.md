@@ -10,6 +10,7 @@ members:
   - maggie-vella
   - mark-keller
   - trevor-manz
+  - chris-briggs
   - jennifer-marx  
 
 collaborators:
