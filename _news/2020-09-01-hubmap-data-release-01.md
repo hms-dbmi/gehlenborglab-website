@@ -7,7 +7,7 @@ members:
   - ilan-gold
   - tiffany-liaw
   - john-conroy
-  - maggie-vella
+  - margaret-vella
   - mark-keller
   - trevor-manz
   - chris-briggs
