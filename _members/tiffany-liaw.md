@@ -5,7 +5,7 @@ name_degree: Tiffany Liaw, BS
 photo: tiffany-liaw.jpg # this file is relative to `assets/img/members/`
 
 job_title: UI/UX Developer
-role: Staff
+role: staff
 
 services:
   github: https://github.com/tsliaw
