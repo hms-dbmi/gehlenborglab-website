@@ -2,7 +2,7 @@
 title: John Conroy
 name_degree: John Conroy, BS
 
-photo: # this file is relative to `assets/img/members/`
+photo: placeholder.png # this file is relative to `assets/img/members/`
 
 job_title: Software Developer
 role: staff
@@ -15,4 +15,4 @@ services:
 start: April 2020
 end:
 ---
-John Conroy is a Software Developer in the Department of Biomedical Informatics at Harvard Medical School.
+John Conroy is a software developer in the Department of Biomedical Informatics at Harvard Medical School.
