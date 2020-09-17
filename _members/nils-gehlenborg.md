@@ -15,7 +15,7 @@ services:
 start: April 2015
 end:
 ---
-Nils Gehlenborg, PhD, is an Assistant Professor in the Department of Biomedical Informatics at Harvard Medical School, Director of the Master in Biomedical Informatics program, and Co-Director of the Biomedical Informatics and Data Science Research Training (BIRT) program.
+Nils Gehlenborg, PhD, is an Assistant Professor in the Department of Biomedical Informatics at Harvard Medical School, Director of the [Master in Biomedical Informatics](http://dbmi.hms.harvard.edu/mbi) program, and Director of the [Biomedical Informatics and Data Science Research Training](https://dbmi.hms.harvard.edu/education/nlm-biomedical-informatics-data-science-fellowship) (BIRT) program.
 
 Nils received his PhD from the University of Cambridge and was a predoctoral fellow at the European Bioinformatics Institute (EMBL-EBI) in the Functional Genomics Group of Alvis Brazma. Dr Gehlenborg completed his postdoctoral training as a Research Associate in the lab of Peter J Park at the Center for Biomedical Informatics at Harvard Medical School. 
  
