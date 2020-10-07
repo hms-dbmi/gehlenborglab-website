@@ -8,7 +8,7 @@ hero:
   image: /assets/img/site/hero-gordonhall.jpg
   callout:
     alt: "We are hiring!"
-    text: Postdoc opportunities in biomedical data visualization.
+    text: New postdoc opportunities in biomedical data visualization.
   button:
     href: /team/open-positions/
     text: View position details
