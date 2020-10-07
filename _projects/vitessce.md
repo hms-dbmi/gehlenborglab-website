@@ -8,6 +8,7 @@ members:
   - thomas-chan
   - mark-keller
   - trevor-manz
+  - ilan-gold
 
 collaborators:
   - peter-kharchenko
