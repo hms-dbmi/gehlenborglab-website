@@ -13,4 +13,4 @@ Aditeya's and Sehi's work,
 has been recognized with the InfoVis Best Poster Research Award,
 and Fritz's work,
 [Interactive Visual Piling of Small Multiples](http://piling.lekschas.de/),
-has been recogonized with InfoVis Honorable Mention Award and IEEE VIS 2020. Congratulations to all!
+has been recogonized with InfoVis Honorable Mention Award at IEEE VIS 2020. Congratulations to all!
