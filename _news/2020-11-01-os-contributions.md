@@ -16,7 +16,6 @@ and are contributors to several projects.
 - Trevor Manz [presented](https://forum.image.sc/t/upcoming-calls-on-next-gen-bioimaging-data-tools-starting-oct-29/43489/34)
   work on Viv recently at an OME meeting on next-generation file formats (NGFF),
   and has made a [lot of PRs to zarr.js](https://github.com/gzuidhof/zarr.js/pulls?q=is%3Apr+author%3Amanzt).
-- Open source isn't just about code. Chuck can be nit-picky about grammar,
-  and has fixed [it's/its mistakes](https://github.com/cypress-io/cypress-documentation/pull/195/files)
-  in the cypress.io docs and 
-  [typos](https://github.com/visgl/deck.gl/pulls?q=is%3Apr+author%3Amccalluc) in the deck.gl docs.
+- Open source isn't just about code. Chuck McCallum has contributed to the documentation of
+  [Cypress.io](https://github.com/cypress-io/cypress-documentation/pull/195/files)
+  and [Deck.gl](https://github.com/visgl/deck.gl/pulls?q=is%3Apr+author%3Amccalluc).
