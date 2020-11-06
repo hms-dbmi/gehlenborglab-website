@@ -9,8 +9,8 @@ permalink: /education/letters-of-recommendation/
 
 Nils writes letters of recommendation for many trainees every year. To streamline the process and to avoid delayed submission of your letters, please follow the instructions below.
 
-1. At least **one month** before the deadline for the first letter, contact Nils by email (nils@hms.harvard.edu) and get confirmation that he will be able to write a letter for you. 
-1. At least **two weeks** before the first letter is due, share a Google Drive folder with Nils (nils@hms.harvard.edu) and Nichole Parker (nichole_parker@hms.harvard.edu) that contains the documents listed below. Send an email to Nichole Parker and Nils with a link to a folder and the (first) letter's due date.
+1. At least **one month** before the deadline for the first letter, contact Nils by email ([nils@hms.harvard.edu](mailto:nils@hms.harvard.edu)) and get confirmation that he will be able to write a letter for you. 
+1. At least **two weeks** before the first letter is due, share a Google Drive folder with Nils ([nils@hms.harvard.edu](mailto:nils@hms.harvard.edu)) and Nichole Parker ([nichole_parker@hms.harvard.edu](mailto:nichole_parker@hms.harvard.edu)) that contains the documents listed below. Send an email to Nichole Parker and Nils with a link to a folder and the (first) letter's due date.
     1. PDF of your current CV
     1. PDF of a final or close to final draft of your statement of purpose, research proposal, or research statement
     1. Google Sheet containing the following columns (you can update this but always send an email if you do so):
