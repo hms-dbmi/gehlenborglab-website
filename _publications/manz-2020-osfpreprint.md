@@ -1,5 +1,5 @@
 ---
-title: "Viv: Multiscale Visualization of High-Resolution Multiplexed Tissue Data on the Web"
+title: "Viv: Multiscale Visualization of High-Resolution Multiplexed Bioimaging Data on the Web"
 image: viv-figure.png
 
 members:
