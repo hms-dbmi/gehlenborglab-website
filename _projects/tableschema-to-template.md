@@ -24,7 +24,7 @@ The [HuBMAP](/research/projects/hubmap/) project will incorporate dozens of diff
 each with its own metadata requirements.
 While validation at ingest time can prevent bad metadata from entering the system,
 that still requires the data submitter to read the error,
-open the original TSV, find the corresponsing row and column, and make the fix.
+open the original TSV, find the corresponding row and column, and make the fix.
 
 We can avoid many data entry mistakes in the first place with input validation in Excel or Google Sheets.
 `tableschema-to-template` is a small tool, installable from Pypi,
@@ -34,5 +34,4 @@ It can be used either as a command-line tool, or as a python library.
 
 Examples of output can be found in the [HuBMAP `ingest-validation-tools` documentation](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs):
 Each directory includes an Excel file generated for that assay type.
-
 
