@@ -30,8 +30,7 @@ We can avoid many data entry mistakes in the first place with input validation i
 `tableschema-to-template` is a small tool, installable from Pypi,
 which takes a [Table Schema](https://specs.frictionlessdata.io/table-schema/) as input,
 and returns an Excel template with embedded documentation and some basic validations.
-It can be used either as a command-line tool, or as a python library.
+It can be used either as a command-line tool, or as a Python library.
 
 Examples of output can be found in the [HuBMAP `ingest-validation-tools` documentation](https://github.com/hubmapconsortium/ingest-validation-tools/tree/master/docs):
 Each directory includes an Excel file generated for that assay type.
-
