@@ -2,6 +2,9 @@
 layout: position
 
 title: HuBMAP Senior Bioinformatician 
+
+project:
+  - hubmap
 ---
 We are looking for a Senior Bioinformatician to join the Gehlenborg Lab in the Department of Biomedical Informatics at Harvard Medical School, for an exciting opportunity in steering how cutting-edge data from the NIH Common Fund Human Biomolecular Atlas Program (HuBMAP) is collected, curated, and displayed. The Gehlenborg Lab is funded through the HuBMAP Integration, Visualization, and Engagement (HIVE) initiative and responsible for data curation and development of user interfaces and visualization tools for the HuBMAP Data Portal (https://portal.hubmapconsortium.org/).
 
