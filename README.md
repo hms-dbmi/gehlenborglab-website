@@ -37,7 +37,7 @@ For smaller edits, you can just use the editor on the github site, though it's s
 For larger edits, check out this repo locally. Our convention for branch names is `username/description`, so it's easy to tell whose contribution it is.
 Run jekyll locally to get a preview of the site.
 
-## Trobuleshooting
+## Troubleshooting
 
 If using `OS X >=10.12` you may run into errors installing `nokogiri` with the `bundle install step`.
 This workaround should do the trick:
