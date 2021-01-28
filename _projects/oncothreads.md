@@ -22,7 +22,7 @@ github_repositories:
 docker_repositories:
 
 publications:
-  - harbig-2020-osf
+  - harbig-2021-osf
 
 grants:
 
