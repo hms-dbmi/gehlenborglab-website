@@ -14,7 +14,7 @@ type: preprint
 publisher: "https://osf.io/b3n4u/"
 cite:
   authors: "Theresa Harbig, Sabrina Nusrat, Tali Mazor, Qianwen Wang, Alexander Thomson, Hans Bitter, Ethan Cerami, Nils Gehlenborg"
-  published: "OSF Preprints b3n4u"
+  published: "OSF Preprints"
 ---
 <b>Motivation:</b> Molecular profiling of patient tumors and liquid biopsies over time with next-generation sequencing technologies and new immuno-profile assays are becoming part of standard research and clinical practice. With the wealth of new longitudinal data, there is a critical need for visualizations for cancer researchers to explore and interpret temporal patterns not just in a single patient but across cohorts. 
 
