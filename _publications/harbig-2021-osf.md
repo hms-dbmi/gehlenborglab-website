@@ -1,6 +1,6 @@
 ---
 title: "OncoThreads: Visualization of Large Scale Longitudinal Cancer Molecular Data"
-image: oncoThreads-osf
+image: oncoThreads-osf.png
 
 members:
   - theresa-harbig
