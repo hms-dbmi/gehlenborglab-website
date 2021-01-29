@@ -4,7 +4,6 @@ name: OncoThreads
 members:
   - sabrina-nusrat
   - theresa-harbig
-  - qianwen-wang
   - nils-gehlenborg  
   
 collaborators:
@@ -20,9 +19,6 @@ github_repositories:
     url: https://github.com/hms-dbmi/OncoThreads
 
 docker_repositories:
-
-publications:
-  - harbig-2021-osf
 
 grants:
 
