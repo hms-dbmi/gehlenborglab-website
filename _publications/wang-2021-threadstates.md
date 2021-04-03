@@ -4,6 +4,7 @@ image: threadstates-osf.jpg
 
 members:
   - qianwen-wang
+  - theresa-harbig
   - nils-gehlenborg
 
 year: 2021
