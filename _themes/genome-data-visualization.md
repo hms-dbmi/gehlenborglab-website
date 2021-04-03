@@ -6,4 +6,5 @@ projects:
   - hipiler
   - stratomex
   - cistrome-explorer
+  - gosling
 ---
