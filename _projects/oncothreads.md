@@ -23,6 +23,7 @@ docker_repositories:
 
 publications:
   - harbig-2021-osf
+  - wang-2021-threadstates
 
 grants:
 
