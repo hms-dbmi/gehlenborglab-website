@@ -1,6 +1,6 @@
 ---
 title: "ThreadStates: State-based Visual Analysis of Disease Progression"
-image: threadstates-osf.jpg
+image: threadstates-osf.png
 
 members:
   - qianwen-wang
