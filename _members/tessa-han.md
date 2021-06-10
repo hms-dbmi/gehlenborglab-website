@@ -8,7 +8,7 @@ job_title: Graduate Student in Biomedical Informatics
 role: alumni
 
 services:
-  github: github: https://github.com/th789
+  github: https://github.com/th789
   
 start: February 2021
 end: June 2021
