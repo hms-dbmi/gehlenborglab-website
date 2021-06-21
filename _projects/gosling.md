@@ -5,8 +5,8 @@ members:
   - sehi-lyi
   - qianwen-wang
   - fritz-lekschas
-  - nils-gehlenborg
   - cynthia-rosas
+  - nils-gehlenborg
 
 websites:
   - name: Gosling.js
