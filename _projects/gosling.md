@@ -6,6 +6,7 @@ members:
   - qianwen-wang
   - fritz-lekschas
   - nils-gehlenborg
+  - cynthia-rosas
 
 websites:
   - name: Gosling.js
