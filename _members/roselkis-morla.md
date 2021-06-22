@@ -2,10 +2,10 @@
 title: Roselkis Morla Adames
 name_degree: Roselkis Morla Adames, BS
 
-photo: roselkis-morla.png
+photo: roselkis-morla.jpeg
 
 job_title: HuBMAP Intern
-role: intern
+role: student
 
 services:
    linked-in: https://www.linkedin.com/in/roselkisma/
