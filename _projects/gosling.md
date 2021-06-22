@@ -5,6 +5,7 @@ members:
   - sehi-lyi
   - qianwen-wang
   - fritz-lekschas
+  - cynthia-rosas
   - nils-gehlenborg
 
 websites:
