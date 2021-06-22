@@ -2,7 +2,7 @@
 title: Mark Keller
 name_degree: Mark Keller, BS
 
-photo: placeholder.png
+photo: mark-keller.png
 
 job_title: Graduate Student in Bioinformatics
 role: student
