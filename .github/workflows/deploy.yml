@@ -1,0 +1,42 @@
+name: Deploy to S3
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    # Available versions:
+    # https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
+    runs-on: ubuntu-20.04
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Node 12
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+   
+    - name: Install node dependencies
+      run: npm install
+
+    - name: Build Jekyll
+      run: set -e
+      run: bundle exec jekyll build
+      run: "! grep -n '<ERROR' -r _site"
+      run: bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
+
+    # Uses https://github.com/marketplace/actions/s3-sync
+    - name: Deploy to S3
+      uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --acl public-read
+      env:
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: ${{ secrets.AWS_REGION }}
+        SOURCE_DIR: "_site"
