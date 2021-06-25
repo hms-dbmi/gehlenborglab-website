@@ -30,5 +30,5 @@ jobs:
         set -e
         bundle install
         bundle exec jekyll build
-        "! grep -n '<ERROR' -r _site"
+        ! grep -n '<ERROR' -r _site
         bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
