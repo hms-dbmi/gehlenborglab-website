@@ -1,0 +1,27 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    # Available versions:
+    # https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
+    runs-on: ubuntu-20.04
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Node 12
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+   
+    - name: Install node dependencies
+      run: npm install
+
+    - name: Build Jekyll
+      run: set -e
+      run: bundle exec jekyll build
+      run: "! grep -n '<ERROR' -r _site"
+      run: bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
