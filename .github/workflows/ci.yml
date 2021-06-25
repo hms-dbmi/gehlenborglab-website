@@ -20,6 +20,11 @@ jobs:
     - name: Install node dependencies
       run: npm install
 
+    - name: Set up Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.7.3'
+
     - name: Build Jekyll
       run: |
         set -e
