@@ -21,7 +21,8 @@ jobs:
       run: npm install
 
     - name: Build Jekyll
-      run: set -e
-      run: bundle exec jekyll build
-      run: "! grep -n '<ERROR' -r _site"
-      run: bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
+      run: |
+        set -e
+        bundle exec jekyll build
+        "! grep -n '<ERROR' -r _site"
+        bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
