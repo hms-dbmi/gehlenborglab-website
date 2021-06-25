@@ -34,6 +34,7 @@ jobs:
         bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
 
     - name: Configure AWS Credentials
+      if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/master' }}
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
