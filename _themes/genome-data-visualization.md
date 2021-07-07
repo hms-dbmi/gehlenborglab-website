@@ -5,4 +5,6 @@ projects:
   - higlass
   - hipiler
   - stratomex
+  - cistrome-explorer
+  - gosling
 ---
