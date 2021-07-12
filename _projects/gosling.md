@@ -1,5 +1,6 @@
 ---
 name: Gosling
+active: true
 
 members:
   - sehi-lyi

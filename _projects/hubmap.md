@@ -1,5 +1,6 @@
 ---
 name: HuBMAP Data Portal
+active: true
 
 members:
   - nils-gehlenborg
