@@ -1,5 +1,6 @@
 ---
 name: Data-Driven Visual Consent
+active: true
 
 members:
   - nils-gehlenborg

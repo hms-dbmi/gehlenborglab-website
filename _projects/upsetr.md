@@ -1,5 +1,6 @@
 ---
 name: UpSetR
+active: true
 
 members:
   - jake-conway

@@ -1,5 +1,6 @@
 ---
 name: SATORI
+active: true
 
 members:
   - fritz-lekschas

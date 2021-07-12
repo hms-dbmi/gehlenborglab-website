@@ -1,5 +1,6 @@
 ---
 name: tableschema-to-template
+active: true
 
 members:
   - chuck-mccallum

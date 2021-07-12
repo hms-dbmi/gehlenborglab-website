@@ -1,5 +1,6 @@
 ---
 name: Discovery
+active: true
 
 members:
   - drashko-nakikj

@@ -1,5 +1,6 @@
 ---
 name: GenoCAT
+active: true
 
 members:
   - justine-shih

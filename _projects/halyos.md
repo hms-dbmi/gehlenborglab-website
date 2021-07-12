@@ -1,5 +1,6 @@
 ---
 name: Halyos
+active: true
 
 members:
   - vimig-socrates

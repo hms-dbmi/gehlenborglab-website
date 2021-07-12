@@ -1,5 +1,6 @@
 ---
 name: HiPiler
+active: true
 
 members:
   - fritz-lekschas

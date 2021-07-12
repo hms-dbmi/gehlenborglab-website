@@ -1,5 +1,6 @@
 ---
 name: Cistrome Explorer
+active: true
 
 members:
   - sehi-lyi

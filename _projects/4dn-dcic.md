@@ -1,5 +1,6 @@
 ---
 name: 4D Nucleome Data Portal
+active: true
 
 members:
   - nils-gehlenborg

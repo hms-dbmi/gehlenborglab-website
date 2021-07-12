@@ -1,5 +1,6 @@
 ---
 name: Caleydo StratomeX
+active: true
 
 members:
   - nils-gehlenborg

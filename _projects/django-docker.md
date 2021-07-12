@@ -1,5 +1,6 @@
 ---
 name: django-docker-engine
+active: true
 
 members:
   - chuck-mccallum
