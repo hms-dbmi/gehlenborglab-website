@@ -1,0 +1,47 @@
+name: Deploy to S3
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    # Available versions:
+    # https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
+    runs-on: ubuntu-20.04
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Node 12
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+   
+    - name: Install node dependencies
+      run: npm install
+
+    - name: Set up Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.7.3'
+
+    - name: Build Jekyll
+      run: |
+        set -e
+        bundle install
+        bundle exec jekyll build
+        ! grep -n '<ERROR' -r _site
+        bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
+
+    - name: Configure AWS Credentials
+      if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/master' }}
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ secrets.AWS_REGION }}
+
+    - name: Upload to S3
+      if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/master' }}
+      run: |
+        aws s3 sync _site/ s3://${{ secrets.AWS_S3_BUCKET }} --acl public-read

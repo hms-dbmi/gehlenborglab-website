@@ -1,10 +1,10 @@
 ---
 title: Chuck McCallum
-name_degree: Chuck McCallum, BA, MLIS
+name_degree: Chuck McCallum, BA, MLS
 
 photo: chuck-mccallum.jpg
 
-job_title: Software Developer
+job_title: Senior Software Developer
 role: staff
 
 services:
