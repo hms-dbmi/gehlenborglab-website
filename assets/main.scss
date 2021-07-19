@@ -68,3 +68,56 @@ dt.media-mention {
 dd.media-mention p {
   font-size: $small-font-size;
 }
+
+.member-thumb {
+  width: 125px;
+  height: 125px;
+  background-size: cover; /* or contain */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.ul-no-bullets{
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+ul.members-rows {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100% !important;
+
+  li {
+    flex: 50%;
+  }
+}
+
+.member-photo-item {
+  > div {
+    display:flex;
+  }
+
+  .member-photo-wrapper {
+    width: 125px;
+  }
+
+  .member-text {
+    margin-left: 10px; 
+    padding: 15px;
+  }
+
+  img {
+    height: 20px; 
+    margin-right: 10px;
+  }
+}
+
+.collaborators-and-alumni-lists > li:nth-child(odd) {
+  padding-right: 25px;
+}
+
+.icons-row{
+  display: flex;
+  margin-top: 5px;
+}
