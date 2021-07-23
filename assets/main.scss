@@ -90,15 +90,12 @@ ul.members-rows {
 
   li {
     flex: 100%;
-    }
-}
-
-@media only screen and (min-width: 980px) {
-  ul.members-rows {
-  li{
-    flex: 50%;
   }
-}
+
+  @media only screen and (min-width: 980px) {
+    li{
+      flex: 50%;
+    }
 }
 
 .member-photo-item {
