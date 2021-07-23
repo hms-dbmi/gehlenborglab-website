@@ -38,14 +38,14 @@ subnav:
 <li class="member-photo-item">
   <div>
     <div class="member-photo-wrapper">
-      <div class="member-thumb" style="background-image: url(/assets/img/members/{{ member.photo }})"></div>
+      <div class="member-thumb" style="background-image: url(/assets/img/members/{{ member.photo }})" role="img"></div>
     </div>
     <div class="member-text">
       <a href="{{member.url}}">{{ member.title }}</a>
       <br>{{ member.job_title }}
       <div class="icons-row">
         {% for service in member.services %}
-        <a href="{{ service[1] }}"><img src="/assets/img/services/{{ service[0] }}.svg"></a>
+          <a href="{{ service[1] }}"><div><img src="/assets/img/services/{{ service[0] }}.svg"></div></a>
         {% endfor %}
       </div>
     </div>

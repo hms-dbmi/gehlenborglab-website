@@ -113,17 +113,28 @@ ul.members-rows {
     padding: 15px;
   }
 
-  img {
-    height: 20px; 
-    margin-right: 10px;
+  .icons-row{
+    display: flex;
+    margin-top: 5px;
+
+    a {
+      margin-right: 10px;
+    }
+
+    a > div {
+      padding: 6px;
+
+      @media only screen and (min-width: 980px) {
+        padding: 3px;
+      }
+    }
+  
+    img {
+      height: 20px;
+    }
   }
 }
 
 .collaborators-and-alumni-lists > li:nth-child(odd) {
   padding-right: 25px;
-}
-
-.icons-row{
-  display: flex;
-  margin-top: 5px;
 }
