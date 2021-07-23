@@ -89,8 +89,16 @@ ul.members-rows {
   max-width: 100% !important;
 
   li {
+    flex: 100%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+  ul.members-rows {
+  li{
     flex: 50%;
   }
+}
 }
 
 .member-photo-item {
