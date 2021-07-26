@@ -42,7 +42,7 @@ subnav:
     </div>
     <div class="member-text">
       <a href="{{member.url}}">{{ member.title }}</a>
-      <br>{{ member.job_title }}
+      <p class="member-job-title">{{ member.job_title }}</p>
       <div class="icons-row">
         {% for service in member.services %}
           <a href="{{ service[1] }}"><div><img src="/assets/img/services/{{ service[0] }}.svg" alt="{{service[0]}}"></div></a>
