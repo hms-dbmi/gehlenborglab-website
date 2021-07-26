@@ -13,22 +13,23 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Set up Node 12
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2
       with:
         node-version: '12'
+        cache: 'npm'
    
     - name: Install node dependencies
       run: npm install
 
     - name: Set up Ruby
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: '2.7.3'
+        bundler-cache: true
 
     - name: Build Jekyll
       run: |
         set -e
-        bundle install
         bundle exec jekyll build
         ! grep -n '<ERROR' -r _site
         bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
