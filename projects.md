@@ -25,8 +25,19 @@ permalink: /research/projects/
 {% else %}
   {{ project.content }}
 {% endif %}
+<div class="icons-row">
+{% for website in project.websites %}
+{% if website.primary %}
+  <a href="{{ website.url }}"><div><img src="/assets/img/services/home.svg" alt="{{project.name}} website"></div></a>
+{% endif %}
+{% endfor %}
+{% for repo in project.github_repositories %}
+{% if repo.primary %}
+  <a href="{{ repo.url }}"><div><img src="/assets/img/services/github.svg" alt="{{project.name}} repository"></div></a>
+{% endif %}
+{% endfor %}
+</div>
 </td>
 </tr>
 {% endfor %}
-
 </table>
