@@ -18,7 +18,7 @@ permalink: /research/projects/
             alt="{{ project.gallery.first[1] }}"></a>
 {% endif %}
 </td>
-<td markdown="1">
+<td  markdown="1">
 #### [{{ project.name }}]({{ project.url }})
 {% if project.blurb %}
   {{ project.blurb }}
