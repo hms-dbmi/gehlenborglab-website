@@ -43,12 +43,14 @@ img.thumb {
 table.publications td, table.projects td, table.positions td {
   border: none;
   padding-right: 0.2em;
+  padding-left: 0.2em;
   vertical-align:top;
   h4 {
     margin-top: 0; // So top of title matches top of image.
   }
   img.thumb {
     width: 220px; // Match image file width
+    margin-right: 15px;
   }
   p {
     // When the citation is parsed as markdown, it also gets a wrapping <p>,

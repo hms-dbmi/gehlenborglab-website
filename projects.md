@@ -11,7 +11,7 @@ permalink: /research/projects/
 
 {% for project in site.projects %}
 <tr>
-<td>
+<td class="display-lg-only">
 {% if project.gallery.size > 0 %}
 <a href="{{project.url}}"><img class="thumb"
             src="/assets/img/publications/thumbnail/{{ project.gallery.first[0] }}"
