@@ -47,7 +47,7 @@ table.publications td, table.projects td, table.positions td {
   h4 {
     margin-top: 0; // So top of title matches top of image.
   }
-  img {
+  img.thumb {
     width: 120px; // Match image file width
   }
   p {
@@ -118,25 +118,26 @@ ul.members-rows {
     padding: 15px;
   }
 
-  .icons-row{
-    display: flex;
-    margin-top: 5px;
+}
 
-    a {
-      margin-right: 10px;
-    }
+.icons-row{
+  display: flex;
+  margin-top: 5px;
 
-    a > div {
-      padding: 6px;
+  a {
+    margin-right: 10px;
+  }
 
-      @media only screen and (min-width: 980px) {
-        padding: 3px;
-      }
+  a > div {
+    padding: 6px;
+
+    @media only screen and (min-width: 980px) {
+      padding: 3px;
     }
-  
-    img {
-      height: 20px;
-    }
+  }
+
+  img {
+    height: 20px;
   }
 }
 
