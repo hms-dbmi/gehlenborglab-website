@@ -18,11 +18,13 @@ websites:
   - name: Vitessce
     description:
     url: http://vitessce.io
+    primary: true
 
 github_repositories:
   - name: Vitessce
     description:
     url: https://github.com/hubmapconsortium/vitessce
+    primary: true
   - name: Vitessce Data
     description:
     url: https://github.com/hms-dbmi/vitessce-data

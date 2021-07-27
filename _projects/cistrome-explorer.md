@@ -14,11 +14,13 @@ websites:
   - name: Cistrome Explorer (Demo)
     description: 
     url: http://cisvis.gehlenborglab.org
+    primary: true
 
 github_repositories:
   - name: Cistrome Explorer
     description:
     url: https://github.com/hms-dbmi/cistrome-explorer
+    primary: true
 
 docker_repositories:
 

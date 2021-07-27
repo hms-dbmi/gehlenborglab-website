@@ -15,11 +15,13 @@ websites:
   - name: Viv
     description:
     url: http://avivator.gehlenborglab.org
+    primary: true
 
 github_repositories:
   - name: Viv
     description:
     url: https://github.com/hms-dbmi/viv
+    primary: true
 
 publications:
   - manz-2020-osfpreprint
