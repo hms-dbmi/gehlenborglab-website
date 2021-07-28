@@ -5,20 +5,26 @@ permalink: /research/funding/
 ---
 ## Funding
 
+{% assign grants = "" | split: "" %}
 {% for grant in site.data.grants %}
+  {% assign grants = grants | push: grant[1] %}
+{% endfor %}
+
+{% assign grants = grants | sort: "start_year" | reverse %}
+{% for grant in grants %}
 <div class="funding">
-<h3>{{grant[1].name}}</h3>
-<h4>{{grant[1].funder}}</h4>
-{% if grant[1].url %}
-<a href="{{grant[1].url}}" class="link-title">{{grant[1].number}}</a>
+<h3>{{grant.name}}</h3>
+<h4>{{grant.funder}}</h4>
+{% if grant.url %}
+<a href="{{grant.url}}" class="link-title">{{grant.number}}</a>
 {% else %}
-<p>{{grant[1].number}}</p>
+<p>{{grant.number}}</p>
 {% endif %}
-{% if grant[1].start %}
-<p>{{grant[1].start}} - {{grant[1].end}}</p>
+{% if grant.start %}
+<p>{{grant.start}} - {{grant.end}}</p>
 {% endif %}
-{% if grant[1].role %}
-<i>Role: {{grant[1].role}}</i>
+{% if grant.role %}
+<i>Role: {{grant.role}}</i>
 {% endif %}
 {% endfor %}
 <div>
