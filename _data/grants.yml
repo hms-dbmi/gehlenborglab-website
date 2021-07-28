@@ -7,6 +7,7 @@ nih_1Ot2Od026677:
   start: September 2018
   end: June 2022
   role: Co-Investigator
+  start_year: 2018
 
 nih_k99hg007583:
   funder: National Institutes of Health - NHGRI
@@ -17,6 +18,7 @@ nih_k99hg007583:
   start: January 2014
   end: August 2015
   role: Principal Investigator
+  start_year: 2014
 
 nih_r00hg007583:
   funder: National Institutes of Health - NHGRI
@@ -27,6 +29,7 @@ nih_r00hg007583:
   start: August 2015
   end: August 2018
   role: Principal Investigator
+  start_year: 2015
 
 hsci_csbi:
   funder: Harvard Stem Cell Institute
@@ -37,6 +40,7 @@ hsci_csbi:
   start: August 2014
   end: August 2018
   role: Co-Investigator
+  start_year: 2014
 
 nih_u01ca200059:
   funder: National Institutes of Health - Common Fund
@@ -47,6 +51,7 @@ nih_u01ca200059:
   start: September 2015
   end: September 2020
   role: Co-Investigator
+  start_year: 2015
 
 nih_u01ca98935:
   funder: National Institutes of Health - NCI
@@ -57,6 +62,7 @@ nih_u01ca98935:
   start: June 2015
   end: May 2018
   role: Co-Investigator
+  start_year: 2015
 
 nih_u54hg007963:
   funder: National Institutes of Health - NHGRI
@@ -67,6 +73,7 @@ nih_u54hg007963:
   start:
   end:
   role:
+  start_year: 0
 
 nih_1r01eb025024:
   funder: National Institutes of Health (NIBIB) & National Science Foundation
@@ -77,3 +84,4 @@ nih_1r01eb025024:
   start: September 2017
   end: June 2020
   role: Co-Investigator
+  start_year: 2017
