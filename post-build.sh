@@ -11,3 +11,12 @@ for F in $(ls $DIR/fullsize); do
         -extent 120x90 \
         $DIR/thumbnail/$F
 done
+
+DIR=_site/assets/img/members
+mkdir $DIR/thumbnail || echo "Couldn't mkdir: may already exist. Continuing."
+for F in $(ls $DIR/fullsize); do
+    # Match CSS width:
+    convert $DIR/fullsize/$F \
+        -geometry 250x \
+        $DIR/thumbnail/$F
+done
