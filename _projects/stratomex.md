@@ -18,6 +18,7 @@ collaborators:
 websites:
   - name: StratomeX Website
     url: http://stratomex.caleydo.org
+    primary: true
   - name: StratomeX Web Version
     description: Prototype for a web-based StratomeX with Vistories support.
     url: https://stratomex.caleydoapp.org/
@@ -29,6 +30,7 @@ github_repositories:
   - name: Caleydo Core
     description: Repository for all Caleydo standalone tools and plugins.
     url: https://github.com/Caleydo/caleydo
+    primary: true
 
 docker_repositories:
 

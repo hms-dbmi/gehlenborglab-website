@@ -43,12 +43,14 @@ img.thumb {
 table.publications td, table.projects td, table.positions td {
   border: none;
   padding-right: 0.2em;
+  padding-left: 0.2em;
   vertical-align:top;
   h4 {
     margin-top: 0; // So top of title matches top of image.
   }
-  img {
-    width: 120px; // Match image file width
+  img.thumb {
+    width: 220px; // Match image file width
+    margin-right: 15px;
   }
   p {
     // When the citation is parsed as markdown, it also gets a wrapping <p>,
@@ -118,25 +120,26 @@ ul.members-rows {
     padding: 15px;
   }
 
-  .icons-row{
-    display: flex;
-    margin-top: 5px;
+}
 
-    a {
-      margin-right: 10px;
-    }
+.icons-row{
+  display: flex;
+  margin-top: 5px;
 
-    a > div {
-      padding: 6px;
+  a {
+    margin-right: 10px;
+  }
 
-      @media only screen and (min-width: 980px) {
-        padding: 3px;
-      }
+  a > div {
+    padding: 6px;
+
+    @media only screen and (min-width: 980px) {
+      padding: 3px;
     }
-  
-    img {
-      height: 20px;
-    }
+  }
+
+  img {
+    height: 20px;
   }
 }
 

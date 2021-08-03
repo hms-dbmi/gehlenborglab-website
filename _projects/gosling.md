@@ -12,11 +12,13 @@ websites:
   - name: Gosling.js
     description: Online Editor and Examples
     url: https://gosling.js.org/
+    primary: true
 
 github_repositories:
   - name: Gosling.js
     description:
     url: https://github.com/gosling-lang/gosling.js
+    primary: true
   - name: Documentation
     description: 
     url: https://github.com/gosling-lang/gosling-docs
