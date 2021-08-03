@@ -38,7 +38,7 @@ subnav:
 <li class="member-photo-item">
   <div>
     <div class="member-photo-wrapper">
-      <div class="member-thumb" style="background-image: url(/assets/img/members/{{ member.photo }})" role="img" alt="{{member.title}}"></div>
+      <div class="member-thumb" style="background-image: url(/assets/img/members/thumbnail/{{ member.photo }})" role="img" alt="{{member.title}}"></div>
     </div>
     <div class="member-text">
       <a href="{{member.url}}">{{ member.title }}</a>
