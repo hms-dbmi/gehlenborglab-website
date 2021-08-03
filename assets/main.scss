@@ -147,12 +147,25 @@ ul.members-rows {
   padding-right: 25px;
 }
 
-.publication-title{
+.link-title{
   color: $color-cool-blue;
 }
 
 .display-lg-only{
   @media only screen and (max-width: 980px) {
     display:none;
+  }
+}
+
+.funding{
+  h3 {
+    margin-bottom: 8px;
+  }
+  a, i{
+    display:inline-block;
+  }
+  a, h4, p {
+    margin-top: 3px;
+    margin-bottom: 0px;
   }
 }
