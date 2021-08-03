@@ -18,6 +18,10 @@ layout: page
       {% endfor %}
     </div>
 
+    {% if page.title == 'Nils Gehlenborg' %}
+    <a href="/research/projects/"><h3 class="header-link">Projects</h3></a>
+    <a href="/publications/"><h3 class="header-link">Publications</h3></a>
+    {% else %}
     <h3 id="projects">Projects</h3>
     <ul>
     {% for project in site.projects %}
@@ -28,6 +32,7 @@ layout: page
       {% endfor %}
     {% endfor %}
     </ul>
+    {% endif %}
 
   </aside>
 
@@ -79,6 +84,7 @@ layout: page
       </dl>
     {% endif %}
 
+    {% if page.title != 'Nils Gehlenborg' %}
     {% capture publications_list %}
       {% for publication in site.publications %}
         {% for member in publication.members %}
@@ -94,6 +100,7 @@ layout: page
       <ul>
         {{ publications_list }}
       </ul>
+    {% endif %}
     {% endif %}
   </div>
 
