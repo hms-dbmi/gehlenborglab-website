@@ -5,9 +5,9 @@
 {% endif %}
 </td>
 <td markdown="1">
-{{ publication.cite.authors }}.
+<p>{{ publication.cite.authors }}.</p>
 <p>"<a class="link-title" href="{{publication.url}}">{{ publication.title }}</a>"</p>
-{{ publication.cite.published }}
-({{ publication.year }})
+<p style="word-break: break-all;">{{ publication.cite.published }}</p>
+<p>({{ publication.year }})</p>
 </td>
 </tr>
