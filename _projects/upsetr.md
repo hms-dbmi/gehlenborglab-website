@@ -16,6 +16,7 @@ websites:
   - name: UpSetR R Package
     description: 
     url: https://CRAN.R-project.org/package=UpSetR
+    primary: true
   - name: UpSetR Shiny App
     description: A web-based app to generate basic UpSetR plots.
     url: https://gehlenborglab.shinyapps.io/upsetr/
@@ -27,6 +28,7 @@ github_repositories:
   - name: UpSetR
     description:
     url: https://github.com/hms-dbmi/UpSetR/
+    primary: true
   - name: UpSetR Shiny App
     description:
     url: https://github.com/hms-dbmi/UpSetR-shiny/

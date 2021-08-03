@@ -26,6 +26,7 @@ websites:
   - name: HuBMAP Data Portal
     description: The data portal for the HuBMAP Project.
     url: https://portal.hubmapconsortium.org
+    primary: true
   - name: Vitessce Website
     description: Website for the Vitessce visualization tool.
     url: http://vitessce.io
@@ -40,6 +41,7 @@ github_repositories:
   - name: HuBMAP Portal User Interface
     description:
     url: https://github.com/hubmapconsortium/portal-ui
+    primary: true
   - name: HuBMAP Metadata Validation
     description: 
     url: https://github.com/hubmapconsortium/ingest-validation-tools

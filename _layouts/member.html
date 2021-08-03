@@ -7,17 +7,21 @@ layout: page
 <div class="usa-grid-full">
   <aside class="usa-width-one-third">
     <div>
-      <img src="/assets/img/members/{{ page.photo }}">
+      <img src="/assets/img/members/fullsize/{{ page.photo }}">
     </div>
 
     <br>
     <div id="services">
       {% for service in page.services %}
-        <a href="{{ service[1] }}"><img style="height: 32px" src="/assets/img/services/{{ service[0] }}.png"></a>
+        <a href="{{ service[1] }}"><img style="height: 32px" src="/assets/img/services/{{ service[0] }}.svg" alt="{{service[0]}}"></a>
         &nbsp;
       {% endfor %}
     </div>
 
+    {% if page.title == 'Nils Gehlenborg' %}
+    <a href="/research/projects/"><h3 class="header-link">Projects</h3></a>
+    <a href="/publications/"><h3 class="header-link">Publications</h3></a>
+    {% else %}
     <h3 id="projects">Projects</h3>
     <ul>
     {% for project in site.projects %}
@@ -28,6 +32,7 @@ layout: page
       {% endfor %}
     {% endfor %}
     </ul>
+    {% endif %}
 
   </aside>
 
@@ -79,6 +84,7 @@ layout: page
       </dl>
     {% endif %}
 
+    {% if page.title != 'Nils Gehlenborg' %}
     {% capture publications_list %}
       {% for publication in site.publications %}
         {% for member in publication.members %}
@@ -94,6 +100,7 @@ layout: page
       <ul>
         {{ publications_list }}
       </ul>
+    {% endif %}
     {% endif %}
   </div>
 
