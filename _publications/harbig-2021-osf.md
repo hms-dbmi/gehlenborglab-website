@@ -9,12 +9,12 @@ members:
   - nils-gehlenborg
 
 year: 2021
-type: preprint
+type: article
 
-publisher: "https://osf.io/b3n4u/"
+publisher: "https://academic.oup.com/bioinformatics/article/37/Supplement_1/i59/6319672"
 cite:
-  authors: "T Harbig, S Nusrat, T Mazor, Q Wang, A Thomson, H Bitter, E Cerami, N Gehlenborg"
-  published: "OSF Preprints"
+  authors: "Theresa Harbig, Sabrina Nusrat, Tali Mazor, Qianwen Wang, Alexander Thomson, Hans Bitter, Ethan Cerami, Nils Gehlenborg"
+  published: Bioinformatics (Proceedings of ISMB/ECCB 2021), Volume 37, Issue Supplement_1, July 2021, Pages i59–i66, https://doi.org/10.1093/bioinformatics/btab289
 ---
 Molecular profiling of patient tumors and liquid biopsies over time with next-generation sequencing technologies and new immuno-profile assays are becoming part of standard research and clinical practice. With the wealth of new longitudinal data, there is a critical need for visualizations for cancer researchers to explore and interpret temporal patterns not just in a single patient but across cohorts. 
 
