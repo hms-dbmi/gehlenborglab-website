@@ -143,3 +143,13 @@ ul.members-rows {
 .collaborators-and-alumni-lists > li:nth-child(odd) {
   padding-right: 25px;
 }
+
+.publication-title{
+  color: $color-cool-blue;
+}
+
+.display-lg-only{
+  @media only screen and (max-width: 980px) {
+    display:none;
+  }
+}
