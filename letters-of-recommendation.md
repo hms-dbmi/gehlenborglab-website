@@ -24,7 +24,7 @@ Nils writes letters of recommendation for many trainees every year. To streamlin
 1. When entering my information into application forms, please provide the following: 
     1. Name: _Nils Gehlenborg_
     1. Degree: _PhD_
-    1. Title: _Assistant Professor of Biomedical Informatics_
+    1. Title: _Associate Professor of Biomedical Informatics_
     1. Institution: _Harvard Medical School_
     1. Department: _Biomedical Informatics_
     1. Email: _nils@hms.harvard.edu_
