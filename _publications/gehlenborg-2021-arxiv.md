@@ -1,6 +1,6 @@
 ---
 title: "MITI Minimum Information guidelines for highly multiplexed tissue images"
-image: miti-minimum-information.png.png
+image: miti-minimum-information.png
 
 members:
   - nils-gehlenborg
