@@ -1,13 +1,13 @@
 <tr>
 <td>
 {% if publication.image %}
-<a href="{{publication.url}}"><img class="thumb" src="/assets/img/publications/thumbnail/{{ publication.image }}"></a>
+<a class="display-lg-only" href="{{publication.url}}"><img class="thumb" src="/assets/img/publications/thumbnail/{{ publication.image }}"></a>
 {% endif %}
 </td>
 <td markdown="1">
-{{ publication.cite.authors }}.
-“<a href="{{publication.url}}">{{ publication.title }}</a>”
-{{ publication.cite.published }}
-({{ publication.year }})
+<p>{{ publication.cite.authors }}.</p>
+<p>"<a class="link-title" href="{{publication.url}}">{{ publication.title }}</a>"</p>
+<p style="word-break: break-all;"  markdown="1">{{ publication.cite.published }}</p>
+<p>({{ publication.year }})</p>
 </td>
 </tr>

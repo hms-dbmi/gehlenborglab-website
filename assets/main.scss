@@ -43,12 +43,14 @@ img.thumb {
 table.publications td, table.projects td, table.positions td {
   border: none;
   padding-right: 0.2em;
+  padding-left: 0.2em;
   vertical-align:top;
   h4 {
     margin-top: 0; // So top of title matches top of image.
   }
-  img {
-    width: 120px; // Match image file width
+  img.thumb {
+    width: 220px; // Match image file width
+    margin-right: 15px;
   }
   p {
     // When the citation is parsed as markdown, it also gets a wrapping <p>,
@@ -67,4 +69,111 @@ dt.media-mention {
 }
 dd.media-mention p {
   font-size: $small-font-size;
+}
+
+.member-thumb {
+  width: 125px;
+  height: 125px;
+  background-size: cover; /* or contain */
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.ul-no-bullets{
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+ul.members-rows {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100% !important;
+
+  li {
+    flex: 100%;
+  }
+
+  @media only screen and (min-width: 980px) {
+    li{
+      flex: 50%;
+    }
+  }
+}
+
+.member-photo-item {
+  > div {
+    display:flex;
+  }
+
+  .member-photo-wrapper {
+    width: 125px;
+  }
+
+  .member-job-title {
+    margin: 0px;
+    font-size: 15px;
+  }
+
+  .member-text {
+    margin-left: 10px; 
+    padding: 15px;
+  }
+
+}
+
+.icons-row{
+  display: flex;
+  margin-top: 5px;
+
+  a {
+    margin-right: 10px;
+  }
+
+  a > div {
+    padding: 6px;
+
+    @media only screen and (min-width: 980px) {
+      padding: 3px;
+    }
+  }
+
+  img {
+    height: 20px;
+  }
+}
+
+.collaborators-and-alumni-lists > li:nth-child(odd) {
+  padding-right: 25px;
+}
+
+.link-title{
+  color: $color-cool-blue;
+}
+
+.display-lg-only{
+  @media only screen and (max-width: 980px) {
+    display:none;
+  }
+}
+
+.funding{
+  h3 {
+    margin-bottom: 8px;
+  }
+  a, i{
+    display:inline-block;
+  }
+  a, h4, p {
+    margin-top: 3px;
+    margin-bottom: 0px;
+  }
+}
+
+.header-link{
+  margin-top: 5px;
+}
+
+#services{
+  margin-bottom: 15px;
 }

@@ -20,11 +20,13 @@ websites:
   - name: GenoCAT
     description:
     url: http://genocat.tools/
+    primary: true
 
 github_repositories:
   - name: GenoCAT Jekyll source code
     description:
     url: https://github.com/hms-dbmi/genocat
+    primary: true
 
 blurb:
   - GenoCAT provides a database of genomic visualization tools. Each tool has been sorted and grouped based on various attributes, and the website has been designed to help you find what you’re looking for.

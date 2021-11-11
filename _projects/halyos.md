@@ -11,6 +11,7 @@ websites:
   - name: Halyos Demo Site
     description: Website demonstrating the functionality of Halyos for a sample patient. All data is synthetic.
     url: http://halyos.gehlenborglab.org/
+    primary: true
 
 gallery:
   halyos.png: Screenshot
@@ -19,6 +20,7 @@ github_repositories:
   - name: Halyos
     description: All code for Halyos is publicly available.
     url: https://github.com/hms-dbmi/halyos
+    primary: true
 
 grants:
   - nih_u54hg007963
