@@ -5,6 +5,7 @@ members:
   - nils-gehlenborg
   - undina-gisladottir
   - drashko-nakikj
+  - karan-luthria
 
 collaborators:
   - gabriel-brat
