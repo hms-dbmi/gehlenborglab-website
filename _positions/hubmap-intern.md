@@ -7,11 +7,11 @@ project:
   - hubmap
 ---
 
-The [Underrepresented/Minority Student Internship Program](https://hubmapconsortium.org/internship-program/) provides the opportunity for students to receive mentorship and training from HuBMAP components in summer 2021, in a virtual setting.
+The [Underrepresented/Minority Student Internship Program](https://hubmapconsortium.org/internship-program/) provides the opportunity for students to receive mentorship and training from HuBMAP components in summer 2022, in a virtual setting.
 
 Are you looking to learn about cutting edge biology and technology? The HuBMAP Consortium is a diverse, dedicated group of laboratories across the country seeking to create a detailed map the human body, all the way to the level of single cells. If you are part of an underrepresented and/or minority group, and you would like to work with a HuBMAP consortium member this summer, apply to our internship program today! This virtual internship program provides a fantastic opportunity to build connections, add to your experience, and conduct vital research in the single cell community. Our researchers are eager to work with you, and have funding available to provide internships to qualified students.
 
-The Gehlenborg Lab in the Department of Biomedical Informatics at Harvard Medical School is a group of data scientists and software developers who are passionate about driving biomedical discovery by creating efficient and effective visual interfaces between analysts and data. For the Summer of 2021 we are hoping to recruit a student to work on a project that will make HuBMAP data more accessible to the community, such as:
+The Gehlenborg Lab in the Department of Biomedical Informatics at Harvard Medical School is a group of data scientists and software developers who are passionate about driving biomedical discovery by creating efficient and effective visual interfaces between analysts and data. For the Summer of 2022 we are hoping to recruit a student to work on a project that will make HuBMAP data more accessible to the community, such as:
 
 - Develop or extend R and/or Python packages to interface with the HuBMAP Portal APIs to enable direct access in RStudio or Jupyter Notebooks
 - Create example visualizations with Vitessce (http://vitessce.io) that explain single-cell and tissue biology to lay audiences
