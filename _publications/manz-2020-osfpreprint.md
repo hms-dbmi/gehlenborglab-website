@@ -1,6 +1,6 @@
 ---
 title: "Viv: Multiscale Visualization of High-Resolution Multiplexed Bioimaging Data on the Web"
-image: viv-figure.png
+image: viv-figure.jpg
 
 members:
   - trevor-manz
