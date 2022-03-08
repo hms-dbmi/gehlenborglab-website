@@ -31,8 +31,12 @@ grants:
   - hsci_csbi
 
 gallery:
-  viv-figure.png: 'High-Resolution Multiplexed Tissue Data on the Web'
+  viv-figure.jpg: 'High-Resolution Multiplexed Tissue Data on the Web'
 
 blurb: Library for Multiscale Visualization of High-Resolution Multiplexed Tissue Data on the Web
 ---
-Viv is a library for multiscale visualization of high-resolution, highly multiplexed bioimaging data on the web. It directly renders data in Bio-Formats-compatible Zarr and OME-TIFF formats. Avivator is a lightweight image viewer that showcases the capabilities of Viv. The development of Viv and Avivator was supported with funding from the National Institutes of Health and Harvard University.
+Viv is a library for multiscale visualization of high-resolution, highly
+multiplexed bioimaging data on the web. It directly renders OME-NGFF and OME-TIFF
+formats. Avivator is a lightweight image viewer that showcases the capabilities of Viv.
+The development of Viv and Avivator was supported with funding from the
+National Institutes of Health and Harvard University.
