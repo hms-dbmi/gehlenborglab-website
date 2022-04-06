@@ -4,7 +4,7 @@ name_degree: Furui Cheng, B.Eng.
 
 photo: furui-cheng.jpg
 
-job_title: Visiting Graduate Student in Computer Science
+job_title: Visiting Graduate Student
 role: student
 
 services:
