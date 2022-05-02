@@ -14,7 +14,7 @@ websites:
     description: Documentation, Tutorials, and Examples
     url: http://gosling-lang.org/
     primary: true
-- name: Gosling Editor
+  - name: Gosling Editor
     description: Online Editor with Interactive Examples
     url: https://gosling.js.org/
     primary: true
