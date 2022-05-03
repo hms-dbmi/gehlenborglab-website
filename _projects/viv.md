@@ -1,5 +1,6 @@
 ---
 name: Viv
+active: true
 
 members:
   - nils-gehlenborg

@@ -1,5 +1,6 @@
 ---
 name: OncoThreads
+active: true
 
 members:
   - sabrina-nusrat

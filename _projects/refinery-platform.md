@@ -1,5 +1,6 @@
 ---
 name: Refinery Platform
+active: false
 
 members:
   - nils-gehlenborg

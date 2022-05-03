@@ -1,5 +1,6 @@
 ---
 name: Precision VISSTA
+active: true
 
 members:
   - nils-gehlenborg

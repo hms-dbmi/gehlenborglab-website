@@ -1,5 +1,6 @@
 ---
 name: Vitessce
+active: true
 
 members:
   - nils-gehlenborg

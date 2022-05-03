@@ -117,5 +117,12 @@ layout: page
     <h3>Collaborators</h3>
     {% include list-collaborators.html %}
     {% endif %}
+
+    <h3>Status</h3>
+    {% if page.active %}
+    Active
+    {% else %}
+    Inactive
+    {% endif %}
   </aside>
 </div>

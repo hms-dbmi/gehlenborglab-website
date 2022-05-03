@@ -1,5 +1,6 @@
 ---
 name: HiGlass
+active: true
 
 members:
   - peter-kerpedjiev
