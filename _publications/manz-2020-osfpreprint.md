@@ -24,7 +24,7 @@ While the rapid innovation of biological imaging poses significant scientific va
 the proliferation of technologies without unification of interoperable standards have created 
 challenges limiting analysis and sharing of results.
 
-We introduce [Viv](https://githubcom/hms-dbmi/viv) – an open-source bioimaging
+We introduce [Viv](https://github.com/hms-dbmi/viv) – an open-source bioimaging
 visualization library which supports OME-TIFF and OME-NGFF directly on the web.
 Viv addresses a critical limitation of most web-based bioimaging viewers by
 removing a dependency on server-side rendering, offering a flexible toolkit
