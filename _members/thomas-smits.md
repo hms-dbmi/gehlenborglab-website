@@ -4,7 +4,7 @@ name_degree: Thomas Smits
 
 photo: thomas-smits.png
 
-job_title: Graduate student in biomedical informatics
+job_title: Graduate Student in Biomedical Informatics
 role: student
 
 services:
