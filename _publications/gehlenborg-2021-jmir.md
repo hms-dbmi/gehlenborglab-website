@@ -7,12 +7,12 @@ members:
   - nils-gehlenborg
 
 year: 2021
-type: preprint
+type: article
 
-publisher: "http://doi.org/10.2196/preprints.31400"
+publisher: "https://doi.org/10.2196/31400"
 cite:
   authors: "G Weber, H Zhang, S L'Yi, C Bonzel, C Hong, P Avillach, A Gutiérrez-Sacristán, N Palmer, A Tan, X Wang, W Yuan, N Gehlenborg, A Alloni, D Amendola, A Bellasi, R Bellazzi, M Beraghi, M Bucalo, L Chiovato, K Cho, A Dagliati, H Estiri, R Follett, N García-Barrio, D Hanauer, D Henderson, Y Ho, J Holmes, M Hutch, R Kavuluru, K Kirchoff, J Klann, A Krishnamurthy, T Le, M Liu, N Loh, S Lozano-Zahonero, Y Luo, S Maidlow, A Makoudjou, A Malovini, B Moal, M Morris, D Mowery, S Murphy, A Neuraz, K Ngiam, M Okoshi, G Omenn, L Patel, M Pedrera-Jiménez, R Prudente, M Samayamuthu, J Sanz, E Schriver, P Schubert, P Serrano-Balazote, B Tan, S Tanni, V Tibollo, S Visweswaran, K Wagholikar, Z Xia, D Zoeller, The Consortium For Clinical Characterization Of COVID-19 By EHR (4CE), I Kohane, T Cai, A South, G Brat"
-  published: "*JMIR Preprints* 10.2196/preprints.31400"
+  published: "*J Med Internet Res* 2021;23(10):e31400. doi: https://doi.org/10.2196/31400"
 ---
 **Background**: Many countries have experienced two predominant waves of COVID-19-related hospitalizations. Comparing the clinical trajectories of patients hospitalized in separate waves of the pandemic enables further understanding of the evolving epidemiology, pathophysiology, and healthcare dynamics of the COVID-19 pandemic.
 
