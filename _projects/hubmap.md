@@ -21,6 +21,7 @@ collaborators:
 
 publications:
   - manz-2020-osfpreprint
+  - keller-2021-vitessce-osf
   - hubmap-2019-nature
 
 websites:
@@ -48,7 +49,7 @@ github_repositories:
     url: https://github.com/hubmapconsortium/ingest-validation-tools
   - name: Vitessce Source Code
     description:
-    url: https://github.com/hubmapconsortium/vitessce
+    url: https://github.com/vitessce/vitessce
 
 gallery:
   hubmap-data-portal.png: ''

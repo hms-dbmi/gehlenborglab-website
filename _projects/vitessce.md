@@ -22,15 +22,19 @@ websites:
     primary: true
 
 github_repositories:
-  - name: Vitessce
+  - name: vitessce
     description:
-    url: https://github.com/hubmapconsortium/vitessce
+    url: https://github.com/vitessce/vitessce
     primary: true
-  - name: Vitessce Data
+  - name: vitessce-python
     description:
-    url: https://github.com/hms-dbmi/vitessce-data
+    url: https://github.com/vitessce/vitessce-python
+  - name: vitessceR
+    description:
+    url: https://github.com/vitessce/vitessceR
 
 publications:
+  - keller-2021-vitessce-osf
   - hubmap-2019-nature
 
 grants:
