@@ -72,6 +72,8 @@ Click the "Upload files" button.
 
 Drag-and-drop or select your image file `firstname-lastname.png`
 
+Images must be smaller than 10k x 10k pixels. Most images should be less than 2k x 2k pixels.
+
 <img alt="drag files" src="/docs/img/14_drag_files.png" width="400" />
 
 Once again, follow the steps to start a pull request:
