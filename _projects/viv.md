@@ -25,7 +25,7 @@ github_repositories:
     primary: true
 
 publications:
-  - manz-2020-osfpreprint
+  - manz-2022-viv-nature-methods
 
 grants:
   - nih_1Ot2Od026677

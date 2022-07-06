@@ -20,7 +20,7 @@ collaborators:
   - katy-borner
 
 publications:
-  - manz-2020-osfpreprint
+  - manz-2022-viv-nature-methods
   - keller-2021-vitessce-osf
   - hubmap-2019-nature
 

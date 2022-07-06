@@ -9,13 +9,14 @@ members:
   - mark-keller
   - nils-gehlenborg
 
-year: 2020
-type: preprint
+year: 2022
+type: article
 
-publisher: "https://doi.org/10.31219/osf.io/wd2gu"
+publisher: "https://rdcu.be/cNlvp"
 cite:
   authors: "T Manz, I Gold, NH Patterson, C McCallum, MS Keller, BW Herr II, K Börner, J Spraggins, N Gehlenborg"
-  published: "*OSF Preprints* doi:10.31219/osf.io/wd2gu"
+  published: "*Nature Methods* **19** 515–516"
+
 ---
 Advances in highly multiplexed imaging have enabled the comprehensive profiling
 of complex tissues in healthy and diseased states, facilitating the study of
