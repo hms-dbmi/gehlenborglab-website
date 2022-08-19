@@ -1,10 +1,10 @@
 ---
-title: Pinar Eser
-name_degree: Pinar Ozden Eser, PhD
+title: Pinar Ozden Eser
+name_degree: Pinar Ozden Eser, PhD, MBI
 
 photo: pinar-eser.png
 
-job_title: NLM Biomedical Informatics and Data Science Fellow
+job_title: Associated Scientist
 role: postdoc
 
 services:
@@ -14,4 +14,4 @@ services:
 start: May 2021
 end:
 ---
-Pinar Eser, is master's student in Department of Biomedical Informatics at Harvard Medical School, and a postdoctoral scholar at the Broad Institute of MIT and Harvard. She received her PhD in Biological and Biomedical Sciences from Harvard University, where she studied the development of resistance to targeted therapies in lung cancer. Pinar's research in the Gehlenborg Lab centers on developing interactive visualizations of single-base mutational signatures in cancer.
+Pinar is a recent graduate of the Master in Biomedical Informatics program in the Department of Biomedical Informatics at Harvard Medical School, and a research scientist at the Broad Institute of MIT and Harvard. She received her PhD in Biological and Biomedical Sciences from Harvard University, where she studied resistance to targeted therapies in lung cancer. Pinar's research in the Gehlenborg Lab centers on developing interactive visualizations of mutational signatures in cancer.
