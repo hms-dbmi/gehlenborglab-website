@@ -28,7 +28,7 @@ The [Gehlenborg Lab](http://gehlenborglab.org/) is working on multiple projects 
 
 
 #### How to Apply
-- Submit Google Form (https://forms.gle/TThPNzQoaQ5jmgXs9)
+- Submit Google Form ([https://forms.gle/TThPNzQoaQ5jmgXs9](https://forms.gle/TThPNzQoaQ5jmgXs9))
 
 #### Contact
 - Sehi L'Yi: sehi_lyi@hms.harvard.edu
