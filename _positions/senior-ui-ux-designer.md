@@ -9,14 +9,12 @@ project:
 
 Join our team of researchers, engineers, and designers to shape the future of biomedical research! 
 
-The Gehlenborg Lab in the Department of Biomedical Informatics at Harvard Medical School is funded to develop data visualization tools and user interfaces for multiple national and international cell atlas projects such as the Human BioMolecular Atlas Program (HuBMAP), the Cellular Senescence Network (SenNet), the Human Tumor Atlas Network (HTAN), the Kidney Precision Medicine Network (KPMP), and the Human Cell Atlas (HCA). 
+The Gehlenborg Lab in the Department of Biomedical Informatics at Harvard Medical School is funded to develop data visualization tools and user interfaces for multiple national and international cell atlas projects such as the [Human Biomolecular Atlas Program](https://hubmapconsortium.org) (HuBMAP), the [Cellular Senescence Network](https://sennetconsortium.org) (SenNet), the [Human Tumor Atlas Network](https://humantumoratlas.org) (HTAN), the [Kidney Precision Medicine Network](https://www.kpmp.org/)(KPMP), and the [Human Cell Atlas](https://www.humancellatlas.org/) (HCA). 
 
 The ultimate goal of these efforts is to create maps of the human body at single-cell resolution with the help of cutting edge technologies that generate large and complex sequencing and imaging data sets. The maps will shape our understanding of processes like aging and usher in a new era of treatments for common human diseases. 
  
-
 Your responsibility will be to ensure that the user experience and user interfaces for our tools meet the needs of a broad community of scientists, clinicians, and other stakeholders. You will accomplish this by applying state-of-the-art user research techniques to elicit personas, use cases, and evaluation criteria. You will create wireframes and high fidelity user interface mockups. You will partner with the software developers and researchers on our team as well as national and international collaborators to accomplish our goals. You will also coordinate and oversee the day-to-day work of other UI/UX designers on the team and develop processes and documentation for UI/UX design work in the Gehlenborg Lab.
  
-
 We value diversity, creativity, and initiative in a highly collaborative and interdisciplinary work environment. The Gehlenborg Lab has an international reputation for creating high impact data visualization tools and we are driven to solve the most challenging design and engineering problems in biomedical data science. We would love to have you on our team!
 
 #### Work Environment

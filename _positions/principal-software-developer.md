@@ -8,7 +8,7 @@ project:
 ---
 
 Join our team of researchers, engineers, and designers to shape the future of biomedical research! 
-The Gehlenborg Lab in the Department of Biomedical Informatics at Harvard Medical School is funded to develop data visualization tools and user interfaces for multiple national and international cell atlas projects such as the Human BioMolecular Atlas Program (HuBMAP), the Cellular Senescence Network (SenNet), the Human Tumor Atlas Network (HTAN), the Kidney Precision Medicine Network (KPMP), and the Human Cell Atlas (HCA). 
+The Gehlenborg Lab in the Department of Biomedical Informatics at Harvard Medical School is funded to develop data visualization tools and user interfaces for multiple national and international cell atlas projects such as the [Human Biomolecular Atlas Program](https://hubmapconsortium.org) (HuBMAP), the [Cellular Senescence Network](https://sennetconsortium.org) (SenNet), the [Human Tumor Atlas Network](https://humantumoratlas.org) (HTAN), the [Kidney Precision Medicine Network](https://www.kpmp.org/)(KPMP), and the [Human Cell Atlas](https://www.humancellatlas.org/) (HCA). 
  
 The ultimate goal of these efforts is to create maps of the human body at single-cell resolution with the help of cutting edge technologies that generate large and complex sequencing and imaging data sets. The maps will shape our understanding of processes like aging and usher in a new era of treatments for common human diseases. 
  

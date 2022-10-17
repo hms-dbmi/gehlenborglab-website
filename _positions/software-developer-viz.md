@@ -10,7 +10,7 @@ project:
 
 Join our team of researchers, engineers, and designers to shape the future of biomedical research! 
 
-The Gehlenborg Lab in the Department of Biomedical Informatics at Harvard Medical School is funded to develop novel data visualization tools for genomics, epigenomics, and nucleomics data and participates in consortia like 4D Nucleome Consortium (4DN).
+The Gehlenborg Lab in the Department of Biomedical Informatics at Harvard Medical School is funded to develop novel data visualization tools for genomics, epigenomics, and nucleomics data and participates in consortia like [4D Nucleome Consortium](https://www.4dnucleome.org/) (4DN).
 
 You will participate in the full software development life cycle for the genomics, epigenomics, and nucleomics data visualization tools that our team is creating, such as [Gosling](http://gosling-lang.org) and [HiGlass](http://higlass.io). You will be working in close collaboration with researchers and the principal investigator of the team to implement visualization tools using state of the art web development technologies. You will also be contributing to the development of Python or R software packages, server-side components, and data processing scripts. You will be using automated testing, CI/CD, packaging, and documentation techniques to ensure high quality of our software.
 
