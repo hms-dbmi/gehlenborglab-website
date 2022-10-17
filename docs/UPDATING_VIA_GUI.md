@@ -18,7 +18,7 @@ Navigate to the `_members` folder:
 
 #### Adding a lab member
 
-[Click here](https://raw.githubusercontent.com/hms-dbmi/gehlenborglab-website/master/_members/template.md)
+[Click here](https://raw.githubusercontent.com/hms-dbmi/gehlenborglab-website/main/_members/template.md)
 to select all template contents and copy them to your clipboard (Edit -> Select All, then Edit -> Copy).
 
 

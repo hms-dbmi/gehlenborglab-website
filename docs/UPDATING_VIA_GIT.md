@@ -53,10 +53,10 @@ git commit -m "Updated Firstname Lastname photo"
 Push the changes to GitHub
 
 ```sh
-git push -u origin master
+git push -u origin main
 ```
 
-Review your changes on GitHub by comparing them with the original (non-forked) `master` branch
+Review your changes on GitHub by comparing them with the original (non-forked) `main` branch
 
 [https://github.com/hms-dbmi/gehlenborglab-website/compare/](https://github.com/hms-dbmi/gehlenborglab-website/compare/)
 
