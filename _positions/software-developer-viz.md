@@ -28,7 +28,7 @@ The Gehlenborg Lab is using a hybrid workplace model and this position can be fu
 - Abide by and follow the Harvard University IT technical standards, policies and Code of Conduct
 
 #### Basic Qualifications
-- Minimum of two years’ post-secondary education or relevant work experience
+- Minimum of two years post-secondary education or relevant work experience
 
 #### Additional Qualifications and Skills
 - Ability to produce high quality code in JavaScript, React, Python or R, and shell scripting languages

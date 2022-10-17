@@ -28,7 +28,7 @@ The Gehlenborg Lab is using a hybrid workplace model and this position can be fu
 - Abide by and follow the Harvard University IT technical standards, policies and Code of Conduct
 
 #### Basic Qualifications
-- Minimum of two years’ post-secondary education or relevant work experience
+- Minimum of two years post-secondary education or relevant work experience
 
 #### Additional Qualifications and Skills
 - Ability to produce high quality code in Python, JavaScript, React, and shell scripting languages
@@ -40,7 +40,7 @@ The Gehlenborg Lab is using a hybrid workplace model and this position can be fu
 - Understanding of basics of molecular biology and biomedical research is helpful but not required
 
 #### Terms
-This is a one-year term position from the date of hire, with the possibility of extension, contingent upon work performance and continued funding to support the position. 
+This is a one-year term position with strong potential for renewal.
 
 #### How to Apply
 Apply on [Harvard Careers](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1975015).
