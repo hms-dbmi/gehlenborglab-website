@@ -9,7 +9,9 @@ jobs:
     # https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
     runs-on: ubuntu-20.04
     env:
-      BUNDLE_BUILD__SASSC: "--disable-march-tune-native"
+      #sassc 2.2.1 which is a dependency of uswds-jekyll has issues with Ubuntu.
+      #see https://github.com/sass/sassc-ruby/issues/146#issuecomment-542288556.
+      BUNDLE_BUILD__SASSC: "--disable-march-tune-native" 
 
     steps:
     - uses: actions/checkout@v2
