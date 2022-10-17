@@ -1,7 +1,7 @@
 ---
 layout: position
 
-title: Software Developer - Atlas Projects
+title: Software Developer - Cell Atlas Projects
 
 project:
   - hubmap
