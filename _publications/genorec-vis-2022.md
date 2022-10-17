@@ -1,6 +1,6 @@
 ---
 title: "GenoREC: A Recommendation System for Interactive Genomics Data Visualization"
-image: genorec-vis-2022.png
+image: vis-2022-genorec.png
 
 members:
   - aditeya-pandey
