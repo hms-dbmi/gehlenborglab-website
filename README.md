@@ -1,11 +1,11 @@
-# gehlenborglab-website [![Build Status](https://travis-ci.org/hms-dbmi/gehlenborglab-website.svg?branch=master)](https://travis-ci.org/hms-dbmi/gehlenborglab-website)
+# gehlenborglab-website [![Build Status](https://github.com/hms-dbmi/gehlenborglab-website/actions/workflows/deploy.yml/badge.svg)](https://github.com/hms-dbmi/gehlenborglab-website/actions)
 
 Looking for [website updating instructions](./docs/)?
 
-(Need to set up your own Travis/Jekyll/S3 site? See [generate-static-site](https://github.com/hms-dbmi/generate-static-site).)
+(Need to set up your own Jekyll/S3 site? See [generate-static-site](https://github.com/hms-dbmi/generate-static-site).)
 
 The Gehlenborg Lab website uses Jekyll plugins beyond those supported by GitHub Pages.
-Instead, when the master branch is updated, Travis builds `_site` and pushes it
+Instead, when the main branch is updated, Github Actions builds `_site` and pushes it
 to the appropriate S3 bucket. You will need to need to have a working, up-to-date ruby environment:
 You can either install `rvm` or:
 
