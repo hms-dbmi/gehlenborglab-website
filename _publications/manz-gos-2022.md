@@ -1,5 +1,5 @@
 ---
-title: "Data Visualization for Surgical Informed Consent to Communicate Personalized Risks and Patient Preferences"
+title: "Gos: a declarative library for interactive genomics visualization in Python"
 image: gos.png
 
 members:
