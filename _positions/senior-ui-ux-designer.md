@@ -18,7 +18,7 @@ Your responsibility will be to ensure that the user experience and user interfac
 We value diversity, creativity, and initiative in a highly collaborative and interdisciplinary work environment. The Gehlenborg Lab has an international reputation for creating high impact data visualization tools and we are driven to solve the most challenging design and engineering problems in biomedical data science. We would love to have you on our team!
 
 #### Work Environment
-The Gehlenborg Lab is using a hybrid workplace model and this position can be fully remote, hybrid, or in-person. All remote work must be performed within a state in which Harvard is registered to do business (CA, CT, MA, MD, ME, NH, NY, RI, and VT). Occasional domestic or international travel to attend meetings may be required.
+The Gehlenborg Lab is using a hybrid workplace model and this position can be fully remote, hybrid, or in-person. All remote work must be performed within a state in which Harvard is registered to do business. Occasional domestic or international travel to attend meetings may be required.
 
 #### Typical Core Duties
 - Function as subject matter expert to frame, scope, and lead multiple interdisciplinary projects using a collaborative approach
