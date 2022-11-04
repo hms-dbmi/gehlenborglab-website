@@ -1,7 +1,7 @@
 ---
 layout: position
 
-title: Software Developer - Visualization
+title: Software Developer - Genomics Visualization
 
 project:
   - gosling
