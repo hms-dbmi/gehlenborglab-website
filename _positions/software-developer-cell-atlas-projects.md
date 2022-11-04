@@ -5,7 +5,6 @@ title: Software Developer - Cell Atlas Projects
 
 project:
   - hubmap
-  - vitessce
 ---
 
 Join our team of researchers, engineers, and designers to shape the future of biomedical research! 
