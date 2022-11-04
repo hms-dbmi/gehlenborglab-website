@@ -1,7 +1,7 @@
 ---
 layout: position
 
-title: Software Developer - Cell Atlas Projects
+title: Software Developer - Single-Cell Data Visualization
 
 project:
   - hubmap
