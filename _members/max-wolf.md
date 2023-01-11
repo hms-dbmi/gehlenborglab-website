@@ -5,7 +5,7 @@ name_degree: Max Wolf, PhD
 photo: placeholder.png
 
 job_title: Curriculum Fellow in Biomedical Informatics
-role: postdoc
+role: alumni
 
 start: September 2019
 end: September 2022
