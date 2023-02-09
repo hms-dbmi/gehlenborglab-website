@@ -2,10 +2,10 @@
 title: Thomas Smits
 name_degree: Thomas Smits
 
-photo: thomas-smits.png
+photo: thomas-smits.jpeg
 
-job_title: Graduate Student in Biomedical Informatics
-role: student
+job_title: Associate in Biomedical Informatics
+role: staff
 
 services:
   linked-in: https://www.linkedin.com/in/thomas-c-smits/
@@ -14,4 +14,4 @@ services:
 start: February 2022
 end:
 ---
-Thomas Smits is a master's student in the Master of Biomedical Informatics program at Harvard Medical School. With a background in Life Sciences and Computer Science at the Delft University of Technology, Thomas is passionate to persue his interest in genomics. He is working in the Gehlenborg lab on making the grammar-based genomic visualisation tool Gosling more accessible by rendering automatic text descriptions.
+Thomas Smits is an associate in Biomedical Informatics. He received his Master's in Biomedical Informatics at Harvard Medical School, after his Bachelor's degree in Life Science & Technology and a transfer program in Computer Science at the Delft University of Technology. Thomas is passionate to persue his interests in genomics. He is working in the Gehlenborg lab on making the grammar-based genomic visualisation tool Gosling more accessible by rendering automatic text descriptions. He is furthermore working on improving the way to visualize cell types and abundances in the context of single cell data. 
