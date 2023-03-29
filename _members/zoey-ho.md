@@ -1,8 +1,8 @@
 ---
-title: Zoey Hou
-name_degree: Zoey Hou, BS, MBI
+title: Zoey Ho
+name_degree: Zoey Ho, BS, MBI
 
-photo: zoey-hou.jpg
+photo: zoey-ho.jpg
 
 job_title: Graduate Student in Biomedical Informatics
 role: alumni
