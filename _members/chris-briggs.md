@@ -5,7 +5,7 @@ name_degree: Christine Briggs, PhD
 photo: chris-briggs.png
 
 job_title: Senior Data Curator
-role: staff
+role: alumni
 
 services:
   #github: 
@@ -13,7 +13,7 @@ services:
   linked-in: https://www.linkedin.com/in/chrisbriggslinkedinprofile/
   
 start: Dec 2019
-end:
+end: January 2022
 ---
 Chris Briggs received her PhD in cell & molecular biology from Boston University.
 
