@@ -5,10 +5,10 @@ name_degree: Margaret Vella, BS
 photo: margaret-vella.jpg
 
 job_title: Project Manager
-role: administration
+role: alumni
 
 start: November 2018
-end:
+end: July 2022
 ---
 Margaret is the Project Manager for the Harvard Medical School HIVE Tools Component of HuBMAP.
 She works closely with Dr. Gehlenborg to ensure project milestones and collaborative efforts remain on track.

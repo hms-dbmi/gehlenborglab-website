@@ -4,7 +4,7 @@ title: Cynthia Rosas
 photo: placeholder.png # this file is relative to `assets/img/members/`
 
 job_title: DBMI Summer Institute Intern
-role: student 
+role: alumni 
 
 services:
   github: https://github.com/cjrosa23
