@@ -4,7 +4,7 @@ name_degree: Lisa Choy
 
 photo: lisa-choy.jpg
 
-job_title: Software Developer
+job_title: Principal Software Developer
 role: staff 
 
 services:
