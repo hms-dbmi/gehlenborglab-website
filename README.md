@@ -6,12 +6,9 @@ Looking for [website updating instructions](./docs/)?
 
 The Gehlenborg Lab website uses Jekyll plugins beyond those supported by GitHub Pages.
 Instead, when the main branch is updated, Github Actions builds `_site` and pushes it
-to the appropriate S3 bucket. You will need to need to have a working, up-to-date ruby environment:
-You can either install `rvm` or:
+to the appropriate S3 bucket. You will need to need to have a working, up-to-date ruby environment.
 
-- A [tweak to `.bash_profile`](https://www.michaelehead.com/2016/02/06/installing-gems-without-sudo.html) will fix permission problems with `gem install`.
-- The default ruby version on MacOS is too old: I upgraded with `brew install ruby`,
-and followed the post-install notes to update `PATH` in `.bash_profile`.
+Install `rvm` [https://rvm.io/rvm/install]. RVM should load or prompt for installation of the ruby version in .ruby_version on entry to the project folder.
 
 With Ruby fixed, then:
 
