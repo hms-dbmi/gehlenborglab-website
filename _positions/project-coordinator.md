@@ -12,7 +12,7 @@ Join our team of researchers, engineers, and designers to shape the future of bi
 
 The ultimate goal of these efforts is to create maps of the human body at single-cell resolution with the help of cutting edge technologies that generate large and complex sequencing and imaging data sets. The maps will shape our understanding of processes like aging and usher in a new era of treatments for common human diseases.
 
-As Project Manager, your key responsibilities will be coordinating and managing development and design teams that are building, maintaining, and enhancing our software products. You will work in close collaboration with the Principal Investigator (PI) and R&D Manager of the Gehlenborg Lab to ensure teams meet defined milestones and deliverables.		
+As Project Coordinator, your key responsibilities will be coordinating and managing development and design teams that are building, maintaining, and enhancing our software products. You will work in close collaboration with the Principal Investigator (PI) and R&D Manager of the Gehlenborg Lab to ensure teams meet defined milestones and deliverables.		
 
 The Gehlenborg Lab has an international reputation for creating high impact data visualization tools and we are driven to solve the most challenging design and engineering problems in biomedical data science. We value diversity, creativity, and initiative in a highly collaborative and interdisciplinary work environment. We would love to have you on our team!								
 
