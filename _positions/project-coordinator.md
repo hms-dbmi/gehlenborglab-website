@@ -34,5 +34,10 @@ Minimum 2 years of related experience, education may count towards experience.
 #### Additional Qualifications and Skills
 Bachelor's Degree preferred. Previous experience working in a research environment preferred. Proven time management efficiency, and ability to work independently as well as collaboratively with others. Strong oral and written communication skills, as well as interpersonal skills via email, in person, and telephone. Experience handling complex and confidential information with discretion. Detail-oriented and superb organizational skills. Ability to manage multiple projects and activities in a very busy work environment that is often deadline driven. 
 
+#### Terms
+This is a one-year term position with strong potential for renewal.
+
+#### How to Apply
+Apply on [Harvard Careers](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1990731).
 
 *Harvard Medical School is an Equal Opportunity/Affirmative Action Employer. Women and minorities are especially encouraged to apply.*
