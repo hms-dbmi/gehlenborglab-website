@@ -8,9 +8,9 @@ job_title: Research Fellow in Biomedical Informatics
 role: postdoc # or postdoc, administration, staff, alumni, etc.
 
 services:
-#github: https://github.com/EricMoerthVis
-#twitter: https://twitter.com/EricMorth
-#linked-in: https://www.linkedin.com/in/ericmoerth
+  github: https://github.com/EricMoerthVis
+  twitter: https://twitter.com/EricMorth
+  linked-in: https://www.linkedin.com/in/ericmoerth
 
 start: April 2023
 end:
