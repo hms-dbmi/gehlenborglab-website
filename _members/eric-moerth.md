@@ -1,8 +1,8 @@
 ---
-title: Moerth Eric
-name_degree: Moerth Eric, PhD
+title: Eric Moerth
+name_degree: Eric Moerth, PhD
 
-photo: moerth-eric.jpg # this file is relative to `assets/img/members/`
+photo: eric-moerth.jpg # this file is relative to `assets/img/members/`
 
 job_title: Research Fellow in Biomedical Informatics
 role: postdoc # or postdoc, administration, staff, alumni, etc.
