@@ -5,7 +5,7 @@ name_degree: Man Qing Liang, PharmD, MS, MBI
 photo: manqing-liang.jpg # this file is relative to `assets/img/members/`
 
 job_title: Research Fellow in Biomedical Informatics
-role: postdoc # or postdoc, administration, staff, alumni, etc.
+role: alumni # or postdoc, administration, staff, alumni, etc.
 
 services:
   github: https://github.com/mnqng
@@ -13,7 +13,7 @@ services:
   linked-in: https://www.linkedin.com/in/manqing-l/
   
 start: September 2022
-end:
+end: March 2023
 ---
 [Man Qing Liang](https://manqing.me/) is a Research Fellow in Biomedical Informatics at Harvard Medical School.
 

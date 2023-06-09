@@ -31,6 +31,7 @@ github_repositories:
 
 publications:
   - lyi-2021-gosling-osf
+  - manz-gos-2022
 
 # grants:
 #   - 
