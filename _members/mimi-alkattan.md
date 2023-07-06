@@ -5,7 +5,6 @@ photo: mimi-alkattan.jpg
 job_title: Associate and Project Coordinator 
 role: staff
 services:
-  website: https://www.mimialkattan.com/
   twitter: https://twitter.com/MimiAlkattan
   linked-in: https://www.linkedin.com/in/malkattan
   
