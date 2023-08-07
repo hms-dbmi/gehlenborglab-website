@@ -8,6 +8,7 @@ job_title: Visiting Scholar
 role: student # or postdoc, administration, staff, alumni, etc.
 
 services:
+  #home: https://member-website.com
   #github: https://github.com/
   #twitter: https://twitter.com/
   #linked-in: https://www.linkedin.com/in/
