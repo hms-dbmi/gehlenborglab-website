@@ -12,6 +12,10 @@ jobs:
       #sassc 2.2.1 which is a dependency of uswds-jekyll has issues with Ubuntu.
       #see https://github.com/sass/sassc-ruby/issues/146#issuecomment-542288556.
       BUNDLE_BUILD__SASSC: "--disable-march-tune-native" 
+    # These permissions are needed to interact with GitHub's OIDC Token endpoint.
+    permissions:
+        id-token: write
+        contents: read
 
     steps:
     - uses: actions/checkout@v2
@@ -40,13 +44,17 @@ jobs:
 
     - name: Configure AWS Credentials
       if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/main' }}
-      uses: aws-actions/configure-aws-credentials@v1
+      uses: aws-actions/configure-aws-credentials@v2
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: ${{ secrets.AWS_REGION }}
+        role-to-assume: ${{ secrets.AWS_IAM_ROLE }}
+        aws-region: us-east-1
 
     - name: Upload to S3
       if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/main' }}
       run: |
-        aws s3 sync _site/ s3://${{ secrets.AWS_S3_BUCKET }} --acl public-read
+        aws s3 sync _site/ s3://hidivelab.org
+    
+    - name: Invalidate Cache
+      if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/main' }}
+      run: |
+        aws cloudfront create-invalidation --distribution-id ${{secrets.CF_DISTRIBUTION_ID}} --paths "/*"
