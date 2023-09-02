@@ -42,23 +42,19 @@ jobs:
         ! grep -n '<ERROR' -r _site
         bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
 
-    - name: check ref
-      run: |
-        echo ${{github.ref}} 
-
     - name: Configure AWS Credentials
-      if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/lchoy/website-migration' }}
-      uses: aws-actions/configure-aws-credentials@v2
+      if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/main' }}
+      uses: aws-actions/configure-aws-credentials@v3
       with:
         role-to-assume: ${{ secrets.AWS_IAM_ROLE }}
         aws-region: us-east-1
 
     - name: Upload to S3
-      if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/lchoy/website-migration' }}
+      if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/main' }}
       run: |
         aws s3 sync _site/ s3://hidivelab.org
     
     - name: Invalidate Cache
-      if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/lchoy/website-migration' }}
+      if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/main' }}
       run: |
         aws cloudfront create-invalidation --distribution-id ${{secrets.CF_DISTRIBUTION_ID}} --paths "/*"
