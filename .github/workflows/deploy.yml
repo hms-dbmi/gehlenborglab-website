@@ -42,6 +42,10 @@ jobs:
         ! grep -n '<ERROR' -r _site
         bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
 
+    - name: check ref
+      run: |
+        echo ${{github.ref}}
+
     - name: Configure AWS Credentials
       if: ${{ github.event_name == 'push' && github.ref  == 'refs/heads/lchoy/website-migration' }}
       uses: aws-actions/configure-aws-credentials@v2
