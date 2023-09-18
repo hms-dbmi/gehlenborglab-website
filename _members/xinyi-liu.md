@@ -5,7 +5,7 @@ name_degree: Xinyi Liu
 photo: xinyi-liu.png
 
 job_title: Postgraduate Research Intern
-role: student 
+role: alumni 
 
 services:
     linked-in: https://www.linkedin.com/in/liu-xy/

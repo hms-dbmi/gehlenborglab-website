@@ -5,7 +5,7 @@ name_degree: Sydney Meyer
 photo: sydney-profile.png
 
 job_title: HuBMAP Intern
-role: student 
+role: alumni 
 
 services:
     linked-in: https://www.linkedin.com/in/sydney-meyer-476147231/

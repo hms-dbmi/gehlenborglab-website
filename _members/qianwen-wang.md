@@ -5,7 +5,7 @@ name_degree: Qianwen Wang, PhD
 photo: qianwen-wang.jpg # this file is relative to `assets/img/members/`
 
 job_title: Research Fellow in Biomedical Informatics
-role: postdoc # or postdoc, administration, staff, alumni, etc.
+role: alumni # or postdoc, administration, staff, alumni, etc.
 
 services:
   #github: https://github.com/
@@ -13,7 +13,7 @@ services:
   #linked-in: https://www.linkedin.com/in/
   
 start: May 2020
-end:
+end: August 2023
 ---
 [Qianwen Wang](http://wangqianwen0418.github.io) is a Research Fellow in Biomedical Informatics at Harvard Medical School.
 

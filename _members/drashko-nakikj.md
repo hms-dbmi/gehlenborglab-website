@@ -5,11 +5,11 @@ name_degree: Drashko Nakikj, PhD
 photo: placeholder.png
 
 job_title: Research Fellow in Biomedical Informatics
-role: postdoc
+role: alumni
 
 
 start: April 2019
-end:
+end: February 2022
 ---
 Drashko Nakikj graduated from the PhD program at the Department of Biomedical Informatics at Columbia University, where he was advised by Dr. Lena Mamykina. Under her supervision he did research on two types of software tools: ones that support knowledge sharing in clinical settings and others that help patients get information of interest from, and make sense of, long discussions in online health forums, while at the same time stimulating social connections between the participants. As a postdoctoral researcher at DBMI in Nils Gehlenborg’s lab, Nakikj is extending his previous knowledge about tools that support making sense of complex medical data to design, develop and evaluate data visualization tools. These tools not only support individual sensemaking for patients and clinicians, but also serve as a platform for improved communication between both parties. His work is in two projects:
 
