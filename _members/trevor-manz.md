@@ -15,4 +15,4 @@ services:
 start: June 2018
 
 ---
-Trevor is a PhD candidate and NSF Graduate Research Fellow at the Department of Biomedical Informatics. He is currently a rotation student in the lab working on Vitessce.
+Trevor is a PhD candidate and NSF Graduate Research Fellow at the Department of Biomedical Informatics.
