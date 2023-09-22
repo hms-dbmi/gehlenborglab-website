@@ -9,7 +9,7 @@ role: student # or postdoc, administration, staff, alumni, etc.
 
 services:
   #home: https://member-website.com
-  #github: https://github.com/
+  github: https://github.com/astridvandenbrandt
   #twitter: https://twitter.com/
   #linked-in: https://www.linkedin.com/in/
   
