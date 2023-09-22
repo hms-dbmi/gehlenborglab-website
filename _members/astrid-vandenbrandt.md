@@ -2,7 +2,7 @@
 title: Astrid van den Brandt
 name_degree: Astrid van den Brandt, MSc
 
-photo: astrid-vandenbrandt.png # this file is relative to `assets/img/members/`
+photo: astrid-vandenbrandt.jpg # this file is relative to `assets/img/members/`
 
 job_title: Visiting Graduate Student in Computer Science
 role: student # or postdoc, administration, staff, alumni, etc.
