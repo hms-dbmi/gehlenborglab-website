@@ -10,11 +10,11 @@ project:
 
 Join our team of researchers, engineers, and designers to shape the future of biomedical research! 
  
-The Gehlenborg Lab in the Department of Biomedical Informatics at Harvard Medical School is funded to develop data visualization tools and user interfaces for multiple national and international cell atlas projects such as the [Human Biomolecular Atlas Program](https://hubmapconsortium.org) (HuBMAP), the [Cellular Senescence Network](https://sennetconsortium.org) (SenNet), the [Human Tumor Atlas Network](https://humantumoratlas.org) (HTAN), the [Kidney Precision Medicine Network](https://www.kpmp.org/)(KPMP), and the [Human Cell Atlas](https://www.humancellatlas.org/) (HCA).
+The HIDIVE Lab in the Department of Biomedical Informatics at Harvard Medical School is funded to develop data visualization tools and user interfaces for multiple national and international cell atlas projects such as the [Human Biomolecular Atlas Program](https://hubmapconsortium.org) (HuBMAP), the [Cellular Senescence Network](https://sennetconsortium.org) (SenNet), the [Human Tumor Atlas Network](https://humantumoratlas.org) (HTAN), the [Kidney Precision Medicine Network](https://www.kpmp.org/)(KPMP), and the [Human Cell Atlas](https://www.humancellatlas.org/) (HCA).
  
 You will participate in the full software development life cycle for the cell atlas projects that we are involved in such as the [HuBMAP Data Portal](https://portal.hubmapconsortium.org)  and [Vitessce](http://vitessce.io). Under the guidance of more senior developers on our team, you will implement client-side user interfaces and visualization tools using state of the art web development technologies. Your primary focus will be on developing user interface components and implementing them following well-known React.js workflows. You will ensure that these components and the overall application are robust and easy to maintain. You will coordinate with teams working on different layers of the infrastructure. You will be using automated testing, CI/CD, packaging, and documentation techniques to ensure high quality of our software.
 
-We value diversity, creativity, and initiative in a highly collaborative and interdisciplinary work environment. The Gehlenborg Lab has an international reputation for creating high impact data visualization tools and we are driven to solve the most challenging design and engineering problems in biomedical data science. We would love to have you on our team!
+We value diversity, creativity, and initiative in a highly collaborative and interdisciplinary work environment. The HIDIVE Lab has an international reputation for creating high impact data visualization tools and we are driven to solve the most challenging design and engineering problems in biomedical data science. We would love to have you on our team!
 
 #### Typical Core Duties
 - Participate fully in software development life cycle
@@ -40,7 +40,7 @@ We value diversity, creativity, and initiative in a highly collaborative and int
 - Understanding of basics of molecular biology and biomedical research is helpful but not required 
 
 #### Work Environment
-The Gehlenborg Lab is using a hybrid workplace model and this position can be fully remote, hybrid, or in-person.
+The HIDIVE Lab is using a hybrid workplace model and this position can be fully remote, hybrid, or in-person.
 
 #### Additional Information
 This is a one-year term position with strong potential for renewal.
