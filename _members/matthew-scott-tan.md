@@ -16,4 +16,4 @@ services:
 start: Sep 2023
 end:
 ---
-Matthew is an udergraduate stuent concentrating in Mathematics and Statistics at Harvard College. Previously, he was a Specialist (Intelligence) in the Singapore Armed Forces, focusing on imagery and geospatial analysis. At the Gehlenborg lab, he is using computational and mathematical methods to process single-cell resolution omics and imaging data.
+Matthew is an undergraduate student concentrating in Mathematics and Statistics at Harvard College. Previously, he was a Specialist (Intelligence) in the Singapore Armed Forces, focusing on imagery and geospatial analysis. At the HIDIVE lab, he is using computational and mathematical methods to process single-cell resolution omics and imaging data.
