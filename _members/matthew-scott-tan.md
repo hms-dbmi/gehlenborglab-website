@@ -11,7 +11,7 @@ services:
   #home: https://member-website.com
   #github: https://github.com/
   #twitter: https://twitter.com/
-  #linked-in: https://www.linkedin.com/in/
+  linked-in: https://www.linkedin.com/in/matthew-scott-tan/
 
 start: September 2023
 end:
