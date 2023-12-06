@@ -14,7 +14,6 @@ The goal of this study is to better understand various workflows, needs, and cha
 
 **What is the purpose of this study?** Our goal is to understand various analysis and visualization workflows for genomics, specifically genome-mapped data (for example, data processing, visual analytics, and presentation).
 
-
 **Who can participate?** Participants should have experience working with *Genome-mapped Data* (e.g., data process, visualization, and/or analysis), preferably on a weekly basis. They should have familiarity with Genome-mapped Data visualization tools like genome browsers (e.g., IGV, JBrowse, Circos). Participants may be graduate students, postdocs, researchers, clinicians, s/w engineers, and faculties.
 
 <ul>

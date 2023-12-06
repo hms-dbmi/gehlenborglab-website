@@ -4,7 +4,7 @@ Looking for [website updating instructions](./docs/)?
 
 (Need to set up your own Jekyll/S3 site? See [generate-static-site](https://github.com/hms-dbmi/generate-static-site).)
 
-The Gehlenborg Lab website uses Jekyll plugins beyond those supported by GitHub Pages.
+The HIDIVE Lab website uses Jekyll plugins beyond those supported by GitHub Pages.
 Instead, when the main branch is updated, Github Actions builds `_site` and pushes it
 to the appropriate S3 bucket. You will need to need to have a working, up-to-date ruby environment.
 

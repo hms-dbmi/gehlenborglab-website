@@ -7,11 +7,11 @@ project:
   - vitessce
 
 ---
-The [Gehlenborg Lab](http://gehlenborglab.org/) in the Department of Biomedical Informatics at Harvard Medical School invites applications for paid student research assistants.
+The [HIDIVE Lab](https://hidivelab.org/) in the Department of Biomedical Informatics at Harvard Medical School invites applications for paid student research assistants.
 
 
 #### Project Overview
-Are you interested in developing interactive data visualization solutions that can be used to solve biological challenges? Join us as a student research assistant in the [Gehlenborg Lab](http://gehlenborglab.org/) at Harvard Medical School!
+Are you interested in developing interactive data visualization solutions that can be used to solve biological challenges? Join us as a student research assistant in the [HIDIVE Lab](https://hidivelab.org/) at Harvard Medical School!
 
 
 #### Responsibilities
