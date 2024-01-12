@@ -15,4 +15,4 @@ end: August 2021
 ---
 Cynthia Rosas is a computer science student participating in DBMI's Summer Institute in Biomedical Informatics at Harvard Medical School.
 Cynthia Rosas will receive their BA from Colby College in 2023. The goal of Cynthia's research is to develop and design visualization tools 
-and themes to faciliate genomic data interpretation.
+and themes to facilitate genomic data interpretation.

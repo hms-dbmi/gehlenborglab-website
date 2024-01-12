@@ -18,4 +18,4 @@ Mohamed Yousry ElSadec is an intern in the Summer Institute at the Department of
 
 He is a rising senior at Minerva University studying Natural Sciences concentrating in Cells & Organisms and Computational Sciences concentrating in Data Science & Statistics. 
  
-The goal of Yousry's research is to develope bioinformatics tools that advances genomics research.
+The goal of Yousry's research is to develop bioinformatics tools that advances genomics research.
