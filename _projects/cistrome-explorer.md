@@ -30,7 +30,7 @@ grants:
 collaborators:
 
 publications:
-  - lyi-cistrome-explorer-2022
+  - 2023-lyi-cistrome-explorer
 
 blurb:
   - Web-based Interactive Visual Analytics Tool for Exploring Epigenomics Data with Associated Metadata
