@@ -8,9 +8,10 @@ job_title: Research Fellow in Biomedical Informatics
 role: postdoc
 
 services:
-  github: https://github.com/sehilyi
   home: http://sehilyi.com
+  github: https://github.com/sehilyi
   twitter: https://twitter.com/sehi_lyi
+  linked-in: https://www.linkedin.com/in/sehilyi/
   
 start: February 2020
 end:
