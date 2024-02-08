@@ -3,7 +3,7 @@ layout: page
 title: Funding
 permalink: /research/funding/
 ---
-## Funding
+# Funding
 
 {% assign grants = "" | split: "" %}
 {% for grant in site.data.grants %}
