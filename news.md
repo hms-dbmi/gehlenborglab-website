@@ -3,7 +3,7 @@ layout: page
 title: News
 permalink: /news/
 ---
-## News
+# News
 
 {% assign latest_news = site.news | reverse %}
 {% assign end_year = latest_news[0].date | date: "%Y" %}

@@ -25,7 +25,7 @@ subnav:
   - text: Collaborators
     href: '#collaborators'
 ---
-## Team
+# Team
 
 {% assign roles = 'pi:Principal Investigator/administration:Administration/postdoc:Postdoctoral Fellows/student:Students/staff:Staff' | split: '/' %}
 

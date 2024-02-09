@@ -8,7 +8,7 @@ hero:
 
 permalink: /team/open-positions/
 ---
-## Open Positions
+# Open Positions
 
 <p class="usa-font-lead">We currently have {{ site.positions|size }} open positions. Please see individual position descriptions for application instructions.</p>
 
