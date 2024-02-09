@@ -7,7 +7,7 @@ permalink: /publications/
 <table class="publications">
 
 <tr><td colspan="2">
-  <h2>Preprints</h2>
+  <h1>Preprints</h1>
 </td></tr>
 
 {% for publication in site.publications %}
