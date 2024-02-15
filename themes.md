@@ -3,7 +3,7 @@ layout: page
 title: Research Themes
 permalink: /research/themes/
 ---
-## Research Themes
+# Research Themes
 
 <p class="usa-font-lead">Our research cuts across a diverse set of themes. We are interested in answering fundamental questions in both biology and data visualization.</p>
 
