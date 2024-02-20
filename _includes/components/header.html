@@ -71,9 +71,11 @@
           {% endif %}
           {% assign secondary_links = site.data.navigation[_secondary.links] | default: _secondary.links %}
           {% for _link in secondary_links %}
-          <li>
-            <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
-          </li>
+            {% if _link.href and _link.text %}
+            <li>
+              <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
+            </li>
+            {% endif %}
           {% endfor %}
         </ul>
       </div>
