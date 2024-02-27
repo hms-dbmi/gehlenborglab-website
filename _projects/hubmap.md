@@ -52,14 +52,14 @@ github_repositories:
     url: https://github.com/vitessce/vitessce
 
 gallery:
-  hubmap-data-portal.png: 'View hubmap data portal in gallery'
-  hubmap-data-portal_multimodal-imaging.png: 'View hubmap data portal multimodal imaging in gallery'
-  hubmap-data-portal_preview-celltypes.png: 'View hubmap data portal preview celltypes in gallery'
-  hubmap-data-portal_homepage.png: 'View hubmap data portal homepage in gallery'
-  hubmap-data-portal_donor-search.png: 'View hubmap data portal donor search in gallery'
-  hubmap-data-portal_provenance-graph.png: 'View hubmap data portal provenance graph in gallery'
-  hubmap-data-portal_provenance-table.png: 'View hubmap data portal provenance table in gallery'
-  hubmap-data-portal_ccf-integration.png: 'View hubmap data portal ccf integration in gallery'
+  hubmap-data-portal.png: 'Hubmap data portal'
+  hubmap-data-portal_multimodal-imaging.png: 'Hubmap data portal multimodal imaging'
+  hubmap-data-portal_preview-celltypes.png: 'Hubmap data portal preview celltypes'
+  hubmap-data-portal_homepage.png: 'Hubmap data portal homepage'
+  hubmap-data-portal_donor-search.png: 'Hubmap data portal donor search'
+  hubmap-data-portal_provenance-graph.png: 'Hubmap data portal provenance graph'
+  hubmap-data-portal_provenance-table.png: 'Hubmap data portal provenance table'
+  hubmap-data-portal_ccf-integration.png: 'Hubmap data portal ccf integration'
 
 grants:
   - nih_1Ot2Od026677
