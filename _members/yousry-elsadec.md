@@ -5,14 +5,14 @@ name_degree: Mohamed Yousry ElSadec
 photo: yousry-elsadec.jpg 
 
 job_title: DBMI Summer Institute Intern
-role: student
+role: alumni
 
 services:
   github: https://github.com/MYousry2002
   linked-in: https://www.linkedin.com/in/myousry2002/
   
 start: June 2023
-end:
+end: December 2023
 ---
 Mohamed Yousry ElSadec is an intern in the Summer Institute at the Department of Biomedical Informatics at Harvard Medical School. 
 
