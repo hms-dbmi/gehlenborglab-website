@@ -2,7 +2,7 @@
 layout: page
 ---
 {% assign id = page.url | split: '/' | last %}
-<h1>{{ page.name_degree }}</h1>
+<h1>{{ page.name_degree | default: page.title }}</h1>
 
 <div class="usa-grid-full">
   <aside class="usa-width-one-third">
