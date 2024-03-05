@@ -19,19 +19,34 @@ layout: page
     </div>
 
     {% if page.title == 'Nils Gehlenborg' %}
-    <a href="/research/projects/"><h3 class="header-link">Projects</h3></a>
-    <a href="/publications/"><h3 class="header-link">Publications</h3></a>
+      <a href="/research/projects/"><h3 class="header-link">Projects</h3></a>
+      <a href="/publications/"><h3 class="header-link">Publications</h3></a>
     {% else %}
-    <h3 id="projects">Projects</h3>
-    <ul>
-    {% for project in site.projects %}
-      {% for member in project.members %}
-        {% if member == id %}
-          <li><a href="{{ project.url }}">{{ project.name }}</a></li>
-        {% endif %}
+      <h3 id="projects">Projects</h3>
+
+      {% comment %}
+      unfortunately ensuring there are no empty UL elements means double iteration in Liquid
+      {% endcomment %}
+      {% assign has_matches = false %}
+      {% for project in site.projects %}
+        {% for member in project.members %}
+          {% if member == id %}
+            {% assign has_matches = true %}
+          {% endif %}
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
-    </ul>
+
+      {% if has_matches %}
+        <ul>
+        {% for project in site.projects %}
+          {% for member in project.members %}
+            {% if member == id %}
+              <li><a href="{{ project.url }}">{{ project.name }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        </ul>
+      {% endif %}
     {% endif %}
 
   </aside>

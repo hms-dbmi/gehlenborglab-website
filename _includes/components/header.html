@@ -63,21 +63,33 @@
           </div>
         </form>
         {% endif %}
-        <ul class="usa-unstyled-list usa-nav-secondary-links">
-          {% if _secondary.search %}
-          <li class="js-search-button-container">
-            <button class="usa-header-search-button js-search-button">Search</button>
-          </li>
+        {% comment %}
+        necessary to ensure that there are no empty ULs, which is a WCAG Level A accessibility guideline
+        {% endcomment %}
+        {% assign secondary_links = site.data.navigation[_secondary.links] | default: _secondary.links %}
+        {% assign has_secondary_links = false %}
+        {% for _link in secondary_links %}
+          {% if _link.href and _link.text %}
+            {% assign has_secondary_links = true %}
           {% endif %}
-          {% assign secondary_links = site.data.navigation[_secondary.links] | default: _secondary.links %}
-          {% for _link in secondary_links %}
-            {% if _link.href and _link.text %}
-            <li>
-              <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
-            </li>
+        {% endfor %}
+
+        {% if _secondary.search or has_secondary_links %}
+          <ul class="usa-unstyled-list usa-nav-secondary-links">
+            {% if _secondary.search %}
+              <li class="js-search-button-container">
+                <button class="usa-header-search-button js-search-button">Search</button>
+              </li>
             {% endif %}
-          {% endfor %}
-        </ul>
+            {% for _link in secondary_links %}
+              {% if _link.href and _link.text %}
+              <li>
+                <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
+              </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
       </div>
       {% endif %}
 
