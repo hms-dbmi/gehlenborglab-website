@@ -2,12 +2,14 @@
 layout: page
 ---
 {% assign id = page.url | split: '/' | last %}
+{% assign team_data = site.data.teams[page.team_id] %}
 
-<h1>{{ page.name }}</h1>
+{% if page.name %}
+  <h1>{{ page.name }}</h1>
+{% endif %}
 
 <div class="usa-grid-full">
   <div class="usa-width-two-thirds">
-    <h3>Description</h3>
     {{ content }}
 
     {% if page.gallery.size > 0 %}
@@ -130,15 +132,15 @@ layout: page
 
   <aside class="usa-width-one-third">
 
-    {% if page.subpages.size > 0 %}
-    <h3>Navigation</h3>
+    {% if team_data.subpages.size > 0 %}
+    <h3>{{team_data.display_name}} Pages</h3>
     <ul>
       <li>
-        <a href="{{ page.url }}">{{ page.name }} Home</a>
+        <a href="{{site.data.teams.teams_base_url}}/{{ page.team_id }}">Home</a>
       </li>
-      {% for subpage in page.subpages %}
+      {% for subpage in team_data.subpages %}
         <li>
-          <a href="{{ page.url }}{{ subpage.slug }}">{{ subpage.name }}</a>
+          <a href="{{site.data.teams.teams_base_url}}/{{ page.team_id }}/{{ subpage.slug }}">{{ subpage.name }}</a>
           {% if subpage.description %}
             <br>
             <small>{{ subpage.description }}</small>

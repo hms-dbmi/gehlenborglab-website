@@ -14,7 +14,7 @@ The following list is a list of the lab's research teams.
 <table class="projects">
 
 {% for team in site.teams %}
-{% if team.active %}
+{% if team.active and team.team_home %}
 <tr>
 <td>
 {% if team.gallery.size > 0 %}

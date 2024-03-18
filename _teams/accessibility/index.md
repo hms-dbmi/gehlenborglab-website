@@ -1,6 +1,13 @@
 ---
+# make sure to add page to _data/teams_subpages.yml
+
+#index.md requires hard-coded permalink to convert to index.html file instead of index/ directory
+permalink: /research/teams/accessibility/ 
+
 name: Accessibility Team
+team_id: accessibility
 active: true
+team_home: true
 
 members:
   - nils-gehlenborg

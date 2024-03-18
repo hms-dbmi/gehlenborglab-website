@@ -1,0 +1,26 @@
+teams_base_url: /research/teams
+
+accessibility:
+  display_name: "Accessibility Team"
+  subpages:
+    - name: Research in Biomedical Accessibility
+      slug: research-in-biomedical-accessibility
+    - name: AltGosling Project
+      slug: altgosling-project
+    - name: Our Accessibility Journey
+      slug: our-accessibility-journey
+    # - name: Community and Inclusion
+    #   slug: community-and-inclusion
+    # - name: FAQs
+    #   slug: faq
+    - name: Accessibility Statement
+      slug: accessibility-statement
+    - name: Contact and Feedback
+      slug: contact-and-feedback
+
+another_team:
+  display_name: "Another Team"
+  subpages:
+    - name: Another Team's Page
+      slug: another-teams-page
+    # Add more subpages...
