@@ -10,12 +10,12 @@ members:
   - nils-gehlenborg
 
 year: 2023
-type: preprint
+type: article
 
-publisher: "https://doi.org/10.31219/osf.io/5zgye"
+publisher: "https://doi.ieeecomputersociety.org/10.1109/VIS54172.2023.00031"
 cite:
   authors: "Qianwen Wang, Xiao Liu, Man Qing Liang, Sehi L’Yi, Nils Gehlenborg"
-  published: "*OSF Preprints* doi:10.31219/osf.io/5zgye"
+  published: "Proceedings of IEEE VIS 2023, 101-105"
 
 ---
 
