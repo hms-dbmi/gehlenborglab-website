@@ -4,7 +4,7 @@ name_degree: Nichole Parker, BA
 
 photo: placeholder.png
 
-job_title: Administrative and Research Assistant (on leave)
+job_title: Administrative and Research Assistant
 role: administration
 
 start: September 2017

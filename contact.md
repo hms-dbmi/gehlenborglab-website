@@ -6,6 +6,8 @@ hero:
   image: /assets/img/site/hero_longwood.jpg
 ---
 
+# {{page.title}}
+
 ## Send Us an Email
 
 We are still using email! To contact Nils, just send an email to [nils@hms.harvard.edu](mailto:nils@hms.harvard.edu). To schedule a meeting with Nils, please contact Nichole Parker at [nichole_parker@hms.harvard.edu](mailto:nichole_parker@hms.harvard.edu).

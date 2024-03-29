@@ -28,10 +28,19 @@ github_repositories:
   - name: Gos
     description: Python Library
     url: https://github.com/gosling-lang/gos
+  - name: Chromoscope
+    description: Visualization for Structural Variation
+    url: https://github.com/hms-dbmi/chromoscope
 
 publications:
-  - lyi-2021-gosling-osf
+  - lyi-2021-gosling
   - manz-gos-2022
+  - genorec-vis-2022
+  - lyi-2023-chromoscope
+  - lyi-2024-cistrome-data-browser
+  - lyi-2022-responsive
+  - wang-2023-drava
+  - wang-2023-autogosling
 
 # grants:
 #   - 
