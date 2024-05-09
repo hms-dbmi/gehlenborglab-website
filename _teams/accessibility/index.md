@@ -1,5 +1,5 @@
 ---
-# make sure to add page to _data/teams_subpages.yml
+# make sure to add page to _data/teams.yml
 
 #index.md requires hard-coded permalink to convert to index.html file instead of index/ directory
 permalink: /research/teams/accessibility/ 
@@ -19,29 +19,6 @@ collaborators:
   - peter-park
   - peter-kharchenko
 
-subpages:
-  - name: Research in Biomedical Accessibility
-    slug: research-in-biomedical-accessibility
-    primary: false
-  - name: AltGosling Project
-    slug: altgosling-project
-    primary: false
-  - name: Our Accessibility Journey
-    slug: our-accessibility-journey
-    primary: false
-  - name: Community and Inclusion
-    slug: community-and-inclusion
-    primary: false
-  - name: FAQs
-    slug: faq
-    primary: false
-  - name: Accessibility Statement
-    slug: accessibility-statement
-    primary: false
-  - name: Contact and Feedback
-    slug: contact-and-feedback
-    primary: false
-
 
 websites:
   - name: 4D Nucleome Data Portal
@@ -57,9 +34,9 @@ grants:
   - nih_u01ca200059
 
 gallery:
-  placeholder.png: 'A placeholder for the Cover image for the Accessibility Team'
+  4ce.png: 'A placeholder for the Cover image for the Accessibility Team'
 
 blurb: This is the blurb for the Accessibility Team.
 ---
 
-The goals of the 4D Nucleome (4DN) Data Coordination and Integration Center (DCIC) are to collect, store, curate, display, and analyze data generated in the 4DN Network. We have assembled a team of investigators with a strong track record in analysis of chromatin interaction data, image processing and three-dimensional data visualization, integrative analysis of genomic and epigenomic data, data portal development, large-scale computing, and development of secure and flexible cloud technologies.
+Welcome to our website, where we delve into our unwavering commitment to advancing accessibility in biomedical research, with a special emphasis on individuals with visual impairments. While acknowledging various types of impairments, our focus remains keen on addressing the challenges that hinder the full participation of visually impaired individuals in the biomedical community. The limited involvement of these individuals, underscored by stark statistics, has significant implications for the field, illuminating the broader hurdles in making biomedical data comprehensively accessible. These barriers, ranging from inaccessible digital platforms to the unavailability of data in formats suitable for the visually impaired, obstruct their entry and active participation in biomedical research. Our current research endeavors aim to dismantle these obstacles by enhancing the digital accessibility of biomedical research journals and data portals. 

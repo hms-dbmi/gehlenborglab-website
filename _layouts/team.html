@@ -10,6 +10,11 @@ layout: page
 
 <div class="usa-grid-full">
   <div class="usa-width-two-thirds">
+
+    {% if page.image and page.image_alt %}
+      <img alt="{{ page.image_alt }}" src="/assets/img/publications/fullsize/{{ page.image }}">
+    {% endif %}
+
     {{ content }}
 
     {% if page.gallery.size > 0 %}
