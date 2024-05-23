@@ -3,6 +3,7 @@ title: Theresa Anisja Harbig
 name_degree: Theresa Anisja Harbig, MSc
 
 photo: Theresa_Harbig.jpeg
+alt: Headshot of a smiling young woman who appears to be white in front of a wooden panel. She has shoulder length brown, slightly wavy hair and is wearing large round brown glasses and small circular earrings. A large blue knitted scarf is around her neck and she’s indoors wearing a sweater in a slightly different shade of blue/green
 
 job_title: Research Associate
 role: alumni

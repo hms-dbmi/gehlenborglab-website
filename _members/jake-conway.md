@@ -3,6 +3,7 @@ title: Jake Conway
 name_degree: Jake Conway, BSc
 
 photo: jake-conway.jpg
+alt: Headshot of a man who appears to be white with long dark hair and a short beard wearing a slight smile and a light-colored shirt. The background is a white wall and the image has an instagram-like filter applied.
 
 job_title: Graduate Student in Biomedical Informatics
 role: alumni

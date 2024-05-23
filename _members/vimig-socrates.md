@@ -3,6 +3,7 @@ title: Vimig Socrates
 name_degree: Vimig Socrates, BS
 
 photo: vimig-socrates.jpg
+alt: Photo of a smiling young man who appears to be Asian with wavy dark hair and brown eyes. He is wearing a red button-up collared shirt. The background is blurry with greenery and a white building.
 
 job_title: BD2K Summer Institute Intern
 role: alumni

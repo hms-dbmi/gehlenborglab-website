@@ -3,6 +3,7 @@ title: Sabrina Nusrat
 name_degree: Sabrina Nusrat, PhD
 
 photo: sabrina-nusrat.png
+alt: Photograph of a young woman who appears to be Asian with a warm smile wearing the doctorate regalia of the University of Arizona in front of a banner with the university’s colors and insignia.
 
 job_title: Research Fellow in Biomedical Informatics
 role: alumni

@@ -3,6 +3,7 @@ title: Chuck McCallum
 name_degree: Chuck McCallum, BA, MLS
 
 photo: chuck-mccallum.jpg
+alt: Photograph of a middle-aged male who appears to be white with short red-brown hair that’s thinner at the crown, side burns, a goatee, and oval wire-rimmed glasses in front of a whiteboard covered in formulas written with green whiteboard marker.
 
 job_title: Senior Software Developer
 role: alumni

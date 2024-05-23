@@ -3,6 +3,7 @@ title: Nils Gehlenborg
 name_degree: Nils Gehlenborg, PhD
 
 photo: nils-gehlenborg.png
+alt: Headshot of a smiling middle-aged white man with a shaved head and round glasses with brown frames. He is wearing a black button down shirt in front of a solid light-colored background.
 
 job_title: Associate Professor of Biomedical Informatics
 role: pi

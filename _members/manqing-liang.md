@@ -3,6 +3,7 @@ title: Man Qing Liang
 name_degree: Man Qing Liang, PharmD, MS, MBI
 
 photo: manqing-liang.jpg # this file is relative to `assets/img/members/`
+alt: Photo of a smiling young woman who appears to be Asian with dark hair wearing a lavender shirt. There are sunglasses resting on her head and she is in front of a field of purple flowers on a sunny day.
 
 job_title: Research Fellow in Biomedical Informatics
 role: alumni # or postdoc, administration, staff, alumni, etc.

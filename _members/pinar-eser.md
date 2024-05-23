@@ -3,6 +3,7 @@ title: Pinar Ozden Eser
 name_degree: Pinar Ozden Eser, PhD, MBI
 
 photo: pinar-eser.png
+alt: Headshot of a white female with chin length dark brown hair and dark brown eyes with a full smile. She is wearing a hair clip, plain long sleeved black shirt and is situated in front of a plain white background.
 
 job_title: Associated Scientist
 role: postdoc

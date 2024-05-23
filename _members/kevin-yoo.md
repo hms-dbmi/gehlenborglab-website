@@ -3,6 +3,7 @@ title: Kevin Yoo
 name_degree: Kevin Yoo, BA
 
 photo: kevin-yoo.png # this file is relative to `assets/img/members/`
+alt: A black and white photo of a young male who appears to be Asian with a full smile. The person is wearing dark-colored frame glasses and a light-color collar button-down shirt and is next to a brick wall.
 
 job_title: Software Developer
 role: alumni

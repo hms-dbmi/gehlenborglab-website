@@ -3,6 +3,7 @@ title: Ilan Gold
 name_degree: Ilan Gold, BA
 
 photo: ilan-gold.jpg
+alt: Photo of a smiling young man with dark brown hair who appears to be white. He has brown eyes and stubble, and is standing in front of a door.
 
 job_title: Software Developer
 role: staff

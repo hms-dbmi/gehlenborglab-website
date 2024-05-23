@@ -3,6 +3,7 @@ title: Karan Luthria
 name_degree: Karan Luthria
 
 photo: karan-luthria.png
+alt: Headshot of a young man who appears to be Asian with wavy dark hair and round glasses wearing a maroon hoodie and black jacket embroidered with “hackUMBC” and “Major League Hacking”. He is standing outside in front of a brick building, and the background is blurred.
 
 job_title: Visiting Undergraduate Student
 role: alumni

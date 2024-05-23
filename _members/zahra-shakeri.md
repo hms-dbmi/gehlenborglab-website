@@ -3,6 +3,7 @@ title: Zahra Shakeri
 name_degree: Zahra Shakeri, PhD
 
 photo: zahra-shakeri.png # this file is relative to `assets/img/members/`
+alt: Close-up portrait of a young female who appears to be Asian, wearing a full smile and a scarf partially over her head, with sunglasses resting on top of her head. The background has trees.
 
 job_title: Research Fellow in Biomedical Informatics
 role: alumni

@@ -3,6 +3,7 @@ title: Xinyi Liu
 name_degree: Xinyi Liu
 
 photo: xinyi-liu.png
+alt: Close-up headshot of a smiling young woman who appears to be Asian with dark hair and brown eyes. The background is a blurred cityscape.
 
 job_title: Postgraduate Research Intern
 role: alumni 

@@ -3,6 +3,7 @@ title: Matthew Scott Tan
 name_degree: Matthew Scott Tan
 
 photo: matthew-scott-tan.png
+alt: This photo shows a young man who appears to be Asian on top of a snowy mountain holding a pair of skis. He’s got medium-short dark hair and is smiling broadly. He’s wearing a black winter jacket.
 
 job_title: Undergraduate Student in Mathematics and Statistics
 role: alumni # or postdoc, administration, staff, alumni, etc.

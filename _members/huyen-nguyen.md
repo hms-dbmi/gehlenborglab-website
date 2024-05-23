@@ -3,6 +3,7 @@ title: Huyen N. Nguyen
 name_degree: Huyen N. Nguyen, PhD
 
 photo: huyen-nguyen.jpg
+alt: Headshot of a young Asian female smiling, with medium-length straight black hair, wearing a navy shirt in front of a colorful indoor blurred background.
 
 job_title: Research Fellow in Biomedical Informatics
 role: postdoc 

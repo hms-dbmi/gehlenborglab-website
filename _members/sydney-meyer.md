@@ -3,6 +3,7 @@ title: Sydney Meyer
 name_degree: Sydney Meyer
 
 photo: sydney-profile.png
+alt: Photo of a smiling young woman with shoulder-length light brown hair and rectangular glasses. She is wearing an olive-colored shirt and a black cardigan, standing in the woods on a sunny day.
 
 job_title: HuBMAP Intern
 role: alumni 

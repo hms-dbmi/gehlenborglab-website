@@ -3,6 +3,7 @@ title: Samson Toor
 name_degree: Samson Toor, BS
 
 photo: samson-toor.jpg # this file is relative to `assets/img/members/`
+alt: Headshot of an adult brown man with short black hair, a neatly trimmed full beard, and large, gold rimmed browline eyeglasses wearing a black button-up. He is situated in front of a blurred outdoor setting.
 
 job_title: Senior UI/UX Designer
 role: staff

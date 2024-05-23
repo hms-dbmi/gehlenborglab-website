@@ -3,6 +3,7 @@ title: Nikolay Akhmetov
 name_degree: Nikolay Akhmetov, BS
 
 photo: nick-akhmetov.png # this file is relative to `assets/img/members/`
+alt: Headshot of a young white man with short, curly brown hair, wearing a black hoodie, smiling in front of a colorful indoor blurred background.
 
 job_title: Software Developer
 role: staff

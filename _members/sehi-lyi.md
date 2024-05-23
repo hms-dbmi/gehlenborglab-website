@@ -3,6 +3,7 @@ title: Sehi L'Yi
 name_degree: Sehi L'Yi, PhD
 
 photo: sehi-lyi.png
+alt: Photograph of a young Asian man with short brown hair and a hint of a smile. He’s wearing a blue sweater in front of a white wall.
 
 job_title: Research Fellow in Biomedical Informatics
 role: postdoc

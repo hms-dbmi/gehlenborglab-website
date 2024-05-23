@@ -3,6 +3,7 @@ title: Qianwen Wang
 name_degree: Qianwen Wang, PhD
 
 photo: qianwen-wang.jpg # this file is relative to `assets/img/members/`
+alt: Close up portrait photo of a young female who appears to be Asian with short dark hair, fully smiling. She appears to be holding an umbrella.
 
 job_title: Research Fellow in Biomedical Informatics
 role: alumni # or postdoc, administration, staff, alumni, etc.

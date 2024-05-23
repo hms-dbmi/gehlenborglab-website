@@ -3,6 +3,7 @@ title: Tiffany Liaw
 name_degree: Tiffany Liaw, BS
 
 photo: tiffany-liaw.jpg # this file is relative to `assets/img/members/`
+alt: Headshot of a young Asian female with long, straight black hair and is smiling with an open smile. She is wearing a navy blue long-sleeve shirt, and is posing amongst marble columns inside a building.
 
 job_title: UI/UX Developer
 role: staff

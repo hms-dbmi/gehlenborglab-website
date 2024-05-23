@@ -3,6 +3,7 @@ title: Thomas Smits
 name_degree: Thomas Smits
 
 photo: thomas-smits.jpeg
+alt: Photograph of a young white man with short blonde hair and a hint of stubble. He smiles wearing a green hoodie over a white tee shirt next to the windows inside of a brightly lit room.
 
 job_title: Associate in Biomedical Informatics
 role: staff

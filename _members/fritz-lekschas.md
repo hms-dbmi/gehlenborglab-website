@@ -3,6 +3,7 @@ title: Fritz Lekschas
 name_degree: Fritz Lekschas, BSc, MSc
 
 photo: fritz-lekschas.jpg
+alt: Headshot of a male who appears to be white with short brown hair, a light mustache and goatee. He has hazel-blue eyes and the top of his chambray blue button-up shirt is visible. The background is white.
 
 job_title: Graduate Student in Computer Science
 role: alumni
