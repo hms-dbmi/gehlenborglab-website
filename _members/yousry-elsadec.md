@@ -3,7 +3,7 @@ title: Mohamed Yousry ElSadec
 name_degree: Mohamed Yousry ElSadec
 
 photo: yousry-elsadec.jpg 
-alt: Photo of a young male who appears to be Asian with shortly cut dark curly hair and a beard. He’s wearing a purple button-up and smiling from a window into the distance. In the background we can see the location is by a body of water.
+alt: Photo of a young male who appears to be Asian with shortly cut dark curly hair and a beard. He’s wearing a purple button-up and smiling from a window into the distance. In the background, we can see the location is by a body of water.
 
 job_title: DBMI Summer Institute Intern
 role: alumni

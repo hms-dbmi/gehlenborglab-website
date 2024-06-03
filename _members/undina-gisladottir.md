@@ -3,7 +3,7 @@ title: Undina Gisladottir
 name_degree: Undina Gisladottir, BS, MBI
 
 photo: undina-gisladottir.jpg
-alt: Photo of a young female who appears to be white smiling with long straight blonde hair. She is wearing a high-neck short sleeve shirt, in front of a light color wooden fence.
+alt: Photo of a young female who appears to be white, smiling, with long straight blonde hair. She is wearing a high-neck short sleeve shirt, in front of a light color wooden fence.
 
 job_title: Research Associate
 role: alumni
