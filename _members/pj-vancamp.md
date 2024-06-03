@@ -3,6 +3,7 @@ title: PJ Van Camp
 name_degree: PJ Van Camp, MD, PhD
 
 photo: pj_vancamp.jpg
+alt: Headshot of a white male in his thirties on the lawn in front of the Harvard Medical School’s main building. He has brown eyes, short brown hair and a short beard and is slightly smiling. He’s wearing a blue button-up shirt with white specks.
 
 job_title: Curriculum Fellow in Biomedical Informatics
 role: postdoc

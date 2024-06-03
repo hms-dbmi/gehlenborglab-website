@@ -3,6 +3,7 @@ title: Liam Wang
 name_degree: Liam Wang
 
 photo: liam-wang.png
+alt: Photo of a smiling young man who appears to be Asian with wavy dark hair wearing a gray collared shirt. He is in front of green and red foliage.
 
 job_title: DBMI Summer Institute Intern
 role: alumni 

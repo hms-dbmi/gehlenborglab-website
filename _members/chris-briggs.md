@@ -3,6 +3,7 @@ title: Chris Briggs
 name_degree: Christine Briggs, PhD
 
 photo: chris-briggs.png
+alt: Selfie of a middle-aged woman who appears to be white with a warm smile wearing an elaborate necklace and a black dress shirt. She is inside the room of a well-lit house with white walls.
 
 job_title: Senior Data Curator
 role: alumni

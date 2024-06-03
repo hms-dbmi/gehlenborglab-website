@@ -3,6 +3,7 @@ title: Lina Chi
 name_degree: Lianhua (Lina) Chi, PhD
 
 photo: lina-chi.jpeg
+alt: Photograph of a woman who appears to be Asian with medium-length straight black hair lightly smiling. The woman is outside in front of a blurred dark green background wearing a black academic gown over a white and teal top with a gemstone necklace.
 
 job_title: Visiting Scholar in Biomedical Informatics
 role: alumni

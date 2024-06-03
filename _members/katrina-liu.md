@@ -3,6 +3,7 @@ title: Katrina Liu
 name_degree: Katrina Liu
 
 photo: katrina-liu.jpg
+alt: Closeup photo of a young female who appears to be Asian with dark hair wearing a plaid beanie and black glasses. The photo is taken inside, on the background there are window blinds.
 
 job_title: Graduate Student in Biomedical Informatics
 role: alumni

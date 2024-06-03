@@ -3,6 +3,7 @@ title: Lawrence Weru
 name_degree: Lawrence Weru, SM
 
 photo: lawrence-weru-hms.jpeg # this file is relative to `assets/img/members/`
+alt: Photograph of a young black male with a full smile framed by a goatee. He wears a black fleece vest over a white checkered dress shirt and a graduation cap. He stands in front of the fenced grass of a marble building.
 
 job_title: Associate in Biomedical Informatics
 role: staff # or postdoc, administration, staff, alumni, etc.

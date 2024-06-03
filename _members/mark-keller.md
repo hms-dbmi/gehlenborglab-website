@@ -3,6 +3,7 @@ title: Mark Keller
 name_degree: Mark Keller, BS
 
 photo: mark-keller.png
+alt: Photograph of a smiling young white man with short brown hair. He is wearing a white t-shirt with stripes, standing in front of a house covered in ivy on a sunny day.
 
 job_title: Graduate Student in Bioinformatics
 role: student

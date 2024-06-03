@@ -3,6 +3,7 @@ title: Margaret Vella
 name_degree: Margaret Vella, BS
 
 photo: margaret-vella.jpg
+alt: Portrait of a young woman who appears to be white with medium-length brown hair wearing a full smile and salmon-colored blouse in front of a gray backdrop.
 
 job_title: Project Manager
 role: alumni

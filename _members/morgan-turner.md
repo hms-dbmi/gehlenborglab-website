@@ -3,6 +3,7 @@ title: Morgan Turner
 name_degree: Morgan Turner, PhD
 
 photo: morgan-turner.jpg # this file is relative to `assets/img/members/`
+alt: Headshot of a young white woman with a full smile and long, curly brown hair. She is wearing round browline glasses and a white button-up, standing in front of a blue glass background.
 
 job_title: R&D Manager and Visualization Scientist
 role: staff

@@ -3,6 +3,7 @@ title: Peter Kerpedjiev
 name_degree: Peter Kerpedjiev, PhD
 
 photo: peter-kerpedjiev.png
+alt: Close-up photo of a male who appears to be white  wearing a green and navy hooded outdoor jacket and a blue and white baseball cap. The background has white sky and rocks.
 
 job_title: Research Fellow in Biomedical Informatics
 role: alumni

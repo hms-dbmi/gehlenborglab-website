@@ -3,6 +3,7 @@ title: Sofia Rojas
 name_degree: Sofia Rojas, BE
 
 photo: sofia-rojas.jpeg
+alt: Headshot of a young white woman with shoulder-length brown hair and green eyes. She is smiling in front of a muted mauve background wearing a pink ribbed turtleneck shirt.
 
 job_title: Research Assistant
 role: student

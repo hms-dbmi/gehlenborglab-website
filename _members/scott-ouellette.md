@@ -3,6 +3,7 @@ title: Scott Ouellette
 name_degree: Scott Ouellette, BSc
 
 photo: scott_ouellette.png
+alt: Photo of a young male who appears to be white with short blonde hair, smiling in front of a white background and wearing a navy polo shirt.
 
 job_title: Software Developer
 role: alumni
