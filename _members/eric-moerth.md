@@ -3,6 +3,7 @@ title: Eric Moerth
 name_degree: Eric Moerth, PhD
 
 photo: eric-moerth.jpg # this file is relative to `assets/img/members/`
+alt: Headshot of a white man with medium long brown hair with hints of gray and a reddish-brown beard, wearing a blue shirt. The background of the image is white.
 
 job_title: Research Fellow in Biomedical Informatics
 role: postdoc # or postdoc, administration, staff, alumni, etc.

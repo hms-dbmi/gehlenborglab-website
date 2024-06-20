@@ -2,6 +2,7 @@
 title: Mimi Alkattan
 name_degree: Mimi Alkattan, MS
 photo: mimi-alkattan.jpg
+alt: Photo of a smiling young woman with dark hair and brown eyes wearing a white shirt and a peach-colored scarf. She is standing in front of an ornate building and garden with a cloudy sky.
 job_title: Associate and Project Coordinator 
 role: alumni
 services:

@@ -3,6 +3,7 @@ title: Aditeya Pandey
 name_degree: Aditeya Pandey, B.Tech.
 
 photo: aditeya-pandey.jpg
+alt: Headshot of a smiling young man with dark brown hair who appears to be Asian. He is wearing a turquoise shirt under a yellow striped v-neck sweater. The background is bright and blurred in a bokeh effect.
 
 job_title: Visiting Graduate Student in Computer Science
 role: alumni

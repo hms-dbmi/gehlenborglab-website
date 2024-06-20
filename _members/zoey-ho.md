@@ -3,6 +3,7 @@ title: Zoey Ho
 name_degree: Zoey Ho, BS, MBI
 
 photo: zoey-ho.jpg
+alt: Headshot of a young woman who appears to be Asian, with medium-length black hair and an open smile, wearing a bright yellow top exposing her shoulders. The woman is outside in sunny weather, in front of a lawn with a blurry brick building in the background.
 
 job_title: Graduate Student in Biomedical Informatics
 role: alumni

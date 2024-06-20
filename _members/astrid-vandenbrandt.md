@@ -2,6 +2,7 @@
 title: Astrid van den Brandt
 name_degree: Astrid van den Brandt, MSc
 photo: astrid-vandenbrandt.jpg # this file is relative to `assets/img/members/`
+alt: Professional headshot of a young white woman with middle long blonde hair, wearing a dark gray blouse. She’s standing outside in front of a building, the background is blurred.
 job_title: Visiting Graduate Student in Computer Science
 role: student # or postdoc, administration, staff, alumni, etc.
 

@@ -2,12 +2,18 @@
 layout: page
 ---
 {% assign id = page.url | split: '/' | last %}
+{% assign altText = page.alt | default: page.title %}
+{% if page.photo == 'placeholder.png' %}
+  {% assign altText = "Placeholder headshot. A dark gray silhouette of a person's head in front of a gray background." %}
+{% endif %}
+<!-- placeholder.png -->
+
 <h1>{{ page.name_degree | default: page.title }}</h1>
 
 <div class="usa-grid-full">
   <aside class="usa-width-one-third">
     <div>
-      <img src="/assets/img/members/fullsize/{{ page.photo }}">
+      <img src="/assets/img/members/fullsize/{{ page.photo }}" alt="{{ altText }}">
     </div>
 
     <br>

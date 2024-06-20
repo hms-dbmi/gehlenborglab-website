@@ -4,6 +4,7 @@ name_degree: Dr.techn. Mgr. David Kouřil
 #name_degree: David Kouřil, PhD
 
 photo: david-kouril.jpg # this file is relative to `assets/img/members/`
+alt: Photo of a white man with short light hair and a hint of a smile, wearing a light blue shirt. He’s standing in front of a green background, indicating he’s outside.
 
 job_title: Research Fellow in Biomedical Informatics
 role: postdoc # or postdoc, administration, staff, alumni, etc.
