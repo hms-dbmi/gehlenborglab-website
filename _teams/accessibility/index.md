@@ -11,32 +11,35 @@ team_home: true
 
 members:
   - nils-gehlenborg
-  - peter-kerpedjiev
+  - sehi-lyi
+  - thomas-smits
+  - lawrence-weru
+  - sofia-rojas
+  - andrew-mar
+
+publications:
+  - smits-2024-altgosling-osf  
 
 collaborators:
-  - leonid-mirny
-  - hanspeter-pfister
-  - peter-park
-  - peter-kharchenko
+  - alexander-lex
 
-
-websites:
-  - name: 4D Nucleome Data Portal
-    url: https://data.4dnucleome.org
-    primary: true
+# websites:
+#   - name: 4D Nucleome Data Portal
+#     url: https://data.4dnucleome.org
+#     primary: true
 
 github_repositories:
-  - name: 4DN Repos
-    url: https://github.com/4dn-dcic
+  - name: AltGosling
+    url: https://github.com/gosling-lang/altgosling
     primary: true
 
-grants:
-  - nih_u01ca200059
+# grants:
+#   - nih_u01ca200059
 
 gallery:
   4ce.png: 'A placeholder for the Cover image for the Accessibility Team'
 
-blurb: This is the blurb for the Accessibility Team.
+blurb: HIDIVE Lab Accessibility Research Team.
 ---
 
-Welcome to our website, where we delve into our unwavering commitment to advancing accessibility in biomedical research, with a special emphasis on individuals with visual impairments. While acknowledging various types of impairments, our focus remains keen on addressing the challenges that hinder the full participation of visually impaired individuals in the biomedical community. The limited involvement of these individuals, underscored by stark statistics, has significant implications for the field, illuminating the broader hurdles in making biomedical data comprehensively accessible. These barriers, ranging from inaccessible digital platforms to the unavailability of data in formats suitable for the visually impaired, obstruct their entry and active participation in biomedical research. Our current research endeavors aim to dismantle these obstacles by enhancing the digital accessibility of biomedical research journals and data portals. 
+Digital barriers ranging from inaccessible biomedical data platforms to inaccessible biomedical data visualization tools obstruct the entry and active participation of people with certain visual, cognitive, and physical disabilities in biomedical research, limit the field of biomedicine, and contribute to societal inequities. Our current accessibility research endeavors in the HIDIVE lab aim to dismantle these barriers by enhancing the digital accessibility of biomedical data visualizations for people of various disabilities, as well as contributing to the accessibility of biomedical research journals and data portals. We are committed to contributing to the removal of the digital accessibility barriers that hinder the full participation of humans with disabilities in biomedical data integration, visualization, and exploration.
