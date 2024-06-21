@@ -5,8 +5,8 @@ accessibility:
   subpages:
     - name: Research in Biomedical Accessibility
       slug: research-in-biomedical-accessibility
-    - name: AltGosling Project
-      slug: altgosling-project
+    - name: Accessibility of Genomics Visualization
+      slug: accessibility-of-genomics-visualization
     - name: Our Accessibility Journey
       slug: our-accessibility-journey
     # - name: Community and Inclusion

@@ -1,9 +1,13 @@
 ---
 # make sure to add page to _data/teams.yml
 
-name: AltGosling Project
+name: Accessibility of Genomics Visualization
 team_id: accessibility
 active: true
+
+image: altgosling-structure.png
+image_alt: A schematic showing how AltGosling interacts with the Gosling Spec and Gosling.js to construct alt text, long descriptions, and Tree-structured descriptions from Gosling Spec features and Gosling Renderer data.
+
 ---
 
 ## Project Overview
