@@ -9,6 +9,9 @@ team_id: accessibility
 active: true
 team_home: true
 
+image: visual-pattern-big-data.png
+image_alt: alt text for the image
+
 members:
   - nils-gehlenborg
   - sehi-lyi
