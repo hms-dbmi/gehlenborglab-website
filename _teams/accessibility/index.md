@@ -36,8 +36,8 @@ github_repositories:
 # grants:
 #   - nih_u01ca200059
 
-gallery:
-  4ce.png: 'A placeholder for the Cover image for the Accessibility Team'
+# gallery:
+#   4ce.png: 'A placeholder for the Cover image for the Accessibility Team'
 
 blurb: HIDIVE Lab Accessibility Research Team.
 ---

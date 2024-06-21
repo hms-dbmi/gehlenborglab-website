@@ -11,7 +11,7 @@ image_alt: alt text for the image
 
 ## Accessibility Research at HIDIVE Lab
 
-HIDIVE Lab is committed to enhancing accessibility in biomedical education and research, particularly for individuals with impairments. Enhancing accessibility in biomedicine requires highly Interdisciplinary work across the fields of informatics, human–computer interaction/visualization, and biomedicine. With our expertise and experience in this area, we are committed to helping individuals with disabilities gain more equal education and research opportunities.
+HIDIVE Lab is committed to enhancing accessibility in biomedical education and research. Enhancing accessibility in biomedicine requires highly Interdisciplinary work across the fields of informatics, human–computer interaction/visualization, and biomedicine. With our expertise and experience in this area, we are committed to helping individuals with disabilities gain more equal education and research opportunities.
 
 ## Current Accessibility Challenges in the Field
 
