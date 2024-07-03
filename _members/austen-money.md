@@ -3,7 +3,7 @@ title: Austen Money
 name_degree: Austen Money, BS
 
 photo: austen-money.png
-alt: Headshot of a smiling young white person with short red hair and glasses. They are wearing a white collared shirt and stand outside of an academic building. 
+alt: Headshot of a smiling young white person with short red hair and glasses. They are wearing a white collared shirt and standing outside of an academic building. 
 
 job_title: Software Developer
 role: staff
