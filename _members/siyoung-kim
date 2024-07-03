@@ -6,7 +6,7 @@ photo: fullsize/siyoung-kim.jpeg # this file is relative to `assets/img/members/
 alt: A headshot photo of Siyoung Kim. # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 
 job_title: SIBMI / DBMI Summer Institute Intern
-role: Undergraduate Student # or postdoc, administration, staff, alumni, etc.
+role: student
 
 services:
   home: https://siyoung-kim.github.io/
