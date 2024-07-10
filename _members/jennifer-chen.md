@@ -9,10 +9,10 @@ job_title: DBMI Summer Institute Intern
 role: student # or postdoc, administration, staff, alumni, etc.
 
 services:
-  #home: https://member-website.com
-  #github: https://github.com/
+  home: https://jenniferchen.vercel.app/
+  github: https://github.com/jchen1095
   #twitter: https://twitter.com/
-  #linked-in: https://www.linkedin.com/in/
+  linked-in: https://www.linkedin.com/in/jenniferachen/
   
 start: June 2024
 end:
