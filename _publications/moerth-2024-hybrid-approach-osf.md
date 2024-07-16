@@ -13,7 +13,7 @@ type: preprint
 
 publisher: "https://osf.io/preprints/osf/zka2j"
 cite:
-  authors: " Mörth, Eric, Cydney Nielsen, Morgan Turner, Liu Xianhao, Mark S. Keller, Johanna Beyer, Hanspeter Pfister, Chen Zhu-Tian, Gehlenborg"
+  authors: "Eric Mörth, Cydney Nielsen, Morgan Turner, Liu Xianhao, Mark S. Keller, Johanna Beyer, Hanspeter Pfister, Chen Zhu-Tian, Nils Gehlenborg"
   published: "*OSF Preprints* doi: 10.31219/osf.io/zka2j"
 ---
 
