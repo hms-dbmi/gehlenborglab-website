@@ -10,6 +10,7 @@ members:
   - mark-keller
   - trevor-manz
   - ilan-gold
+  - eric-moerth
 
 collaborators:
   - peter-kharchenko
