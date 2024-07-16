@@ -3,7 +3,7 @@ title: "A Mixed Reality and 2D Display Hybrid Approach for Visual Analysis of 3D
 image: hybrid-approach.png
 
 members:
-  - moerth-eric
+  - eric-moerth 
   - mark-keller
   - nils-gehlenborg
 
