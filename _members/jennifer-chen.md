@@ -2,7 +2,7 @@
 title: Jennifer Chen
 name_degree: Jennifer Chen
 
-photo: jennifer-chen.png # this file is relative to `assets/img/members/`
+photo: jennifer-chen.jpg # this file is relative to `assets/img/members/`
 alt: Photograph of a young Asian woman with shoulder length black hair. She smiles widely while wearing a dark blue sweater in a grey marble background.
 
 job_title: DBMI Summer Institute Intern

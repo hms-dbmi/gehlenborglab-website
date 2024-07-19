@@ -16,10 +16,6 @@ services:
 start: April 2023
 end:
 ---
-[Eric Moerth](https://vis.uib.no/team/eric-morth/) is a Research Fellow in Biomedical Informatics at Harvard Medical School.
+Eric Moerth is a Research Fellow in Biomedical Informatics at Harvard Medical School.
 
-Eric Moerth received his PhD from the University of Bergen in Norway, under the supervision of [Prof. Noeska Smit](https://noeskasmit.com/).
-During his PhD study, Eric Moerth conducted research in multimodal medical visualization.
-His main focus was the research of new and innovative ways to visualize and explore medical data,
-e.g. MRI data to enable doctors to have a better view at their data.
-His projects resulted in successful publications in the field of medical visualization.
+Eric Moerth is a Post Doctoral Specialist Research Fellow in the Department of Biomedical Informatics at Harvard Medical School (DBMI) and part of the HIDIVE Lab. He received his PhD from the University of Bergen in Norway. During his PhD study, Eric Moerth conducted research in multimodal medical visualization. His focus was the research of new and innovative ways to visualize and explore medical data. Now Eric is researching the visualization of large-scale 3D Tissue Images using novel rendering techniques. Furthermore, his research enables the efficient analysis of highly multiplexed tissue images, and he also investigates how novel output devices like virtual and augmented reality devices can help investigators make better sense of their data.
