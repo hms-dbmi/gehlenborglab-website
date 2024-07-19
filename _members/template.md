@@ -2,7 +2,7 @@
 title: First Last
 name_degree: First Last, MD PhD JD
 
-photo: placeholder.png # this file is relative to `assets/img/members/`
+photo: placeholder.png # this file is relative to `assets/img/members/fullsize`
 alt: # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 
 job_title: Visiting Scholar
