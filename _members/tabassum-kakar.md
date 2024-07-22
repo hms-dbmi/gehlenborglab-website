@@ -1,9 +1,9 @@
 ---
 title: Tabassum Kakar
-name_degree: Tabassum Kakar
+name_degree: Tabassum Kakar, PhD
 
 photo: tabassum-kakar.jpg
-alt: Photograph of a female wearing blue scarf and black shirt standing what appears to be a park with trees and greenery.
+alt: Photograph of a female wearing a blue scarf and a black shirt standing in what appears to be a park with trees and greenery.
 
 job_title: Software Developer
 role: staff 
