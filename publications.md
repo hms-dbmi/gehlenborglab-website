@@ -4,10 +4,12 @@ title: Publications
 permalink: /publications/
 ---
 
+<h1>Publications</h1>
+
 <table class="publications">
 
 <tr><td colspan="2">
-  <h1>Preprints</h1>
+  <h2>Preprints</h2>
 </td></tr>
 
 {% for publication in site.publications %}
