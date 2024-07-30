@@ -1,5 +1,5 @@
 ---
-title: "A Mixed Reality and 2D Display Hybrid Approach for Visual Analysis of 3D Tissue Maps"
+title: "Cell2Cell: Explorative Cell Interaction Analysis in Multi-Volumetric Tissue Data"
 image: cell2cell.png
 
 members:
