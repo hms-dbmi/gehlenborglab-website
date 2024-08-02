@@ -207,33 +207,33 @@ Resources:
                       EvaluateTargetHealth: false
                       HostedZoneId: Z2FDTNDATAQYW2 # leave hardcoded, don't confuse w/ !Ref HostedZoneId
 
- # This function replicates the Amazon S3 behavior that directs any request that lacks a filename to index.html,
- # regardless of whether it's for the root of a website or a subfolder.
- # https://github.com/aws-samples/amazon-cloudfront-functions/tree/main/url-rewrite-single-page-apps
- CloudFrontFunction:
-    Type: AWS::CloudFront::Function
-    Properties:
-      AutoPublish: true
-      Name: add-index_html
-      FunctionCode: !Sub |
-        function handler(event) {
-            var request = event.request;
-            var uri = request.uri;
+    # This function replicates the Amazon S3 behavior that directs any request that lacks a filename to index.html,
+    # regardless of whether it's for the root of a website or a subfolder.
+    # https://github.com/aws-samples/amazon-cloudfront-functions/tree/main/url-rewrite-single-page-apps
+    CloudFrontFunction:
+        Type: AWS::CloudFront::Function
+        Properties:
+            AutoPublish: true
+            Name: add-index_html
+            FunctionCode: !Sub |
+                function handler(event) {
+                    var request = event.request;
+                    var uri = request.uri;
 
-            // Check whether the URI is missing a file name.
-            if (uri.endsWith('/')) {
-                request.uri += 'index.html';
-            }
-            // Check whether the URI is missing a file extension.
-            else if (!uri.includes('.')) {
-                request.uri += '/index.html';
-            }
+                    // Check whether the URI is missing a file name.
+                    if (uri.endsWith('/')) {
+                        request.uri += 'index.html';
+                    }
+                    // Check whether the URI is missing a file extension.
+                    else if (!uri.includes('.')) {
+                        request.uri += '/index.html';
+                    }
 
-            return request;
-        }
-      FunctionConfig:
-        Comment: Add index.html to request URLs that do not include a file name
-        Runtime: cloudfront-js-1.0
+                    return request;
+                }
+            FunctionConfig:
+                Comment: Add index.html to request URLs that do not include a file name
+                Runtime: cloudfront-js-1.0
 
 
 Outputs:
