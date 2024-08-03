@@ -1,20 +1,16 @@
 ---
 title: "A General Framework for Comparing Embedding Visualizations Across Class-Label Hierarchies"
 image: cev-figure.jpg
-
 members:
   - trevor-manz
   - fritz-lekschas
   - nils-gehlenborg
-
 year: 2024
 type: preprint
-
 publisher: "https://doi.org/10.31219/osf.io/puxnf"
 cite:
   authors: "Trevor Manz, Fritz Lekschas, Evan Greene, Greg Finak, and Nils Gehlenborg"
   published: "*OSF Preprints* doi: 10.31219/osf.io/puxnf"
-
 ---
 Projecting high-dimensional vectors into two dimensions for visualization,
 known as embedding visualization, facilitates perceptual reasoning and
