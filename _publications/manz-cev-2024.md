@@ -1,6 +1,6 @@
 ---
 title: "A General Framework for Comparing Embedding Visualizations Across Class-Label Hierarchies"
-image: cev.jpg
+image: cev.png
 members:
   - trevor-manz
   - fritz-lekschas
