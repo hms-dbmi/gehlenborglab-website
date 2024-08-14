@@ -2,14 +2,14 @@
 title: Evan Biederstedt
 name_degree: Evan Biederstedt
 
-photo: evan_biederstedt.jpg
+photo: evan-biederstedt.jpg
 alt: picture of Evan Biederstedt
 
 job_title: Associate
 role: staff
 
 services:
-  home: celltype.info
+  home: https://celltype.info/
   github: https://github.com/evanbiederstedt
 
   
