@@ -3,7 +3,7 @@ title: Evan Biederstedt
 name_degree: Evan Biederstedt
 
 photo: evan-biederstedt.jpg
-alt: picture of Evan Biederstedt
+alt: picture of computational biologist Evan Biederstedt (Harvard Medical School) while standing in the Brooklyn Botanical Garden circa 2019
 
 job_title: Computational Biologist
 role: staff
