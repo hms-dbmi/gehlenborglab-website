@@ -5,7 +5,7 @@ name_degree: Evan Biederstedt
 photo: evan-biederstedt.jpg
 alt: picture of Evan Biederstedt
 
-job_title: Associate
+job_title: Computational Biologist
 role: staff
 
 services:
