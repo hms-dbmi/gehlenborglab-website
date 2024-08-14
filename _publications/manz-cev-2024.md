@@ -10,7 +10,7 @@ type: preprint
 publisher: "https://doi.org/10.31219/osf.io/puxnf"
 cite:
   authors: "Trevor Manz, Fritz Lekschas, Evan Greene, Greg Finak, Nils Gehlenborg"
-  published: "Accepted at IEEE VIS 2021 and IEEE Transactions on Visualization and Computer Graphics."
+  published: "*OSF Preprints* doi: 10.31219/osf.io/puxnf"
 ---
 Projecting high-dimensional vectors into two dimensions for visualization,
 known as embedding visualization, facilitates perceptual reasoning and
