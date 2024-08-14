@@ -7,7 +7,7 @@ members:
   - nils-gehlenborg
 
 year: 2024
-type: preprint
+type: article
 
 publisher: "https://doi.org/10.31219/osf.io/axy82"
 cite:
