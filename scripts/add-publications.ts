@@ -82,9 +82,6 @@ interface WebsitePublication {
  * e.g., "B Morrow, T Manz, AE Chung, N Gehlenborg, D Gotz"
  */
 function formatAuthors(authors: Publication["data"]["creators"] = []) {
-  authors = authors
-    .filter((a) => a.creatorType === "author")
-    .filter((a) => !!a.lastName);
   return authors
     .map((a) => {
       // Account for hyphens in first name as well as initials separated with a space
@@ -95,7 +92,7 @@ function formatAuthors(authors: Publication["data"]["creators"] = []) {
           part
             .split("-")
             .map((part) => part[0].toUpperCase())
-            .join(""),
+            .join("")
         )
         .join("");
       return `${firstName} ${a.lastName}`;
@@ -103,25 +100,38 @@ function formatAuthors(authors: Publication["data"]["creators"] = []) {
     .join(", ");
 }
 
-function zoteroToWebsitePublication(pub: Publication): WebsitePublication {
+function zoteroToWebsitePublication(
+  pub: Publication,
+  options: {
+    memberTags: Array<string>;
+  },
+): WebsitePublication {
   const noneValue = "<TODO>";
+  const authors = (pub.data.creators ?? [])
+    .filter((a) => a.creatorType === "author")
+    .filter((a) => !!a.lastName);
   return {
     frontmatter: {
       title: pub.data.title,
       image: "<TODO.png>",
-      members: [
-        // TODO: Figure out other names?
-        noneValue,
-        "nils-gehlenborg",
-      ],
+      members: authors
+        .map((a) =>
+          closet(
+            `${a.firstName} ${a.lastName}`.toLowerCase(),
+            options.memberTags,
+          )
+        )
+        .filter((a) => a.max > 0.8)
+        .map((a) => a.best),
       year: pub.data.date
         ? new Date(pub.data.date).getFullYear().toString()
         : noneValue,
-      type:
-        pub.data.itemType === "journalArticle" ? "article" : pub.data.itemType,
+      type: pub.data.itemType === "journalArticle"
+        ? "article"
+        : pub.data.itemType,
       publisher: pub.data.DOI ?? noneValue,
       cite: {
-        authors: formatAuthors(pub.data.creators),
+        authors: formatAuthors(authors),
         published: noneValue,
       },
       zoteroKey: pub.key,
@@ -144,7 +154,8 @@ function determineFilename(pub: WebsitePublication) {
   last = last.replace("'", ""); // For Sehi
   last = last.replace("ö", "oe"); // For Eric
   last = last.replace("ä", "ae");
-  return `${last}-${pub.frontmatter.year}-${pub.frontmatter.zoteroKey}.md`.toLowerCase();
+  return `${last}-${pub.frontmatter.year}-${pub.frontmatter.zoteroKey}.md`
+    .toLowerCase();
 }
 
 async function shouldWriteFileContents(
@@ -159,8 +170,7 @@ async function shouldWriteFileContents(
   const needle = options.filename.split("-").slice(0, 2).join("-");
   for (const file of options.existingFileNames) {
     const parts = file.split(".")[0].split("-") ?? [];
-    const matchesFileName =
-      file.startsWith(needle) ||
+    const matchesFileName = file.startsWith(needle) ||
       // trevor has not done this convention, so we need to check for <name>-<blah>-<year>.md
       needle === `${parts.at(0)}-${parts.at(-1)}`;
     if (!matchesFileName) {
@@ -184,10 +194,76 @@ async function shouldWriteFileContents(
   return true;
 }
 
+function levenshteinDistance(a: string, b: string): number {
+  const matrix: Array<Array<number>> = [];
+
+  for (let i = 0; i <= b.length; i++) {
+    matrix[i] = [i];
+  }
+
+  for (let j = 0; j <= a.length; j++) {
+    matrix[0][j] = j;
+  }
+
+  for (let i = 1; i <= b.length; i++) {
+    for (let j = 1; j <= a.length; j++) {
+      if (b.charAt(i - 1) == a.charAt(j - 1)) {
+        matrix[i][j] = matrix[i - 1][j - 1];
+      } else {
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j - 1] + 1,
+          matrix[i][j - 1] + 1,
+          matrix[i - 1][j] + 1,
+        );
+      }
+    }
+  }
+
+  return matrix[b.length][a.length];
+}
+
+/**
+ * Calculate the similarity between two strings.
+ */
+function stringSimilarity(s1: string, s2: string): number {
+  const longerLength = Math.max(s1.length, s2.length);
+  if (longerLength == 0) return 1.0;
+  return (longerLength - levenshteinDistance(s1, s2)) / longerLength;
+}
+
+/**
+ * Find the closest string in a list of options to a target string.
+ * @param target The target string.
+ * @param options The list of options to compare against.
+ * @returns The closest string and the similarity score.
+ */
+function closet(
+  target: string,
+  options: Array<string>,
+): { best: string; max: number } {
+  let max = 0;
+  let best = "";
+  for (const option of options) {
+    const similarity = stringSimilarity(target, option);
+    if (similarity > max) {
+      max = similarity;
+      best = option;
+    }
+  }
+  return { best, max };
+}
+
 if (import.meta.main) {
   const octokit = new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") });
-  const root = new URL("../", import.meta.url);
-  const publicationsDir = new URL("_publications/", root);
+  const publicationsDir = new URL("../_publications/", import.meta.url);
+  const membersDir = new URL("../_members/", import.meta.url);
+
+  const memberTags = (
+    await Array.fromAsync(Deno.readDir(membersDir))
+  )
+    .filter((f) => f.isFile)
+    .map((f) => f.name.split(".")[0]);
+
   const existingFileNames = (
     await Array.fromAsync(Deno.readDir(publicationsDir))
   )
@@ -195,7 +271,10 @@ if (import.meta.main) {
     .map((f) => f.name);
 
   const pubs = await fetchHidivePublications();
-  for (const pub of pubs.map(zoteroToWebsitePublication)) {
+  const websitePubs = pubs.map((pub) =>
+    zoteroToWebsitePublication(pub, { memberTags })
+  );
+  for (const pub of websitePubs) {
     const filename = determineFilename(pub);
     if (
       await shouldWriteFileContents(pub, {
@@ -207,7 +286,7 @@ if (import.meta.main) {
       console.log(
         `Writing ${filename}, "${pub.frontmatter.title}" (${pub.frontmatter.zoteroKey})`,
       );
-      await new Promise((resolve) => setTimeout(resolve, 500)); // rate limit
+      await new Promise((resolve) => setTimeout(resolve, 100)); // rate limit
       await octokit.createPullRequest({
         owner: "manzt",
         repo: "gehlenborglab-website",
