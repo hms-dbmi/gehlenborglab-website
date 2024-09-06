@@ -115,14 +115,8 @@ function zoteroToWebsitePublication(
       title: pub.data.title,
       image: "<TODO.png>",
       members: authors
-        .map((a) =>
-          closet(
-            `${a.firstName} ${a.lastName}`.toLowerCase(),
-            options.memberTags,
-          )
-        )
-        .filter((a) => a.max > 0.5)
-        .map((a) => a.best),
+        .map((a) => closetMemberTag(a, options.memberTags))
+        .filter((m): m is string => !!m),
       year: pub.data.date
         ? new Date(pub.data.date).getFullYear().toString()
         : noneValue,
@@ -194,63 +188,19 @@ async function shouldWriteFileContents(
   return true;
 }
 
-function levenshteinDistance(a: string, b: string): number {
-  const matrix: Array<Array<number>> = [];
-
-  for (let i = 0; i <= b.length; i++) {
-    matrix[i] = [i];
-  }
-
-  for (let j = 0; j <= a.length; j++) {
-    matrix[0][j] = j;
-  }
-
-  for (let i = 1; i <= b.length; i++) {
-    for (let j = 1; j <= a.length; j++) {
-      if (b.charAt(i - 1) == a.charAt(j - 1)) {
-        matrix[i][j] = matrix[i - 1][j - 1];
-      } else {
-        matrix[i][j] = Math.min(
-          matrix[i - 1][j - 1] + 1,
-          matrix[i][j - 1] + 1,
-          matrix[i - 1][j] + 1,
-        );
-      }
+function closetMemberTag(
+  author: { firstName?: string; lastName?: string },
+  members: Array<string>,
+): string | undefined {
+  for (const member of members) {
+    const [first, last] = member.split("-");
+    if (
+      last?.toLowerCase() === author?.lastName?.toLowerCase() &&
+      first?.[0].toLowerCase() === author?.firstName?.[0].toLowerCase()
+    ) {
+      return member;
     }
   }
-
-  return matrix[b.length][a.length];
-}
-
-/**
- * Calculate the similarity between two strings.
- */
-function stringSimilarity(s1: string, s2: string): number {
-  const longerLength = Math.max(s1.length, s2.length);
-  if (longerLength == 0) return 1.0;
-  return (longerLength - levenshteinDistance(s1, s2)) / longerLength;
-}
-
-/**
- * Find the closest string in a list of options to a target string.
- * @param target The target string.
- * @param options The list of options to compare against.
- * @returns The closest string and the similarity score.
- */
-function closet(
-  target: string,
-  options: Array<string>,
-): { best: string; max: number } {
-  let max = 0;
-  let best = "";
-  for (const option of options) {
-    const similarity = stringSimilarity(target, option);
-    if (similarity > max) {
-      max = similarity;
-      best = option;
-    }
-  }
-  return { best, max };
 }
 
 if (import.meta.main) {
