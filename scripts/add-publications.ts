@@ -9,18 +9,8 @@ const Octokit = OctokitBase.plugin(createPullRequest);
 
 const publicationSchema = z.object({
   key: z.string(),
-  version: z.number(),
-  library: z.object({
-    type: z.string(),
-    id: z.number(),
-    name: z.string(),
-    links: z.object({
-      alternate: z.object({ href: z.string(), type: z.string() }),
-    }),
-  }),
   data: z.object({
     key: z.string(),
-    version: z.number(),
     itemType: z.enum([
       // filtered out attachment
       // "attachment"
@@ -41,27 +31,10 @@ const publicationSchema = z.object({
       )
       .optional(),
     abstractNote: z.string().optional(),
-    genre: z.string().optional(),
-    repository: z.string().optional(),
-    archiveID: z.string().optional(),
-    place: z.string().optional(),
     date: z.string().optional(),
-    series: z.string().optional(),
-    seriesNumber: z.string().optional(),
     DOI: z.string().optional(),
     citationKey: z.string().optional(),
     url: z.string().optional(),
-    accessDate: z.string().optional(),
-    archive: z.string().optional(),
-    shortTitle: z.string().optional(),
-    language: z.string().optional(),
-    libraryCatalog: z.string().optional(),
-    callNumber: z.string().optional(),
-    rights: z.string().optional(),
-    tags: z.array(z.unknown()).optional(),
-    relations: z.object({}).optional(),
-    dateAdded: z.string().optional(),
-    dateModified: z.string().optional(),
   }),
 });
 
@@ -131,28 +104,29 @@ function formatAuthors(authors: Publication["data"]["creators"] = []) {
 }
 
 function zoteroToWebsitePublication(pub: Publication): WebsitePublication {
+  const noneValue = "<TODO>";
   return {
     frontmatter: {
       title: pub.data.title,
       image: "<TODO.png>",
       members: [
         // TODO: Figure out other names?
-        "<TODO>",
+        noneValue,
         "nils-gehlenborg",
       ],
       year: pub.data.date
         ? new Date(pub.data.date).getFullYear().toString()
-        : "<TODO>",
+        : noneValue,
       type:
         pub.data.itemType === "journalArticle" ? "article" : pub.data.itemType,
-      publisher: pub.data.DOI ?? "<TODO>",
+      publisher: pub.data.DOI ?? noneValue,
       cite: {
         authors: formatAuthors(pub.data.creators),
-        published: "<TODO>",
+        published: noneValue,
       },
       zoteroKey: pub.key,
     },
-    data: pub.data.abstractNote ?? "<TODO>",
+    data: pub.data.abstractNote ?? noneValue,
   };
 }
 
@@ -238,28 +212,30 @@ if (import.meta.main) {
         owner: "manzt",
         repo: "gehlenborglab-website",
         title: `Add ${filename}`,
-        body: `This is an automated PR to add "${pub.frontmatter.title}" to the lab website.
+        body: `
 
-Please review the changes and address the remaining TODOs in the file.
+This is an automated PR adding a new publication to the website.
 
-You can use the GitHub CLI to update this PR:
+> ${pub.frontmatter.title}
+
+Please review the changes and address the remaining \`<TODO>\`s in the file.
+
+You can use the [GitHub CLI](https://cli.github.com/) to pull down this branch and make changes:
 
 \`\`\`sh
 # Check out the PR
 gh pr checkout <PR number>
 # Make changes
 git add .
-git commit -m "Finish adding ${filename}"
+git commit -m "Update ${filename.replace(".md", "")}"
 git push
 \`\`\`
 
-TODOs:
-
-- [ ] Make sure title is correct
-- [ ] Make sure authors are correct
-- [ ] Add member tag (e.g., \`nils-gehlenborg\`)
+- [ ] Ensure title is correct
+- [ ] Ensure authors are correct
+- [ ] Add your (and other lab members) member tag (e.g., \`nils-gehlenborg\`)
 - [ ] Add image to \`assets/img/publications/fullsize/<image.png>\` (and update frontmatter)
-- [ ] Add cite.published info (e.g., "*Cell* **164**:550-563")
+- [ ] Add \`cite.published\` info (e.g., "*Cell* **164**:550-563", "Preprint")
           `,
         update: true,
         labels: ["publication"],
