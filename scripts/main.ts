@@ -161,7 +161,7 @@ ${pub.data}
 }
 
 function determineFilename(pub: WebsitePublication) {
-  //first author last name
+  // first author last name
   let last = pub.frontmatter.cite.authors.split(",")[0].split(" ")[1];
   last = last.replace("'", ""); // For Sehi
   last = last.replace("ö", "oe"); // For Eric
@@ -191,10 +191,15 @@ async function shouldWriteFileContents(
     // we need to read the contents and check the title
     const location = new URL(file, options.targetDir);
     const contents = await Deno.readTextFile(location);
-    const frontmatter = yaml.parse(contents.split("---")[1]);
-    const title = z.object({ title: z.string() }).parse(frontmatter).title;
+    const rawFrontmatter = yaml.parse(contents.split("---")[1]);
+    const frontmatter = z
+      .object({ title: z.string(), zoteroKey: z.string().optional() })
+      .parse(rawFrontmatter);
     // if the title matches, we don't need to write the file
-    if (pub.frontmatter.title.toLowerCase() === title.toLowerCase()) {
+    if (
+      pub.frontmatter.zoteroKey === frontmatter.zoteroKey ||
+      pub.frontmatter.title.toLowerCase() === frontmatter.title.toLowerCase()
+    ) {
       return false;
     }
   }
@@ -220,7 +225,11 @@ if (import.meta.main) {
       })
     ) {
       console.log(
-        `Writing ${filename} for ${pub.frontmatter.title} (${pub.frontmatter.zoteroKey})`,
+        `Writing ${filename}, "${pub.frontmatter.title}" (${pub.frontmatter.zoteroKey})`,
+      );
+      await Deno.writeTextFile(
+        new URL(filename, publicationsDir),
+        createWebsitePublicationMarkdownContents(pub),
       );
     }
   }
