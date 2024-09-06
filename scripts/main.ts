@@ -207,7 +207,8 @@ async function shouldWriteFileContents(
 }
 
 if (import.meta.main) {
-  const publicationsDir = new URL("../_publications/", import.meta.url);
+  const root = new URL("../", import.meta.url);
+  const publicationsDir = new URL("_publications/", root);
   const existingFileNames = (
     await Array.fromAsync(Deno.readDir(publicationsDir))
   )
@@ -215,6 +216,7 @@ if (import.meta.main) {
     .map((f) => f.name);
 
   const pubs = await fetchHidivePublications();
+  const gitFiles = [];
   for (const pub of pubs.map(zoteroToWebsitePublication)) {
     const filename = determineFilename(pub);
     if (
@@ -231,6 +233,18 @@ if (import.meta.main) {
         new URL(filename, publicationsDir),
         createWebsitePublicationMarkdownContents(pub),
       );
+      gitFiles.push(filename);
     }
+  }
+  // open make commit with new files
+
+  {
+    const cmd = new Deno.Command("git", {
+      args: ["add", ...gitFiles],
+      cwd: publicationsDir,
+    });
+
+    const { code } = await cmd.output();
+    console.assert(code === 0);
   }
 }
