@@ -261,6 +261,7 @@ TODOs:
 - [ ] Add image to \`assets/img/publications/fullsize/<image.png>\` (and update frontmatter)
 - [ ] Add cite.published info (e.g., "*Cell* **164**:550-563")
           `,
+        update: true,
         head: filename.replace(".md", ""),
         changes: [
           {
