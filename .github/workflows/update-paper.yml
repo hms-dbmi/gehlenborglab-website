@@ -1,0 +1,53 @@
+name: Update Paper
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  process-issue:
+    if: contains(github.event.issue.labels.*.name, 'paper-bot')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Parse Issue
+        id: parse-issue
+        uses: GrantBirki/issue-template-parser@v7.0.3
+        with:
+          body: ${{ github.event.issue.body }}
+          csv_to_list: false
+
+      - name: Create PR body with Fixes line
+        run: |
+          echo "Fixes #${{ github.event.issue.number }}" > /tmp/pr-body.md
+          echo "" >> /tmp/pr-body.md
+
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Update Paper
+        id: output-issue
+        run: echo ${{ toJson(steps.parse-issue.outputs.json) }} | deno run -A scripts/update-hidive-paper.ts - >> /tmp/pr-body.md
+
+      - name: Extract Zotero ID
+        id: extract-zotero-id
+        run: |
+          ZOTERO_ID=$(echo ${{ toJson(steps.parse-issue.outputs.json) }} | jq -r .zotero_id)
+          echo "zotero-id=$ZOTERO_ID" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: Update paper
+          title: "${{ github.event.issue.title }}"
+          branch: "update-paper-${{ steps.extract-zotero-id.outputs.zotero-id }}"
+          body-path: /tmp/pr-body.md
+          labels: paper-bot
