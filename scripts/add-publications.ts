@@ -11,13 +11,7 @@ const publicationSchema = z.object({
   key: z.string(),
   data: z.object({
     key: z.string(),
-    itemType: z.enum([
-      // filtered out attachment
-      // "attachment"
-      "journalArticle",
-      "preprint",
-      "book",
-    ]),
+    itemType: z.string(),
     title: z.string(),
     creators: z
       .array(
@@ -46,6 +40,8 @@ async function fetchHidivePublications(): Promise<Array<Publication>> {
   url.searchParams.set("include", "data");
   url.searchParams.set("itemType", "-attachment");
   url.searchParams.set("style", "ieee");
+  url.searchParams.set("sort", "date");
+  url.searchParams.set("direction", "desc");
   const response = await fetch(url);
   const json = await response.json();
   return publicationSchema.array().parse(json);
@@ -62,7 +58,7 @@ interface WebsitePublication {
     /* Year of publication */
     year: string;
     /* Publication type (e.g., preprint, article) */
-    type: "preprint" | "article" | "book";
+    type: "preprint" | "article" | "book" | "other";
     /* TODO: figure out. DOI href to the publisher's website */
     publisher: string;
     cite: {
@@ -120,9 +116,11 @@ function zoteroToWebsitePublication(
       year: pub.data.date
         ? new Date(pub.data.date).getFullYear().toString()
         : noneValue,
-      type: pub.data.itemType === "journalArticle"
-        ? "article"
-        : pub.data.itemType,
+      type: ({
+        "preprint": "preprint",
+        "conferencePaper": "article",
+        "journalArticle": "article",
+      } as const)[pub.data.itemType] ?? "other",
       publisher: pub.data.DOI ?? noneValue,
       cite: {
         authors: formatAuthors(authors),
@@ -204,6 +202,7 @@ function closetMemberTag(
 }
 
 if (import.meta.main) {
+  const dryRun = Deno.args.includes("--dry-run");
   const octokit = new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") });
   const publicationsDir = new URL("../_publications/", import.meta.url);
   const membersDir = new URL("../_members/", import.meta.url);
@@ -234,8 +233,9 @@ if (import.meta.main) {
       })
     ) {
       console.log(
-        `Writing ${filename}, "${pub.frontmatter.title}" (${pub.frontmatter.zoteroKey})`,
+        `Adding ${filename}, "${pub.frontmatter.title}" (${pub.frontmatter.zoteroKey})`,
       );
+      if (dryRun) continue;
       await new Promise((resolve) => setTimeout(resolve, 100)); // rate limit
       await octokit.createPullRequest({
         owner: "manzt",
