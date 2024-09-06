@@ -3,7 +3,7 @@ import * as yaml from "jsr:@std/yaml@1.0.5";
 
 type Publication = z.infer<typeof publicationSchema>;
 
-export const publicationSchema = z.object({
+const publicationSchema = z.object({
   key: z.string(),
   version: z.number(),
   library: z.object({
@@ -94,6 +94,7 @@ interface WebsitePublication {
       /* TODO: markdown formatted string of citation info (e.g., "*Cell* **164**:550-563") */
       published: string;
     };
+    zoteroKey: string;
   };
   /* Abstract of the publication */
   data: string;
@@ -145,12 +146,13 @@ function zoteroToWebsitePublication(pub: Publication): WebsitePublication {
         authors: formatAuthors(pub.data.creators),
         published: "<TODO>",
       },
+      zoteroKey: pub.key,
     },
     data: pub.data.abstractNote ?? "<TODO>",
   };
 }
 
-function writePublicationMarkdown(pub: WebsitePublication) {
+function createWebsitePublicationMarkdownContents(pub: WebsitePublication) {
   return `---
 ${yaml.stringify(pub.frontmatter)}
 ---
@@ -158,11 +160,68 @@ ${pub.data}
 `;
 }
 
-// Learn more at https://docs.deno.com/runtime/manual/examples/module_metadata#concepts
+function determineFilename(pub: WebsitePublication) {
+  //first author last name
+  let last = pub.frontmatter.cite.authors.split(",")[0].split(" ")[1];
+  last = last.replace("'", ""); // For Sehi
+  last = last.replace("ö", "oe"); // For Eric
+  last = last.replace("ä", "ae");
+  return `${last}-${pub.frontmatter.year}-${pub.frontmatter.zoteroKey}.md`.toLowerCase();
+}
+
+async function shouldWriteFileContents(
+  pub: WebsitePublication,
+  options: {
+    filename: string;
+    existingFileNames: Array<string>;
+    targetDir: URL;
+  },
+) {
+  // existing file could make first two parts of filename
+  const needle = options.filename.split("-").slice(0, 2).join("-");
+  for (const file of options.existingFileNames) {
+    const parts = file.split(".")[0].split("-") ?? [];
+    const matchesFileName =
+      file.startsWith(needle) ||
+      // trevor has not done this convention, so we need to check for <name>-<blah>-<year>.md
+      needle === `${parts.at(0)}-${parts.at(-1)}`;
+    if (!matchesFileName) {
+      continue;
+    }
+    // we need to read the contents and check the title
+    const location = new URL(file, options.targetDir);
+    const contents = await Deno.readTextFile(location);
+    const frontmatter = yaml.parse(contents.split("---")[1]);
+    const title = z.object({ title: z.string() }).parse(frontmatter).title;
+    // if the title matches, we don't need to write the file
+    if (pub.frontmatter.title.toLowerCase() === title.toLowerCase()) {
+      return false;
+    }
+  }
+  return true;
+}
+
 if (import.meta.main) {
-  let allEntries = await fetchHidivePublications();
-  let mds = allEntries
-    .map(zoteroToWebsitePublication)
-    .map(writePublicationMarkdown);
-  console.log(mds);
+  const publicationsDir = new URL("../_publications/", import.meta.url);
+  const existingFileNames = (
+    await Array.fromAsync(Deno.readDir(publicationsDir))
+  )
+    .filter((f) => f.isFile)
+    .map((f) => f.name);
+
+  const pubs = await fetchHidivePublications();
+  for (const pub of pubs.map(zoteroToWebsitePublication)) {
+    const filename = determineFilename(pub);
+    if (
+      await shouldWriteFileContents(pub, {
+        filename,
+        existingFileNames,
+        targetDir: publicationsDir,
+      })
+    ) {
+      console.log(
+        `Writing ${filename} for ${pub.frontmatter.title} (${pub.frontmatter.zoteroKey})`,
+      );
+    }
+  }
 }
