@@ -1,7 +1,11 @@
 import { z } from "npm:zod@3.23.8";
 import * as yaml from "jsr:@std/yaml@1.0.5";
+import { Octokit as OctokitBase } from "npm:@octokit/core@6.1.2";
+import { createPullRequest } from "npm:octokit-plugin-create-pull-request@6.0.0";
 
 type Publication = z.infer<typeof publicationSchema>;
+
+const Octokit = OctokitBase.plugin(createPullRequest);
 
 const publicationSchema = z.object({
   key: z.string(),
@@ -207,6 +211,7 @@ async function shouldWriteFileContents(
 }
 
 if (import.meta.main) {
+  const octokit = new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") });
   const root = new URL("../", import.meta.url);
   const publicationsDir = new URL("_publications/", root);
   const existingFileNames = (
@@ -216,7 +221,6 @@ if (import.meta.main) {
     .map((f) => f.name);
 
   const pubs = await fetchHidivePublications();
-  const gitFiles = [];
   for (const pub of pubs.map(zoteroToWebsitePublication)) {
     const filename = determineFilename(pub);
     if (
@@ -229,22 +233,23 @@ if (import.meta.main) {
       console.log(
         `Writing ${filename}, "${pub.frontmatter.title}" (${pub.frontmatter.zoteroKey})`,
       );
-      await Deno.writeTextFile(
-        new URL(filename, publicationsDir),
-        createWebsitePublicationMarkdownContents(pub),
-      );
-      gitFiles.push(filename);
+      await new Promise((resolve) => setTimeout(resolve, 500)); // rate limit
+      await octokit.createPullRequest({
+        owner: "manzt",
+        repo: "gehlenborglab-website",
+        title: `Add ${filename}`,
+        body: `Automated PR to add "${pub.frontmatter.title}" a publication to the website.`,
+        head: filename.replace(".md", ""),
+        changes: [
+          {
+            files: {
+              [`_publications/${filename}`]:
+                createWebsitePublicationMarkdownContents(pub),
+            },
+            commit: `Add ${filename}`,
+          },
+        ],
+      });
     }
   }
-
-  // create pull request action does this
-  // {
-  //   const cmd = new Deno.Command("git", {
-  //     args: ["add", ...gitFiles],
-  //     cwd: publicationsDir,
-  //   });
-
-  //   const { code } = await cmd.output();
-  //   console.assert(code === 0);
-  // }
 }
