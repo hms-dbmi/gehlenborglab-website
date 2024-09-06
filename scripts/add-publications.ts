@@ -262,6 +262,7 @@ TODOs:
 - [ ] Add cite.published info (e.g., "*Cell* **164**:550-563")
           `,
         update: true,
+        labels: ["publication"],
         head: filename.replace(".md", ""),
         changes: [
           {
