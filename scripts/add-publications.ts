@@ -121,7 +121,7 @@ function zoteroToWebsitePublication(
             options.memberTags,
           )
         )
-        .filter((a) => a.max > 0.8)
+        .filter((a) => a.max > 0.5)
         .map((a) => a.best),
       year: pub.data.date
         ? new Date(pub.data.date).getFullYear().toString()
