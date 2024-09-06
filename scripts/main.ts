@@ -236,15 +236,15 @@ if (import.meta.main) {
       gitFiles.push(filename);
     }
   }
-  // open make commit with new files
 
-  {
-    const cmd = new Deno.Command("git", {
-      args: ["add", ...gitFiles],
-      cwd: publicationsDir,
-    });
+  // create pull request action does this
+  // {
+  //   const cmd = new Deno.Command("git", {
+  //     args: ["add", ...gitFiles],
+  //     cwd: publicationsDir,
+  //   });
 
-    const { code } = await cmd.output();
-    console.assert(code === 0);
-  }
+  //   const { code } = await cmd.output();
+  //   console.assert(code === 0);
+  // }
 }
