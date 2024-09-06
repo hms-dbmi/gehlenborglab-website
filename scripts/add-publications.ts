@@ -238,7 +238,29 @@ if (import.meta.main) {
         owner: "manzt",
         repo: "gehlenborglab-website",
         title: `Add ${filename}`,
-        body: `Automated PR to add "${pub.frontmatter.title}" a publication to the website.`,
+        body: `This is an automated PR to add "${pub.frontmatter.title}" to the lab website.
+
+Please review the changes and address the remaining TODOs in the file.
+
+You can use the GitHub CLI to update this PR:
+
+\`\`\`sh
+# Check out the PR
+gh pr checkout <PR number>
+# Make changes
+git add .
+git commit -m "Finish adding ${filename}"
+git push
+\`\`\`
+
+TODOs:
+
+- [ ] Make sure title is correct
+- [ ] Make sure authors are correct
+- [ ] Add member tag (e.g., \`nils-gehlenborg\`)
+- [ ] Add image to \`assets/img/publications/fullsize/<image.png>\` (and update frontmatter)
+- [ ] Add cite.published info (e.g., "*Cell* **164**:550-563")
+          `,
         head: filename.replace(".md", ""),
         changes: [
           {

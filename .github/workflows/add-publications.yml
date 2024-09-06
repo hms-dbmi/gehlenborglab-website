@@ -16,6 +16,6 @@ jobs:
         with:
           deno-version: v1.x
 
-      - run: deno run --no-lock -A scripts/main.ts
+      - run: deno run --no-lock -A scripts/add-publications.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
