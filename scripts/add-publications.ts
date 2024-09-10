@@ -1,7 +1,7 @@
 import { z } from "npm:zod@3.23.8";
 import * as yaml from "jsr:@std/yaml@1.0.5";
-import * as octokit from "npm:@octokit/core@6.1.2";
-import { createPullRequest } from "npm:octokit-plugin-create-pull-request@6.0.0";
+import { Octokit } from "npm:@octokit/core@6.1.2";
+import { composeCreatePullRequest } from "npm:octokit-plugin-create-pull-request@6.0.0";
 
 /** A path-like object. */
 interface Path {
@@ -40,12 +40,12 @@ interface PublicationData {
 }
 
 /**
- * A schema for a publication object from the Zotero API.
- *
- * Maps the Zotero API response to a more structured format for our lab website.
+ * A zod schema that parses the Zotero API response and transforms
+ * it to a structured format for our lab website.
  */
 function schemaForPublication(options: { memberTags?: Array<string> } = {}) {
-  return z.object({
+  /** https://www.zotero.org/support/dev/web_api/v3/basics */
+  const zoteroPublicationSchema = z.object({
     key: z.string(),
     data: z.object({
       key: z.string(),
@@ -68,7 +68,11 @@ function schemaForPublication(options: { memberTags?: Array<string> } = {}) {
       citationKey: z.string().optional(),
       url: z.string().optional(),
     }),
-  }).transform((pub): PublicationData => {
+  });
+
+  function zoteroToLabWebsitePublication(
+    pub: z.infer<typeof zoteroPublicationSchema>,
+  ): PublicationData {
     const noneValue = "<TODO>";
     const authors = (pub.data.creators ?? [])
       .filter((a) => a.creatorType === "author")
@@ -97,7 +101,9 @@ function schemaForPublication(options: { memberTags?: Array<string> } = {}) {
       },
       data: pub.data.abstractNote ?? noneValue,
     };
-  });
+  }
+
+  return zoteroPublicationSchema.transform(zoteroToLabWebsitePublication);
 }
 
 /**
@@ -238,8 +244,7 @@ async function filesInDir(
 }
 
 if (import.meta.main) {
-  const Octokit = octokit.Octokit.plugin(createPullRequest);
-  const gh = new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") });
+  const octokit = new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") });
   const dryRun = Deno.args.includes("--dry-run");
   const [memberFiles, publicationFiles] = await Promise.all([
     filesInDir(new URL("../_members/", import.meta.url)),
@@ -262,12 +267,11 @@ if (import.meta.main) {
       );
       if (dryRun) continue;
       await new Promise((resolve) => setTimeout(resolve, 100)); // rate limit
-      await gh.createPullRequest({
+      await composeCreatePullRequest(octokit, {
         owner: "manzt",
         repo: "gehlenborglab-website",
         title: `Add ${filename}`,
         body: `
-
 This is an automated PR adding a new publication to the website.
 
 > ${pub.frontmatter.title}
