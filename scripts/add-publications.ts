@@ -1,53 +1,19 @@
 import { z } from "npm:zod@3.23.8";
 import * as yaml from "jsr:@std/yaml@1.0.5";
-import { Octokit as OctokitBase } from "npm:@octokit/core@6.1.2";
+import * as octokit from "npm:@octokit/core@6.1.2";
 import { createPullRequest } from "npm:octokit-plugin-create-pull-request@6.0.0";
 
-type Publication = z.infer<typeof publicationSchema>;
-
-const Octokit = OctokitBase.plugin(createPullRequest);
-
-const publicationSchema = z.object({
-  key: z.string(),
-  data: z.object({
-    key: z.string(),
-    itemType: z.string(),
-    title: z.string(),
-    creators: z
-      .array(
-        z
-          .object({
-            creatorType: z.string(),
-            firstName: z.string(),
-            lastName: z.string(),
-          })
-          .partial(),
-      )
-      .optional(),
-    abstractNote: z.string().optional(),
-    date: z.string().optional(),
-    DOI: z.string().optional(),
-    citationKey: z.string().optional(),
-    url: z.string().optional(),
-  }),
-});
-
-async function fetchHidivePublications(): Promise<Array<Publication>> {
-  const url = new URL(
-    "https://api.zotero.org/groups/5145258/collections/4JTW5K6H/items",
-  );
-  url.searchParams.set("format", "json");
-  url.searchParams.set("include", "data");
-  url.searchParams.set("itemType", "-attachment");
-  url.searchParams.set("style", "ieee");
-  url.searchParams.set("sort", "date");
-  url.searchParams.set("direction", "desc");
-  const response = await fetch(url);
-  const json = await response.json();
-  return publicationSchema.array().parse(json);
+/** A path-like object. */
+interface Path {
+  /** The name of the file. */
+  name: string;
+  /** The stem of the file (name without extension). */
+  stem: string;
+  /** The URL of the file. */
+  url: URL;
 }
 
-interface WebsitePublication {
+interface PublicationData {
   frontmatter: {
     /* Title of the publication */
     title: string;
@@ -74,10 +40,95 @@ interface WebsitePublication {
 }
 
 /**
+ * A schema for a publication object from the Zotero API.
+ *
+ * Maps the Zotero API response to a more structured format for our lab website.
+ */
+function schemaForPublication(options: { memberTags?: Array<string> } = {}) {
+  return z.object({
+    key: z.string(),
+    data: z.object({
+      key: z.string(),
+      itemType: z.string(),
+      title: z.string(),
+      creators: z
+        .array(
+          z
+            .object({
+              creatorType: z.string(),
+              firstName: z.string(),
+              lastName: z.string(),
+            })
+            .partial(),
+        )
+        .optional(),
+      abstractNote: z.string().optional(),
+      date: z.string().optional(),
+      DOI: z.string().optional(),
+      citationKey: z.string().optional(),
+      url: z.string().optional(),
+    }),
+  }).transform((pub): PublicationData => {
+    const noneValue = "<TODO>";
+    const authors = (pub.data.creators ?? [])
+      .filter((a) => a.creatorType === "author")
+      .filter((a) => !!a.lastName);
+    return {
+      frontmatter: {
+        title: pub.data.title,
+        image: "<TODO.png>",
+        members: authors
+          .map((a) => closetMemberTag(a, options.memberTags ?? []))
+          .filter((m): m is string => !!m),
+        year: pub.data.date
+          ? new Date(pub.data.date).getFullYear().toString()
+          : noneValue,
+        type: ({
+          "preprint": "preprint",
+          "conferencePaper": "article",
+          "journalArticle": "article",
+        } as const)[pub.data.itemType] ?? "other",
+        publisher: pub.data.DOI ?? noneValue,
+        cite: {
+          authors: formatAuthors(authors),
+          published: noneValue,
+        },
+        zoteroKey: pub.key,
+      },
+      data: pub.data.abstractNote ?? noneValue,
+    };
+  });
+}
+
+/**
+ * Fetches the publications from the HiDive Zotero group.
+ * @see https://www.zotero.org/support/dev/web_api/v3/basics
+ * @returns A list of publications.
+ */
+async function fetchHidivePublications(): Promise<unknown> {
+  const hidiveGroupId = "5145258";
+  const hidivePublicationsCollectionId = "4JTW5K6H";
+  const url = new URL(
+    `https://api.zotero.org/groups/${hidiveGroupId}/collections/${hidivePublicationsCollectionId}/items`,
+  );
+  url.searchParams.set("format", "json");
+  url.searchParams.set("include", "data");
+  url.searchParams.set("itemType", "-attachment");
+  url.searchParams.set("style", "ieee");
+  url.searchParams.set("sort", "date");
+  url.searchParams.set("direction", "desc");
+  const response = await fetch(url);
+  const json = await response.json();
+  return json;
+}
+
+/**
  * Formats a list of authors into a comma-separated list of author names.
  * e.g., "B Morrow, T Manz, AE Chung, N Gehlenborg, D Gotz"
  */
-function formatAuthors(authors: Publication["data"]["creators"] = []) {
+function formatAuthors(
+  authors: Array<{ firstName?: string; lastName?: string }>,
+) {
   return authors
     .map((a) => {
       // Account for hyphens in first name as well as initials separated with a space
@@ -96,43 +147,7 @@ function formatAuthors(authors: Publication["data"]["creators"] = []) {
     .join(", ");
 }
 
-function zoteroToWebsitePublication(
-  pub: Publication,
-  options: {
-    memberTags: Array<string>;
-  },
-): WebsitePublication {
-  const noneValue = "<TODO>";
-  const authors = (pub.data.creators ?? [])
-    .filter((a) => a.creatorType === "author")
-    .filter((a) => !!a.lastName);
-  return {
-    frontmatter: {
-      title: pub.data.title,
-      image: "<TODO.png>",
-      members: authors
-        .map((a) => closetMemberTag(a, options.memberTags))
-        .filter((m): m is string => !!m),
-      year: pub.data.date
-        ? new Date(pub.data.date).getFullYear().toString()
-        : noneValue,
-      type: ({
-        "preprint": "preprint",
-        "conferencePaper": "article",
-        "journalArticle": "article",
-      } as const)[pub.data.itemType] ?? "other",
-      publisher: pub.data.DOI ?? noneValue,
-      cite: {
-        authors: formatAuthors(authors),
-        published: noneValue,
-      },
-      zoteroKey: pub.key,
-    },
-    data: pub.data.abstractNote ?? noneValue,
-  };
-}
-
-function createWebsitePublicationMarkdownContents(pub: WebsitePublication) {
+function createWebsitePublicationMarkdownContents(pub: PublicationData) {
   return `---
 ${yaml.stringify(pub.frontmatter)}
 ---
@@ -140,7 +155,7 @@ ${pub.data}
 `;
 }
 
-function determineFilename(pub: WebsitePublication) {
+function determineFilename(pub: PublicationData) {
   // first author last name
   let last = pub.frontmatter.cite.authors.split(",")[0].split(" ")[1];
   last = last.replace("'", ""); // For Sehi
@@ -150,27 +165,25 @@ function determineFilename(pub: WebsitePublication) {
     .toLowerCase();
 }
 
-async function shouldWriteFileContents(
-  pub: WebsitePublication,
+async function shouldWritePublicationFile(
+  pub: PublicationData,
   options: {
     filename: string;
-    existingFileNames: Array<string>;
-    targetDir: URL;
+    existingPublications: Array<Path>;
   },
 ) {
   // existing file could make first two parts of filename
   const needle = options.filename.split("-").slice(0, 2).join("-");
-  for (const file of options.existingFileNames) {
-    const parts = file.split(".")[0].split("-") ?? [];
-    const matchesFileName = file.startsWith(needle) ||
+  for (const file of options.existingPublications) {
+    const parts = file.stem.split("-") ?? [];
+    const matchesFileName = file.stem.startsWith(needle) ||
       // trevor has not done this convention, so we need to check for <name>-<blah>-<year>.md
       needle === `${parts.at(0)}-${parts.at(-1)}`;
     if (!matchesFileName) {
       continue;
     }
     // we need to read the contents and check the title
-    const location = new URL(file, options.targetDir);
-    const contents = await Deno.readTextFile(location);
+    const contents = await Deno.readTextFile(file.url);
     const rawFrontmatter = yaml.parse(contents.split("---")[1]);
     const frontmatter = z
       .object({ title: z.string(), zoteroKey: z.string().optional() })
@@ -186,6 +199,11 @@ async function shouldWriteFileContents(
   return true;
 }
 
+/**
+ * Tries to map an author to an existing hidive member tag.
+ *
+ * e.g. { firstName: "Nils", lastName: "Gehlenborg" } => "nils-gehlenborg"
+ */
 function closetMemberTag(
   author: { firstName?: string; lastName?: string },
   members: Array<string>,
@@ -201,35 +219,42 @@ function closetMemberTag(
   }
 }
 
+async function filesInDir(
+  dir: URL,
+): Promise<Array<Path>> {
+  return (
+    await Array.fromAsync(Deno.readDir(dir))
+  )
+    .filter((f) => f.isFile)
+    .map((f) => ({
+      name: f.name,
+      get stem() {
+        return f.name.split(".")[0];
+      },
+      get url() {
+        return new URL(f.name, dir);
+      },
+    }));
+}
+
 if (import.meta.main) {
+  const Octokit = octokit.Octokit.plugin(createPullRequest);
+  const gh = new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") });
   const dryRun = Deno.args.includes("--dry-run");
-  const octokit = new Octokit({ auth: Deno.env.get("GITHUB_TOKEN") });
-  const publicationsDir = new URL("../_publications/", import.meta.url);
-  const membersDir = new URL("../_members/", import.meta.url);
-
-  const memberTags = (
-    await Array.fromAsync(Deno.readDir(membersDir))
-  )
-    .filter((f) => f.isFile)
-    .map((f) => f.name.split(".")[0]);
-
-  const existingFileNames = (
-    await Array.fromAsync(Deno.readDir(publicationsDir))
-  )
-    .filter((f) => f.isFile)
-    .map((f) => f.name);
-
-  const pubs = await fetchHidivePublications();
-  const websitePubs = pubs.map((pub) =>
-    zoteroToWebsitePublication(pub, { memberTags })
-  );
-  for (const pub of websitePubs) {
+  const [memberFiles, publicationFiles] = await Promise.all([
+    filesInDir(new URL("../_members/", import.meta.url)),
+    filesInDir(new URL("../_publications/", import.meta.url)),
+  ]);
+  const data = await fetchHidivePublications();
+  const schema = schemaForPublication({
+    memberTags: memberFiles.map((m) => m.stem),
+  });
+  for (const pub of schema.array().parse(data)) {
     const filename = determineFilename(pub);
     if (
-      await shouldWriteFileContents(pub, {
+      await shouldWritePublicationFile(pub, {
         filename,
-        existingFileNames,
-        targetDir: publicationsDir,
+        existingPublications: publicationFiles,
       })
     ) {
       console.log(
@@ -237,7 +262,7 @@ if (import.meta.main) {
       );
       if (dryRun) continue;
       await new Promise((resolve) => setTimeout(resolve, 100)); // rate limit
-      await octokit.createPullRequest({
+      await gh.createPullRequest({
         owner: "manzt",
         repo: "gehlenborglab-website",
         title: `Add ${filename}`,
