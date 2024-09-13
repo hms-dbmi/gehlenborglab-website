@@ -2,7 +2,8 @@
 title: Yan Ma
 name_degree: Yan Ma
 
-photo: placeholder.png
+photo: yan-ma.jpg
+alt: Photograph of young asian woman with long, straight black hair. She is wearing a bright pink top with a neutral expression. The background is a plain, light-colored wall.
 
 job_title: Project Coordinator
 role: staff
