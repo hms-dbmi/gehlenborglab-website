@@ -8,7 +8,11 @@ layout: page
 <div class="usa-grid-full">
   <div class="usa-width-two-thirds">
     {% if page.image %}
-      <img src="/assets/img/publications/fullsize/{{ page.image }}">
+      {% if page.image-alt %}
+        <img src="/assets/img/publications/fullsize/{{ page.image }}" alt="{{ page.image-alt }}">
+      {% else %}
+        <img src="/assets/img/publications/fullsize/{{ page.image }}">
+      {% endif %}
     {% endif %}
 
     {% assign stripped = content | strip %}
