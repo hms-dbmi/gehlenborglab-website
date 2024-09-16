@@ -13,18 +13,24 @@ year: 2024
 type: preprint
 
 # New Resources
+
+# renders as "Project Website"
 website: https://gosling.js.org/
 
+# renders as "Source Code"
 code: https://github.com/gosling-lang/altgosling
 
+# renders as "Preprint Server"
 preprint: https://osf.io/preprints/osf/26jvr
 
+# renders with the provided title
 videos:
 - title: first video
   url: https://www.devinlange.com/
 - title: second video
   url: https://www.devinlange.com/
 
+# catch-all for any other links
 other-resources:
 - title: First Resource
   link: https://www.devinlange.com
