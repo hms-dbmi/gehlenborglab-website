@@ -1,0 +1,25 @@
+<ul>
+  {% if page.website %}
+    <li><a href="{{ page.website }}">Project Website</a></li>
+  {% endif %}
+
+  {% if page.publisher %}
+    <li><a href="{{ page.publisher }}">Publisher</a></li>
+  {% endif %}
+  
+  {% if page.code %}
+    <li><a href="{{ page.code }}">Source Code</a></li>
+  {% endif %}
+
+  {% if page.preprint %}
+    <li><a href="{{ page.preprint }}">Preprint Server</a></li>
+  {% endif %}
+
+	{% for video in page.videos %}
+    <li><a href="{{ video.url }}">{{ video.title }}</a></li>
+  {% endfor %}
+
+  {% for resource in page.other-resources %}
+  <li><a href="{{ resource.url }}">{{ resource.title }}</a></li>
+{% endfor %}
+</ul>
