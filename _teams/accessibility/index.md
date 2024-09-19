@@ -9,8 +9,8 @@ team_id: accessibility
 active: true
 team_home: true
 
-image: visual-pattern-big-data.png
-image_alt: alt text for the image
+image: hdv_a11y.png
+image_alt: Diagram showing the three major activities of the accessibility team, research, implementation, and advocacy
 
 members:
   - nils-gehlenborg
