@@ -16,15 +16,17 @@ HIDIVE Lab is committed to enhancing accessibility in biomedical education and r
 
 ## Current Accessibility Challenges in the Field
 
-People with disabilities are disproportionately excluded from academia. According to recent reports, only 9% of the scientific workforce and 2% of principal investigators funded by the NIH (National Institutes of Health) are self-identified to have disabilities, showing a notable discrepancy with the US adult population (27%). This discrepancy highlights the current unequal opportunities for people with disabilities in research. Furthermore, evidence suggests that people with disabilities are not sufficiently included in scientific data. In December 2022, the NIH Advisory Committee to the Director Working Group on Diversity (ACD WGD) released a report promoting the inclusion of people with impairments as research collaborators and ensuring that NIH-supported research addresses issues related to people with disabilities.
+People with disabilities are disproportionately excluded from academia. According to recent reports, only 9% of the scientific workforce and 2% of principal investigators funded by the NIH (National Institutes of Health) are self-identified to have disabilities, showing a notable discrepancy with the US adult population (28.7% according to the [Centers for Disease Control](https://www.cdc.gov/ncbddd/disabilityandhealth/infographic-disability-impacts-all.html)). This discrepancy highlights the current unequal opportunities for people with disabilities in research. Furthermore, evidence suggests that people with disabilities are not sufficiently included in scientific data. In December 2022, the NIH Advisory Committee to the Director Working Group on Diversity (ACD WGD) [released a report](https://diversity.nih.gov/disseminate/blog/2022-12-30-new-recommendations-enhancing-disability-inclusion) promoting the inclusion of people with impairments as research collaborators and ensuring that NIH-supported research addresses issues related to people with disabilities.
 
 ## Our Research Aims
 
-Our short-term goal is to gain a better understanding of the digital accessibility of biomedical resources. By evaluating the current barriers to accessing the essential resources in biomedicine, such as research journals and data repositories/portals, we will unveil the current accessibility status and build insights into addressing accessibility issues efficiently in our community.
+Our short-term goal is to gain a better understanding of the digital accessibility of biomedical resources. By evaluating the current barriers to accessing the essential resources in biomedicine, such as research journals and data repositories/portals, we will unveil the current accessibility status and build insights into addressing accessibility issues efficiently in our community. Our long-term goal is to design and develop solutions to help improve the state of accessibility of biomedical resources.
 
 ## Our Contributions
 
 Using computational accessibility evaluation tools, such as [WAVE](https://wave.webaim.org) and [Axe](https://www.deque.com/axe/), we evaluated over 3K biomedical data portals and journal websites. Our results showed that almost all websites (96%) had severe accessibility issues, and the most common issue was missing important metadata, such as alternative texts for images, which makes it impossible for BLV users to understand the contents displayed on the screen (Refer to a figure on the bottom).
+
+The Web Content Accessibility Guidelines (WCAG) require text descriptions for images, but many data visualizations do not include them, creating accessibility barriers for people with blindness and low vision (BLV). AltGosling generates natural language text descriptions for genomic visualizations created with Gosling, enabling interactive visualizations to automatically include dynamic text descriptions.
 
 ## Call to Action
 
