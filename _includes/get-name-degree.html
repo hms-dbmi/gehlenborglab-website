@@ -1,0 +1,2 @@
+{% assign member = site.members | where: "title", include.name | first %}
+{{ member.name_degree }}
