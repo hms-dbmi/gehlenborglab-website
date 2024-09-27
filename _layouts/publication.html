@@ -73,6 +73,11 @@ layout: page
       </ul>
     {% endif %}
 
+    {% if page.award != '' %}
+      <h3>Award</h3>
+      {{ page.award }}
+    {% endif %}
+
     <h3>Team</h3>
     {% include list-members.html %}
 
