@@ -34,7 +34,7 @@ interface PublicationData {
       published: string;
     };
     /* A key for this entity in the Zotero API */
-    'zotero-key': string;
+    "zotero-key": string;
     /* A URL for a website related to the publication */
     website: string;
     /* A GitHub link for the code related to the publication */
@@ -44,7 +44,7 @@ interface PublicationData {
     /* Video resources */
     videos: Array<{ title: string; url: string }>;
     /* Other resources */
-    'other-resources': Array<{ title: string; url: string }>;
+    "other-resources": Array<{ title: string; url: string }>;
   };
   /* Abstract of the publication */
   data: string;
@@ -108,13 +108,13 @@ function schemaForPublication(options: { memberTags?: Array<string> } = {}) {
           authors: formatAuthors(authors),
           published: noneValue,
         },
-        'zotero-key': pub.key,
+        "zotero-key": pub.key,
         // additional resources
         website: noneValue,
         code: noneValue,
         preprint: noneValue,
         videos: [],
-        'other-resources': [],
+        "other-resources": [],
       },
       data: pub.data.abstractNote ?? noneValue,
     };
@@ -184,7 +184,7 @@ function determineFilename(pub: PublicationData) {
   last = last.replace("'", ""); // For Sehi
   last = last.replace("ö", "oe"); // For Eric
   last = last.replace("ä", "ae");
-  return `${last}-${pub.frontmatter.year}-${pub.frontmatter.zoteroKey}.md`
+  return `${last}-${pub.frontmatter.year}-${pub.frontmatter["zotero-key"]}.md`
     .toLowerCase();
 }
 
@@ -209,11 +209,11 @@ async function shouldWritePublicationFile(
     const contents = await Deno.readTextFile(file.url);
     const rawFrontmatter = yaml.parse(contents.split("---")[1]);
     const frontmatter = z
-      .object({ title: z.string(), zoteroKey: z.string().optional() })
+      .object({ title: z.string(), "zotero-key": z.string().optional() })
       .parse(rawFrontmatter);
     // if the title matches, we don't need to write the file
     if (
-      pub.frontmatter.zoteroKey === frontmatter.zoteroKey ||
+      pub.frontmatter["zotero-key"] === frontmatter["zotero-key"] ||
       pub.frontmatter.title.toLowerCase() === frontmatter.title.toLowerCase()
     ) {
       return false;
@@ -280,7 +280,9 @@ if (import.meta.main) {
       })
     ) {
       console.log(
-        `Adding ${filename}, "${pub.frontmatter.title}" (${pub.frontmatter.zoteroKey})`,
+        `Adding ${filename}, "${pub.frontmatter.title}" (${
+          pub.frontmatter["zotero-key"]
+        })`,
       );
       if (dryRun) continue;
       await new Promise((resolve) => setTimeout(resolve, 100)); // rate limit
