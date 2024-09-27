@@ -13,7 +13,7 @@ Install `rvm` [https://rvm.io/rvm/install]. RVM should load or prompt for instal
 With Ruby fixed, then:
 
 ```
-$ gem install bundler
+$ gem install bundler -v 2.4.22
 $ bundle install
 $ npm install
 $ jekyll serve &
