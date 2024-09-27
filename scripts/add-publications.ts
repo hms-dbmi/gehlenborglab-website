@@ -33,7 +33,18 @@ interface PublicationData {
       /* TODO: markdown formatted string of citation info (e.g., "*Cell* **164**:550-563") */
       published: string;
     };
-    zoteroKey: string;
+    /* A key for this entity in the Zotero API */
+    'zotero-key': string;
+    /* A URL for a website related to the publication */
+    website: string;
+    /* A GitHub link for the code related to the publication */
+    code: string;
+    /* A link to the preprint */
+    preprint: string;
+    /* Video resources */
+    videos: Array<{ title: string; url: string }>;
+    /* Other resources */
+    'other-resources': Array<{ title: string; url: string }>;
   };
   /* Abstract of the publication */
   data: string;
@@ -97,7 +108,13 @@ function schemaForPublication(options: { memberTags?: Array<string> } = {}) {
           authors: formatAuthors(authors),
           published: noneValue,
         },
-        zoteroKey: pub.key,
+        'zotero-key': pub.key,
+        // additional resources
+        website: noneValue,
+        code: noneValue,
+        preprint: noneValue,
+        videos: [],
+        'other-resources': [],
       },
       data: pub.data.abstractNote ?? noneValue,
     };
