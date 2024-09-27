@@ -45,6 +45,8 @@ interface PublicationData {
     videos: Array<{ title: string; url: string }>;
     /* Other resources */
     "other-resources": Array<{ title: string; url: string }>;
+    /* Awards for the publication */
+    awards: Array<string>;
   };
   /* Abstract of the publication */
   data: string;
@@ -115,6 +117,7 @@ function schemaForPublication(options: { memberTags?: Array<string> } = {}) {
         preprint: noneValue,
         videos: [],
         "other-resources": [],
+        awards: [],
       },
       data: pub.data.abstractNote ?? noneValue,
     };
