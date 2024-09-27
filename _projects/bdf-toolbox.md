@@ -15,8 +15,8 @@ websites:
     primary: true
 
 # github_repositories:
-#   - name: 4DN Repos
-#     url: https://github.com/4dn-dcic
+#   - name: Repos
+#     url: https://github.com/
 #     primary: true
 
 grants:
