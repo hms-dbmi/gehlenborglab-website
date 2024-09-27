@@ -13,7 +13,7 @@ type: article
 
 publisher: "https://doi.org/10.31219/osf.io/yhdpv"
 cite:
-  authors: "Furui Cheng, Mark S Keller, Huamin Qu, Nils Gehlenborg, Qianwen Wang"
+  authors: "F Cheng, MS Keller, H Qu, N Gehlenborg, Q Wang"
   published: Accepted at IEEE VIS 2022 and IEEE Transactions on Visualization and Computer Graphics.
 
 ---

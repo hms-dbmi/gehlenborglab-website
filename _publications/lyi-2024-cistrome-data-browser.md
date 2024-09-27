@@ -11,7 +11,7 @@ type: article
 
 publisher: "https://doi.org/10.1093/nar/gkad1069"
 cite:
-  authors: "L Taing, A Dandawate, S L'Yi, N Gehlenborg, M Brown, C A Meyer"
+  authors: "L Taing, A Dandawate, S L'Yi, N Gehlenborg, M Brown, CA Meyer"
   published: "*Nucleic Acids Research* **52**(D1), D61-D66"
 
 ---

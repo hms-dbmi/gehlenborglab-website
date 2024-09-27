@@ -12,7 +12,7 @@ type: article
 
 publisher: "https://doi.org/10.1093/bioinformatics/btad018"
 cite:
-  authors: "Sehi L'Yi, Mark S Keller, Ariaki Dandawate, Len Taing, Chen-Hao Chen, Myles Brown, Clifford A Meyer, Nils Gehlenborg"
+  authors: "S L'Yi, MS Keller, A Dandawate, L Taing, CH Chen, M Brown, CA Meyer, N Gehlenborg"
   published: Bioinformatics 39(2), btad018.
 
 ---

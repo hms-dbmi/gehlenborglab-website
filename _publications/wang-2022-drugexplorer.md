@@ -11,7 +11,7 @@ type: article
 
 publisher: "https://doi.org/10.31219/osf.io/b76nt"
 cite:
-  authors: "Qianwen Wang, Kexin Huang, Payal Chandak, Marinka Zitnik, Nils Gehlenborg"
+  authors: "Q Wang, K Huang, P Chandak, M Zitnik, N Gehlenborg"
   published: Accepted at IEEE VIS 2022 and IEEE Transactions on Visualization and Computer Graphics.
 
 ---

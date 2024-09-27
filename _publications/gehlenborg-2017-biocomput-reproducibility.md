@@ -7,6 +7,6 @@ type: article
 year: 2016
 publisher: "https://www.ncbi.nlm.nih.gov/pubmed/28004011"
 cite:
-  authors: "Manrai AK, Patel CJ, Gehlenborg N, Tatonetti NP, Ioannidis JP, Kohane IS."
+  authors: "AK Manrai, CJ Patel, N Gehlenborg, NP Tatonetti, JP Ioannidis, IS Kohane"
   published: "*Pac Symp Biocomput* **21**:180-182"
 ---

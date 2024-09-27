@@ -11,7 +11,7 @@ type: article
 
 publisher: "https://doi.org/10.1109/tvcg.2022.3209398"
 cite:
-  authors: "Sehi L'Yi, Nils Gehlenborg"
+  authors: "S L'Yi, N Gehlenborg"
   published: Accepted at IEEE VIS 2022 and IEEE Transactions on Visualization and Computer Graphics.
 
 ---

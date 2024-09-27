@@ -9,7 +9,7 @@ year: 2024
 type: article
 publisher: "https://doi.org/10.31219/osf.io/puxnf"
 cite:
-  authors: "Trevor Manz, Fritz Lekschas, Evan Greene, Greg Finak, Nils Gehlenborg"
+  authors: "T Manz, F Lekschas, E Greene, G Finak, N Gehlenborg"
   published: "Accepted at IEEE VIS 2024 and IEEE Transactions on Visualization and Computer Graphics"
 ---
 Projecting high-dimensional vectors into two dimensions for visualization,

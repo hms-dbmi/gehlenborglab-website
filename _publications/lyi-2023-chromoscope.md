@@ -12,7 +12,7 @@ type: article
 
 publisher: "https://www.nature.com/articles/s41592-023-02056-x"
 cite:
-  authors: "S L'Yi, D Maziec, V Stevens, T Manz, A Veit, M Berselli, P J. Park, D Głodzik, N Gehlenborg"
+  authors: "S L'Yi, D Maziec, V Stevens, T Manz, A Veit, M Berselli, PJ Park, D Głodzik, N Gehlenborg"
   published: "*Nature Methods* **20**, 1834–1835"
 
 ---
