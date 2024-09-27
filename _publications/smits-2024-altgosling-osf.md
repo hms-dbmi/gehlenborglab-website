@@ -13,7 +13,7 @@ type: preprint
 
 publisher: "https://osf.io/preprints/osf/26jvr"
 cite:
-  authors: "T C Smits, S L'Yi, A P Mar, and N Gehlenborg"
+  authors: "TC Smits, S L'Yi, AP Mar, N Gehlenborg"
   published: "*OSF Preprints* doi:10.31219/osf.io/26jvr"
 ---
 Biomedical visualizations are key to accessing biomedical knowledge and detecting new patterns in large datasets. Interactive visualizations are essential for biomedical data scientists and are omnipresent in data analysis software and data portals. Without appropriate descriptions, these visualizations are not accessible to all people with blindness and low vision, who often rely on screen reader accessibility technologies to access visual information on digital devices. Screen readers require descriptions to convey image content. However, many images lack informative descriptions due to unawareness and difficulty writing such descriptions. Describing complex and interactive visualizations, like genomics data visualizations, is even more challenging. Automatic generation of descriptions could be beneficial, yet current alt text generating models are limited to basic visualizations and cannot be used for genomics. 

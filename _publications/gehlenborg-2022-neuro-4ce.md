@@ -11,7 +11,7 @@ type: preprint
 
 publisher: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4057133"
 cite:
-  authors: "Hutch, Meghan R. and Son, Jiyeon and Le, Trang T. and Hong, Chuan and Wang, Xuan and Shakeri Hossein Abad, Zahra and Morris, Michele and Gutiérrez-Sacristán, Alba and Klann, Jeffrey G. and Spiridou, Anastasia and Bellazzi, Riccardo and Benoit, Vincent and Bonzel, Clara-Lea and Bryant, William A. and Cho, Kelly and Das, Priyam and Hanauer, David A. and Henderson, Darren W. and Ho, Yuk-Lam and Loh, Ne Hooi Will and Makoudjou, Adeline and Malovini, Alberto and Moal, Bertrand and Mowery, Danielle L. and Samayamuthu, Malarkodi Jebathilagam and Sanz Vidorreta, Fernando J. and Schriver, Emily R. and Schubert, Petra and Talbert, Jeffrey and Tan, Amelia LM and Tan, Byorn WL and Tan, Bryce WQ and Tibollo, Valentina and Yuan, William and Avillach, Paul and Gehlenborg, Nils and Omenn, Gilbert S. and Characterization of COVID-19 by EHR (4CE), The Consortium for Clinical and Visweswaran, Shyam and Cai, Tianxi and Luo, Yuan and Xia, Zongqi"
+  authors: "MR Hutch, J Son, TT Le, C Hong, X Wang, Z Shakeri Hossein Abad, M Morris, A Gutiérrez-Sacristán, JG Klann, A Spiridou, R Bellazzi, V Benoit, CL Bonzel, WA Bryant, K Cho, P Das, DA Hanauer, DW Henderson, YL Ho, NHW Loh, A Makoudjou, A Malovini, B Moal, DL Mowery, MJ Samayamuthu, FJ Sanz Vidorreta, ER Schriver, P Schubert, J Talbert, ALM Tan, BWL Tan, BWQ Tan, V Tibollo, W Yuan, P Avillach, N Gehlenborg, GS Omenn, S Visweswaran, T Cai, Y Luo, Z Xia (4CE Consortium)"
   published: "*SSRN Preprints* 10.2196/preprints.31400"
 ---
 **Background**: To determine whether neurological diagnoses during COVID-19 hospitalization are associated with adverse clinical outcomes.

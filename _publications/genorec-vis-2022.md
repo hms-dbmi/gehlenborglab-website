@@ -13,7 +13,7 @@ type: article
 
 publisher: "https://pubmed.ncbi.nlm.nih.gov/36191105/"
 cite:
-  authors: "Aditeya Pandey, Sehi L'Yi, Qianwen Wang, Michelle A Borkin, Nils Gehlenborg"
+  authors: "A Pandey, S L'Yi, Q Wang, MA Borkin, N Gehlenborg"
   published: Accepted at IEEE VIS 2022 and IEEE Transactions on Visualization and Computer Graphics.
 
 ---

@@ -13,7 +13,7 @@ type: preprint
 publisher: "https://doi.org/10.31219/osf.io/tw9sg"
 
 cite:
-  authors: "Trevor Manz, Nezar Abdennur, Nils Gehlenborg"
+  authors: "T Manz, N Abdennur, N Gehlenborg"
   published: "*OSF Preprints* doi: 10.31219/osf.io/tw9sg"
 ---
 

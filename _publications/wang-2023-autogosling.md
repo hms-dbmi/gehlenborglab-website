@@ -14,7 +14,7 @@ type: article
 
 publisher: "https://doi.ieeecomputersociety.org/10.1109/VIS54172.2023.00031"
 cite:
-  authors: "Qianwen Wang, Xiao Liu, Man Qing Liang, Sehi L’Yi, Nils Gehlenborg"
+  authors: "Q Wang, X Liu, MQ Liang, S L’Yi, N Gehlenborg"
   published: "Proceedings of IEEE VIS 2023, 101-105"
 
 ---

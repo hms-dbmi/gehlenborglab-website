@@ -11,7 +11,7 @@ type: article
 
 publisher: "https://doi.org/10.31219/osf.io/axy82"
 cite:
-  authors: " Eric Mörth, Kevin Sidak, Zoltan Maliga, Torsten Moeller, Nils Gehlenborg, Peter Sorger, Hanspeter Pfister, Johanna Beyer, and Robert Krüger"
+  authors: "E Mörth, K Sidak, Z Maliga, T Moeller, N Gehlenborg, P Sorger, H Pfister, J Beyer, R Krüger"
   published: "Accepted at IEEE VIS 2024 and IEEE Transactions on Visualization and Computer Graphics."
 ---
 

@@ -8,6 +8,6 @@ type: other
 year: 2014
 publisher: "http://www.nature.com/nmeth/journal/v11/n2/abs/nmeth.2807.html"
 cite:
-  authors: "M Streit and N Gehlenborg"
+  authors: "M Streit, N Gehlenborg"
   published: "*Nature Methods* **11**(2):117"
 ---
