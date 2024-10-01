@@ -5,7 +5,7 @@
 {% endif %}
 </td>
 <td>
-{% capture doi %}{% if publication.doi and publication.publisher %} [doi:{{ publication.doi }}]({{ publication.publisher }}){% endif %}{% endcapture %}
+{% capture doi %}{% if publication.doi and publication.publisher %} doi:[{{ publication.doi }}]({{ publication.publisher }}){% endif %}{% endcapture %}
 {% capture citation %}{{ publication.cite.authors }}. "[{{ publication.title }}]({{ publication.url }})", {{ publication.cite.published }} ({{ publication.year }}).{{ doi }}{% endcapture %}
 <p style="text-wrap: balance">{{ citation | markdownify }}</p>
 </td>

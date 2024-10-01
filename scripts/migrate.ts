@@ -44,9 +44,13 @@ type Entry = any;
 
 function isPreprintHref(href?: string) {
   if (!href) return false;
-  return href.includes("arxiv") || href.includes("biorxiv") ||
-    href.includes("medrxiv") || href.includes("osf.io") ||
-    href.includes("ssrn");
+  return (
+    href.includes("arxiv") ||
+    href.includes("biorxiv") ||
+    href.includes("medrxiv") ||
+    href.includes("osf.io") ||
+    href.includes("ssrn")
+  );
 }
 
 function findMatchingPaper(
