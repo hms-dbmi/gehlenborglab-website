@@ -11,5 +11,5 @@ doi: "10.1038/nmeth.2807"
 zotero-key: "BPKHE2VS"
 cite:
   authors: "M Streit and N Gehlenborg"
-  published: "*Nature Methods* **11**(2):117-117"
+  published: "*Nature Methods* **11**(2):117"
 ---

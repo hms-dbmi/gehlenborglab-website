@@ -10,5 +10,5 @@ doi: "10.1038/nmeth.3033"
 zotero-key: "QPTTZ7ZX"
 cite:
   authors: "A Lex and N Gehlenborg"
-  published: "*Nature Methods* **11**(8):779-779"
+  published: "*Nature Methods* **11**(8):779"
 ---

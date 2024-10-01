@@ -10,5 +10,5 @@ doi: "10.1038/nmeth.2134"
 zotero-key: "FKRT82Z5"
 cite:
   authors: "N Gehlenborg and B Wong"
-  published: "*Nature Methods* **9**(8):769-769"
+  published: "*Nature Methods* **9**(8):769"
 ---
