@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Research Teams
+title: Research Themes
 permalink: /research/teams/
 ---
-# Research Teams
+# Research Themes
 
 <p class="usa-font-lead">
-The following list is a list of the lab's research teams.
+The following list is a list of the lab's research themes.
 </p>
 
 
