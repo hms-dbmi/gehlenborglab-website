@@ -15,7 +15,7 @@ zotero-key: "H6YDK8WJ"
 preprint: "https://doi.org/10.31219/osf.io/b76nt"
 cite:
   authors: "Q Wang, K Huang, P Chandak, M Zitnik, N Gehlenborg"
-  published: "*IEEE transactions on visualization and computer graphics* **29**(1):1266-1276"
+  published: "*IEEE Transactions on Visualization and Computer Graphics* **29**(1):1266-1276"
 
 ---
 Whether AI explanations can help users achieve specific tasks efficiently (i.e., usable explanations) is significantly influenced by their visual presentation.

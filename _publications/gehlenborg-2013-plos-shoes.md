@@ -9,7 +9,7 @@ publisher: "https://dx.plos.org/10.1371/journal.pcbi.1002834"
 doi: "10.1371/journal.pcbi.1002834"
 zotero-key: "EKYM3HGT"
 cite:
-  authors: "J De Ridder, T Abeel, M Michaut, VP Satagopam, N Gehlenborg"
+  authors: "J de Ridder, T Abeel, M Michaut, VP Satagopam, N Gehlenborg"
   published: "*PLoS Computational Biology* **9**(1):e1002834"
 ---
 **Most viewed article in PLoS Computational Biology during February/March 2013 with more than 12,000 views in 30 days.**

@@ -18,7 +18,8 @@ layout: page
     {% endif %}
 
     <h3>Citation</h3>
-    {% capture citation %}{{ page.cite.authors }}. "{{ page.title }}" {{ page.cite.published }}{% if page.doi and page.publisher %} [doi:{{ page.doi }}]({{ page.publisher }}) ({{ page.year}}).{% endif %}{% endcapture %}
+    {% capture doi %}{% if page.doi and page.publisher %} [doi:{{ page.doi }}]({{ page.publisher }}){% endif %}{% endcapture %}
+    {% capture citation %}{{ page.cite.authors }}. "{{ page.title }}", {{ page.cite.published }} ({{ page.year}}).{{ doi }}{% endcapture %}
     {{ citation | markdownify }}
     <!-- If we markdownify just one field, it is wrapped by <p> -->
 
