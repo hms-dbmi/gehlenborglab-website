@@ -9,5 +9,5 @@ publisher: "http://gehlenborg.com/wp-content/uploads/2012/11/nils-gehlenborg_phd
 zotero-key: "9CMLEXNH"
 cite:
   authors: "N Gehlenborg"
-  published: "*Thesis*"
+  published: "*PhD Thesis*, University of Cambridge, United Kingdom"
 ---
