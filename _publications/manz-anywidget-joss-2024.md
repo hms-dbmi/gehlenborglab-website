@@ -10,11 +10,13 @@ year: 2024
 
 type: preprint
 
-publisher: "https://doi.org/10.31219/osf.io/tw9sg"
+publisher: "https://osf.io/tw9sg"
 
+doi: "10.31219/osf.io/tw9sg"
+zotero-key: "UFLRKXLD"
 cite:
-  authors: "Trevor Manz, Nezar Abdennur, Nils Gehlenborg"
-  published: "*OSF Preprints* doi: 10.31219/osf.io/tw9sg"
+  authors: "T Manz, N Abdennur, N Gehlenborg"
+  published: "*OSF Preprints*"
 ---
 
 The anywidget project provides a specification and toolset for creating

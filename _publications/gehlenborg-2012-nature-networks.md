@@ -5,8 +5,10 @@ members:
   - nils-gehlenborg
 type: other
 year: 2012
-publisher: "http://www.nature.com/nmeth/journal/v9/n2/abs/nmeth.1862.html"
+publisher: "https://www.nature.com/articles/nmeth.1862"
+doi: "10.1038/nmeth.1862"
+zotero-key: "TJAZCB8U"
 cite:
   authors: "N Gehlenborg and B Wong"
-  published: "*Nature Methods* **9**(2):115"
+  published: "*Nature Methods* **9**(2):115-115"
 ---

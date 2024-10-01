@@ -5,9 +5,11 @@ members:
   - nils-gehlenborg
 type: thesis
 year: 2003
-publisher: "http://gehlenborg.com/wp-content/uploads/2011/12/nils-gehlenborg_bachelors.pdf"
+publisher: "https://academic.oup.com/bioinformatics/article/22/8/1010/227568"
+doi: "10.1093/bioinformatics/btl070"
+zotero-key: "B6ZLATNB"
 cite:
-  authors: "N Gehlenborg"
-  published: "*Studienarbeit (eq. Bachelors Thesis)*, University of Tübingen, Germany"
+  authors: "J Dietzsch, N Gehlenborg, K Nieselt"
+  published: "*Bioinformatics* **22**(8):1010-1012"
 ---
 thesis

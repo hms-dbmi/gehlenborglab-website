@@ -10,11 +10,13 @@ year: 2024
 
 type: preprint
 
-publisher: "https://doi.org/10.31219/osf.io/pyn7u"
+publisher: "https://osf.io/pyn7u"
 
+doi: "10.31219/osf.io/pyn7u"
+zotero-key: "3QLBRNCL"
 cite:
-  authors: "Trevor Manz, Nils Gehlenborg, Nezar Abdennur"
-  published: "*OSF Preprints* doi: 10.31219/osf.io/pyn7u"
+  authors: "T Manz, N Gehlenborg, N Abdennur"
+  published: "*OSF Preprints*"
 ---
 
 The open-source Jupyter project has fostered a robust ecosystem around
