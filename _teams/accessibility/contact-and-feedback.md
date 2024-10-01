@@ -5,3 +5,7 @@ name: Contact and Feedback
 team_id: accessibility
 active: true
 ---
+
+## Feedback and Contact
+
+The best way to provide feedback or contact is via email at HIDIVE@hms.harvard.edu.

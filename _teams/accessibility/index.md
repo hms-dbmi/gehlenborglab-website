@@ -4,13 +4,13 @@
 #index.md requires hard-coded permalink to convert to index.html file instead of index/ directory
 permalink: /research/teams/accessibility/ 
 
-name: Accessibility Team
+name: Accessibility
 team_id: accessibility
 active: true
 team_home: true
 
-image: hdv_a11y.png
-image_alt: Diagram showing the three major activities of the accessibility team, research, implementation, and advocacy
+# image: hdv_a11y.png
+# image_alt: Diagram showing the three major activities of the accessibility team, research, implementation, and advocacy
 
 members:
   - nils-gehlenborg
