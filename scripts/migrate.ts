@@ -105,7 +105,14 @@ async function getPublications(): Promise<Record<string, string>> {
 
 type Entry = any;
 
-async function findMatchingPaper(
+function isPreprintHref(href?: string) {
+  if (!href) return false;
+  return href.includes("arxiv") || href.includes("biorxiv") ||
+    href.includes("medrxiv") || href.includes("osf.io") ||
+    href.includes("ssrn");
+}
+
+function findMatchingPaper(
   filename: string,
   contents: string,
   papers: Array<Entry>,
@@ -113,7 +120,7 @@ async function findMatchingPaper(
   let { frontMatter } = extractYaml(contents);
   let meta = yaml.parse(frontMatter) as any;
   if (meta["zotero-key"]) {
-    console.log(`Skipping ${meta.title} as it already has a key`);
+    console.log(`Skipping ${filename} (has zotero-key)`);
     return contents;
   }
   let scores = papers.map(
@@ -130,22 +137,37 @@ async function findMatchingPaper(
   let authors = formatAuthors(bestMatch.creators, { rich: true });
   let published = formatJournalInfo(bestMatch, { rich: true });
   let doi = bestMatch.DOI;
-  if (doi && bestMatch.url) {
-    published += `; [doi:${doi}](${bestMatch.url})`;
-  }
 
+  if (bestMatch.url) {
+    contents = contents.replace(
+      /publisher: .*/,
+      `publisher: "${bestMatch.url}"`,
+    );
+  }
+  if (meta.type === "preprint" && bestMatch.itemType === "journalArticle") {
+    // we are updating the type, so we need to remove the old one
+    contents = contents.replace(/type: .*/, `type: article`);
+  }
   contents = contents.replace(/  year: .*/, `  year: ${year}`);
   contents = contents.replace(/  authors: .*/, `  authors: "${authors}"`);
   contents = contents.replace(/  published: .*/, `  published: "${published}"`);
 
   let doiLine = doi ? `doi: "${doi}"\n` : "";
   let keyLine = `zotero-key: "${bestMatch.key}"\n`;
+  // we are updating the key, so we need to remove the old one
+  let preprintLine = "";
+  if (
+    // we are updating the publisher, so we need to remove the old one
+    isPreprintHref(meta.publisher) && !isPreprintHref(bestMatch.url)
+  ) {
+    preprintLine = `preprint: "${meta.publisher}"\n`;
+  }
 
   // insert before cite:
   let parts = contents.split("cite:");
   assert(parts.length === 2, "Expected exactly one cite: in the file");
   let [before, after] = parts;
-  contents = `${before}${doiLine}${keyLine}cite:${after}`;
+  contents = `${before}${doiLine}${keyLine}${preprintLine}cite:${after}`;
 
   return contents;
 }
@@ -155,7 +177,7 @@ let papers = await fetchHidivePapers();
 let entries = Object.entries(publications);
 
 for (let [filename, contents] of entries) {
-  let newContents = await findMatchingPaper(filename, contents, papers);
+  let newContents = findMatchingPaper(filename, contents, papers);
   // write back to file
   await Deno.writeTextFile(
     new URL(filename, new URL("_publications/", ROOT)),
