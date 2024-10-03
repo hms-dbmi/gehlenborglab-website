@@ -6,9 +6,11 @@ members:
   - nils-gehlenborg
 type: article
 year: 2012
-publisher: "http://www.cg.tuwien.ac.at/eurovis2012/awards/best-paper-award/"
+publisher: "https://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2012.03110.x"
+doi: "10.1111/j.1467-8659.2012.03110.x"
+zotero-key: "YCAZG4FG"
 cite:
-  authors: "A Lex, M Streit, H-J Schulz, C Partl, D Schmalstieg, PJ Park, N Gehlenborg"
-  published: "*Computer Graphics Forum* **31**:1175-1184 (2012). Proceedings of EuroVis Conference 2012"
+  authors: "A Lex, M Streit, HJ Schulz, C Partl, D Schmalstieg, PJ Park, N Gehlenborg"
+  published: "*Computer Graphics Forum* **31**:1175-1184"
 ---
 **3rd Best Paper Award.**

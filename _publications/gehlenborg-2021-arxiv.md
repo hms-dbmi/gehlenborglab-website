@@ -6,11 +6,14 @@ members:
   - nils-gehlenborg
 
 year: 2021
-type: preprint
+type: article
 
-publisher: "https://arxiv.org/abs/2108.09499"
+publisher: "https://www.nature.com/articles/s41592-022-01415-4"
+doi: "10.1038/s41592-022-01415-4"
+zotero-key: "52EHPR24"
+preprint: "https://arxiv.org/abs/2108.09499"
 cite:
-  authors: "Denis Schapiro, Clarence Yapp, Artem Sokolov, Sheila M. Reynolds, Yu-An Chen, Damir Sudar, Yubin Xie, Jeremy Muhlich, Raquel Arias-Camison, Milen Nikolov, Madison Tyler, Jia-Ren Lin, Erik A. Burlingame, Sarah Arena, Human Tumor Atlas Network, Young H. Chang, Samouil L Farhi, Vésteinn Thorsson, Nithya Venkatamohan, Julia L. Drewes, Dana Pe'er, David A. Gutman, Markus D. Herrmann, Nils Gehlenborg, Peter Bankhead, Joseph T. Roland, John M. Herndon, Michael P. Snyder, Michael Angelo, Garry Nolan, Jason Swedlow, Nikolaus Schultz, Daniel T. Merrick, Sarah A. Mazzilli, Ethan Cerami, Scott J. Rodig, Sandro Santagata, Peter K. Sorger"
-  published: "arXiv:2108.09499"
+  authors: "D Schapiro, C Yapp, A Sokolov, SM Reynolds, YA Chen, D Sudar, Y Xie, J Muhlich, R Arias-Camison, S Arena, AJ Taylor, M Nikolov, M Tyler, JR Lin, EA Burlingame, *Human Tumor Atlas Network*, YH Chang, SL Farhi, V Thorsson, N Venkatamohan, JL Drewes, D Pe’er, DA Gutman, MD Herrmann, N Gehlenborg, P Bankhead, JT Roland, JM Herndon, MP Snyder, M Angelo, G Nolan, JR Swedlow, N Schultz, DT Merrick, SA Mazzili, E Cerami, SJ Rodig, S Santagata, PK Sorger"
+  published: "*Nature Methods* **19**(3):262-267"
 ---
 The imminent release of atlases combining highly multiplexed tissue imaging with single cell sequencing and other omics data from human tissues and tumors creates an urgent need for data and metadata standards compliant with emerging and traditional approaches to histology. We describe the development of a Minimum Information about highly multiplexed Tissue Imaging (MITI) standard that draws on best practices from genomics and microscopy of cultured cells and model organisms.
