@@ -10,7 +10,7 @@ let ROOT = new URL("..", import.meta.url);
 
 async function fetchHidivePapers(): Promise<Array<any>> {
   let response = await fetch(
-    "https://raw.githubusercontent.com/manzt/hidive-pubs/98cacac569a981fe607a654985846b2a5a170f78/assets/papers.json",
+    "https://raw.githubusercontent.com/manzt/hidive-pubs/main/assets/papers.json",
   );
   let raw: Array<any> = await response.json();
   return raw.filter(
