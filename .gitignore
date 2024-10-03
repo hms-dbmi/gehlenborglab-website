@@ -16,3 +16,4 @@ _site/
 vendor/
 
 deno.json
+deno.lock
