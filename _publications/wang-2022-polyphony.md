@@ -11,10 +11,13 @@ members:
 year: 2022
 type: article
 
-publisher: "https://doi.org/10.31219/osf.io/yhdpv"
+publisher: "https://ieeexplore.ieee.org/abstract/document/9903604"
+doi: "10.1109/TVCG.2022.3209408"
+zotero-key: "IVFXTYYJ"
+preprint: "https://doi.org/10.31219/osf.io/yhdpv"
 cite:
-  authors: "Furui Cheng, Mark S Keller, Huamin Qu, Nils Gehlenborg, Qianwen Wang"
-  published: Accepted at IEEE VIS 2022 and IEEE Transactions on Visualization and Computer Graphics.
+  authors: "F Cheng, MS Keller, H Qu, N Gehlenborg, Q Wang"
+  published: "*IEEE Transactions on Visualization and Computer Graphics* **29**(1):591-601"
 
 ---
 

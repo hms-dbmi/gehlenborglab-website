@@ -8,7 +8,9 @@ members:
 type: article
 year: 2021
 publisher: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2780925"
+doi: "10.1001/jamanetworkopen.2021.12596"
+zotero-key: "YT6TJYVC"
 cite:
-  authors: "Bourgeois F, Gutiérrez-Sacristán A, Keller M, Liu M, Hong C, Bonzel C, Tan A, Aronow B, Boeker M, Booth J, Cruz Rojo J, Devkota B, García Barrio N, Gehlenborg N, Geva A, Hanauer D, Hutch M, Issitt R, Klann J, Luo Y, Mandl K, Mao C, Moal B, Moshal K, Murphy S, Neuraz A, Yuan Ngiam K, Omenn G, Patel L, Pedrera Jiménez M, Sebire N, Serrano Balazote P, Serret-Larmande A, South A, Spiridou A, Taylor D, Tippmann P, Visweswaran S, Weber G, Kohane I, Cai T, Avillach P; for the Consortium for Clinical Characterization of COVID-19 by EHR (4CE)"
-  published: "*JAMA Netw Open* **4**:e2112596"
+  authors: "FT Bourgeois, A Gutiérrez-Sacristán, MS Keller, M Liu, C Hong, CL Bonzel, ALM Tan, BJ Aronow, M Boeker, J Booth, J Cruz-Rojo, B Devkota, N García-Barrio, N Gehlenborg, A Geva, DA Hanauer, MR Hutch, RW Issitt, JG Klann, Y Luo, KD Mandl, C Mao, B Moal, KL Moshal, SN Murphy, A Neuraz, KY Ngiam, GS Omenn, LP Patel, M Pedrera-Jiménez, NJ Sebire, P Serrano-Balazote, A Serret-Larmande, AM South, A Spiridou, DM Taylor, P Tippmann, S Visweswaran, GM Weber, IS Kohane, T Cai, P Avillach, *Consortium for Clinical Characterization of COVID-19 by EHR (4CE)*"
+  published: "*JAMA Network Open* **4**(6):e2112596"
 ---

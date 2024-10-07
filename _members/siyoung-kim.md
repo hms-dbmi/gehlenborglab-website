@@ -6,7 +6,7 @@ photo: siyoung-kim.jpeg
 alt: A headshot photo of a smiling young woman with long, straight, dark brown hair, wearing thin circular wire-rimmed glasses. The blurred background appears to be outdoors, featuring buildings and boats on both sides of a waterway.
 
 job_title: SIBMI / DBMI Summer Institute Intern
-role: student
+role: alumni
 
 services:
   #home: https://siyoung-kim.github.io/
@@ -15,7 +15,7 @@ services:
   linked-in: https://www.linkedin.com/in/si-young-kim/
   
 start: June 2024
-end:
+end: August 2024
 ---
 Siyoung is an intern in the Department of Biomedical Informatics at Harvard Medical School as a part of the Summer Institute in Biomedical Informatics (SIBMI).
 

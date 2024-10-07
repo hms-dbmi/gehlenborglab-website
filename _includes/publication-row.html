@@ -4,10 +4,9 @@
 <a class="display-lg-only" href="{{publication.url}}"><img alt='Publication page for "{{ publication.title }}"' class="thumb" src="/assets/img/publications/thumbnail/{{ publication.image }}"></a>
 {% endif %}
 </td>
-<td markdown="1">
-<p>{{ publication.cite.authors }}.</p>
-<p>"<a class="link-title" href="{{publication.url}}">{{ publication.title }}</a>"</p>
-<p style="word-break: break-word;"  markdown="1">{{ publication.cite.published }}</p>
-<p>({{ publication.year }})</p>
+<td>
+{% capture doi %}{% if publication.doi and publication.publisher %} doi:[{{ publication.doi }}]({{ publication.publisher }}){% endif %}{% endcapture %}
+{% capture citation %}{{ publication.cite.authors }}. "[{{ publication.title }}]({{ publication.url }})", {{ publication.cite.published }} ({{ publication.year }}).{{ doi }}{% endcapture %}
+<p style="text-wrap: balance">{{ citation | markdownify }}</p>
 </td>
 </tr>

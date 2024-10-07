@@ -9,10 +9,12 @@ members:
 year: 2021
 type: article
 
-publisher: "https://doi.org/10.2196/31400"
+publisher: "https://www.jmir.org/2021/10/e31400"
+doi: "10.2196/31400"
+zotero-key: "E7DMWYNH"
 cite:
-  authors: "G Weber, H Zhang, S L'Yi, C Bonzel, C Hong, P Avillach, A Gutiérrez-Sacristán, N Palmer, A Tan, X Wang, W Yuan, N Gehlenborg, A Alloni, D Amendola, A Bellasi, R Bellazzi, M Beraghi, M Bucalo, L Chiovato, K Cho, A Dagliati, H Estiri, R Follett, N García-Barrio, D Hanauer, D Henderson, Y Ho, J Holmes, M Hutch, R Kavuluru, K Kirchoff, J Klann, A Krishnamurthy, T Le, M Liu, N Loh, S Lozano-Zahonero, Y Luo, S Maidlow, A Makoudjou, A Malovini, B Moal, M Morris, D Mowery, S Murphy, A Neuraz, K Ngiam, M Okoshi, G Omenn, L Patel, M Pedrera-Jiménez, R Prudente, M Samayamuthu, J Sanz, E Schriver, P Schubert, P Serrano-Balazote, B Tan, S Tanni, V Tibollo, S Visweswaran, K Wagholikar, Z Xia, D Zoeller, The Consortium For Clinical Characterization Of COVID-19 By EHR (4CE), I Kohane, T Cai, A South, G Brat"
-  published: "*J Med Internet Res* 2021;23(10):e31400. doi: https://doi.org/10.2196/31400"
+  authors: "GM Weber, HG Zhang, S L'Yi, CL Bonzel, C Hong, P Avillach, A Gutiérrez-Sacristán, NP Palmer, ALM Tan, X Wang, W Yuan, N Gehlenborg, A Alloni, DF Amendola, A Bellasi, R Bellazzi, M Beraghi, M Bucalo, L Chiovato, K Cho, A Dagliati, H Estiri, RW Follett, N García Barrio, DA Hanauer, DW Henderson, YL Ho, JH Holmes, MR Hutch, R Kavuluru, K Kirchoff, JG Klann, AK Krishnamurthy, TT Le, M Liu, NHW Loh, S Lozano-Zahonero, Y Luo, S Maidlow, A Makoudjou, A Malovini, MR Martins, B Moal, M Morris, DL Mowery, SN Murphy, A Neuraz, KY Ngiam, MP Okoshi, GS Omenn, LP Patel, M Pedrera Jiménez, RA Prudente, MJ Samayamuthu, FJ Sanz Vidorreta, ER Schriver, P Schubert, P Serrano Balazote, BW Tan, SE Tanni, V Tibollo, S Visweswaran, KB Wagholikar, Z Xia, D Zöller, *The Consortium For Clinical Characterization Of COVID-19 By EHR (4CE)*, IS Kohane, T Cai, AM South, GA Brat"
+  published: "*Journal of Medical Internet Research* **23**(10):e31400"
 ---
 **Background**: Many countries have experienced two predominant waves of COVID-19-related hospitalizations. Comparing the clinical trajectories of patients hospitalized in separate waves of the pandemic enables further understanding of the evolving epidemiology, pathophysiology, and healthcare dynamics of the COVID-19 pandemic.
 

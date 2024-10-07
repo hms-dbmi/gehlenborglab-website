@@ -10,11 +10,11 @@ hero:
 
 ## Send Us an Email
 
-We are still using email! To contact Nils, just send an email to [nils@hms.harvard.edu](mailto:nils@hms.harvard.edu). To schedule a meeting with Nils, please contact Nichole Parker at [nichole_parker@hms.harvard.edu](mailto:nichole_parker@hms.harvard.edu).
+To contact Nils, send an email to [nils@hms.harvard.edu](mailto:nils@hms.harvard.edu). To schedule a meeting with Nils, please contact the lab coordinator at [hidive_admin@hms.harvard.edu](mailto:hidive_admin@hms.harvard.edu).
 
-## Follow Us on Twitter
+## Follow Us on LinkedIn
 
-To hear the latest about our work, follow Nils on Twitter at [@ngehlenborg](https://twitter.com/ngehlenborg).
+To stay up to date on the latest news about our work, [follow the HIDIVE Lab on LinkedIn](https://www.linkedin.com/company/hidivelab).
 
 ## Mail Us a Letter
 
