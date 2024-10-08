@@ -18,7 +18,7 @@ github_repositories:
     primary: true
 
 grants:
-  - nih_1Ot2Od026677
+  - nih_1Ot2Od033758
 
 blurb: Given a YAML description of the data, generate an Excel template with input validation
 ---
