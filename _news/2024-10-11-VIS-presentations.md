@@ -24,7 +24,7 @@ The HIDIVE Lab is well represented at [IEEE VIS](https://ieeevis.org/year/2024/w
 
 - On Wesnesday, we will be presenting two full papers by Sehi L'Yi, whose paper was awarded with an Honorable Mention, and Eric Mörth. Mark Keller will also be presenting a short paper.
 
-- On Thursday, we will be presenting two more full papers by by Trevor Manz and Astrid Van Den Brandt.
+- On Thursday, we will be presenting two more full papers by Trevor Manz and Astrid Van Den Brandt.
 
 - On Friday, Nils Gehlenborg will also present at the Test of Time Awards. 
 
