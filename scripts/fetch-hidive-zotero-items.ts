@@ -394,9 +394,12 @@ function createTodoGitHubIssueContents(missingPapers: Array<ZoteroItem>) {
     let cid = p.itemType === "preprint"
       ? HIDIVE_PREPRINTS_COLLECTION_ID
       : HIDIVE_PUBLICATIONS_COLLECTION_ID;
-    let link =
+    let zoteroLink =
       `https://www.zotero.org/groups/${HIDIVE_GROUP_ID}/hidive/collections/${cid}/items/${p.key}/collection`;
-    return `- [${p.key}](${link}) - ${p.title}`;
+    let defaultIssueTitle = `Add paper ${p.key}`;
+    let openIssueLink = 
+      `https://github.com/hms-dbmi/gehlenborglab-website/issues/new?assignees=&labels=paper-bot&projects=&template=paper.yml&zotero_id=${p.key}&title=${defaultIssueTitle}&members=nils-gehlenborg`
+    return `- [${p.key}](${zoteroLink}) - [Open issue](${openIssueLink}) - ${p.title}`;
   }
 
   let papers = Array
