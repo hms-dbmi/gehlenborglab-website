@@ -9,6 +9,8 @@ accessibility:
       slug: research-in-biomedical-accessibility
     - name: Accessibility of Genomics Visualization
       slug: accessibility-of-genomics-visualization
+    - name: Keyboard Accessibility of Biomedical Visualization
+      slug: keyboard-accessibility-biomedical-visualization
     - name: Our Accessibility Journey
       slug: our-accessibility-journey
     # - name: Community and Inclusion

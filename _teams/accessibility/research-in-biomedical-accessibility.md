@@ -10,24 +10,20 @@ image_alt: A figure containing three graphs. Graph A shows that 96% of data port
 
 ---
 
-## Accessibility Research at HIDIVE Lab
+## Evaluation of Accessibility in Biomedical Resources
 
-HIDIVE Lab is committed to enhancing accessibility in biomedical education and research. Enhancing accessibility in biomedicine requires highly Interdisciplinary work across the fields of informatics, human–computer interaction/visualization, and biomedicine. With our expertise and experience in this area, we are committed to helping individuals with disabilities gain more equal education and research opportunities.
+Our lab been conducting extensive research evaluating the accessibility of biomedical websites and resources. In this ongoing project, we assessed over 3,000 biomedical data portals and journal websites using accessibility evaluation tools like [WAVE](https://wave.webaim.org) and [Axe](https://www.deque.com/axe/).
 
-## Current Accessibility Challenges in the Field
+## Current Accessibility Status
+Our evaluation revealed that nearly all of the assessed websites (96%) had severe accessibility issues. The most common issue identified was the absence of crucial metadata, such as alternative text for images, which creates significant barriers for users with blindness and low vision (BLV). Without such metadata, it is impossible for BLV users to fully understand the content displayed in biomedical data visualizations (Refer to figure on the top).
 
-People with disabilities are disproportionately excluded from academia. According to recent reports, only 9% of the scientific workforce and 2% of principal investigators funded by the NIH (National Institutes of Health) are self-identified to have disabilities, showing a notable discrepancy with the US adult population (28.7% according to the [Centers for Disease Control](https://www.cdc.gov/ncbddd/disabilityandhealth/infographic-disability-impacts-all.html)). This discrepancy highlights the current unequal opportunities for people with disabilities in research. Furthermore, evidence suggests that people with disabilities are not sufficiently included in scientific data. In December 2022, the NIH Advisory Committee to the Director Working Group on Diversity (ACD WGD) [released a report](https://diversity.nih.gov/disseminate/blog/2022-12-30-new-recommendations-enhancing-disability-inclusion) promoting the inclusion of people with impairments as research collaborators and ensuring that NIH-supported research addresses issues related to people with disabilities.
-
-## Our Research Aims
-
-Our short-term goal is to gain a better understanding of the digital accessibility of biomedical resources. By evaluating the current barriers to accessing the essential resources in biomedicine, such as research journals and data repositories/portals, we will unveil the current accessibility status and build insights into addressing accessibility issues efficiently in our community. Our long-term goal is to design and develop solutions to help improve the state of accessibility of biomedical resources.
+## Research Aims
+Our primary goal is to improve the accessibility of biomedical resources by identifying the key barriers and developing strategies to address them. Through this work, we aim to ensure that biomedical websites and tools comply with the Web Content Accessibility Guidelines (WCAG) and are accessible to people with disabilities.
 
 ## Our Contributions
-
-Using computational accessibility evaluation tools, such as [WAVE](https://wave.webaim.org) and [Axe](https://www.deque.com/axe/), we evaluated over 3K biomedical data portals and journal websites. Our results showed that almost all websites (96%) had severe accessibility issues, and the most common issue was missing important metadata, such as alternative texts for images, which makes it impossible for BLV users to understand the contents displayed on the screen (Refer to a figure on the bottom).
-
-The Web Content Accessibility Guidelines (WCAG) require text descriptions for images, but many data visualizations do not include them, creating accessibility barriers for people with blindness and low vision (BLV). AltGosling generates natural language text descriptions for genomic visualizations created with Gosling, enabling interactive visualizations to automatically include dynamic text descriptions.
+- **Evaluation Results**: We identified a range of accessibility failures, with missing alt texts being one of the most prevalent issues.
+- **Tools Used**: We employed computational accessibility tools such as WAVE and Axe to conduct our analysis.
+- **Addressing Gaps**: Our findings highlight the need for improving accessibility across biomedical websites, particularly in providing alternative texts and complying with WCAG.
 
 ## Call to Action
-
 We invite you to participate in this effort. We are looking for feedback and suggestions from the broader scientific and accessibility communities and potential collaborations for academic and non-academic activities.
