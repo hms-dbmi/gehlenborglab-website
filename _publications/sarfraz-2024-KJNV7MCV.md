@@ -18,3 +18,4 @@ awards: []
 code: 'https://github.com/single-cell-mams/mams'
 ---
 
+Many datasets are being produced by consortia that seek to characterize healthy and disease tissues at single-cell resolution. While biospecimen and experimental information is often captured, detailed metadata standards related to data matrices and analysis workflows are currently lacking. To address this, we develop the matrix and analysis metadata standards (MAMS) to serve as a resource for data centers, repositories, and tool developers. We define metadata fields for matrices and parameters commonly utilized in analytical workflows and developed the rmams package to extract MAMS from single-cell objects. Overall, MAMS promotes the harmonization, integration, and reproducibility of single-cell data across platforms.
