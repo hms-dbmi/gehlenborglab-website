@@ -1,5 +1,5 @@
 ---
-title: 'Don''t Wear Your New Shoes (Yet): Taking the Right Steps to Become a Successful Principal Investigator'
+title: "Don't Wear Your New Shoes (Yet): Taking the Right Steps to Become a Successful Principal Investigator"
 image: deridder-2013-M7QVT54G.png
 image-alt: Footprints
 members:
