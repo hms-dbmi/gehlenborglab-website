@@ -1,5 +1,6 @@
 ---
 title: Understanding Visualization Authoring Techniques for Genomics Data in the Context of Personas and Tasks
+image: vandenbrandt-2024-G2F5NFV7.png
 members:
   - astrid-vandenbrandt
   - sehi-lyi
