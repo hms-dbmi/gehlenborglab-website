@@ -54,9 +54,16 @@ let issueTemplateSchema = z.object({
     .nullable()
     .transform((imgTag) => {
       imgTag = imgTag?.trim() ?? "";
-      let alt = imgTag.match(/alt="([^"]*)"/);
-      let src = imgTag.match(/src="([^"]*)"/);
-      return { alt: alt ? alt[1] : null, src: src ? src[1] : null };
+      let alt = null;
+      let src = null;
+      if(imgTag.match(/<img[^>]*>/)) {
+        alt = imgTag.match(/alt="([^"]*)"/)?.[1] ?? null;
+        src = imgTag.match(/src="([^"]*)"/)?.[1] ?? null;
+      } else if(imgTag.match(/!\[[^\]]*\]\([^\)]*\)/)) {
+        alt = imgTag.match(/!\[([^\]]*)\]/)?.[1] ?? null;
+        src = imgTag.match(/\(([^\)]*)\)/)?.[1] ?? null;
+      }
+      return { alt, src };
     }),
   lab_members: z.string()
     .nullable()
