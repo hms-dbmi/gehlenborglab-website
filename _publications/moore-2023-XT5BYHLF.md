@@ -1,5 +1,7 @@
 ---
 title: 'OME-Zarr: a cloud-optimized bioimaging file format with international community support'
+image: moore-2023-XT5BYHLF.png
+image-alt: Figure 1
 members:
   - nils-gehlenborg
   - trevor-manz

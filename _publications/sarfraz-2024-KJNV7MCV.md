@@ -1,5 +1,7 @@
 ---
 title: 'MAMS: matrix and analysis metadata standards to facilitate harmonization and reproducibility of single-cell data'
+image: sarfraz-2024-KJNV7MCV.png
+image-alt: Figure 1
 members:
   - nils-gehlenborg
 year: 2024
