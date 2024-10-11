@@ -24,10 +24,9 @@
  * deno run -A scripts/create-hidive-member.ts paper.json
  * ```
  */
-import * as io from "jsr:@std/io@0.224.9";
 import * as yaml from "jsr:@std/yaml@1.0.5";
 import { z } from "npm:zod@3.9.8";
-import { readJson } from "./update-hidive-paper.ts";
+import * as util from "./util.ts";
 
 type Member = z.infer<typeof issueTemplateSchema>;
 
@@ -39,12 +38,7 @@ let issueTemplateSchema = z.object({
   degree: z.string().transform((x) => x.trim()),
   image: z.string()
     .nullable()
-    .transform((imgTag) => {
-      imgTag = imgTag?.trim() ?? "";
-      let alt = imgTag.match(/alt="([^"]*)"/);
-      let src = imgTag.match(/src="([^"]*)"/);
-      return { alt: alt ? alt[1] : null, src: src ? src[1] : null };
-    }),
+    .transform(util.parseImageMarkdown),
   job_title: z.string().transform((x) => x.trim()),
   role: z.string().transform((x) => x.trim()),
   social_media: z
@@ -102,7 +96,7 @@ function toMarkdown({ biography, ...m }: Member): string {
 }
 
 if (import.meta.main) {
-  let json = await readJson(Deno.args[0]);
+  let json = await util.readJson(Deno.args[0]);
   let issue = issueTemplateSchema.parse(json);
 
   if (issue.image.src) {
@@ -111,19 +105,13 @@ if (import.meta.main) {
     if (!resp.ok || !type) {
       console.error(`Failed to fetch image: ${issue.image.src}`);
     } else {
-      // download the image
       let fname = `${issue.slug}.${type.split("/")[1]}`;
-      using file = await Deno.open(
-        new URL(
+      await util.downloadImageResponse(resp, {
+        to: new URL(
           `../assets/img/members/fullsize/${fname}`,
           import.meta.url,
         ),
-        { write: true, create: true },
-      );
-      await io.copy(
-        io.readerFromStreamReader(resp.body!.getReader()),
-        file,
-      );
+      });
       issue.image.src = fname;
     }
   }

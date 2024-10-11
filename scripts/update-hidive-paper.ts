@@ -25,10 +25,10 @@
  * deno run -A scripts/update-hidive-paper.ts paper.json
  * ```
  */
-import * as io from "jsr:@std/io@0.224.9";
 import * as yaml from "jsr:@std/yaml@1.0.5";
 import { deepMerge } from "jsr:@std/collections@^1.0.5";
 import { z } from "npm:zod@3.9.8";
+import * as util from "./util.ts";
 
 import {
   fetchZoteroItem,
@@ -101,20 +101,6 @@ let issueTemplateSchema = z.object({
     .transform((x) => x?.split("\n").map((z) => z.trim()).filter((z) => z)),
 });
 
-async function readAllBytes(fname: string): Promise<Uint8Array> {
-  if (fname === "-") {
-    return await io.readAll(Deno.stdin);
-  }
-  using file = await Deno.open(fname, { read: true });
-  return await io.readAll(file);
-}
-
-export async function readJson(fname: string): Promise<unknown> {
-  let bytes = await readAllBytes(fname);
-  let text = new TextDecoder().decode(bytes);
-  return JSON.parse(text);
-}
-
 /**
  * Use the first author's last name, publication year, and Zotero key to create
  * a slug for the file.
@@ -169,14 +155,9 @@ async function processGitHubIssue(
     } else {
       // download the image
       let fname = `${stem}.${type.split("/")[1]}`;
-      using file = await Deno.open(new URL(fname, IMAGES_DIR), {
-        write: true,
-        create: true,
+      await util.downloadImageResponse(response, {
+        to: new URL(fname, IMAGES_DIR),
       });
-      await io.copy(
-        io.readerFromStreamReader(response.body!.getReader()),
-        file,
-      );
       image = fname;
     }
   }
@@ -247,7 +228,7 @@ function toMarkdown(pub: LabPaperData): string {
 }
 
 if (import.meta.main) {
-  let data = await readJson(Deno.args[0]);
+  let data = await util.readJson(Deno.args[0]);
   let issue = issueTemplateSchema.parse(data);
   let { file, contents } = await processGitHubIssue(issue);
   let existing = await findExistingPublication(issue.zotero_id);
