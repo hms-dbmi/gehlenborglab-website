@@ -14,7 +14,7 @@
  *   "job_title": "Postdoctoral Researcher",
  *   "role": "postdoc",
  *   "social_media": "linked-in | https://www.linkedin.com/in/jane-doe\ngithub | https://github.com/foo",
- *   "start": "October 2021",
+ *   "start_date": "October 2021",
  *   "biography": "Jane Doe is a postdoctoral researcher..."
  * }
  * ```
@@ -54,7 +54,7 @@ let issueTemplateSchema = z.object({
         return { title, url };
       })
     ),
-  start: z.string().transform((x) => x.trim()),
+  start_date: z.string().transform((x) => x.trim()),
   biography: z.string().transform((x) => x.trim()),
 });
 
@@ -86,7 +86,7 @@ function toMarkdown({ biography, ...m }: Member): string {
     job_title: m.job_title,
     role: m.role,
     services: m.social_media?.map((x) => `${x.title}: ${x.url}`) ?? [],
-    start: m.start,
+    start: m.start_date,
     end: "",
   };
   let fm = yaml.stringify(frontmatter, { lineWidth: 120 });
@@ -124,7 +124,7 @@ if (import.meta.main) {
   Deno.stdout.write(new TextEncoder().encode(`\
 This is an automated PR adding a new announcement to the lab website.
 
-> ${issue.name} joined the lab as a ${issue.job_title} in ${issue.start}.
+> ${issue.name} joined the lab as a ${issue.job_title} in ${issue.start_date}.
 
 Please review the changes and merge the PR if everything looks good.
 `));
