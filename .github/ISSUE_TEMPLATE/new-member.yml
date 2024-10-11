@@ -1,3 +1,4 @@
+name: "👩‍🔬 Add a New Lab Member"
 description: "Add a new lab member to the HIDIVE website"
 labels: ["members-bot"]
 body:
