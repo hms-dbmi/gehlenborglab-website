@@ -1,0 +1,55 @@
+name: Create Lab News
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  process-issue:
+    if: contains(github.event.issue.labels.*.name, 'news-bot')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Parse Issue
+        id: parse-issue
+        uses: GrantBirki/issue-template-parser@v7.0.3
+        with:
+          body: ${{ github.event.issue.body }}
+          csv_to_list: false
+
+      - name: Create PR body with Fixes line
+        run: |
+          echo "Fixes #${{ github.event.issue.number }}" > /tmp/pr-body.md
+          echo "" >> /tmp/pr-body.md
+
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Add announcement
+        id: output-issue
+        run: echo ${{ toJson(steps.parse-issue.outputs.json) }} | deno run -A scripts/create-hidive-news.ts - >> /tmp/pr-body.md
+
+      - name: Extract content
+        id: extract-content
+        run: |
+          SLUG=$(echo ${{ toJson(steps.parse-issue.outputs.json) }} | jq -r .slug)
+          TITLE=$(echo ${{ toJson(steps.parse-issue.outputs.json) }} | jq -r .title)
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          title: "news-bot: Add ${{ steps.extract-content.outputs.title }}"
+          commit-message: "news-bot: Add ${{ steps.extract-content.outputs.title }}"
+          branch: "news/${{ steps.extract-content.outputs.slug }}"
+          body-path: /tmp/pr-body.md
+          labels: news-bot
