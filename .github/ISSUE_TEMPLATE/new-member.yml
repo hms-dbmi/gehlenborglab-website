@@ -1,0 +1,95 @@
+name: "👩‍🔬 Add a New Lab Member"
+description: "Add a new lab member to the HIDIVE website"
+labels: ["members-bot"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is for adding a new lab member to the HIDIVE website.
+
+        Upon submission, a **GitHub Action** will start a **pull request** to update the website with the new member information.
+
+  - type: input
+    id: slug
+    attributes:
+      label: Slug
+      description: "Unique identifier. Use the format 'firstname-lastname' (e.g., 'jane-doe')."
+      placeholder: "e.g., 'jane-doe'"
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: "Full name"
+      placeholder: "e.g., 'Jane Doe'"
+    validations:
+      required: true
+
+  - type: input
+    id: degree
+    attributes:
+      label: Degree
+      description: "Highest academic degree(s) or professional title(s). For multiple degrees, list them in order of relevance or recency (e.g., MD, PhD; or PhD, MS)."
+      placeholder: "e.g., 'BA', 'PhD', 'MD, PhD'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: image
+    attributes:
+      label: Image
+      description: "Profile image. Please edit the alt text in the <img> tag or ![<alt>]() markdown after uploading. See [Harvard guidelines for Alt Text Best Practices](https://accessibility.huit.harvard.edu/describe-content-images) and find [examples of other members](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_members)."
+      placeholder: "Drage and drop or paste an image... (ensure it uploads)"
+    validations:
+      required: true
+
+  - type: input
+    id: job_title
+    attributes:
+      label: Job Title
+      description: "Job title or position"
+      placeholder: "e.g., 'Postdoctoral Fellow', 'Research Scientist'"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      options:
+        - student
+        - postdoc
+        - staff
+        - administration
+        - alumni
+        - pi
+        - collaborators
+    validations:
+      required: true
+
+  - type: textarea
+    id: social
+    attributes:
+      label: Social Media
+      description: "Social media links. Use the format 'platform | URL' for each entry, one per line."
+      placeholder: "github | https://github.com/foo\ntwitter | https://twitter.com/foo\nlinked-in | https://www.linkedin.com/in/foo\n"
+
+  - type: input
+    id: start
+    attributes:
+      label: Start Date
+      description: "Start date in the format 'Month Year' (e.g., 'October 2023')"
+      placeholder: "e.g., 'October 2023'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: bio
+    attributes:
+      label: Biography
+      description: Biography
+      placeholder: "e.g., 'Jane Doe is a postdoctoral fellow in the Gehlenborg Lab...'"
+    validations:
+      required: true

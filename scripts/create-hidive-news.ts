@@ -25,7 +25,7 @@
  */
 import * as yaml from "jsr:@std/yaml@1.0.5";
 import { z } from "npm:zod@3.9.8";
-import { readJson } from "./update-hidive-paper.ts";
+import * as util from "./util.ts";
 
 function splitLines(x: string | undefined | null): Array<string> {
   if (!x) return [];
@@ -83,7 +83,7 @@ function getFilename({ title, slug }: News): string {
 }
 
 if (import.meta.main) {
-  let json = await readJson(Deno.args[0]);
+  let json = await util.readJson(Deno.args[0]);
   let news = issueTemplateSchema.parse(json);
 
   await Deno.writeTextFile(
