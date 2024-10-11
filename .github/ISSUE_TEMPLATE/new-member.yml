@@ -39,7 +39,7 @@ body:
     id: image
     attributes:
       label: Image
-      description: "Profile image. Please edit the alt text in the <img> tag after uploading."
+      description: "Profile image. Please edit the alt text in the <img> tag or ![<alt>]() markdown after uploading."
       placeholder: "Drage and drop or paste an image... (ensure it uploads)"
     validations:
       required: true
