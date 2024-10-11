@@ -109,7 +109,7 @@ async function readAllBytes(fname: string): Promise<Uint8Array> {
   return await io.readAll(file);
 }
 
-async function readJson(fname: string): Promise<unknown> {
+export async function readJson(fname: string): Promise<unknown> {
   let bytes = await readAllBytes(fname);
   let text = new TextDecoder().decode(bytes);
   return JSON.parse(text);

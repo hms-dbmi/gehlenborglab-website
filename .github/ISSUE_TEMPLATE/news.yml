@@ -1,0 +1,66 @@
+name: "📣 Make an Announcement"
+description: "Create a news announcement for the HIDIVE website."
+labels: ["news-bot"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is for adding a news announcement to the HIDIVE website. 
+
+        Upon submission, a **GitHub Action** will start a **pull request** to update the website with the announcement.
+
+  - type: input
+    id: slug
+    attributes:
+      label: Slug
+      description: "A unique identifier for the news announcement. Use lowercase letters, numbers, and hyphens only."
+      placeholder: "e.g., my-news-announcement"
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: "A title for the news announcement"
+      placeholder: "e.g., 'New Tool Released'"
+    validations:
+      required: true
+
+  - type: input
+    id: blurb
+    attributes:
+      label: Blurb
+      description: "A short blurb for the news announcement"
+      placeholder: "e.g., 'We are excited to announce the release of our new tool!'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Announcement
+      description: "The full announcement (markdown supported)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: members
+    attributes:
+      label: Lab Members
+      description: "Link lab members to the annoucement. See the [lab member](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_members) for available identifiers, one per line."
+      placeholder: "nils-gehlenborg\nflat-stanley\njane-doe"
+
+  - type: textarea
+    id: projects
+    attributes:
+      label: Projects
+      description: "Link lab members to the annoucement. See the [projects](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_projects) for available identifiers, one per line."
+      placeholder: "higlass\nhubmap\nvitessce"
+
+  - type: textarea
+    id: publications
+    attributes:
+      label: Publications
+      description: "Link papers to the announcement. See the [publications](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_publications) directory for available identifiers, one per line."
+      placeholder: "hubmap-2019-nature\nhubmap-2020-cell"
