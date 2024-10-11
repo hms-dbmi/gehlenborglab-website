@@ -396,7 +396,7 @@ function createTodoGitHubIssueContents(missingPapers: Array<ZoteroItem>) {
       : HIDIVE_PUBLICATIONS_COLLECTION_ID;
     let zoteroLink =
       `https://www.zotero.org/groups/${HIDIVE_GROUP_ID}/hidive/collections/${cid}/items/${p.key}/collection`;
-    let defaultIssueTitle = `Add paper ${p.key}`;
+    let defaultIssueTitle = encodeURIComponent(`Add paper ${p.key}`);
     let openIssueLink = 
       `https://github.com/hms-dbmi/gehlenborglab-website/issues/new?assignees=&labels=paper-bot&projects=&template=paper.yml&zotero_id=${p.key}&title=${defaultIssueTitle}&members=nils-gehlenborg`
     return `- [${p.key}](${zoteroLink}) - [Open issue](${openIssueLink}) - ${p.title}`;
