@@ -22,7 +22,7 @@ The HIDIVE Lab is well represented at [IEEE VIS](https://ieeevis.org/year/2024/w
 
 - On Tuesday, Devin Lange is presenting a full paper that has been selected as one of the Best Full Papers. 
 
-- On Wesnesday, we will be presenting two full papers by Sehi L'Yi and Eric Mörth, as well as one short paper by Mark Keller. 
+- On Wesnesday, we will be presenting two full papers by Sehi L'Yi, whose paper was awarded with an Honorable Mention, and Eric Mörth. Mark Keller will also be presenting a short paper.
 
 - On Thursday, we will be presenting two more full papers by by Trevor Manz and Astrid Van Den Brandt.
 
