@@ -16,7 +16,7 @@ members:
 blurb: Come see our talks at IEEE VIS 2024!
 ---
 
-The HIDIVE Lab is well represented at [IEEE VIS](https://ieeevis.org/year/2024/welcome) this year! Members of our team are presenting five full papers, one short paper, and two workshops, as well as chairing one workshop!
+The HIDIVE Lab is well represented at [IEEE VIS](https://ieeevis.org/year/2024/welcome) this year! Members of our team are presenting five full papers, one short paper, and two workshop papers, as well as chairing one workshop!
 
 - On Sunday, we will be presenting two workshops. Both Thomas Smits and Lawrence Weru will be presenting in the 1st Workshop on Accessible Data Visualization. Eric Mörth, Morgan Turner and Nils Gehlenborg are chairing the Bio+Med+Vis Challenge.
 
