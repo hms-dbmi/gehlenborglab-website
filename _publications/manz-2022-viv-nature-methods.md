@@ -12,10 +12,12 @@ members:
 year: 2022
 type: article
 
-publisher: "https://rdcu.be/cNlvp"
+publisher: "https://www.nature.com/articles/s41592-022-01482-7"
+doi: "10.1038/s41592-022-01482-7"
+zotero-key: "ZLNB3PQY"
 cite:
-  authors: "T Manz, I Gold, NH Patterson, C McCallum, MS Keller, BW Herr II, K Börner, J Spraggins, N Gehlenborg"
-  published: "*Nature Methods* **19** 515–516"
+  authors: "T Manz, I Gold, NH Patterson, C McCallum, MS Keller, BW Herr, K Börner, JM Spraggins, N Gehlenborg"
+  published: "*Nature Methods* **19**(5):515-516"
 
 ---
 Advances in highly multiplexed imaging have enabled the comprehensive profiling

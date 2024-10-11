@@ -10,9 +10,12 @@ year: 2022
 type: article
 
 publisher: "https://doi.org/10.31219/osf.io/b76nt"
+doi: "10.1109/TVCG.2022.3209435"
+zotero-key: "H6YDK8WJ"
+preprint: "https://doi.org/10.31219/osf.io/b76nt"
 cite:
-  authors: "Qianwen Wang, Kexin Huang, Payal Chandak, Marinka Zitnik, Nils Gehlenborg"
-  published: Accepted at IEEE VIS 2022 and IEEE Transactions on Visualization and Computer Graphics.
+  authors: "Q Wang, K Huang, P Chandak, M Zitnik, N Gehlenborg"
+  published: "*IEEE Transactions on Visualization and Computer Graphics* **29**(1):1266-1276"
 
 ---
 Whether AI explanations can help users achieve specific tasks efficiently (i.e., usable explanations) is significantly influenced by their visual presentation.

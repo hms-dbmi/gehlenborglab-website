@@ -5,10 +5,12 @@ members:
   - nils-gehlenborg
 type: article
 year: 2014
-publisher: "http://www.cancerresearchuk.org/about-us/cancer-news/news-report/2014-10-23-large-study-sheds-light-on-the-genetic-causes-of-thyroid-cancer"
+publisher: "https://linkinghub.elsevier.com/retrieve/pii/S0092867414012380"
+doi: "10.1016/j.cell.2014.09.050"
+zotero-key: "GPRJYQ8J"
 cite:
-  authors: "The Cancer Genome Atlas Network, incl. N Gehlenborg"
-  published: "*Cell* **159**:676–690"
+  authors: "*The Cancer Genome Atlas Research Network* (incl. N Gehlenborg)"
+  published: "*Cell* **159**(3):676-690"
 ---
 Featured in Clinical Sequencing News, Deutsches Ärtzeblatt, Cancer Research UK News.
 

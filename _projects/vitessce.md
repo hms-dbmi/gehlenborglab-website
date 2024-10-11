@@ -39,7 +39,7 @@ publications:
   - hubmap-2019-nature
 
 grants:
-  - nih_1Ot2Od026677
+  - nih_1Ot2Od033758
 
 gallery:
   vitessce-linnarsson.png: 'Visual Integration Tool for Exploration of Spatial Single-Cell Experiments'

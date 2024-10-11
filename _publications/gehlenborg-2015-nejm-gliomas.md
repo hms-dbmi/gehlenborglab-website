@@ -6,8 +6,10 @@ members:
   - nils-gehlenborg
 type: article
 year: 2015
-publisher: "http://www.nejm.org/doi/full/10.1056/NEJMoa1402121#t=article"
+publisher: "http://www.nejm.org/doi/10.1056/NEJMoa1402121"
+doi: "10.1056/NEJMoa1402121"
+zotero-key: "VDBH3CLD"
 cite:
-  authors: "The Cancer Genome Atlas Network, incl. N Gehlenborg"
-  published: "*New England Journal of Medicine* **372**:2481-2498"
+  authors: "*The Cancer Genome Atlas Research Network* (incl. N Gehlenborg)"
+  published: "*New England Journal of Medicine* **372**(26):2481-2498"
 ---

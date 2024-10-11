@@ -12,10 +12,12 @@ members:
 year: 2023
 type: article
 
-publisher: "https://doi.ieeecomputersociety.org/10.1109/VIS54172.2023.00031"
+publisher: "https://ieeexplore.ieee.org/document/10360908/"
+doi: "10.1109/VIS54172.2023.00031"
+zotero-key: "U3RUJWVF"
 cite:
-  authors: "Qianwen Wang, Xiao Liu, Man Qing Liang, Sehi L’Yi, Nils Gehlenborg"
-  published: "Proceedings of IEEE VIS 2023, 101-105"
+  authors: "Q Wang, X Liu, MQ Liang, S L’Yi, N Gehlenborg"
+  published: "*2023 IEEE Visualization and Visual Analytics (VIS)*"
 
 ---
 

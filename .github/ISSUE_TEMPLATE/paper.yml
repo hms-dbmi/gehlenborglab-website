@@ -1,0 +1,88 @@
+name: "📚 Add or Update a Paper"
+description: "Add or update a paper from Zotero to the HIDIVE website"
+labels: ["paper-bot"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is for adding or updating a paper on the HIDIVE website.
+
+        Upon submission, a **GitHub Action** will start a **pull request** to update the website with the new paper details.
+
+  - type: input
+    id: zotero_id
+    attributes:
+      label: Zotero ID
+      description: >-
+        Enter the Zotero ID from either the HIDIVE Lab [preprint collection](https://www.zotero.org/groups/5145258/hidive/collections/AJKTPNSI)
+        or [publication collection](https://www.zotero.org/groups/5145258/hidive/collections/YGTEVG73).
+        This ID will be used to automatically fetch all publication details from Zotero.
+      placeholder: "e.g., D8YCD6QT"
+    validations:
+      required: true
+
+  - type: input
+    id: preprint
+    attributes:
+      label: Preprint
+      description: >-
+        Enter a Zotero ID or URL for the preprint. **Leave blank if the Zotero ID above is for a preprint**.
+      placeholder: "e.g., A6ZAJIIA or https://arxiv.org/abs/1234.56789"
+
+  - type: markdown
+    attributes:
+      value: |
+        > [!NOTE]
+        > Prefer a preprint Zotero ID above if **updating a preprint to a publication**. It will update the existing website entry.
+
+        ### Optional Fields
+        The following fields are optional. They can be left blank and updated later if needed.
+
+  - type: textarea
+    id: members
+    attributes:
+      label: Lab Members
+      description: "Tag lab members on paper. See the [lab member](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_members) directory for available identifiers, one per line."
+      placeholder: "nils-gehlenborg\nflat-stanley\njane-doe"
+
+  - type: textarea
+    id: image
+    attributes:
+      label: Image
+      description: "Add an image related to the publication"
+      placeholder: "Drage and drop or paste an image... (ensure it uploads)"
+
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: "A URL for a website related to the publication"
+      placeholder: "e.g., https://example.com/publication-website"
+
+  - type: input
+    id: code
+    attributes:
+      label: Code Repository
+      description: "A link for the code related to the publication"
+      placeholder: "e.g., https://github.com/username/repo"
+
+  - type: textarea
+    id: videos
+    attributes:
+      label: Video Resources
+      description: "List video resources related to the publication. Use the format 'Title | URL' for each entry, one per line."
+      placeholder: "Introduction Video | https://example.com/intro\nConference Presentation | https://example.com/presentation"
+
+  - type: textarea
+    id: other_resources
+    attributes:
+      label: Other Resources
+      description: "List other resources related to the publication. Use the format 'Title | URL' for each entry, one per line."
+      placeholder: "Data Repository | https://example.com/data\nSlides | https://example.com/slides"
+
+  - type: textarea
+    id: awards
+    attributes:
+      label: Awards
+      description: "Enter awards for the publication (one per line)"
+      placeholder: "Best Paper Award at XXX\nInnovation Prize Y\nMost Cited Paper 2054"

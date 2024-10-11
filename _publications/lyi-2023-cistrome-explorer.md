@@ -10,10 +10,12 @@ members:
 year: 2023
 type: article
 
-publisher: "https://doi.org/10.1093/bioinformatics/btad018"
+publisher: "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btad018/6998202"
+doi: "10.1093/bioinformatics/btad018"
+zotero-key: "ZB57KPNC"
 cite:
-  authors: "Sehi L'Yi, Mark S Keller, Ariaki Dandawate, Len Taing, Chen-Hao Chen, Myles Brown, Clifford A Meyer, Nils Gehlenborg"
-  published: Bioinformatics 39(2), btad018.
+  authors: "S L’Yi, MS Keller, A Dandawate, L Taing, CH Chen, M Brown, CA Meyer, N Gehlenborg"
+  published: "*Bioinformatics* **39**(2):btad018"
 
 ---
 The regulation of genes by cis-regulatory elements is complex and differs between cell types. Visual analysis of large collections of chromatin profiles across diverse cell types, integrated with computational methods, can reveal meaningful biological insights.

@@ -5,8 +5,10 @@ members:
   - nils-gehlenborg
 type: article
 year: 2005
-publisher: "http://dx.doi.org/10.1057/palgrave.ivs.9500094"
+publisher: "https://journals.sagepub.com/doi/10.1057/palgrave.ivs.9500094"
+doi: "10.1057/palgrave.ivs.9500094"
+zotero-key: "TDL2SKXT"
 cite:
-  authors: "N Gehlenborg, J Dietzsch and K Nieselt"
+  authors: "N Gehlenborg, J Dietzsch, K Nieselt"
   published: "*Information Visualization* **4**(3):164-175"
 ---
