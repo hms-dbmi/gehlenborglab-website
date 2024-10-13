@@ -14,7 +14,8 @@ type: preprint
 
 # New Resources
 
-award: Best Paper of All Time ✨
+awards:
+  - Best Paper of All Time
 
 # renders as "Project Website"
 website: https://gosling.js.org/
