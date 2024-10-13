@@ -11,5 +11,7 @@ zotero-key: "UY66PLS8"
 cite:
   authors: "S Gratzl, A Lex, N Gehlenborg, H Pfister, M Streit"
   published: "*IEEE Transactions on Visualization and Computer Graphics* **19**(12):2277-2286"
+awards:
+  - IEEE InfoVis 2013 Best Paper Award
+  - Featured in IEEE Computing Now, Harvard SEAS News, Forbes, Scientific Computing, Der Standard
 ---
-IEEE InfoVis 2013 Best Paper Award | Featured in IEEE Computing Now, Harvard SEAS News, Forbes, Scientific Computing, Der Standard
