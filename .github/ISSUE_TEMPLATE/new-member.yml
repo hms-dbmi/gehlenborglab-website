@@ -38,7 +38,7 @@ body:
     id: image
     attributes:
       label: Image
-      description: "Profile image. Please edit the alt text in the <img> tag or ![<alt>]() markdown after uploading. See [Harvard guidelines for Alt Text Best Practices](https://accessibility.huit.harvard.edu/describe-content-images) and find [examples of other members](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_members)."
+      description: "Profile image. After uploading, please edit the 'alt' text to describe the image. Look for alt='' or \!\[alt\]\(\). See [Harvard Alt Text Guide](https://accessibility.huit.harvard.edu/describe-content-images) and [other lab members](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_members)."
       placeholder: "Drage and drop or paste an image... (ensure it uploads)"
     validations:
       required: true
