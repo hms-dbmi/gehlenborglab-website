@@ -31,10 +31,8 @@ body:
     id: degree
     attributes:
       label: Degree
-      description: "Highest academic degree(s) or professional title(s). For multiple degrees, list them in order of relevance or recency (e.g., MD, PhD; or PhD, MS)."
-      placeholder: "e.g., 'BA', 'PhD', 'MD, PhD'"
-    validations:
-      required: true
+      description: "Highest academic degree(s) or professional title(s). For multiple degrees, list in order of relevance or recency (e.g., MD, PhD; or PhD, MS)."
+      placeholder: "e.g., 'BA', 'PhD' (optional)"
 
   - type: textarea
     id: image
