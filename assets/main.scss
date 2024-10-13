@@ -177,3 +177,23 @@ ul.members-rows {
 #services{
   margin-bottom: 15px;
 }
+
+
+.icon-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.icon-list li {
+  display: flex;
+  align-items: flex-start;
+}
+.icon-list .icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.icon-list a {
+  word-break: break-word;
+}
