@@ -35,7 +35,7 @@ let issueTemplateSchema = z.object({
     .transform((x) => x.trim())
     .transform((x) => x.endsWith(".md") ? x.slice(0, -3) : x),
   name: z.string().transform((x) => x.trim()),
-  degree: z.string().transform((x) => x.trim()),
+  degree: z.string().nullable().transform((x) => x?.trim()),
   image: z.string()
     .nullable()
     .transform(util.parseImageMarkdown),
@@ -80,7 +80,7 @@ function toMarkdown({ biography, ...m }: Member): string {
     end: string | null;
   } = {
     title: m.name,
-    name_degree: `${m.name}, ${m.degree}`,
+    name_degree: m.degree ? `${m.name}, ${m.degree}` : m.name,
     photo: m.image.src ?? "<TODO>",
     alt: m.image.alt ?? m.name,
     job_title: m.job_title,
