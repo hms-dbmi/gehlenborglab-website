@@ -1,7 +1,7 @@
 <tr>
 <td>
 {% if publication.image %}
-<a class="display-lg-only" href="{{publication.url}}"><img alt='Publication page for "{{ publication.title }}"' class="thumb" src="/assets/img/publications/thumbnail/{{ publication.image }}"></a>
+<a class="display-lg-only" href="{{publication.url}}"><img alt='Publication page for "{{ publication.title | escape }}"' class="thumb" src="/assets/img/publications/thumbnail/{{ publication.image }}"></a>
 {% endif %}
 </td>
 <td>
