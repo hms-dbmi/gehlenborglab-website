@@ -14,6 +14,7 @@ preprint: "https://doi.org/10.31219/osf.io/puxnf"
 cite:
   authors: "T Manz, F Lekschas, E Greene, G Finak, N Gehlenborg"
   published: "*IEEE Transactions on Visualization and Computer Graphics* 1-11"
+code: 'https://github.com/OzetteTech/comparative-embedding-visualization'
 ---
 Projecting high-dimensional vectors into two dimensions for visualization,
 known as embedding visualization, facilitates perceptual reasoning and
