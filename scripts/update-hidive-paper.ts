@@ -291,7 +291,7 @@ This is an automated PR adding a new publication to the website.
 
 > ${contents.frontmatter.cite.authors}. "${contents.frontmatter.title}", ${contents.frontmatter.cite.published} (${contents.frontmatter.year})
 
-Please review the changes and address the remaining \`<TODO>\`s in the file.
+Please review the changes.
 
 You can use the [GitHub CLI](https://cli.github.com/) to pull down this branch and make changes:
 
