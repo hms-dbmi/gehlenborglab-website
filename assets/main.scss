@@ -13,7 +13,33 @@ $image-path: 'uswds/img';
 }
 
 .site-logo {
-  font-family: $font-sans;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.site-logo a {
+  display: block;
+  text-decoration: none;
+}
+
+.site-logo svg {
+  width: 150px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.site-logo a:hover svg {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 951px) {
+  .site-logo {
+    margin: 3rem 0;
+  }
+
+  .site-logo svg {
+    width: 250px;
+  }
 }
 
 .usa-logo {
