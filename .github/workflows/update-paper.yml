@@ -46,8 +46,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "paper-bot: Update ${ steps.extract-zotero-id.outputs.zotero-id }"
-          title: "paper-bot: Update ${ steps.extract-zotero-id.outputs.zotero-id }"
+          commit-message: "paper-bot: Update ${{ steps.extract-zotero-id.outputs.zotero-id }}"
+          title: "paper-bot: Update ${{ steps.extract-zotero-id.outputs.zotero-id }}"
           branch: "update-paper-${{ steps.extract-zotero-id.outputs.zotero-id }}"
           body-path: /tmp/pr-body.md
           labels: paper-bot
