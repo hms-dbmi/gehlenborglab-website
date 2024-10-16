@@ -9,6 +9,7 @@
  * ```json
  * {
  *  "zotero_id": "ZOTERO_ITEM_ID" | ,
+ *  "slug": "some-identifier",
  *  "preprint": "ZOTERO_ITEM_ID or URL",
  *  "image": "<img src='URL' alt='ALT'>",
  *  "lab_members": "MEMBER1\nMEMBER2\n...",
@@ -46,6 +47,9 @@ type PaperIssueTempalte = z.infer<typeof issueTemplateSchema>;
 
 let issueTemplateSchema = z.object({
   zotero_id: z.string().transform((x) => x.trim()),
+  slug: z.string()
+    .nullable()
+    .transform((x) => x?.trim()),
   preprint: z.string()
     .nullable()
     .transform((x) => x?.trim())
@@ -56,10 +60,10 @@ let issueTemplateSchema = z.object({
       imgTag = imgTag?.trim() ?? "";
       let alt = null;
       let src = null;
-      if(imgTag.match(/<img[^>]*>/)) {
+      if (imgTag.match(/<img[^>]*>/)) {
         alt = imgTag.match(/alt="([^"]*)"/)?.[1] ?? null;
         src = imgTag.match(/src="([^"]*)"/)?.[1] ?? null;
-      } else if(imgTag.match(/!\[[^\]]*\]\([^\)]*\)/)) {
+      } else if (imgTag.match(/!\[[^\]]*\]\([^\)]*\)/)) {
         alt = imgTag.match(/!\[([^\]]*)\]/)?.[1] ?? null;
         src = imgTag.match(/\(([^\)]*)\)/)?.[1] ?? null;
       }
@@ -112,7 +116,7 @@ let issueTemplateSchema = z.object({
  * Use the first author's last name, publication year, and Zotero key to create
  * a slug for the file.
  */
-function determineFileStem(item: ZoteroItem) {
+function determineFileStem(item: ZoteroItem, slug?: string) {
   // first author last name
   let first = item.creators[0];
   let last = "lastName" in first ? first.lastName : "consortium";
@@ -120,7 +124,7 @@ function determineFileStem(item: ZoteroItem) {
   last = last.replace("'", ""); // For Sehi
   last = last.replace("ö", "oe"); // For Eric
   last = last.replace("ä", "ae");
-  return `${last}-${item.date.year}-${item.key}`;
+  return `${last}-${item.date.year}-${slug || item.key}`;
 }
 
 async function resolvePreprint(
@@ -146,7 +150,7 @@ async function processGitHubIssue(
 ): Promise<{ file: string; contents: LabPaperData }> {
   let todoValue = "<TODO>";
   let paper = await fetchZoteroItem(issue.zotero_id);
-  let stem = determineFileStem(paper);
+  let stem = determineFileStem(paper, issue.slug);
   let preprint = await resolvePreprint(issue.preprint);
 
   let { title, authors, published, year } = formatZoteroItem(paper, {

@@ -22,6 +22,16 @@ body:
       required: true
 
   - type: input
+    id: slug
+    attributes:
+      label: Slug
+      description: >-
+        An identifier for the publication. This is used in the URL for the publication page
+        (e.g., `https://hidivelab.org/publications/<YYYY>-<last>-**<slug>**`).
+        If left blank, the Zotero ID will be used.
+      placeholder: "e.g., my-project, awesome-tool"
+
+  - type: input
     id: preprint
     attributes:
       label: Preprint
