@@ -12,5 +12,6 @@ zotero-key: "YCAZG4FG"
 cite:
   authors: "A Lex, M Streit, HJ Schulz, C Partl, D Schmalstieg, PJ Park, N Gehlenborg"
   published: "*Computer Graphics Forum* **31**:1175-1184"
+awards:
+  - 3rd Best Paper Award
 ---
-**3rd Best Paper Award.**

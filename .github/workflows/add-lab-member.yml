@@ -1,4 +1,4 @@
-name: Update Paper
+name: Add lab member
 
 on:
   issues:
@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   process-issue:
-    if: contains(github.event.issue.labels.*.name, 'paper-bot')
+    if: contains(github.event.issue.labels.*.name, 'members-bot')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -33,21 +33,23 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: Update Paper
+      - name: Add lab member
         id: output-issue
-        run: echo ${{ toJson(steps.parse-issue.outputs.json) }} | deno run -A scripts/update-hidive-paper.ts - >> /tmp/pr-body.md
+        run: echo ${{ toJson(steps.parse-issue.outputs.json) }} | deno run -A scripts/create-hidive-member.ts - >> /tmp/pr-body.md
 
-      - name: Extract Zotero ID
-        id: extract-zotero-id
+      - name: Extract content
+        id: extract-content
         run: |
-          ZOTERO_ID=$(echo ${{ toJson(steps.parse-issue.outputs.json) }} | jq -r .zotero_id)
-          echo "zotero-id=$ZOTERO_ID" >> $GITHUB_OUTPUT
+          SLUG=$(echo ${{ toJson(steps.parse-issue.outputs.json) }} | jq -r .slug)
+          NAME=$(echo ${{ toJson(steps.parse-issue.outputs.json) }} | jq -r .name)
+          echo "slug=$SLUG" >> $GITHUB_OUTPUT
+          echo "name=$NAME" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
-          commit-message: "paper-bot: Update ${{ steps.extract-zotero-id.outputs.zotero-id }}"
-          title: "paper-bot: Update ${{ steps.extract-zotero-id.outputs.zotero-id }}"
-          branch: "update-paper-${{ steps.extract-zotero-id.outputs.zotero-id }}"
+          title: "members-bot: Add ${{ steps.extract-content.outputs.name }}"
+          commit-message: "members-bot: Add ${{ steps.extract-content.outputs.name }}"
+          branch: "news/${{ steps.extract-content.outputs.slug }}"
           body-path: /tmp/pr-body.md
-          labels: paper-bot
+          labels: members-bot
