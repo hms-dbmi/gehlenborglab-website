@@ -1,2 +1,6 @@
-{% assign member = site.members | where: "title", include.name | first %}
-{{ member.name_degree }}
+{% comment %}
+    This file can be included where you want to ensure you always have the current name + degree for a given team member
+    To use: {% include get-name-degree.html title="Lawrence Weru" %}, where the title is the member "title" 
+    
+    Do not add any newlines after the end of this comment since this file is included within inline content
+{% endcomment %}{% assign member = site.members | where: "title", include.title | first %}{{ member.name_degree }}
