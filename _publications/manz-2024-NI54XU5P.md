@@ -17,7 +17,7 @@ videos:
     url: 'https://www.youtube.com/watch?v=CjNSP_yQqrc'
   - title: CHI 2024 Workshop on Human-Notebook Interactions
     url: 'https://www.youtube.com/watch?v=Uzm9_2ZBfxo&feature=youtu.be'
-  - title: Tutorial
+  - title: SciPy 2024 Tutorial
     url: 'https://www.youtube.com/watch?v=oZhyilx3gqI'
 other-resources: []
 awards: []
