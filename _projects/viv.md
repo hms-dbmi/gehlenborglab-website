@@ -8,6 +8,7 @@ members:
   - mark-keller
   - trevor-manz
   - ilan-gold
+  - eric-moerth
 
 collaborators:
   - katy-borner
@@ -28,7 +29,7 @@ publications:
   - manz-2022-viv-nature-methods
 
 grants:
-  - nih_1Ot2Od026677
+  - nih_1Ot2Od033758
   - hsci_csbi
 
 gallery:

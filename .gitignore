@@ -15,4 +15,5 @@ _site/
 .bundle/
 vendor/
 
-
+deno.json
+deno.lock

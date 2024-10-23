@@ -9,9 +9,11 @@ members:
 year: 2023
 type: article
 
-publisher: "https://www.nature.com/nm/"
+publisher: "https://www.nature.com/articles/s41591-023-02274-y"
+doi: "10.1038/s41591-023-02274-y"
+zotero-key: "VC7LL4C8"
 cite:
-  authors: "Harrison Zhang, Jacqueline Honerlaw, Monika Maripuri, Malarkodi Jebathilagam Samayamuthu, Brendin Beaulieu-Jones, Huma Baig, Sehi L'Yi, Yuk-Lam Ho, Michele Morris, Vidul Ayakulangara Panickan, Xuan Wang, Griffin Weber, Katherine P Liao, Shyam Visweswaran, Bryce Tan, William Yuan, Nils Gehlenborg, Sumitra Muralidhar, Rachel Ramoni, The Consortium for Clinical Characterization of COVID-19 by EHR (4CE), Isaac Kohane, Zongqi Xia, Kelly Cho, and Tianxi Cai"
-  published: "*Nature Medicine* **29**, 1040–1043"
+  authors: "HG Zhang, JP Honerlaw, M Maripuri, MJ Samayamuthu, BR Beaulieu-Jones, HS Baig, S L’Yi, YL Ho, M Morris, VA Panickan, X Wang, GM Weber, KP Liao, S Visweswaran, BWQ Tan, W Yuan, N Gehlenborg, S Muralidhar, RB Ramoni, *The Consortium for Clinical Characterization of COVID-19 by EHR (4CE)*, IS Kohane, Z Xia, K Cho, T Cai, GA Brat"
+  published: "*Nature Medicine* **29**(5):1040-1043"
 ---
 

@@ -10,10 +10,16 @@ year: 2022
 type: article
 
 publisher: "https://doi.org/10.31219/osf.io/b76nt"
+doi: "10.1109/TVCG.2022.3209435"
+zotero-key: "H6YDK8WJ"
+preprint: "https://doi.org/10.31219/osf.io/b76nt"
 cite:
-  authors: "Qianwen Wang, Kexin Huang, Payal Chandak, Marinka Zitnik, Nils Gehlenborg"
-  published: Accepted at IEEE VIS 2022 and IEEE Transactions on Visualization and Computer Graphics.
+  authors: "Q Wang, K Huang, P Chandak, M Zitnik, N Gehlenborg"
+  published: "*IEEE Transactions on Visualization and Computer Graphics* **29**(1):1266-1276"
 
+awards:
+  - IMLH Workshop @ICML 2021 Best Paper Award
+  - IEEE VIS 2022 Best Paper Honorable Mention
 ---
 Whether AI explanations can help users achieve specific tasks efficiently (i.e., usable explanations) is significantly influenced by their visual presentation.
 While many techniques exist to generate explanations, it remains unclear how to select and visually present AI explanations based on the characteristics of domain users.
@@ -26,6 +32,3 @@ DrugExplorer offers a novel visualization design called MetaMatrix with a set of
 We demonstrate the effectiveness of the selected visual presentation and DrugExplorer as a whole via a usage scenario, a user study, and expert interviews.
 From these evaluations, we derive insightful observations and reflections that can inform the design of XAI visualizations for other scientific applications. 
 
-<b>IMLH Workshop @ICML 2021 Best Paper Award </b>
-
-<b>IEEE VIS 2022 Best Paper Honorable Mention </b>

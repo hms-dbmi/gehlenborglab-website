@@ -1,0 +1,48 @@
+name: Fetch HIDIVE Papers
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 1' # Every Monday at 00:00
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  fetch-papers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
+      - name: Fetch HIDIVE Papers
+        run: deno run -A scripts/fetch-hidive-zotero-items.ts --outdir=assets/papers --issue-file=/tmp/issue-body.md
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: Fetch HIDIVE Papers
+          title: "Update HIDIVE Papers"
+          branch: hidive-papers
+          body: "This is an automated pull request to update the HIDIVE papers."
+          labels: fetch-papers-bot
+
+      - name: Open or Update Missing Papers Issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Check if an issue with the label 'fetch-papers-bot' exists
+          ISSUE_NUMBER=$(gh issue list --label fetch-papers-bot --limit 1 --json number --jq '.[0].number')
+
+          if [ -n "$ISSUE_NUMBER" ]; then
+            # Update existing issue
+            gh issue edit $ISSUE_NUMBER --body-file /tmp/issue-body.md
+            echo "Updated existing issue #$ISSUE_NUMBER"
+          else
+            gh issue create --title "Missing HIDIVE Papers" --body-file /tmp/issue-body.md --label fetch-papers-bot
+            echo "Created new issue for missing papers"
+          fi
