@@ -8,10 +8,13 @@ active: true
 image: voyager-keyboard-demo.png
 image_alt: A figure of three images, A, B, and C, showing the drag-and-drop functionality in OpenKeyNav demonstrated in Voyager 2. (A) After OpenKeyNav’s drag mode is initiated through a shortcut key, the elements that can be dragged (Voyager’s data fields or “pills” in this case) are outlined and assigned shortcut key labels. Pressing the corresponding key, e.g., “d” for Major_Genre (indicated with a black rectangle) selects the element to be dragged. (B) Shelves where the element can be dropped are then assigned shortcut key labels and outlined. An element can be dropped by pressing the corresponding key, e.g., “a” for the x-axis (indicated with a black rectangle). (C) After a shelf is selected, the pill is dropped on it. 
 
+publications:
+  - weru-2024-accessibility-keyboard
+
 ---
 
 ## **Overview**
-Data visualization tools often rely heavily on mouse-based interactions, which can present significant accessibility barriers for individuals navigating with keyboards. This challenge disproportionately impacts users with motor disabilities, who may find it difficult or impossible to interact with tools designed primarily for mouse input. To address these barriers, our research explored how keyboard-driven interactions can enhance the accessibility of data visualization tools. A key part of this effort is the preprint *Using OpenKeyNav to Enhance the Keyboard-Accessibility of Web-based Data Visualization Tools*, accepted at the AccessViz workshop at IEEE VIS 2024. This paper investigates how OpenKeyNav, an open-source javascript-based keyboard navigation library library, enables complex keyboard interactions like drag-and-drop for web-based data visualization platforms.
+Data visualization tools often rely heavily on mouse-based interactions, which can present significant accessibility barriers for individuals navigating with keyboards. This challenge disproportionately impacts users with motor disabilities, who may find it difficult or impossible to interact with tools designed primarily for mouse input. To address these barriers, our research explored how keyboard-driven interactions can enhance the accessibility of data visualization tools. A key part of this effort is the preprint *Using OpenKeyNav to Enhance the Keyboard-Accessibility of Web-based Data Visualization Tools*, which was presented at the AccessViz workshop at IEEE VIS 2024. This paper investigates how OpenKeyNav, an open-source javascript-based keyboard navigation library library, enables complex keyboard interactions like drag-and-drop for web-based data visualization platforms.
 
 ## **Challenges in Keyboard Accessibility**
 Data visualization tools typically require the use of a mouse for essential interactions, such as drag-and-drop operations, which are difficult or impossible for users relying on keyboard navigation. These barriers limit participation in the field of data visualization and prevent individuals with motor impairments from fully engaging in education, research, and professional opportunities, further contributing to societal inequities. 
@@ -29,6 +32,6 @@ This work contributes to our lab's ongoing efforts to improve accessibility in b
 
 For more details, the full research paper is accessible below:
 
-## **Links**
-- [Using OpenKeyNav to Enhance the Keyboard-Accessibility of Web-based Data Visualization Tools (Preprint)](https://osf.io/preprints/osf/3wjsa)
-- [Demonstrating keyboard interactions on Voyager (GitHub demo)](https://github.com/voyager-keyboard-demo/voyager-keyboard-demo.github.io)
+## Call To Action
+
+[Try the demonstration](https://github.com/voyager-keyboard-demo/voyager-keyboard-demo.github.io)

@@ -22,6 +22,8 @@ members:
 
 publications:
   - smits-2024-altgosling-osf  
+  - lyi-2024-F8FYKQP6
+  - weru-2024-accessibility-keyboard
 
 collaborators:
   - alexander-lex

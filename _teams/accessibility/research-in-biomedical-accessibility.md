@@ -8,6 +8,9 @@ active: true
 image: a11y-results.png
 image_alt: A figure containing three graphs. Graph A shows that 96% of data portals have issues. Graph B shows the percentage of those issues by accessibility categories, with contrast being the most prevalent issue, and label_missing, alt_missing, and label_empty highlighted. Graph C is a pie chart showing that 78.8% of alt text in journals are entirely missing, while 21.3% are uninformative.
 
+publications:
+  - lyi-2024-F8FYKQP6
+
 ---
 
 ## Evaluation of Accessibility in Biomedical Resources
