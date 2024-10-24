@@ -15,18 +15,18 @@ publications:
 
 ## Evaluation of Accessibility in Life Sciences Data Resources
 
-Our lab been conducting extensive research evaluating the accessibility of biomedical websites and resources. In this ongoing project, we assessed over 3,000 biomedical data portals and journal websites using accessibility evaluation tools like [WAVE](https://wave.webaim.org) and [Axe](https://www.deque.com/axe/).
+Our lab has been conducting extensive research evaluating the accessibility of life sciences websites and data resources. In this ongoing project, we assessed over 3,000 data portals and journal websites using accessibility evaluation tools, like [WAVE](https://wave.webaim.org) and [Axe](https://www.deque.com/axe/). We also evaluated selected data portals with an actual screen reader users to identify real-world barriers for performing important tasks (e.g., data discovery).
 
 ## Current Accessibility Status
-Our evaluation revealed that nearly all of the assessed websites (96%) had severe accessibility issues. The most common issue identified was the absence of crucial metadata, such as alternative text for images, which creates significant barriers for users with blindness and low vision (BLV). Without such metadata, it is impossible for BLV users to fully understand the content displayed in life sciences data visualizations (Refer to the figure on the top).
+Our evaluation revealed that nearly all assessed websites (96%) had severe accessibility issues. The most common issue identified was the absence of crucial metadata, such as alternative text for images, which creates significant barriers for users with blindness and low vision (BLV). Without such metadata, it is impossible for BLV users to fully understand the content displayed in life sciences data visualizations (Refer to the figure on the top).
 
 ## Research Aims
-Our primary goal is to improve the accessibility of life sciences resources by identifying the key barriers and developing strategies to address them. Through this work, we aim to ensure that biomedical websites and tools comply with the Web Content Accessibility Guidelines (WCAG) and are accessible to people with disabilities.
+Our primary goal is to improve the accessibility of life sciences resources by identifying the key barriers and developing strategies to address them. Through this work, we aim to ensure that life sciences websites and tools comply with the Web Content Accessibility Guidelines (WCAG) and are accessible to people with disabilities.
 
 ## Our Contributions
 - **Evaluation Results**: We identified a range of accessibility failures, with missing alt texts being one of the most prevalent issues.
-- **Mixed-methods Approach**: We employed computational accessibility tools, such as WAVE and Axe, to conduct our analysis at scale, in addition to conducting user evaluation for selected resources.
+- **Mixed-methods Approach**: We employed computational accessibility tools to conduct our analysis at scale, in addition to conducting user evaluation for selected resources.
 - **Addressing Gaps**: Our findings highlight the need for improving accessibility across life sciences websites, particularly in providing alternative texts and complying with WCAG.
 
 ## Call to Action
-We invite you to participate in this effort. We are looking for feedback and suggestions from the broader scientific and accessibility communities and potential collaborations for academic and non-academic activities.
+We invite you to participate in this effort. We seek feedback and suggestions from the broader scientific and accessibility communities and potential collaborations for academic and non-academic activities.
