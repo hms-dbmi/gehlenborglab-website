@@ -26,7 +26,7 @@ Our primary goal is to improve the accessibility of life sciences resources by i
 ## Our Contributions
 - **Evaluation Results**: We identified a range of accessibility failures, with missing alt texts being one of the most prevalent issues.
 - **Mixed-methods Approach**: We employed computational accessibility tools, such as WAVE and Axe, to conduct our analysis at scale, in addition to conducting user evaluation for selected resources.
-- **Addressing Gaps**: Our findings highlight the need for improving accessibility across biomedical websites, particularly in providing alternative texts and complying with WCAG.
+- **Addressing Gaps**: Our findings highlight the need for improving accessibility across life sciences websites, particularly in providing alternative texts and complying with WCAG.
 
 ## Call to Action
 We invite you to participate in this effort. We are looking for feedback and suggestions from the broader scientific and accessibility communities and potential collaborations for academic and non-academic activities.
