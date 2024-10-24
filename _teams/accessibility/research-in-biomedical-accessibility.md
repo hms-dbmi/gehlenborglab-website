@@ -18,7 +18,7 @@ publications:
 Our lab been conducting extensive research evaluating the accessibility of biomedical websites and resources. In this ongoing project, we assessed over 3,000 biomedical data portals and journal websites using accessibility evaluation tools like [WAVE](https://wave.webaim.org) and [Axe](https://www.deque.com/axe/).
 
 ## Current Accessibility Status
-Our evaluation revealed that nearly all of the assessed websites (96%) had severe accessibility issues. The most common issue identified was the absence of crucial metadata, such as alternative text for images, which creates significant barriers for users with blindness and low vision (BLV). Without such metadata, it is impossible for BLV users to fully understand the content displayed in biomedical data visualizations (Refer to figure on the top).
+Our evaluation revealed that nearly all of the assessed websites (96%) had severe accessibility issues. The most common issue identified was the absence of crucial metadata, such as alternative text for images, which creates significant barriers for users with blindness and low vision (BLV). Without such metadata, it is impossible for BLV users to fully understand the content displayed in life sciences data visualizations (Refer to the figure on the top).
 
 ## Research Aims
 Our primary goal is to improve the accessibility of biomedical resources by identifying the key barriers and developing strategies to address them. Through this work, we aim to ensure that biomedical websites and tools comply with the Web Content Accessibility Guidelines (WCAG) and are accessible to people with disabilities.
