@@ -63,6 +63,9 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
+  teams:
+    output: true
+    permalink: /research/:collection/:path/
 defaults:
   - scope:
       path: ""
@@ -94,3 +97,8 @@ defaults:
       type: themes
     values:
       layout: theme
+  - scope:
+      path: ""
+      type: teams
+    values:
+      layout: team
