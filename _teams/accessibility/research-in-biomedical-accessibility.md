@@ -13,7 +13,7 @@ publications:
 
 ---
 
-## Evaluation of Accessibility in Biomedical Resources
+## Evaluation of Accessibility in Life Sciences Data Resources
 
 Our lab been conducting extensive research evaluating the accessibility of biomedical websites and resources. In this ongoing project, we assessed over 3,000 biomedical data portals and journal websites using accessibility evaluation tools like [WAVE](https://wave.webaim.org) and [Axe](https://www.deque.com/axe/).
 
