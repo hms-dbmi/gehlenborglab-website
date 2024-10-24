@@ -1,7 +1,7 @@
 ---
 # make sure to add page to _data/teams.yml
 
-name: Research in Biomedical Accessibility
+name: Accessibility in Life Sciences Data Resources
 team_id: accessibility
 active: true
 
