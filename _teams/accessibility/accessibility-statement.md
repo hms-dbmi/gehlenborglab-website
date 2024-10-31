@@ -16,6 +16,8 @@ We aim to meet or exceed WCAG 2.1 level AA compliance. Our a11y website, coverin
 
 ## Feedback and Contact
 
+<!-- you'll want to at least provide an email address for contact, but adding multiple forms of support including contact form, phone number, or another method of contact is encouraged where feasible. -->
+
 We welcome your feedback on the accessibility of our site. Please let us know if you encounter accessibility barriers on this website. Contact us at HIDIVE@hms.harvard.edu.
 
 ## Limitations and Alternatives
