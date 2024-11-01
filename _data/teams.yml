@@ -18,10 +18,6 @@ accessibility:
     #   slug: community-and-inclusion
     # - name: FAQs
     #   slug: faq
-    # - name: Accessibility Statement
-      # slug: accessibility-statement
-    # - name: Contact and Feedback
-      # slug: contact-and-feedback
 
 another_team:
   subpages:

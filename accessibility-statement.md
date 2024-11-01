@@ -1,10 +1,12 @@
 ---
-# make sure to add page to _data/teams.yml
 
-name: Accessibility Statement
-team_id: accessibility
-active: true
+layout: home
+permalink: /accessibility-statement/
+title: Accessibility Statement
+
 ---
+
+# {{page.title}}
 
 ## Overview
 
@@ -18,11 +20,11 @@ We aim to meet or exceed WCAG 2.1 level AA compliance. Our lab website, covering
 
 <!-- you'll want to at least provide an email address for contact, but adding multiple forms of support including contact form, phone number, or another method of contact is encouraged where feasible. -->
 
-We welcome your feedback on the accessibility of our site. Please let us know if you encounter accessibility barriers on this website. Contact us at HIDIVE@hms.harvard.edu.
+We welcome your feedback on the accessibility of our site. Our contact information is on our <a href="/contact/">contact page</a>.
 
 ## Limitations and Alternatives
 
-While we strive to ensure accessibility, we acknowledge that some content may not fully meet these standards. If you require information in an alternative format, please contact us at HIDIVE@hms.harvard.edu.
+While we strive to ensure accessibility, we acknowledge that some content may not fully meet these standards. If you require information in an alternative format, please contact us.
 
 ## Date
 
