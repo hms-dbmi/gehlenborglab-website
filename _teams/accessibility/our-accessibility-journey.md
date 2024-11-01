@@ -26,5 +26,7 @@ We continue to explore ways to make biomedical data visualizations accessible fo
 The preprint *Using OpenKeyNav to Enhance the Keyboard-Accessibility of Web-based Data Visualization Tools*, based on an open-source software library by {% include get-member-url.html title="Lawrence Weru" %}, explores how to improve the keyboard accessibility of web-based data visualization tools for people with motor disabilities.
 The preprint was accepted for presentation at the AccessViz workshop at IEEE VIS 2024.
 
+Our accessibility efforts led to more opportunities to expand our work. {% include get-member-url.html title="Sehi L'Yi" %} has recently received the NIH K99/R00 Pathway to Independence Award to continue work on accessibility. This project proposes to increase the diversity of the genomics workforce through accessible data and visualization. This includes conducting comprehensive evaluations of existing biomedical data resources and building tools and frameworks that can increase the accessibility of biomedical research and education. This grant will help {% include get-member-url.html title="Sehi L'Yi" %} to build an independent research group to work on this area in the future.
+
 As our journey continues, we remain dedicated to pushing the boundaries of accessibility in the biomedical sciences. 
 Stay tuned for our latest projects and publications as we work towards a more inclusive scientific community.
