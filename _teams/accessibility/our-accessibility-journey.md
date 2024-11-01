@@ -20,6 +20,8 @@ We began making remediations to our website to better conform to WCAG 2.1 level 
 {% include get-member-url.html title="Sofia Rojas" %} and {% include get-member-url.html title="Andrew Mar" %} joined the lab as Research Assistants, contributing to several of the team's projects. 
 {% include get-member-url.html title="Andrew Mar" %}'s contributions were instrumental in the paper *Explaining Unfamiliar Genomics Data Visualizations to a Blind Individual through Transitions*, which was accepted for presentation at the AccessViz workshop at IEEE VIS 2024. 
 
+We also looked into mental models of visualizations related to individuals who are blind, led by by {% include get-name-degree.html title="Thomas Smits" %}. The preprint for this was also accepted for presentation at the AccessViz workshop at IEEE VIS 2024.
+
 We continue to explore ways to make biomedical data visualizations accessible for people with a wideer range of disabilities. 
 The preprint *Using OpenKeyNav to Enhance the Keyboard-Accessibility of Web-based Data Visualization Tools*, based on an open-source software library by {% include get-member-url.html title="Lawrence Weru" %}, explores how to improve the keyboard accessibility of web-based data visualization tools for people with motor disabilities.
 The preprint was accepted for presentation at the AccessViz workshop at IEEE VIS 2024.
