@@ -13,16 +13,23 @@ publications:
 
 ---
 
-## Project Overview
+## Overview
 
-The AltGosling Project focuses on developing accessible genomics visualization tools. It aims to bridge the gap in genomic data interpretation for individuals with visual impairments. The project adds screen reader support to the Gosling, leveraging [ these technologies ] to create intuitive, user-friendly interfaces, ensuring that genomics research is inclusive and accessible to a broader audience. 
+The AltGosling Project focuses on developing accessible genomics visualization tools. It aims to bridge the gap in genomic data interpretation for individuals with visual impairments. The project adds screen reader support to the Gosling, extracting information from the Gosling specification and leveraging a collapsible tree to create intuitive, user-friendly interfaces, ensuring that genomics research is inclusive and accessible to a broader audience. This project not only advances scientific inclusivity but embodies HIDIVE Lab's commitment to accessible science.You can read more about this project on the publication page that is linked below.
 
-## Features and Benefits
+## Highlights
+- As a first of it's kind, AltGosling creates automatic text descriptions for genomic data visualizations, which are characterized by large datasets and importance of interactions such as zooming and panning for data exploration. 
 
-AltGosling provides screen reader support for Gosling data visualizations, allowing users with visual impairments better access to genomic information. Benefits include democratizing data analysis in genomics, promoting inclusive research environments, and paving the way for groundbreaking discoveries in biomedical sciences by a more diverse group of researchers. This project not only advances scientific inclusivity but embodies HIDIVE Lab's commitment to accessible science.
+- Using a collapible tree structure, we allow users to easily navigate long descriptions and decide on their level of details.
+
+- To showcase its features, we created a [demonstration](https://gosling-lang.org/alt-gosling/) with ten examples, of which five single charts and and five compositve visualizations. 
+
+- We compared AltGosling to state-of-the art models such as GPT-4o and show that AltGosling outperforms these models in accuracy, completesness, and method of delivery.
+
+- We are happy to receive feedback and work on new features. Feel free to [submit issues on GitHub](https://github.com/gosling-lang/altgosling/issues) or reach out via [email](mailto:nils@hms.harvard.edu).
 
 ## Call To Action
 
-[Access the GitHub Repo](https://github.com/thomcsmits/alt-gosling)
+[Access the GitHub Repo](https://github.com/gosling-lang/altgosling)
 
-[Try the demonstration](https://thomcsmits.github.io/alt-gosling/)
+[Try the demonstration](https://gosling-lang.org/alt-gosling/)
