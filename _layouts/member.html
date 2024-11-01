@@ -28,8 +28,8 @@ layout: page
       <a href="/research/projects/"><h3 class="header-link">Projects</h3></a>
       <a href="/publications/"><h3 class="header-link">Publications</h3></a>
     {% else %}
-      <h3 id="projects">Projects</h3>
 
+      <!-- BEGIN Projects -->
       {% comment %}
       unfortunately ensuring there are no empty UL elements means double iteration in Liquid
       {% endcomment %}
@@ -43,6 +43,7 @@ layout: page
       {% endfor %}
 
       {% if has_matches %}
+        <h3 id="projects">Projects</h3>
         <ul>
         {% for project in site.projects %}
           {% for member in project.members %}
@@ -53,7 +54,37 @@ layout: page
         {% endfor %}
         </ul>
       {% endif %}
+      <!-- END Projects -->
+
+      <!-- BEGIN Teams -->
+      {% comment %}
+      unfortunately ensuring there are no empty UL elements means double iteration in Liquid
+      {% endcomment %}
+      {% assign has_matches = false %}
+      {% for team in site.teams %}
+        {% for member in team.members %}
+          {% if member == id %}
+            {% assign has_matches = true %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      {% if has_matches %}
+        <h3 id="teams">Teams</h3>
+        <ul>
+        {% for team in site.teams %}
+          {% for member in team.members %}
+            {% if member == id %}
+              <li><a href="{{ team.url }}">{{ team.name }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        </ul>
+      {% endif %}
+      <!-- END Teams -->
+
     {% endif %}
+    
 
   </aside>
 

@@ -1,0 +1,160 @@
+---
+layout: page
+---
+{% assign id = page.url | split: '/' | last %}
+{% assign team_data = site.data.teams[page.team_id] %}
+
+{% if page.name %}
+  <h1>{{ page.name }}</h1>
+{% endif %}
+
+<div class="usa-grid-full">
+  <div class="usa-width-two-thirds">
+
+    {% if page.image and page.image_alt %}
+      <img alt="{{ page.image_alt }}" src="/assets/img/publications/fullsize/{{ page.image }}">
+    {% endif %}
+
+    {{ content }}
+
+    {% if page.gallery.size > 0 %}
+      <h3>Gallery</h3>
+      <img src="/assets/img/publications/fullsize/{{ page.gallery.first[0] }}">
+      <small>{{ page.gallery.first[1] }}</small>
+      <br>
+      {% for image in page.gallery %}
+        <a href="/assets/img/publications/fullsize/{{ image[0] }}"
+           data-lightbox="lightbox-group"
+           data-title="{{ image[1] }}"
+          ><img class="thumb"
+                src="/assets/img/publications/thumbnail/{{ image[0] }}"
+                alt="{{ image[1] }}"></a>
+      {% endfor %}
+    {% endif %}
+
+    {% if page.publications.size > 0 %}
+    <h3>Publications</h3>
+    {% include list-publications.html %}
+    {% endif %}
+
+    {% if page.members.size > 0 %}
+    <h3>Team</h3>
+    {% include list-members.html %}
+    {% endif %}
+
+    {% if page.collaborators.size > 0 %}
+    <h3>Collaborators</h3>
+    {% include list-collaborators.html %}
+    {% endif %}
+
+    {% if page.websites.size > 0 %}
+    <h3>Websites</h3>
+    <ul>
+      {% for website in page.websites %}
+        <li>
+          <a href="{{ website.url }}">{{ website.name }}</a>
+          {% if website.description %}
+            <br>
+            <small>{{ website.description }}</small>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% capture media_list %}
+      {% for media in site.data.media %}
+        {% for project in media.projects %}
+          {% if project == id %}
+            <dt>
+              <b>{{ media.outlet }} ({{ media.date }}) - </b>
+              <a href="{{ media.url }}">{{ media.title }}</a>
+            </dt>
+            <dd>
+              {{ media.blurb }}
+            </dd>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endcapture %}
+    {% assign media_list = media_list | strip %}
+    {% if media_list != '' %}
+      <h3 id="media">Media</h3>
+      <dl>
+        {{ media_list }}
+      </dl>
+    {% endif %}
+
+    {% if page.github_repositories.size > 0 or page.docker_repositories.size > 0 %}
+    <h3>Software</h3>
+
+    {% if page.github_repositories.size > 0 %}
+    <h6>GitHub</h6>
+    <ul>
+      {% for repository in page.github_repositories %}
+        <li>
+          <a href="{{ repository.url }}">{{ repository.name }}</a>
+          {% if repository.description %}
+            <br>
+            <small>{{ repository.description }}</small>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if page.docker_repositories.size > 0 %}
+    <h6>Docker</h6>
+    <ul>
+      {% for repository in page.docker_repositories %}
+        <li>
+          <a href="{{ repository.url }}">{{ repository.name }}</a>
+          {% if repository.description %}
+            <br>
+            <small>{{ repository.description }}</small>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% endif %}
+
+    {% if page.grants.size > 0 %}
+    <h3>Funding</h3>
+    {% include list-grants.html %}
+    {% endif %}
+
+    <h3>Status</h3>
+    {% if page.active %}
+    Active
+    {% else %}
+    Inactive
+    {% endif %}
+
+
+  </div>
+
+  <aside class="usa-width-one-third">
+
+    {% if team_data.subpages.size > 0 %}
+    <h3>Team Activities</h3>
+    <ul>
+      <li>
+        <a href="{{site.data.teams.teams_base_url}}/{{ page.team_id }}">Home</a>
+      </li>
+      {% for subpage in team_data.subpages %}
+        <li>
+          <a href="{{site.data.teams.teams_base_url}}/{{ page.team_id }}/{{ subpage.slug }}">{{ subpage.name }}</a>
+          {% if subpage.description %}
+            <br>
+            <small>{{ subpage.description }}</small>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    
+  </aside>
+</div>

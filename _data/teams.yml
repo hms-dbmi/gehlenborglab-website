@@ -1,0 +1,26 @@
+# this file defines the sidebars for each team microsite
+
+teams_base_url: /research/teams
+
+accessibility:
+  subpages:
+    - name: Research in Accessibility of Biomedical Resources
+      slug: research-in-biomedical-accessibility
+    - name: Accessibility of Genomics Visualizations
+      slug: accessibility-of-genomics-visualization
+    - name: Keyboard Accessibility of Data Visualization
+      slug: keyboard-accessibility-visualization
+    # - name: Mental Models of Visualization
+      # slug: mental-models-blv
+    - name: Our Accessibility Journey
+      slug: our-accessibility-journey
+    # - name: Community and Inclusion
+    #   slug: community-and-inclusion
+    # - name: FAQs
+    #   slug: faq
+
+another_team:
+  subpages:
+    - name: Another Team's Page
+      slug: another-teams-page
+    # Add more subpages...
