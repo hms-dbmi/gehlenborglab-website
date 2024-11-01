@@ -10,7 +10,7 @@ active: true
 
 <!-- When the HIDIVE lab began our accessibility research, we first focused on improving screen reader accessibility for data visualizations.  -->
 The HIDIVE Lab accessibility research, led by {% include get-member-url.html title="Sehi L'Yi" %}, initially focused on improving accessibility for genome-mapped data visualizations. 
-Recognizing that grammar-based visualization tools like the Gosling toolkit could be converted into meaningful text descriptions, {% include get-member-url.html title="Thomas Smits" %} led the AltGosling project to automate description generation for genome-mapped data visualizations.
+Recognizing that grammar-based visualization tools like the Gosling toolkit could be converted into meaningful text descriptions, {% include get-member-url.html title="Thomas Smits" %} led the AltGosling project to automate description generation for genomics data visualizations.
 
 Recognizing the under-representation of people with disabilities in the biomedical sciences,
 we began quantifying the state accessibility of research journals and data portals, crucial for biomedical research, in a project led by Sehi L'Yi.
