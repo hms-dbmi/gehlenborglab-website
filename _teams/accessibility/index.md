@@ -48,8 +48,6 @@ collaborators:
 blurb: HIDIVE Lab Accessibility Research Team.
 ---
 
-## Accessibility 
-
 Digital barriers ranging from inaccessible biomedical data platforms to inaccessible biomedical data visualization tools obstruct the entry and active participation of people with certain visual, cognitive, and physical disabilities in biomedical research. These barriers limit the field of biomedicine and contribute to societal inequities.
 
 At the HIDIVE Lab, we are committed to contributing to the removal of the digital accessibility barriers that hinder the full participation of humans with disabilities in biomedical data integration, visualization, and exploration. Our work spans enhancing the accessibility of biomedical data visualizations, research journals, and data portals for people with various disabilities. This interdisciplinary work draws from fields such as informatics, visualization, human-computer interaction, and biomedicine, and aims to provide equal educational and research opportunities for individuals with disabilities.
