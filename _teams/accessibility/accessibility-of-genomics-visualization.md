@@ -15,10 +15,10 @@ publications:
 
 ## Overview
 
-The AltGosling Project focuses on developing accessible genomics visualization tools. It aims to bridge the gap in genomic data interpretation for individuals with visual impairments. The project adds screen reader support to the Gosling, extracting information from the Gosling specification and leveraging a collapsible tree to create intuitive, user-friendly interfaces, ensuring that genomics research is inclusive and accessible to a broader audience. This project not only advances scientific inclusivity but embodies HIDIVE Lab's commitment to accessible science.You can read more about this project on the publication page that is linked below.
+The AltGosling Project focuses on developing accessible genomics visualization tools. It aims to bridge the gap in genomic data interpretation for individuals with visual impairments. The project adds screen reader support to the Gosling, extracting information from the Gosling specification and leveraging a collapsible tree to create intuitive, user-friendly interfaces, ensuring that genomics research is inclusive and accessible to a broader audience. This project not only advances scientific inclusivity but embodies HIDIVE Lab's commitment to accessible science. You can read more about this project on the publication page that is linked below.
 
 ## Highlights
-- As a first of it's kind, AltGosling creates automatic text descriptions for genomic data visualizations, which are characterized by large datasets and importance of interactions such as zooming and panning for data exploration. 
+- As a first of its kind, AltGosling creates automatic text descriptions for genomic data visualizations, which are characterized by large datasets and importance of interactions such as zooming and panning for data exploration. 
 
 - Using a collapible tree structure, we allow users to easily navigate long descriptions and decide on their level of details.
 
