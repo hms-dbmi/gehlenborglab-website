@@ -2,8 +2,19 @@
 layout: page
 title: Research Themes
 permalink: /research/teams/
+redirect:   /research/themes/
 ---
 # Research Themes
+
+<!-- temporary redirect -->
+{% if page.redirect %}
+<script type="text/javascript">
+  window.location.href = "{{ page.redirect }}"
+</script>
+If you are not redirected automatically, <a href='{{ page.redirect }}'>follow this link</a>.
+
+{% else %}
+
 
 <p class="usa-font-lead">
 The following list is a list of the lab's research themes.
@@ -75,3 +86,6 @@ The following list is a list of the lab's research themes.
 {% endif %}
 {% endfor %}
 </table>
+
+<!-- end redirect checker -->
+{% endif %}
