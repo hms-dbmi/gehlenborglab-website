@@ -3,7 +3,6 @@
 teams_base_url: /research/teams
 
 accessibility:
-  display_name: "Accessibility Team"
   subpages:
     - name: Research in Accessibility of Biomedical Resources
       slug: research-in-biomedical-accessibility
@@ -25,7 +24,6 @@ accessibility:
       # slug: contact-and-feedback
 
 another_team:
-  display_name: "Another Team"
   subpages:
     - name: Another Team's Page
       slug: another-teams-page
