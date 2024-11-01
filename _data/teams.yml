@@ -7,7 +7,7 @@ accessibility:
   subpages:
     - name: Research in Accessibility of Biomedical Resources
       slug: research-in-biomedical-accessibility
-    - name: Accessibility of Genomics Visualization
+    - name: Accessibility of Genomics Visualizations
       slug: accessibility-of-genomics-visualization
     - name: Keyboard Accessibility of Data Visualization
       slug: keyboard-accessibility-visualization
