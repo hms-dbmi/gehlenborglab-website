@@ -42,7 +42,7 @@ The following list is a list of the lab's research themes.
 <table class="projects">
 
 {% for team in site.teams %}
-{% if team.active != true %}
+{% if team.active != true and team.team_home%}
 <tr>
 <td class="display-lg-only">
 {% if team.gallery.size > 0 %}
