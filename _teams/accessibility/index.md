@@ -34,10 +34,10 @@ collaborators:
 #     url: https://data.4dnucleome.org
 #     primary: true
 
-github_repositories:
-  - name: AltGosling
-    url: https://github.com/gosling-lang/altgosling
-    primary: true
+# github_repositories:
+#   - name: AltGosling
+#     url: https://github.com/gosling-lang/altgosling
+#     primary: true
 
 # grants:
 #   - nih_u01ca200059
@@ -52,12 +52,12 @@ blurb: HIDIVE Lab Accessibility Research Team.
 
 Digital barriers ranging from inaccessible biomedical data platforms to inaccessible biomedical data visualization tools obstruct the entry and active participation of people with certain visual, cognitive, and physical disabilities in biomedical research. These barriers limit the field of biomedicine and contribute to societal inequities.
 
-At the HIDIVE Lab, we are committed to contributing to the removal of the digital accessibility barriers that hinder the full participation of humans with disabilities in biomedical data integration, visualization, and exploration. Our work spans enhancing the accessibility of biomedical data visualizations, research journals, and data portals for people with various disabilities. This interdisciplinary work draws from fields such as informatics, human-computer interaction/visualization, and biomedicine, and aims to provide equal educational and research opportunities for individuals with disabilities.
+At the HIDIVE Lab, we are committed to contributing to the removal of the digital accessibility barriers that hinder the full participation of humans with disabilities in biomedical data integration, visualization, and exploration. Our work spans enhancing the accessibility of biomedical data visualizations, research journals, and data portals for people with various disabilities. This interdisciplinary work draws from fields such as informatics, visualization, human-computer interaction, and biomedicine, and aims to provide equal educational and research opportunities for individuals with disabilities.
 
 ## Current Accessibility Challenges 
 
-People with disabilities face significant exclusion from academia. Recent reports show that only 9% of the scientific workforce and 2% of NIH-funded principal investigators self-identify as having disabilities, compared to 28.7% of the U.S. adult population. This gap reflects broader systemic issues in access to education, employment, and research participation for people with disabilities. In December 2022, the NIH Advisory Committee to the Director Working Group on Diversity highlighted the importance of including people with disabilities as research collaborators.
+People with disabilities face significant exclusion from academia. Recent reports by ___ [ include the link ] show that only 9% of the scientific workforce and 2% of NIH-funded principal investigators self-identify as having disabilities, compared to 28.7% of the U.S. adult population. This gap reflects broader systemic issues in access to education, employment, and research participation for people with disabilities. In December 2022, the NIH Advisory Committee to the Director Working Group on Diversity highlighted the importance of including people with disabilities as research collaborators.
 
 ## Research Aims 
 
-Our short-term goal is to assess the digital accessibility barriers of biomedical resources, such as research journals and data repositories, and to better understand the challenges that hinder accessibility. Our long-term aim is to develop solutions that will improve the accessibility of these essential resources.
+Our short-term goal is to assess the digital accessibility barriers of biomedical data resources, such as interactive biomedical visualizatons, data repositories, and research journals to better understand the challenges that hinder accessibility. Our long-term aim is to develop solutions that will improve the accessibility of these essential resources to make biomedical research more inclusive.
