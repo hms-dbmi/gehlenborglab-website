@@ -21,7 +21,9 @@ We began making remediations to our website to better conform to WCAG 2.1 level 
 
 We continue to explore ways to make biomedical data visualizations accessible for people with a wideer range of disabilities. 
 The preprint *Using OpenKeyNav to Enhance the Keyboard-Accessibility of Web-based Data Visualization Tools*, based on an open-source software library by {% include get-name-degree.html title="Lawrence Weru" %}, explores how to improve the keyboard accessibility of web-based data visualization tools for people with motor disabilities.
-The preprint was accepted for presentation at the AccessViz workshop at IEEE VIS 2024.
+The preprint was accepted for presentation at the AccessViz workshop at IEEE VIS 2024. 
+
+We also looked into mental models of visualizations related to individuals who are blind, led by by {% include get-name-degree.html title="Thomas Smits" %}. The preprint for this was also accepted for presentation at the AccessViz workshop at IEEE VIS 2024.
 
 As our journey continues, we remain dedicated to pushing the boundaries of accessibility in the biomedical sciences. 
 Stay tuned for our latest projects and publications as we work towards a more inclusive scientific community.
