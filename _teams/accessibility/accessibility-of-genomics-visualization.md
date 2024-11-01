@@ -11,6 +11,10 @@ image_alt: A schematic showing how AltGosling interacts with the Gosling Spec an
 publications:
   - smits-2024-altgosling-osf  
 
+# gallery:
+#   smits-2024-S4RH9GKM-2.png: 'The 4DN DCIC data portal page lists available datasets and their associated metadata'
+# needs an alt text
+
 ---
 
 ## Overview

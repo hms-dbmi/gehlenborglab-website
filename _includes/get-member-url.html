@@ -3,4 +3,4 @@
     To use: {% include get-name-degree.html title="Lawrence Weru" %}, where the title is the member "title" 
     
     Do not add any newlines after the end of this comment since this file is included within inline content
-{% endcomment %}{% assign member = site.members | where: "title", include.title | first %}{{ member.name_degree }}
+{% endcomment %}{% assign member = site.members | where: "title", include.title | first %}<a href="{{ member.url }}">{{ member.title }}</a>

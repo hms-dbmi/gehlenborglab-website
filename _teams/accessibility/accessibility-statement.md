@@ -12,7 +12,7 @@ At HIDIVE Lab, we are committed to ensuring digital accessibility for people wit
 
 ## Conformance Status
 
-We aim to meet or exceed WCAG 2.1 level AA compliance. Our a11y website, covering our digital accessibility research and projects, is designed to be compatible with assistive technologies. We are also improving the accessibility of our pre-existing lab website to meet or exceed the compliance target, with the aim of having a single accessible experience throughout HIDIVE’s properties.
+We aim to meet or exceed WCAG 2.1 level AA compliance. Our lab website, covering our digital accessibility research and projects, is designed to be compatible with assistive technologies. We are also improving the accessibility of our pre-existing lab website to meet or exceed the compliance target, with the aim of having a single accessible experience throughout HIDIVE’s properties.
 
 ## Feedback and Contact
 
