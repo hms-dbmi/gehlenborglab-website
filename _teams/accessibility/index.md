@@ -54,7 +54,13 @@ At the HIDIVE Lab, we are committed to contributing to the removal of the digita
 
 ## Current Accessibility Challenges 
 
-People with disabilities face significant exclusion from academia. Recent reports by ___ [ include the link ] show that only 9% of the scientific workforce and 2% of NIH-funded principal investigators self-identify as having disabilities, compared to 28.7% of the U.S. adult population. This gap reflects broader systemic issues in access to education, employment, and research participation for people with disabilities. In December 2022, the NIH Advisory Committee to the Director Working Group on Diversity highlighted the importance of including people with disabilities as research collaborators.
+People with disabilities face significant exclusion from academia. Recent publications by
+the [National Science Foundation](https://ncses.nsf.gov/pubs/nsf21321/), 
+[American Society of Human Genetics](https://www.genome.gov/event-calendar/new-report-examines-diversity-in-the-human-genetics-and-genomics-workforce), 
+[Journal of the American Medical Assocation (Varadaj et. al)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2785329)
+and
+[PLoS One (Swenor et. al)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228686) 
+report that only 9% of the scientific workforce and 2% of NIH-funded principal investigators self-identify as having disabilities, compared to 28.7% of the U.S. adult population. This gap reflects broader systemic issues in access to education, employment, and research participation for people with disabilities. In December 2022, the NIH Advisory Committee to the Director Working Group on Diversity highlighted the importance of including people with disabilities as research collaborators.
 
 ## Research Aims 
 
