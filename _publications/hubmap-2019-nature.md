@@ -1,6 +1,7 @@
 ---
 title: "The human body at cellular resolution: the NIH Human Biomolecular Atlas Program"
 image: hubmap.png
+image-alt: Figure of map generation and assembly across cellular and spatial scales.  HuBMAP aims to produce an atlas in which users can refer to a histological slide from a specific part of an organ and, in any given cell, understand its contents on multiple ’omic levels—genomic, epigenomic, transcriptomic, proteomic, and/or metabolomic. 
 
 members:
   - chuck-mccallum

@@ -1,6 +1,7 @@
 ---
 title: "Interactive Visual Exploration And Refinement Of Cluster Assignments"
 image: stratomex.png
+image-alt: The Figure shows a  Screenshot of Caleydo StratomeX, which forms the basis of the technique introduced in the paper showing data from the TCGA Kidney Renal Clear Cell Carcinoma dataset. 
 
 members:
   - nils-gehlenborg

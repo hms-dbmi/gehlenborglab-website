@@ -15,7 +15,7 @@ websites:
     primary: true
 
 gallery:
-  halyos.png: Screenshot
+  halyos.png: "A screenshot of the Halyos dashboard showing personal health risks, measurements, and suggested preventative treatments."
 
 github_repositories:
   - name: Halyos

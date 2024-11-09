@@ -1,6 +1,7 @@
 ---
 title: "The Molecular Taxonomy of Primary Prostate Cancer"
 image: taxonomy-prostate.png
+image-alt: A figure of a visualization showing eight columns of heatmaps along with a bar chart showing the mutational signature.
 
 members:
   - nils-gehlenborg

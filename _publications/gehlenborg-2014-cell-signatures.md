@@ -1,6 +1,7 @@
 ---
 title: "Multi-platform integration of 12 cancer types reveals cell-of-origin classes with distinct molecular signatures"
 image: multiplatform.png
+image-alt: Two heatmaps and a box plot demonstrate the highly express levels of certain genes in a variety of cancer types.
 
 members:
   - nils-gehlenborg

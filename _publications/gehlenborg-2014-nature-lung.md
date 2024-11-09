@@ -1,6 +1,7 @@
 ---
 title: "Comprehensive molecular profiling of lung adenocarcinoma"
 image: adenocarcinoma.png
+image-alt: A figure with three panels showing heatmaps and two stacked bar charts. 
 
 members:
   - nils-gehlenborg

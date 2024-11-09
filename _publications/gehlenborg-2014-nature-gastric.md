@@ -1,6 +1,7 @@
 ---
 title: "Comprehensive Molecular Characterization of Gastric Adenocarcinoma"
 image: gastric.png
+image-alt: A figure with three panels showing heatmaps, trees, bar charts, and box plots.
 
 members:
   - nils-gehlenborg

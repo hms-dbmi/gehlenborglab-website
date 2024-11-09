@@ -1,6 +1,7 @@
 ---
 title: "Comprehensive and Integrative Genomic Characterization of Diffuse Lower Grade Gliomas"
 image: characterize-gliomas.png
+image-alt: A genomic data visualization that provides a comprehensive overview of the genomic landscape of glioma tumors involving mutation counts, patient characteristics like age and sex, as well as the molecular subtypes and mutation types observed across the samples.
 
 members:
   - nils-gehlenborg

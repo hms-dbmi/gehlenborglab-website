@@ -13,7 +13,7 @@ publications:
   - nusrat-2019-arxiv
 
 gallery:
-  genocat-taxonomy.png: 'Our review paper established an ontology of genomic visualization tools.'
+  genocat-taxonomy.png: 'Our review paper established an ontology of genomic visualization tools. Figure titled ‘Visualization Taxonomy’ with 7 categories next to each other, each with a number of small images below. The categories are layout, partition, abstraction, arrangement, views, scales, and foci'
   genocat-browse.png: 'Over 80 tools are summarized and compared.'
 
 

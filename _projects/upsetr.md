@@ -23,7 +23,7 @@ websites:
     url: https://gehlenborglab.shinyapps.io/upsetr/
 
 gallery:
-  upsetr.png: Screenshot
+  upsetr.png: "Screenshot of an image showing intersection of gene mutations in a cohort. The image consists of a black and white bar graph with numbers listed above each bar. Below the bar graph, right-justified to be aligned with the y-axis, are five gene names. Running along the bottom of the x-axis is a grid of light gray dots, with one dot corresponding to the intersection of each gene name row and bar column. Some of the dots are filled in black if with vertical lines connecting them. To the left of the gene names is a horizontal bar plot The bars are light blue and right justified."
   
 github_repositories:
   - name: UpSetR

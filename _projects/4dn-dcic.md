@@ -26,7 +26,7 @@ grants:
   - nih_u01ca200059
 
 gallery:
-  4dn-data-portal-browse.png: 'The 4DN DCIC data portal page lists available datasets and their associated metadata'
+  4dn-data-portal-browse.png: 'The 4DN DCIC data portal page lists available datasets and their associated metadata. Screenshot of the 4DN data browser showing a bar chart of the available data. The x axis is experiment type, the y axis is experiment sets, and the bars are colored by groups of mouse or human data.'
 
 blurb: Collect, store, curate, display, and analyze data generated in the 4DN Network.
 ---

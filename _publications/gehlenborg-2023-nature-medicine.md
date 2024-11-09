@@ -1,6 +1,7 @@
 ---
 title: "Potential pitfalls in the use of real world data to study Long COVID"
 image: 4ce-nature-medicine-2023.png
+image-alt: This figure has 7 different sub panels which show data visualizations of long Covid related data 
 
 members:
   - sehi-lyi

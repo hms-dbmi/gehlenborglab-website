@@ -1,6 +1,7 @@
 ---
 title: "Comparative analysis of metazoan chromatin organization"
 image: chromatin.png
+image-alt: Diagrams demonstrate the distribution of chromatin in a variety of species’ chromosomes, where the human chromosome is shown to be much larger than the fly and worm chromosomes.
 
 members:
   - nils-gehlenborg
