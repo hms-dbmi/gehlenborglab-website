@@ -1,6 +1,7 @@
 ---
 title: "UBiT2: a client-side web-application for gene expression data analysis"
 image: ubit2.png
+image-alt: A figure which shows visualizations that can be created with the UBiT2 tool, a heatmap with a hierarchical tree, and a principal component analysis. 
 
 members:
   - nils-gehlenborg

@@ -1,6 +1,7 @@
 ---
 title: "Points of View: Bar Charts and Box Plots"
 image: pov-bar-box.png
+image-alt: A comparison of the utility of box plots and bar charts in visualizing different sets of data.
 
 members:
   - nils-gehlenborg

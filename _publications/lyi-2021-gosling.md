@@ -1,6 +1,7 @@
 ---
 title: "Gosling: A Grammar-based Toolkit for Scalable and Interactive Genomics Data Visualization"
 image: gosling.png
+image-alt: Screenshot of a large number of genomics visualizations displayed using the Gosling genomics visualization grammar.
 
 members:
   - sehi-lyi

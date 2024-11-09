@@ -1,6 +1,7 @@
 ---
 title: "GenoREC: A Recommendation System for Interactive Genomics Data Visualization"
 image: vis-2022-genorec.png
+image-alt: Figure is split in several parts, at the top, GenoREC maps data and task specifications (A) to appropriate visualizations. In this figure, the knowledge-based recommendation (B) shows the component-wise model of GenoREC and the subsequent decisions made at each step. Based on the recommendation model, GenoREC generates and recommends an appropriate visualization to the user (C). Through the recommendation, GenoREC allows the user to avoid a wide range of similar but sub-optimal visualization options (D) given the data and task. Bottom, An overview of GenoREC’s system components and their interactions to generate output visualizations.
 
 members:
   - aditeya-pandey

@@ -1,6 +1,7 @@
 ---
 title: "HiGlass: web-based visual exploration and analysis of genome interaction maps"
 image: higlass.png
+image-alt: Screenshot of the interactive visualization tool HiGlass showing a grid of four heatmaps that display genome contact matrices.
 
 members:
   - peter-kerpedjiev

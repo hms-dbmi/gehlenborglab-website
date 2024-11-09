@@ -1,6 +1,7 @@
 ---
 title: "Molecular Profiling Reveals Biologically Discrete Subsets and Pathways of Progression in Diffuse Glioma"
 image: profiling-glioma.png
+image-alt: This image provides a comprehensive overview of the genomic and molecular characteristics of adult glioma, a type of brain tumor. It presents information on molecular subtypes, gene expression patterns, DNA methylation levels, survival rates, and other relevant clinical features. 
 
 members:
   - nils-gehlenborg

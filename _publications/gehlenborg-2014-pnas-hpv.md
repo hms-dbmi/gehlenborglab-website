@@ -1,6 +1,7 @@
 ---
 title: "Characterization of HPV and Host-Genome Interactions in Primary Head and Neck Cancers"
 image: hpv.png
+image-alt: A figure with four visualizations showing data in four genomic loci.
 
 members:
   - nils-gehlenborg

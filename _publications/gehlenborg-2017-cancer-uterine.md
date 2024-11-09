@@ -1,6 +1,7 @@
 ---
 title: "Integrated Molecular Characterization of Uterine Carcinosarcoma"
 image: uterine.png
+image-alt: This multi-panel image presents comprehensive genomic and molecular data for a cancer type. It includes plots showing mutation counts, mutation types, and specific gene alterations across samples, as well as sequence motif analysis and gene expression patterns. The visualization effectively integrates various layers of genomic information to provide a detailed characterization of the cancer samples.
 
 members:
   - nils-gehlenborg

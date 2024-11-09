@@ -1,6 +1,7 @@
 ---
 title: "Comprehensive Genomic Characterization of Head and Neck Squamous Cell Carcinomas"
 image: characterize-squamus.png
+image-alt: A figure with two heatmap visualizations showing gene alteration, DNA methylation subtypes, and DNA methylation levels.
 
 members:
   - nils-gehlenborg
