@@ -1,0 +1,6 @@
+{% comment %}
+    This file can be included where you want link someone's personal link from another page.
+    To use: {% include get-member-url.html title="Lawrence Weru" %}, where the title is the member "title" 
+    
+    Do not add any newlines after the end of this comment since this file is included within inline content
+{% endcomment %}{% assign member = site.members | where: "title", include.title | first %}<a href="{{ member.url }}">{{ member.title }}</a>
