@@ -16,7 +16,7 @@ resources:
 grants:
 
 gallery:
-  sdm.png: 'Data-Driven Visual Consent will aid in shared decision making by allowing patients to take an active role in treatment planning.'
+  sdm.png: 'Data-Driven Visual Consent will aid in shared decision making by allowing patients to take an active role in treatment planning. An image of a healthcare provider showing a patient a phone which is annotated with ‘AI’ and ‘Visualization.'
   consent.png: 'The current surgical informed process has many limitations that may lead to non-beneficial outcomes.'
   process.png: 'The application utilizes machine learning to calculate risk and renders a visualization based on patient preferences.'
   VisualConsent-ProfileAndRisks.png: 'Specifying the surgery type, patient profile and calculated risks based on that input'
