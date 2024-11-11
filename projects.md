@@ -8,7 +8,7 @@ permalink: /research/projects/
 <p class="usa-font-lead">The following list is a sample of research projects that the lab is involved in.</p>
 
 
-<h3>Active</h3>
+<h2>Active</h2>
 <table class="projects">
 
 {% for project in site.projects %}
@@ -22,7 +22,7 @@ permalink: /research/projects/
 {% endif %}
 </td>
 <td markdown="1">
-#### [{{ project.name }}]({{ project.url }})
+### [{{ project.name }}]({{ project.url }})
 {% if project.blurb %}
   {{ project.blurb }}
 {% else %}
@@ -36,7 +36,7 @@ permalink: /research/projects/
 </table>
 
 
-<h3>Inactive</h3>
+<h2>Inactive</h2>
 <table class="projects">
 
 {% for project in site.projects %}
@@ -50,7 +50,7 @@ permalink: /research/projects/
 {% endif %}
 </td>
 <td  markdown="1">
-#### [{{ project.name }}]({{ project.url }})
+### [{{ project.name }}]({{ project.url }})
 {% if project.blurb %}
   {{ project.blurb }}
 {% else %}
