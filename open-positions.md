@@ -17,7 +17,7 @@ permalink: /team/open-positions/
 {% for position in site.positions %}
 <tr>
 <td markdown="1">
-#### [{{ position.title }}]({{ position.url }})
+## [{{ position.title }}]({{ position.url }})
 </td>
 </tr>
 {% endfor %}
