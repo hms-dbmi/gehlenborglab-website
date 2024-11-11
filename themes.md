@@ -8,10 +8,10 @@ permalink: /research/themes/
 <p class="usa-font-lead">Our research cuts across a diverse set of themes. We are interested in answering fundamental questions in both biology and data visualization.</p>
 
 {% for theme in site.themes %}
-### {{ theme.name }}
+## {{ theme.name }}
 {{ theme.content }}
 {% if theme.projects.size > 0 %}
-<h6>Projects</h6>
+<h3>Projects</h3>
 <ul>
 {% for project in theme.projects %}
 {% for site_project in site.projects %}
