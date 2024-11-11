@@ -7,11 +7,11 @@ layout: page
 
 <div class="usa-grid-full">
   <div class="usa-width-two-thirds">
-    <h3>Description</h3>
+    <h2>Description</h2>
     {{ content }}
 
     {% if page.gallery.size > 0 %}
-      <h3>Gallery</h3>
+      <h2>Gallery</h2>
       <img src="/assets/img/publications/fullsize/{{ page.gallery.first[0] }}">
       <small>{{ page.gallery.first[1] }}</small>
       <br>
@@ -26,12 +26,12 @@ layout: page
     {% endif %}
 
     {% if page.publications.size > 0 %}
-    <h3>Publications</h3>
+    <h2>Publications</h2>
     {% include list-publications.html %}
     {% endif %}
 
     {% if page.websites.size > 0 %}
-    <h3>Websites</h3>
+    <h2>Websites</h2>
     <ul>
       {% for website in page.websites %}
         <li>
@@ -69,10 +69,10 @@ layout: page
     {% endif %}
 
     {% if page.github_repositories.size > 0 or page.docker_repositories.size > 0 %}
-    <h3>Software</h3>
+    <h2>Software</h2>
 
     {% if page.github_repositories.size > 0 %}
-    <h6>GitHub</h6>
+    <h3>GitHub</h3>
     <ul>
       {% for repository in page.github_repositories %}
         <li>
@@ -87,7 +87,7 @@ layout: page
     {% endif %}
 
     {% if page.docker_repositories.size > 0 %}
-    <h6>Docker</h6>
+    <h3>Docker</h3>
     <ul>
       {% for repository in page.docker_repositories %}
         <li>
@@ -104,7 +104,7 @@ layout: page
     {% endif %}
 
     {% if page.grants.size > 0 %}
-    <h3>Funding</h3>
+    <h2>Funding</h2>
     {% include list-grants.html %}
     {% endif %}
   </div>
