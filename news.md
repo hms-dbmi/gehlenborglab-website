@@ -15,7 +15,7 @@ permalink: /news/
 
   <div class="usa-grid-full">
     <div class="usa-width-one-third">
-      <h3>{{ year }}</h3>
+      <h2>{{ year }}</h2>
     </div>
     <div class="usa-width-two-thirds">
 
