@@ -1,7 +1,7 @@
 ---
 title: "International Analysis of Electronic Health Records of Children and Youth Hospitalized With COVID-19 Infection in 6 Countries"
 image: 4ce-pediatrics.png
-image-alt: Graphs showing hospitalized covid patient demographics in France, Germany, Singapore, Spain, the United Kingdom, and the United States, stratified by age and race.
+image-alt: Graphs showing hospitalized COVID patient demographics in France, Germany, Singapore, Spain, the United Kingdom, and the United States, stratified by age and race.
 
 members:
   - nils-gehlenborg
