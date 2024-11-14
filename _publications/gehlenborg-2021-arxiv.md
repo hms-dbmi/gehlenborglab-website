@@ -1,7 +1,7 @@
 ---
 title: "MITI Minimum Information guidelines for highly multiplexed tissue images"
 image: miti-minimum-information.png
-image-alt: A diagram showing the different types of metadata which can be collected for multiplexed tissue images 
+image-alt: A diagram showing the different types of metadata which can be collected for multiplexed tissue images.
 
 members:
   - nils-gehlenborg

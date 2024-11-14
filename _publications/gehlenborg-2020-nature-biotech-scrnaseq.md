@@ -1,7 +1,7 @@
 ---
 title: "Guidelines for reporting single-cell RNA-seq experiments"
 image: reporting-scrnaseq.png
-image-alt: A flowchart which shows the workflow of a typical single-cell RNA-seq experiment 
+image-alt: A flowchart which shows the workflow of a typical single-cell RNA-seq experiment.
 
 members:
   - nils-gehlenborg
