@@ -1,6 +1,7 @@
 ---
 title: "Neurological diagnoses in hospitalized COVID-19 patients associated with adverse outcomes: a multinational cohort stud"
 image: neuroViz-4ce.png
+image-alt: This figure shows the demographics of patients at different hospital locations. 
 
 members:
   - zahra-shakeri

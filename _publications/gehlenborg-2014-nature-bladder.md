@@ -1,6 +1,7 @@
 ---
 title: "Comprehensive Molecular Characterization of Urothelial Bladder Carcinoma"
 image: bladder.png
+image-alt: Screenshot of a diagram showing networks of genes in observed in a cancerous bladder sample.
 
 members:
   - nils-gehlenborg

@@ -1,6 +1,7 @@
 ---
 title: "International comparisons of laboratory values from the 4CE collaborative to predict COVID-19 mortality"
 image: 4ce-phase2-main.png
+image-alt: This diagram shows how different types of EHS data are processed in the study.
 
 members:
   - sehi-lyi

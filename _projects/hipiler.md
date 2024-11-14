@@ -28,7 +28,7 @@ github_repositories:
     url: https://github.com/hms-dbmi/clodius
 
 gallery:
-  hipiler.png: Screenshot
+  hipiler.png: "Screenshot of aligned matrices on the left and snippets of matrices scattered on the right."
 
 docker_repositories:
 

@@ -42,7 +42,7 @@ grants:
   - nih_1Ot2Od033758
 
 gallery:
-  vitessce-linnarsson.png: 'Visual Integration Tool for Exploration of Spatial Single-Cell Experiments'
+  vitessce-linnarsson.png: 'Visual Integration Tool for Exploration of Spatial Single-Cell Experiments. Screenshot of the interactive visualization tool, Vitessce, featuring multiple color-coordinated 2D views of cellular data and interactive controls.'
   vitessce-dries.png: 'Visual Integration Tool for Exploration of Spatial Single-Cell Experiments'
   vitessce-wang.png: 'Visual Integration Tool for Exploration of Spatial Single-Cell Experiments'
   vitessce-spraggins.png: 'Visual Integration Tool for Exploration of Spatial Single-Cell Experiments'

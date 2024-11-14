@@ -1,6 +1,7 @@
 ---
 title: "Domino: Extracting, Comparing, and Manipulating Subsets across Multiple Tabular Datasets"
 image: domino.png
+image-alt: A screenshot of an application that connects data from a scatterplot of musical artists’ first releases to supporting visualizations of their active years.
 
 members:
   - nils-gehlenborg

@@ -8,7 +8,7 @@ members:
   - nils-gehlenborg
 
 gallery:
-  cistrome-explorer.png: 'Cistrome Explorer provides scalable, interactive, and modular visualizations for epigenomics data with associated metadata.'
+  cistrome-explorer.png: 'Cistrome Explorer provides scalable, interactive, and modular visualizations for epigenomics data with associated metadata. Screenshot of the Cistrome Explorer tool showing a central genome browser heatmap flanked by aligned metadata bar plots.'
   cistrome-explorer-toolkit.png: 'Cistrome Explorer integrated Cistrome DB Toolkit that contains huge collection of public ChIP-seq, DNase-seq, and ATAC-seq datasets.'
 
 websites:

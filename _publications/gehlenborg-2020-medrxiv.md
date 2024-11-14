@@ -1,6 +1,7 @@
 ---
 title: "International Electronic Health Record-Derived COVID-19 Clinical Course Profiles: the 4CE Consortium"
 image: 4ce.png
+image-alt: A diagram showing how electronic health record data is processed.
 
 members:
   - sehi-lyi

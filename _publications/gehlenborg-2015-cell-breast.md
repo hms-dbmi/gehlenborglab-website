@@ -1,6 +1,7 @@
 ---
 title: "Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer"
 image: lobular-breast.png
+image-alt: A figure with six panels containing lollipop plots, 3D visualizations, and heatmaps.
 
 members:
   - nils-gehlenborg

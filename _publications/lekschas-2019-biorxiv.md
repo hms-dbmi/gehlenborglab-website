@@ -1,6 +1,7 @@
 ---
 title: "Peax: Interactive Visual Pattern Search in Sequential Data Using Unsupervised Deep Representation Learning"
 image: peax.png
+image-alt: The figure shows the Peax System.
 
 members:
   - fritz-lekschas

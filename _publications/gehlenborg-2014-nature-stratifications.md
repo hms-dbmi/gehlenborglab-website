@@ -1,6 +1,7 @@
 ---
 title: "Guided Visual Exploration of Genomic Stratifications in Cancer"
 image: stratomex-diagram.jpg
+image-alt: A schematic diagram with screenshots of StratomeX and LineUp views showing the interaction flows between tools.
 
 members:
   - nils-gehlenborg

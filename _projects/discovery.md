@@ -11,7 +11,7 @@ collaborators:
   - david-kreda
 
 gallery:
-  discovery-summary.png: 'High level summary of the patient’s profile and their medical data'
+  discovery-summary.png: 'An image of the Discovery dashboard showing a high level summary of the patient’s profile and their medical data, including personal demographics, health records and healthcare providers.'
   discovery-catalog.png: 'Patient’s medical data grouped by category and unique labels within those categories'
   discovery-compare.png: 'Patient’s medical data across different providers'
   discovery-timeline.png: 'Patient’s medical data over time'
