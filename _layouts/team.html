@@ -18,7 +18,7 @@ layout: page
     {{ content }}
 
     {% if page.gallery.size > 0 %}
-      <h3>Gallery</h3>
+      <h2>Gallery</h2>
       <img src="/assets/img/publications/fullsize/{{ page.gallery.first[0] }}">
       <small>{{ page.gallery.first[1] }}</small>
       <br>
@@ -33,22 +33,22 @@ layout: page
     {% endif %}
 
     {% if page.publications.size > 0 %}
-    <h3>Publications</h3>
+    <h2>Publications</h2>
     {% include list-publications.html %}
     {% endif %}
 
     {% if page.members.size > 0 %}
-    <h3>Team</h3>
+    <h2>Team</h2>
     {% include list-members.html %}
     {% endif %}
 
     {% if page.collaborators.size > 0 %}
-    <h3>Collaborators</h3>
+    <h2>Collaborators</h2>
     {% include list-collaborators.html %}
     {% endif %}
 
     {% if page.websites.size > 0 %}
-    <h3>Websites</h3>
+    <h2>Websites</h2>
     <ul>
       {% for website in page.websites %}
         <li>
@@ -79,14 +79,14 @@ layout: page
     {% endcapture %}
     {% assign media_list = media_list | strip %}
     {% if media_list != '' %}
-      <h3 id="media">Media</h3>
+      <h2 id="media">Media</h2>
       <dl>
         {{ media_list }}
       </dl>
     {% endif %}
 
     {% if page.github_repositories.size > 0 or page.docker_repositories.size > 0 %}
-    <h3>Software</h3>
+    <h2>Software</h2>
 
     {% if page.github_repositories.size > 0 %}
     <h6>GitHub</h6>
@@ -121,11 +121,11 @@ layout: page
     {% endif %}
 
     {% if page.grants.size > 0 %}
-    <h3>Funding</h3>
+    <h2>Funding</h2>
     {% include list-grants.html %}
     {% endif %}
 
-    <h3>Status</h3>
+    <h2>Status</h2>
     {% if page.active %}
     Active
     {% else %}

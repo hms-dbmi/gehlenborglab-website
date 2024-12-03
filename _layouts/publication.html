@@ -17,18 +17,18 @@ layout: page
 
     {% assign stripped = content | strip %}
     {% if stripped != '' %}
-      <h3>Abstract</h3>
+      <h2>Abstract</h2>
       {{ content }}
     {% endif %}
 
-    <h3>Citation</h3>
+    <h2>Citation</h2>
     {% capture doi %}{% if page.doi and page.publisher %} doi:[{{ page.doi }}]({{ page.publisher }}){% endif %}{% endcapture %}
     {% capture citation %}{{ page.cite.authors }}. "{{ page.title }}", {{ page.cite.published }} ({{ page.year}}).{{ doi }}{% endcapture %}
     {{ citation | markdownify }}
     <!-- If we markdownify just one field, it is wrapped by <p> -->
 
     {% if page.pdf %}
-      <h3>PDF</h3>
+      <h2>PDF</h2>
       <a href="http://pdfs.gehlenborglab.org/{{ page.pdf }}">http://pdfs.gehlenborglab.org/{{ page.pdf }}</a>
     {% endif %}
   </div>

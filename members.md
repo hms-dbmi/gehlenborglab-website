@@ -31,7 +31,7 @@ subnav:
 
 {% for role in roles %}
 {% assign pair = role | split: ':' %}
-<h3 id="{{pair[0]}}">{{pair[1]}}</h3>
+<h2 id="{{pair[0]}}">{{pair[1]}}</h2>
 <ul class="ul-no-bullets members-rows">
 {% for member in site.members %}
 {% if member.role == pair[0] %}
@@ -56,7 +56,7 @@ subnav:
 </ul>
 {% endfor %}
 
-<h3 id="alumni">Alumni</h3>
+<h2 id="alumni">Alumni</h2>
 <ul class="collaborators-and-alumni-lists members-rows">
 {% for member in site.members %}
 {% if member.role == "alumni" %}
@@ -65,7 +65,7 @@ subnav:
 {% endfor %}
 </ul>
 
-<h3 id="collaborators">Collaborators</h3>
+<h2 id="collaborators">Collaborators</h2>
 <ul class="collaborators-and-alumni-lists members-rows">
 {% for member in site.data.collaborators %}
 <li><a href="{{member[1].url}}">{{ member[1].title }}</a><br>{{member[1].affiliation}}</li>
