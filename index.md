@@ -21,9 +21,11 @@ intro: |
   The most recent results of our work can always be found on [bioRxiv](http://biorxiv.org/search/author1%3ANils%2BGehlenborg), [medRxiv](https://www.medrxiv.org/search/author1:Nils+Gehlenborg), [arXiv](https://arxiv.org/search/?query=gehlenborg&searchtype=author&source=header), [osf Preprints](https://osf.io/search?q=gehlenborg&resourceType=Preprint&sort=-dateModified), and on [GitHub](https://github.com/search?utf8=%E2%9C%93&q=topic%3Agehlenborglab&type=Repositories).
 ---
 
+# HIDIVE Lab
+
 <div class="usa-grid-full">
   <div class="usa-width-one-third">
-  <h3>Latest News</h3>
+  <h2>Latest News</h2>
   </div>
   <div class="usa-width-two-thirds">
   {% assign latest_news = site.news | reverse | slice: 0,5 %}

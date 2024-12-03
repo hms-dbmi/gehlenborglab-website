@@ -1,6 +1,7 @@
 ---
 title: "OncoThreads: Visualization of Large Scale Longitudinal Cancer Molecular Data"
 image: oncoThreads-osf.png
+image-alt: Figure displays four parts of the OncoThreads application visualizing molecular data of patient cohorts. A stacked block view shows high variability within a timepoint but uniformity across timepoints through stacks of colored blocks representing categorical and numerical data. The figure contrasts data variability and consistency in categorical and numerical contexts across different visualization parts.
 
 members:
   - theresa-harbig

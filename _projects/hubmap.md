@@ -52,7 +52,7 @@ github_repositories:
     url: https://github.com/vitessce/vitessce
 
 gallery:
-  hubmap-data-portal.png: 'HuBMAP data portal'
+  hubmap-data-portal.png: 'HuBMAP data portal. Screenshot of the interactive visualization tool, Vitessce, embedded on the HuBMAP Data Portal website. The image of Vitessce features 2D tissue data and interactive controls.'
   hubmap-data-portal_multimodal-imaging.png: 'HuBMAP data portal multimodal imaging'
   hubmap-data-portal_preview-celltypes.png: 'HuBMAP data portal preview celltypes'
   hubmap-data-portal_homepage.png: 'HuBMAP data portal homepage'

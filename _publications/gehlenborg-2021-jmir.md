@@ -1,6 +1,7 @@
 ---
 title: "International Changes in COVID-19 Clinical Trajectories Across 315 Hospitals and 6 Countries: a 4CE Consortium Study"
 image: 4ce-trend.png
+image-alt: This image shows a map of different healthcare systems in North America, Europe, and South America. It also shows a Schematic of Federated EHS-based study.
 
 members:
   - sehi-lyi

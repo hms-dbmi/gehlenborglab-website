@@ -1,6 +1,7 @@
 ---
 title: "AVOCADO: Visualization of Workflow-Derived Data Provenance for Reproducible Biomedical Research"
 image: avocado.png
+image-alt: A provenance graph that visually represents the workflow and analysis process for a data-driven project. It shows various nodes, such as datasets, analyses, and workflow instances, connected by edges that depict the relationships and data flow between them. 
 
 members:
   - nils-gehlenborg

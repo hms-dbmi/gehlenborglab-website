@@ -25,8 +25,8 @@ layout: page
     </div>
 
     {% if page.title == 'Nils Gehlenborg' %}
-      <a href="/research/projects/"><h3 class="header-link">Projects</h3></a>
-      <a href="/publications/"><h3 class="header-link">Publications</h3></a>
+      <a href="/research/projects/"><p class="header-link">Projects</p></a>
+      <a href="/publications/"><p class="header-link">Publications</p></a>
     {% else %}
 
       <!-- BEGIN Projects -->
@@ -43,7 +43,7 @@ layout: page
       {% endfor %}
 
       {% if has_matches %}
-        <h3 id="projects">Projects</h3>
+        <h2 id="projects">Projects</h2>
         <ul>
         {% for project in site.projects %}
           {% for member in project.members %}
@@ -70,7 +70,7 @@ layout: page
       {% endfor %}
 
       {% if has_matches %}
-        <h3 id="teams">Teams</h3>
+        <h2 id="teams">Teams</h2>
         <ul>
         {% for team in site.teams %}
           {% for member in team.members %}
@@ -89,8 +89,8 @@ layout: page
   </aside>
 
   <div class="usa-width-two-thirds">
-    <h3 id="biography">Biography</h3>
-    <h6>{{ page.job_title }}</h6>
+    <h2 id="biography">Biography</h2>
+    <h3>{{ page.job_title }}</h3>
     
     {{ content }}
 
@@ -105,7 +105,7 @@ layout: page
     {% endcapture %}
     {% assign news_list = news_list | strip %}
     {% if news_list != '' %}
-      <h3 id="news">News</h3>
+      <h2 id="news">News</h2>
       <ul>
         {{ news_list }}
       </ul>
@@ -130,7 +130,7 @@ layout: page
     {% endcapture %}
     {% assign media_list = media_list | strip %}
     {% if media_list != '' %}
-      <h3 id="media">Media</h3>
+      <h2 id="media">Media</h2>
       <dl>
         {{ media_list }}
       </dl>
@@ -148,7 +148,7 @@ layout: page
     {% endcapture %}
     {% assign publications_list = publications_list | strip %}
     {% if publications_list != '' %}
-      <h3>Publications</h3>
+      <h2>Publications</h2>
       <ul>
         {{ publications_list }}
       </ul>

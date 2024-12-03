@@ -1,6 +1,7 @@
 ---
 title: "Visual Pattern-Driven Exploration of Big Data"
 image: visual-pattern-big-data.png
+image-alt: Computer-generated diagram showing a pattern extraction pipeline’s steps.
 
 members:
   - fritz-lekschas

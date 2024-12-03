@@ -1,6 +1,7 @@
 ---
 title: "Genomic Classification of Cutaneous Melanoma"
 image: cutaneous-melanoma.png
+image-alt: A figure with four panels showing box plots, heatmaps, and parallel sets plots.
 
 members:
   - nils-gehlenborg

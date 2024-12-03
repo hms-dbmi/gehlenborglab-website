@@ -33,7 +33,7 @@ grants:
   - hsci_csbi
 
 gallery:
-  viv-figure.jpg: 'High-Resolution Multiplexed Tissue Data on the Web'
+  viv-figure.jpg: 'High-Resolution Multiplexed Tissue Data on the Web. Schematic of current approach of server and client side rendering and viv approach.'
 
 blurb: Library for Multiscale Visualization of High-Resolution Multiplexed Tissue Data on the Web
 ---

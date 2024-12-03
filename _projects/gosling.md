@@ -46,7 +46,7 @@ publications:
 #   - 
 
 gallery:
-  gosling.png: 'Diverse Genomics Visualizations Using Gosling.js'
+  gosling.png: 'Diverse Genomics Visualizations Using Gosling.js. Screenshot of a large number of genomics visualizations displayed using the Gosling genomics visualization grammar.'
 
 blurb: A Grammar-based Toolkit for Scalable and Interactive Genomics Data Visualization
 ---
