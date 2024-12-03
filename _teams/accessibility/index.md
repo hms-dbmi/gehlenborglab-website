@@ -56,7 +56,7 @@ At the HIDIVE Lab, we are committed to contributing to the removal of the digita
 
 People with disabilities face significant exclusion from academia. Recent publications by
 the [National Science Foundation](https://ncses.nsf.gov/pubs/nsf21321/), 
-[American Society of Human Genetics](https://www.genome.gov/event-calendar/new-report-examines-diversity-in-the-human-genetics-and-genomics-workforce), 
+[American Society of Human Genetics](https://www.ashg.org/wp-content/uploads/2022/11/WorkforceSurveyReport_Report_FINAL2.pdf), 
 [Journal of the American Medical Assocation (Varadaj et. al)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2785329)
 and
 [PLoS One (Swenor et. al)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228686) 
