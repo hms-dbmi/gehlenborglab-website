@@ -1,5 +1,6 @@
 Month,Year,Citation,PubMed ID,DOI
 11,2024,"TC Smits, S L’Yi, AP Mar, N Gehlenborg, ""AltGosling: Automatic Generation of Text Descriptions for Accessible Genomics Data Visualization"", Bioinformatics btae670 (2024).",,10.1093/bioinformatics/btae670
+10,2024,"MS Keller, T Manz, N Gehlenborg, ""Use-Coordination: Model, Grammar, and Library for Implementation of Coordinated Multiple Views"", 2024 IEEE Visualization and Visual Analytics (VIS) (2024).",,10.1109/VIS55277.2024.00041
 10,2024,"TC Smits, S L’Yi, HN Nguyen, AP Mar, N Gehlenborg, ""Explaining Unfamiliar Genomics Data Visualizations to a Blind Individual through Transitions"", 2024 1st Workshop on Accessible Data Visualization (AccessViz) (2024).",,10.1109/AccessViz64636.2024.00010
 9,2024,"K Huang, P Chandak, Q Wang, S Havaldar, A Vaid, J Leskovec, GN Nadkarni, BS Glicksberg, N Gehlenborg, M Zitnik, ""A foundation model for clinician-centered drug repurposing"", Nature Medicine (2024).",,10.1038/s41591-024-03233-x
 9,2024,"MS Keller, I Gold, C McCallum, T Manz, PV Kharchenko, N Gehlenborg, ""Vitessce: integrative visualization of multimodal and spatially resolved single-cell data"", Nature Methods 1-5 (2024).",,10.1038/s41592-024-02436-x
