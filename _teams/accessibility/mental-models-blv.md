@@ -10,7 +10,7 @@ image_alt: Two-by-two grid with sketches (top row) and schematics (bottom row). 
 
 
 publications:
-  - smits-2024-S4RH9GKM
+  - smits-2024-P3XRGF6H
 
 ---
 
