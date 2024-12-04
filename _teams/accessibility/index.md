@@ -24,7 +24,7 @@ publications:
   - smits-2024-altgosling-osf  
   - lyi-2024-F8FYKQP6
   - weru-2024-accessibility-keyboard
-  - smits-2024-S4RH9GKM
+  - smits-2024-P3XRGF6H
 
 collaborators:
   - alexander-lex
