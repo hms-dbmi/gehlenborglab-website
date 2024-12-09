@@ -9,7 +9,7 @@ members:
   - trevor-manz
   - nils-gehlenborg
 
-year: 2021
+year: 2024
 type: article
 
 publisher: "https://www.nature.com/articles/s41592-024-02436-x"
