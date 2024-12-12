@@ -4,6 +4,7 @@
 #index.md requires hard-coded permalink to convert to index.html file instead of index/ directory
 permalink: /research/teams/accessibility/ 
 
+title: Accessibility Research Team
 name: Accessibility
 team_id: accessibility
 active: true
