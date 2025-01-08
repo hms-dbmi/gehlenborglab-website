@@ -3,7 +3,7 @@ title: Trevor Manz
 name_degree: Trevor Manz, PhD
 
 photo: trevor-manz.jpg
-alt: Headshot of a white male with a closed-mouth smile, wearing a black baseball cap and circular wire frame glasses. His brown hair is visible under the cap and the background is blurred.
+alt: Headshot of a white male with a closed-mouth smile, wearing circular wire frame glasses. He has brown hair and the background is blurred blue sky.
 
 job_title: Graduate Student in Bioinformatics
 role: postdoc
