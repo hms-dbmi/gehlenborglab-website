@@ -5,7 +5,7 @@ name_degree: Trevor Manz, PhD
 photo: trevor-manz.jpg
 alt: Headshot of a white male with a closed-mouth smile, wearing circular wire frame glasses. He has brown hair and the background is blurred blue sky.
 
-job_title: Graduate Student in Bioinformatics
+job_title: Research Fellow in Biomedical Informatics
 role: postdoc
 
 services:
