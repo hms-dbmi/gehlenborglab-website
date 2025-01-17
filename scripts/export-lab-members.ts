@@ -1,0 +1,86 @@
+/**
+ * @module A script to export HIDIVE lab members (from '../_members/') to a CSV.
+ *
+ * @example
+ * ```sh
+ * deno run -A export-lab-members.ts > ../assets/members.csv
+ * ```
+ */
+import * as csv from "jsr:@std/csv@1.0.4";
+import * as frontMatter from "jsr:@std/front-matter@1.0.5";
+import * as z from "npm:zod@3.23.3";
+
+let MONTHS = [
+	"January",
+	"February",
+	"March",
+	"April",
+	"May",
+	"June",
+	"July",
+	"August",
+	"September",
+	"October",
+	"November",
+	"December",
+] as const;
+
+let MonthDateSchema = z.string()
+	.transform((value) => value.trim().split(/\s+/))
+	.transform(([month, year]) => ({ month, year }))
+	.pipe(
+		z.object({ month: z.enum(MONTHS), year: z.coerce.number().int() }),
+	).transform(({ month, year }) =>
+		`${year}-${(MONTHS.indexOf(month) + 1).toString().padStart(2, "0")}`
+	);
+
+type LabMember = z.infer<typeof LabMemberSchema>;
+let LabMemberSchema = z.object({
+	title: z.string(),
+	// name_degree: z.string(),
+	// photo: z.string().optional(),
+	// alt: z.string().nullish(),
+	job_title: z.string(),
+	role: z.string(),
+	start: MonthDateSchema,
+	end: MonthDateSchema.nullish().transform((value) => value ?? null),
+}).transform(({ title, job_title, ...rest }) => ({
+	name: title,
+	title: job_title,
+	...rest,
+}));
+
+if (import.meta.main) {
+	let membersDir = new URL("../_members/", import.meta.url);
+	let members: Array<LabMember> = [];
+	for await (const entry of Deno.readDir(membersDir)) {
+		if (entry.isDirectory) {
+			continue;
+		}
+		let contents = await Deno.readTextFile(
+			new URL(entry.name, membersDir),
+		);
+		let result = LabMemberSchema.safeParse(
+			frontMatter.extractYaml(contents).attrs,
+		);
+		if (!result.success) {
+			console.log(
+				"%cerror%c: Failed to parse %c%s",
+				"color: red; font-weight: bold;",
+				"",
+				"font-weight: bold;",
+				entry.name,
+				"",
+				"Fields:",
+				result.error.flatten().fieldErrors,
+			);
+			console.log(
+				"%c\nPlease fix the errors and try again.",
+				"color: red; font-weight: bold;",
+			);
+			Deno.exit(1);
+		}
+		members.push(result.data);
+	}
+	console.log(csv.stringify(members, { columns: Object.keys(members[0]) }));
+}

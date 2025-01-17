@@ -13,7 +13,7 @@ services:
   #twitter: 
   linked-in: https://www.linkedin.com/in/chrisbriggslinkedinprofile/
   
-start: Dec 2019
+start: December 2019
 end: January 2022
 ---
 Chris Briggs received her PhD in cell & molecular biology from Boston University.

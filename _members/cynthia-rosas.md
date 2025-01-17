@@ -1,15 +1,16 @@
 ---
 title: Cynthia Rosas
+name_degree: Cynthia Rosas
 
 photo: placeholder.png # this file is relative to `assets/img/members/`
 
 job_title: DBMI Summer Institute Intern
-role: alumni 
+role: alumni
 
 services:
   github: https://github.com/cjrosa23
   linked-in: https://www.linkedin.com/in/cynthia-rosas-a15519214/
-  
+
 start: June 2021
 end: August 2021
 ---

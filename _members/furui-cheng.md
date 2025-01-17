@@ -11,7 +11,7 @@ role: alumni
 services:
   github: https://github.com/ChengFR
 
-start: Feb 2022
+start: February 2022
 end: May 2022
 ---
 [Furui Cheng](https://www.furuicheng.tech/) is a CS PhD student at the Hong Kong University of Science and Technology, advised by Prof. Huamin Qu. 

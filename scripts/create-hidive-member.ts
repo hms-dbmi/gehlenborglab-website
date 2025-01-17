@@ -87,7 +87,7 @@ function toMarkdown({ biography, ...m }: Member): string {
     role: m.role,
     services: m.social_media?.map((x) => `${x.title}: ${x.url}`) ?? [],
     start: m.start_date,
-    end: "",
+    end: null,
   };
   let fm = yaml.stringify(frontmatter, { lineWidth: 120 });
   let body = biography.trim();
