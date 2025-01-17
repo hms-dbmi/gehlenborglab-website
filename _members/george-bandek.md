@@ -6,7 +6,7 @@ alt: Image
 job_title: Lab Coordinator
 role: administration
 services:
-  - 'linked-in: www.linkedin.com/in/georgebandek'
+  linked-in: https://www.linkedin.com/in/georgebandek
 start: December 2024
 end: null
 ---
