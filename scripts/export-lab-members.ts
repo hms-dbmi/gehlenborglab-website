@@ -56,7 +56,7 @@ if (import.meta.main) {
 	let membersDir = new URL("../_members/", import.meta.url);
 	let members: Array<LabMember> = [];
 	for await (const entry of Deno.readDir(membersDir)) {
-		if (entry.isDirectory) {
+		if (entry.isDirectory || entry.name == "template.md") {
 			continue;
 		}
 		let contents = await Deno.readTextFile(
