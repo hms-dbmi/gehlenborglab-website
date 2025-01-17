@@ -1,6 +1,6 @@
 ---
 title: George Bandek
-name_degree: George Bandek
+name_degree: George Bandek, BS
 photo: george-bandek.png
 alt: Image
 job_title: Lab Coordinator
