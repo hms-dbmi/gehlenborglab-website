@@ -1,9 +1,11 @@
 /**
- * @module A script to export HIDIVE lab members (from '../_members/') to a CSV.
+ * @module Export HIDIVE lab members (from '../_members/') to a CSV ('../assets/members.csv').
+ *
+ * @see {@link LabMemberSchema} below for output schema.
  *
  * @example
  * ```sh
- * deno run -A export-lab-members.ts > ../assets/members.csv
+ * deno run -A export-lab-members.ts
  * ```
  */
 import * as csv from "jsr:@std/csv@1.0.4";
@@ -82,5 +84,9 @@ if (import.meta.main) {
 		}
 		members.push(result.data);
 	}
-	console.log(csv.stringify(members, { columns: Object.keys(members[0]) }));
+
+	await Deno.writeTextFile(
+		new URL("../assets/members.csv", import.meta.url),
+		csv.stringify(members, { columns: Object.keys(members[0]) }),
+	);
 }

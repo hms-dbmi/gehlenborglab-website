@@ -1,6 +1,7 @@
 name,title,role,start,end
 John Conroy,Software Developer,staff,2020-04,
 Etowah Adams,Software Developer,staff,2023-03,
+George Bandek,Lab Coordinator,administration,2024-12,
 Chuck McCallum,Senior Software Developer,alumni,2016-09,2022-10
 Matthew Roy,Administrative and Research Assistant,alumni,2015-11,2017-09
 Undina Gisladottir,Research Associate,alumni,2018-06,2019-07
@@ -87,4 +88,3 @@ Ilan Gold,Software Developer,alumni,2019-08,2024-04
 Lawrence Weru,Associate in Biomedical Informatics,staff,2023-10,
 Eva Christine Schitter,Visiting Graduate Student in Biomedical Informatics,alumni,2017-03,2017-07
 Max Wolf,Curriculum Fellow in Biomedical Informatics,alumni,2019-09,2022-08
-
