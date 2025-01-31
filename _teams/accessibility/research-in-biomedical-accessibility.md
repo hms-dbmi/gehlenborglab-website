@@ -15,7 +15,7 @@ publications:
 
 ## Evaluation of Accessibility in Life Sciences Data Resources
 
-Our lab has been conducting extensive research evaluating the accessibility of life sciences websites and data resources. In this ongoing project, we assessed over 3,000 data portals and journal websites using accessibility evaluation tools, like [WAVE](https://wave.webaim.org) and [Axe](https://www.deque.com/axe/). We also evaluated selected data portals with an actual screen reader user to identify real-world barriers for performing important tasks (e.g., data discovery).
+Our lab has been conducting extensive research evaluating the accessibility of life sciences websites and data resources. In this ongoing project, we assessed over 3,000 data portals and journal websites using accessibility evaluation tools, like [WAVE](https://wave.webaim.org) and [Axe](https://www.deque.com/axe/). We also evaluated selected data portals with a screen reader user to identify real-world barriers for performing important tasks (e.g., data discovery).
 
 ## Current Accessibility Status
 Our evaluation revealed that nearly all assessed websites (96%) had severe accessibility issues. The most common issue identified was the absence of crucial metadata, such as alternative text for images, which creates significant barriers for users with blindness and low vision (BLV). Without such metadata, it is impossible for BLV users to fully understand the content displayed in life sciences data visualizations (Refer to the figure on the top).
