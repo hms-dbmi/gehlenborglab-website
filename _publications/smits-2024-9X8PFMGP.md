@@ -29,7 +29,7 @@ Biomedical visualizations are key to accessing biomedical knowledge and detectin
 We present AltGosling, an automated description generation tool focused on interactive data visualizations of genome-mapped data, created with the grammar-based genomics toolkit Gosling. The logic-based algorithm of AltGosling creates various descriptions including a tree-structured navigable panel. We co-designed AltGosling with a blind screen reader user (co-author). We show that AltGosling outperforms state-of-the-art large language models and common image-based neural networks for alt text generation of genomics data visualizations. As a first of its kind in genomic research, we lay the groundwork to increase accessibility in the field. 
              
 ### Availability and Implementation 
-The source code, examples, and interactive demo are accessible under the MIT License at https://github.com/gosling-lang/altgosling. The package is available at https://www.npmjs.com/package/altgosling. 
+The source code, examples, and interactive demo are accessible under the MIT License at [https://github.com/gosling-lang/altgosling](https://github.com/gosling-lang/altgosling). The package is available at [https://www.npmjs.com/package/altgosling](https://www.npmjs.com/package/altgosling). 
              
 ### Supplementary information 
 Supplementary data are available at Bioinformatics online.
