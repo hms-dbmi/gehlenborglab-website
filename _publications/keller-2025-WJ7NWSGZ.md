@@ -5,7 +5,7 @@ image-alt: Image
 members:
   - nils-gehlenborg
   - mark-keller
-  - eric- moerth
+  - eric-moerth
   - thomas-smits
   - qianwen-wang
 year: 2025
