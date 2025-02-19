@@ -12,8 +12,8 @@ publisher: 'https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/
 doi: 10.1093/bioinformatics/btae670
 zotero-key: 9X8PFMGP
 cite:
-  authors: 'TC Smits, S L’Yi, AP Mar, N Gehlenborg'
-  published: '*Bioinformatics* btae670'
+  authors: 'TC Smits, S L''Yi, AP Mar, N Gehlenborg'
+  published: '*Bioinformatics*'
 videos:
   - title: Demo
     url: 'https://gosling-lang.github.io/altgosling/'
