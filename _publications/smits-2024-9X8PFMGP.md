@@ -13,7 +13,7 @@ doi: 10.1093/bioinformatics/btae670
 zotero-key: 9X8PFMGP
 cite:
   authors: 'TC Smits, S L''Yi, AP Mar, N Gehlenborg'
-  published: '*Bioinformatics*'
+  published: '*Bioinformatics* btae670'
 videos:
   - title: Demo
     url: 'https://gosling-lang.github.io/altgosling/'
