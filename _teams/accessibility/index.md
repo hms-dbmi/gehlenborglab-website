@@ -4,6 +4,7 @@
 #index.md requires hard-coded permalink to convert to index.html file instead of index/ directory
 permalink: /research/teams/accessibility/ 
 
+title: Accessibility Research Team
 name: Accessibility
 team_id: accessibility
 active: true
@@ -52,14 +53,14 @@ Digital barriers ranging from inaccessible biomedical data platforms to inaccess
 
 At the HIDIVE Lab, we are committed to contributing to the removal of the digital accessibility barriers that hinder the full participation of humans with disabilities in biomedical data integration, visualization, and exploration. Our work spans enhancing the accessibility of biomedical data visualizations, research journals, and data portals for people with various disabilities. This interdisciplinary work draws from fields such as informatics, visualization, human-computer interaction, and biomedicine, and aims to provide equal educational and research opportunities for individuals with disabilities.
 
-## Current Accessibility Challenges 
+## Current Accessibility Challenges
 
 People with disabilities face significant exclusion from academia. Recent publications by
 the [National Science Foundation](https://ncses.nsf.gov/pubs/nsf21321/), 
 [American Society of Human Genetics](https://www.ashg.org/wp-content/uploads/2022/11/WorkforceSurveyReport_Report_FINAL2.pdf), 
-[Journal of the American Medical Assocation (Varadaj et. al)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2785329)
+[Journal of the American Medical Association (Varadaj et al.)](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2785329)
 and
-[PLoS One (Swenor et. al)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228686) 
+[PLoS One (Swenor et al.)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228686) 
 report that only 9% of the scientific workforce and 2% of NIH-funded principal investigators self-identify as having disabilities, compared to 28.7% of the U.S. adult population. This gap reflects broader systemic issues in access to education, employment, and research participation for people with disabilities. In December 2022, the NIH Advisory Committee to the Director Working Group on Diversity highlighted the importance of including people with disabilities as research collaborators.
 
 ## Research Aims 

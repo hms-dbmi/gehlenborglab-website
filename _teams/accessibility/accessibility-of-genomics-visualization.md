@@ -26,7 +26,7 @@ The AltGosling Project focuses on developing accessible genomics visualization t
 
 - Using a collapible tree structure, we allow users to easily navigate long descriptions and decide on their level of details.
 
-- To showcase its features, we created a [demonstration](https://gosling-lang.org/alt-gosling/) with ten examples, of which five single charts and and five compositve visualizations. 
+- To showcase its features, we created a [demonstration](https://gosling-lang.github.io/altgosling/) with ten examples, of which five are single charts and five are composite visualizations. 
 
 - We compared AltGosling to state-of-the art models such as GPT-4o and show that AltGosling outperforms these models in accuracy, completesness, and method of delivery.
 
@@ -35,5 +35,4 @@ The AltGosling Project focuses on developing accessible genomics visualization t
 ## Call To Action
 
 [Access the GitHub Repo](https://github.com/gosling-lang/altgosling)
-
-[Try the demonstration](https://gosling-lang.org/alt-gosling/)
+[Try the demonstration](https://gosling-lang.github.io/altgosling/)
