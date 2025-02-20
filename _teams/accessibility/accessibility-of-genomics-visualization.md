@@ -9,7 +9,7 @@ image: altgosling-structure.png
 image_alt: A schematic showing how AltGosling interacts with the Gosling Spec and Gosling.js to construct alt text, long descriptions, and Tree-structured descriptions from Gosling Spec features and Gosling Renderer data.
 
 publications:
-  - smits-2024-altgosling-osf  
+  - smits-2024-9X8PFMGP
 
 # gallery:
 #   smits-2024-S4RH9GKM-2.png: 'The 4DN DCIC data portal page lists available datasets and their associated metadata'
@@ -35,5 +35,4 @@ The AltGosling Project focuses on developing accessible genomics visualization t
 ## Call To Action
 
 [Access the GitHub Repo](https://github.com/gosling-lang/altgosling)
-
 [Try the demonstration](https://gosling-lang.github.io/altgosling/)
