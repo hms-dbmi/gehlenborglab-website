@@ -6,7 +6,7 @@ members:
   - nils-gehlenborg
 year: 2011
 type: article
-# publisher: <TODO>
+publisher: 'http://biovis.net/archived_content/2011/materials/abstracts/BioVispaper107.pdf'
 # doi: <TODO>
 cite:
   authors: 'R Park, N Gehlenborg, PJ Park'
