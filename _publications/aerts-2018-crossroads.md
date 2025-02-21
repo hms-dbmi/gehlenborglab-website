@@ -1,7 +1,7 @@
 ---
 title: Visualization of Biological Data - Crossroads (Dagstuhl Seminar 18161)
 image: aerts-2018-crossroads.png
-image-alt: Image
+# image-alt: <TODO>
 members:
   - nils-gehlenborg
 year: 2018
