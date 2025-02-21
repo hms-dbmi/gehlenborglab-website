@@ -1,89 +1,89 @@
-name,title,role,start,end
-John Conroy,Software Developer,staff,2020-04,
-Etowah Adams,Software Developer,staff,2023-03,
-George Bandek,Lab Coordinator,administration,2024-12,
-Chuck McCallum,Senior Software Developer,alumni,2016-09,2022-10
-Matthew Roy,Administrative and Research Assistant,alumni,2015-11,2017-09
-Undina Gisladottir,Research Associate,alumni,2018-06,2019-07
-Cynthia Rosas,DBMI Summer Institute Intern,alumni,2021-06,2021-08
-Astrid van den Brandt,Visiting Graduate Student in Computer Science,student,2023-08,
-Thomas Smits,Associate in Biomedical Informatics,staff,2022-02,
-Sydney Meyer,HuBMAP Intern,alumni,2023-06,2023-08
-Lina Chi,Visiting Scholar in Biomedical Informatics,alumni,2018-06,2018-08
-Sehi L'Yi,Research Fellow in Biomedical Informatics,postdoc,2020-02,
-Devin Lange,Research Fellow in Biomedical Informatics,postdoc,2024-08,
-Trevor Manz,Research Fellow in Biomedical Informatics,postdoc,2018-06,
-Morgan Turner,R&D Manager and Visualization Scientist,staff,2022-12,
-Peter Kerpedjiev,Research Fellow in Biomedical Informatics,alumni,2016-04,2018-11
-Roselkis Morla Adames,HuBMAP Intern,alumni,2021-06,2021-08
-Mark Keller,Graduate Student in Bioinformatics,student,2019-06,
-Nikhil Kumar,BD2K Summer Institute Intern,alumni,2016-06,2016-08
-Evan Biederstedt,Computational Biologist,staff,2022-04,
-Margaret Vella,Project Manager,alumni,2018-11,2022-07
-Thomas Varley,DBMI Summer Institute Intern,alumni,2020-06,2020-08
-Huyen N. Nguyen,Research Fellow in Biomedical Informatics,postdoc,2023-09,
-Xinyi Liu,Postgraduate Research Intern,alumni,2023-06,2023-08
-Angela Chen,DBMI Summer Institute Intern,alumni,2018-06,2018-08
-Megan Paul,BD2K Summer Institute Intern,alumni,2016-06,2016-08
-Mary Futey,Data Curator,staff,2021-11,
-Danielle Nguyen,Co-op Student,alumni,2018-01,2018-10
-Anton Xue,High School Intern,alumni,2014-06,2015-06
-Jacob Luber,Graduate Student in Biomedical Informatics,alumni,2016-09,2016-12
-Yan Ma,Project Coordinator,staff,2024-06,
-Drashko Nakikj,Research Fellow in Biomedical Informatics,alumni,2019-04,2022-02
-Thomas Chan,DBMI Summer Institute Intern,alumni,2019-06,2019-08
-Siyoung Kim,SIBMI / DBMI Summer Institute Intern,alumni,2024-06,2024-08
-Lindsey Fernandez,BD2K Summer Institute Intern,alumni,2015-06,2015-08
-Samson Mataraso,BD2K Summer Institute Intern,alumni,2017-06,2017-08
-Jake Conway,Graduate Student in Biomedical Informatics,alumni,2015-06,2017-03
-Man Qing Liang,Research Fellow in Biomedical Informatics,alumni,2022-09,2023-03
-Erica Stutz,DBMI Summer Institute Intern,alumni,2022-06,2022-08
-Zahra Shakeri,Research Fellow in Biomedical Informatics,alumni,2021-07,2022-07
-Sabrina Nusrat,Research Fellow in Biomedical Informatics,alumni,2018-01,2019-10
-Samson Toor,Senior UI/UX Designer,alumni,2023-10,2024-06
-Katrina Liu,Graduate Student in Biomedical Informatics,alumni,2022-09,2023-05
-Furui Cheng,Visiting Graduate Student,alumni,2022-02,2022-05
-Qianwen Wang,Research Fellow in Biomedical Informatics,alumni,2020-05,2023-08
-Kevin Yoo,Software Developer,alumni,2023-05,2023-08
-Stefan Luger,External Master's Student,alumni,2014-09,2015-12
-Theresa Anisja Harbig,Research Associate,alumni,2018-01,2019-09
-Austen Money,Software Developer,staff,2024-07,
-Zoey Ho,Graduate Student in Biomedical Informatics,alumni,2019-01,2020-05
-Jennifer Chen,DBMI Summer Institute Intern,alumni,2024-06,2024-08
-Sofia Rojas,Research Assistant,student,2023-10,
-Jeremy Liu,i2b2 Summer Institute Intern,alumni,2014-06,2014-08
-Jennifer K Marx,Software Engineer,alumni,2015-05,2020-03
-Mimi Alkattan,Associate and Project Coordinator,alumni,2023-06,2023-12
-Matthew Scott Tan,Undergraduate Student in Mathematics and Statistics,alumni,2023-09,2023-12
-Alaleh Azhir,BD2K Summer Institute Intern,alumni,2016-06,2016-08
-Lisa Choy,Principal Software Developer,staff,2023-03,
-Justine Shih,DBMI Summer Institute Intern,alumni,2019-06,2019-08
-Tessa Han,Graduate Student in Biomedical Informatics,alumni,2021-02,2021-06
-Carolina Nobre,Visiting Graduate Student in Computer Science,alumni,2017-05,2017-08
-Eric Moerth,Research Fellow in Biomedical Informatics,postdoc,2023-04,
-Fritz Lekschas,Graduate Student in Computer Science,alumni,2015-04,2021-05
-Emily Hang,Graduate Student,student,2024-10,
-Mohamed Yousry ElSadec,DBMI Summer Institute Intern,alumni,2023-06,2023-12
-Julian Zulueta,DBMI Summer Institute Intern,alumni,2022-06,2022-08
-Claudia Meyer,DBMI Summer Institute Intern,alumni,2019-06,2019-08
-Tram Nguyen,HuBMAP Intern,alumni,2022-06,2022-08
-Liam Wang,DBMI Summer Institute Intern,alumni,2023-06,2023-08
-Nikolay Akhmetov,Software Developer,staff,2020-09,
-Nichole Parker,Administrative and Research Assistant,administration,2017-09,
-Vimig Socrates,BD2K Summer Institute Intern,alumni,2017-06,2017-08
-Tiffany Liaw,UI/UX Developer,staff,2020-04,
-PJ Van Camp,Curriculum Fellow in Biomedical Informatics,postdoc,2022-07,
-Aditeya Pandey,Visiting Graduate Student in Computer Science,alumni,2020-05,2022-10
-Aarti Darji,HuBMAP Summer Intern,student,2024-06,
-Nils Gehlenborg,Associate Professor of Biomedical Informatics,pi,2015-04,
-Karan Luthria,Visiting Undergraduate Student,alumni,2020-06,2020-08
-Andrew Mar,Research Assistant,student,2024-03,
-David Kouřil,Research Fellow in Biomedical Informatics,postdoc,2023-07,
-Chris Briggs,Senior Data Curator,alumni,2019-12,2022-01
-Pinar Ozden Eser,Associated Scientist,postdoc,2021-05,
-Scott Ouellette,Software Developer,alumni,2015-07,2019-02
-Tabassum Kakar,Software Developer,staff,2024-07,
-Ilan Gold,Software Developer,alumni,2019-08,2024-04
-Lawrence Weru,Associate in Biomedical Informatics,staff,2023-10,
-Eva Christine Schitter,Visiting Graduate Student in Biomedical Informatics,alumni,2017-03,2017-07
-Max Wolf,Curriculum Fellow in Biomedical Informatics,alumni,2019-09,2022-08
+name,title,role,end,start
+John Conroy,Software Developer,staff,,2020-04
+Etowah Adams,Software Developer,staff,,2023-03
+George Bandek,Lab Coordinator,administration,,2024-12
+Chuck McCallum,Senior Software Developer,alumni,2022-10,2016-09
+Matthew Roy,Administrative and Research Assistant,alumni,2017-09,2015-11
+Undina Gisladottir,Research Associate,alumni,2019-07,2018-06
+Cynthia Rosas,DBMI Summer Institute Intern,alumni,2021-08,2021-06
+Astrid van den Brandt,Visiting Graduate Student in Computer Science,student,,2023-08
+Thomas Smits,Associate in Biomedical Informatics,staff,,2022-02
+Sydney Meyer,HuBMAP Intern,alumni,2023-08,2023-06
+Lina Chi,Visiting Scholar in Biomedical Informatics,alumni,2018-08,2018-06
+Sehi L'Yi,Research Fellow in Biomedical Informatics,postdoc,,2020-02
+Devin Lange,Research Fellow in Biomedical Informatics,postdoc,,2024-08
+Trevor Manz,Research Fellow in Biomedical Informatics,postdoc,,2018-06
+Morgan Turner,R&D Manager and Visualization Scientist,staff,,2022-12
+Peter Kerpedjiev,Research Fellow in Biomedical Informatics,alumni,2018-11,2016-04
+Roselkis Morla Adames,HuBMAP Intern,alumni,2021-08,2021-06
+Mark Keller,Graduate Student in Bioinformatics,student,,2019-06
+Nikhil Kumar,BD2K Summer Institute Intern,alumni,2016-08,2016-06
+Evan Biederstedt,Computational Biologist,staff,,2022-04
+Margaret Vella,Project Manager,alumni,2022-07,2018-11
+Thomas Varley,DBMI Summer Institute Intern,alumni,2020-08,2020-06
+Huyen N. Nguyen,Research Fellow in Biomedical Informatics,postdoc,,2023-09
+Xinyi Liu,Postgraduate Research Intern,alumni,2023-08,2023-06
+Angela Chen,DBMI Summer Institute Intern,alumni,2018-08,2018-06
+Megan Paul,BD2K Summer Institute Intern,alumni,2016-08,2016-06
+Mary Futey,Data Curator,staff,,2021-11
+Danielle Nguyen,Co-op Student,alumni,2018-10,2018-01
+Anton Xue,High School Intern,alumni,2015-06,2014-06
+Jacob Luber,Graduate Student in Biomedical Informatics,alumni,2016-12,2016-09
+Yan Ma,Project Coordinator,staff,,2024-06
+Drashko Nakikj,Research Fellow in Biomedical Informatics,alumni,2022-02,2019-04
+Thomas Chan,DBMI Summer Institute Intern,alumni,2019-08,2019-06
+Siyoung Kim,SIBMI / DBMI Summer Institute Intern,alumni,2024-08,2024-06
+Lindsey Fernandez,BD2K Summer Institute Intern,alumni,2015-08,2015-06
+Samson Mataraso,BD2K Summer Institute Intern,alumni,2017-08,2017-06
+Jake Conway,Graduate Student in Biomedical Informatics,alumni,2017-03,2015-06
+Man Qing Liang,Research Fellow in Biomedical Informatics,alumni,2023-03,2022-09
+Erica Stutz,DBMI Summer Institute Intern,alumni,2022-08,2022-06
+Zahra Shakeri,Research Fellow in Biomedical Informatics,alumni,2022-07,2021-07
+Sabrina Nusrat,Research Fellow in Biomedical Informatics,alumni,2019-10,2018-01
+Samson Toor,Senior UI/UX Designer,alumni,2024-06,2023-10
+Katrina Liu,Graduate Student in Biomedical Informatics,alumni,2023-05,2022-09
+Furui Cheng,Visiting Graduate Student,alumni,2022-05,2022-02
+Qianwen Wang,Research Fellow in Biomedical Informatics,alumni,2023-08,2020-05
+Kevin Yoo,Software Developer,alumni,2023-08,2023-05
+Stefan Luger,External Master's Student,alumni,2015-12,2014-09
+Theresa Anisja Harbig,Research Associate,alumni,2019-09,2018-01
+Austen Money,Software Developer,staff,,2024-07
+Zoey Ho,Graduate Student in Biomedical Informatics,alumni,2020-05,2019-01
+Jennifer Chen,DBMI Summer Institute Intern,alumni,2024-08,2024-06
+Sofia Rojas,Research Assistant,student,,2023-10
+Jeremy Liu,i2b2 Summer Institute Intern,alumni,2014-08,2014-06
+Jennifer K Marx,Software Engineer,alumni,2020-03,2015-05
+Mimi Alkattan,Associate and Project Coordinator,alumni,2023-12,2023-06
+Matthew Scott Tan,Undergraduate Student in Mathematics and Statistics,alumni,2023-12,2023-09
+Alaleh Azhir,BD2K Summer Institute Intern,alumni,2016-08,2016-06
+Lisa Choy,Principal Software Developer,staff,,2023-03
+Justine Shih,DBMI Summer Institute Intern,alumni,2019-08,2019-06
+Tessa Han,Graduate Student in Biomedical Informatics,alumni,2021-06,2021-02
+Carolina Nobre,Visiting Graduate Student in Computer Science,alumni,2017-08,2017-05
+Eric Moerth,Research Fellow in Biomedical Informatics,postdoc,,2023-04
+Fritz Lekschas,Graduate Student in Computer Science,alumni,2021-05,2015-04
+Emily Hang,Graduate Student,student,2024-12,2024-10
+Mohamed Yousry ElSadec,DBMI Summer Institute Intern,alumni,2023-12,2023-06
+Julian Zulueta,DBMI Summer Institute Intern,alumni,2022-08,2022-06
+Claudia Meyer,DBMI Summer Institute Intern,alumni,2019-08,2019-06
+Tram Nguyen,HuBMAP Intern,alumni,2022-08,2022-06
+Liam Wang,DBMI Summer Institute Intern,alumni,2023-08,2023-06
+Nikolay Akhmetov,Software Developer,staff,,2020-09
+Nichole Parker,Administrative and Research Assistant,administration,,2017-09
+Vimig Socrates,BD2K Summer Institute Intern,alumni,2017-08,2017-06
+Tiffany Liaw,UI/UX Developer,staff,,2020-04
+PJ Van Camp,Curriculum Fellow in Biomedical Informatics,postdoc,,2022-07
+Aditeya Pandey,Visiting Graduate Student in Computer Science,alumni,2022-10,2020-05
+Aarti Darji,HuBMAP Summer Intern,student,,2024-06
+Nils Gehlenborg,Associate Professor of Biomedical Informatics,pi,,2015-04
+Karan Luthria,Visiting Undergraduate Student,alumni,2020-08,2020-06
+Andrew Mar,Research Assistant,student,,2024-03
+David Kouřil,Research Fellow in Biomedical Informatics,postdoc,,2023-07
+Chris Briggs,Senior Data Curator,alumni,2022-01,2019-12
+Pinar Ozden Eser,Associated Scientist,postdoc,,2021-05
+Scott Ouellette,Software Developer,alumni,2019-02,2015-07
+Tabassum Kakar,Software Developer,staff,,2024-07
+Ilan Gold,Software Developer,alumni,2024-04,2019-08
+Lawrence Weru,Associate in Biomedical Informatics,staff,,2023-10
+Eva Christine Schitter,Visiting Graduate Student in Biomedical Informatics,alumni,2017-07,2017-03
+Max Wolf,Curriculum Fellow in Biomedical Informatics,alumni,2022-08,2019-09
