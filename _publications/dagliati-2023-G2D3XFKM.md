@@ -46,3 +46,25 @@ other-resources: []
 awards: []
 ---
 
+## Background
+
+Characterizing Post-Acute Sequelae of COVID (SARS-CoV-2 Infection), or PASC has been challenging
+due to the multitude of sub-phenotypes, temporal attributes, and definitions. Scalable characterization of PASC
+sub-phenotypes can enhance screening capacities, disease management, and treatment planning.
+
+## Methods
+
+We conducted a retrospective multi-centre observational cohort study, leveraging longitudinal electronic
+health record (EHR) data of 30,422 patients from three healthcare systems in the Consortium for the Clinical
+Characterization of COVID-19 by EHR (4CE). From the total cohort, we applied a deductive approach on 12,424
+individuals with follow-up data and developed a distributed representation learning process for providing
+augmented definitions for PASC sub-phenotypes.
+## Findings
+
+Our framework characterized seven PASC sub-phenotypes. We estimated that on average 15.7% of the
+hospitalized COVID-19 patients were likely to suffer from at least one PASC symptom and almost 5.98%, on
+average, had multiple symptoms. Joint pain and dyspnea had the highest prevalence, with an average prevalence
+of 5.45% and 4.53%, respectively.
+Interpretation We provided a scalable framework to every participating healthcare system for estimating PASC sub-
+phenotypes prevalence and temporal attributes, thus developing a unified model that characterizes augmented sub-
+phenotypes across the different systems.
