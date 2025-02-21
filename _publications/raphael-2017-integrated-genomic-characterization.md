@@ -1,7 +1,7 @@
 ---
 title: Integrated Genomic Characterization of Pancreatic Ductal Adenocarcinoma
 image: raphael-2017-integrated-genomic-characterization.png
-image-alt: Image
+# image-alt: Image
 members:
   - nils-gehlenborg
 year: 2017
