@@ -4,8 +4,8 @@ members:
   - nils-gehlenborg
 year: 2006
 type: article
-publisher: <TODO>
-doi: <TODO>
+# publisher: <TODO>
+# doi: <TODO>
 cite:
   authors: 'DH Hwang, N Gehlenborg, N Zhang, W Yan, E Yi, HK Lee, IY Lee, R Aebersold, L Hood'
   published: '*The Korea Genome Conference*'
