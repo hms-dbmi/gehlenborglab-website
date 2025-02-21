@@ -88,4 +88,4 @@ videos: []
 other-resources: []
 awards: []
 ---
-
+We conducted comprehensive integrative molecular analyses of the complete set of tumors in The Cancer Genome Atlas (TCGA), consisting of approximately 10,000 specimens and representing 33 types of cancer. We performed molecular clustering using data on chromosome-arm-level aneuploidy, DNA hypermethylation, mRNA, and miRNA expression levels and reverse-phase protein arrays, of which all, except for aneuploidy, revealed clustering primarily organized by histology, tissue type, or anatomic origin. The influence of cell type was evident in DNA-methylation-based clustering, even after excluding sites with known preexisting tissue-type-specific methylation. Integrative clustering further emphasized the dominant role of cell-of-origin patterns. Molecular similarities among histologically or anatomically related cancer types provide a basis for focused pan-cancer analyses, such as pan-gastrointestinal, pan-gynecological, pan-kidney, and pan-squamous cancers, and those related by stemness features, which in turn may inform strategies for future therapeutic development.
