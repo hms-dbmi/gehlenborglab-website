@@ -49,4 +49,14 @@ videos: []
 other-resources: []
 awards: []
 ---
+## Background
+While acute kidney injury (AKI) is a common complication in COVID-19, data on post-AKI kidney function recovery and the clinical factors associated with poor kidney function recovery is lacking.
 
+## Methods
+A retrospective multi-centre observational cohort study comprising 12,891 hospitalized patients aged 18 years or older with a diagnosis of SARS-CoV-2 infection confirmed by polymerase chain reaction from 1 January 2020 to 10 September 2020, and with at least one serum creatinine value 1–365 days prior to admission. Mortality and serum creatinine values were obtained up to 10 September 2021.
+
+## Findings
+Advanced age (HR 2.77, 95%CI 2.53–3.04, p < 0.0001), severe COVID-19 (HR 2.91, 95%CI 2.03–4.17, p < 0.0001), severe AKI (KDIGO stage 3: HR 4.22, 95%CI 3.55–5.00, p < 0.0001), and ischemic heart disease (HR 1.26, 95%CI 1.14–1.39, p < 0.0001) were associated with worse mortality outcomes. AKI severity (KDIGO stage 3: HR 0.41, 95%CI 0.37–0.46, p < 0.0001) was associated with worse kidney function recovery, whereas remdesivir use (HR 1.34, 95%CI 1.17–1.54, p < 0.0001) was associated with better kidney function recovery. In a subset of patients without chronic kidney disease, advanced age (HR 1.38, 95%CI 1.20–1.58, p < 0.0001), male sex (HR 1.67, 95%CI 1.45–1.93, p < 0.0001), severe AKI (KDIGO stage 3: HR 11.68, 95%CI 9.80–13.91, p < 0.0001), and hypertension (HR 1.22, 95%CI 1.10–1.36, p = 0.0002) were associated with post-AKI kidney function impairment. Furthermore, patients with COVID-19-associated AKI had significant and persistent elevations of baseline serum creatinine 125% or more at 180 days (RR 1.49, 95%CI 1.32–1.67) and 365 days (RR 1.54, 95%CI 1.21–1.96) compared to COVID-19 patients with no AKI.
+
+## Interpretation
+COVID-19-associated AKI was associated with higher mortality, and severe COVID-19-associated AKI was associated with worse long-term post-AKI kidney function recovery.
