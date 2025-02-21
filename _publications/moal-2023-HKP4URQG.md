@@ -33,4 +33,4 @@ A retrospective cohort study was conducted between January 1st, 2020 and Februar
 Among the 75,377 hospitalized patients with positive SARS-CoV-2 PCR, 1001 young adults presented with ARDS (7.8% of young hospitalized adults). Their mortality rate at 90 days was 16.2% and they presented with a similar complication rate for infection than older adults with ARDS. Peptic ulcer disease, paralysis, obesity, congestive heart failure, valvular disease, diabetes, chronic pulmonary disease and liver disease were associated with a higher risk of ARDS. We described a high prevalence of obesity (53%), hypertension (38%- although not significantly associated with ARDS), and diabetes (32%).
             
 ### Conclusion
-Trough an innovative method, a large international cohort study of young adults developing ARDS after SARS-CoV-2 infection has been gather. It demonstrated the poor outcomes of this population and associated risk factor.
+Through an innovative method, a large international cohort study of young adults developing ARDS after SARS-CoV-2 infection has been gather. It demonstrated the poor outcomes of this population and associated risk factor.
