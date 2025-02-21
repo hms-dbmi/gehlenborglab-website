@@ -7,8 +7,8 @@ members:
   - stefan-luger
 year: 2014
 type: article
-publisher: <TODO>
-doi: <TODO>
+# publisher: <TODO>
+# doi: <TODO>
 cite:
   authors: 'H Stitz, S Gratzl, S Luger, N Gehlenborg, M Streit'
   published: '*Poster Compendium of the IEEE VIS Conference. IEEE*'
