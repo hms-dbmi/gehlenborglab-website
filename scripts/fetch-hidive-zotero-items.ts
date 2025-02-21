@@ -25,6 +25,7 @@ import { z } from "npm:zod@3.23.8";
 let HIDIVE_GROUP_ID = "5145258" as const;
 let HIDIVE_PUBLICATIONS_COLLECTION_ID = "YGTEVG73" as const;
 let HIDIVE_PREPRINTS_COLLECTION_ID = "AJKTPNSI" as const;
+let HIDIVE_WEBSITE_IGNORE_TAG = "hidivelab-website-ignore" as const;
 let PUBLICATIONS_DIR = new URL("../_publications/", import.meta.url);
 
 export interface LabPaperData {
@@ -115,6 +116,9 @@ let zoteroItemSchema = z.object({
     ISSN: maybeStringSchema,
     shortTitle: maybeStringSchema,
     url: maybeStringSchema,
+    tags: z.array(z.object({ tag: z.string() })).transform((tags) =>
+      tags.map((tag) => tag.tag)
+    ),
   }),
   csljson: z.object({
     issued: z.object({
@@ -397,8 +401,8 @@ function createTodoGitHubIssueContents(missingPapers: Array<ZoteroItem>) {
     let zoteroLink =
       `https://www.zotero.org/groups/${HIDIVE_GROUP_ID}/hidive/collections/${cid}/items/${p.key}/collection`;
     let defaultIssueTitle = encodeURIComponent(`Add paper ${p.key}`);
-    let openIssueLink = 
-      `https://github.com/hms-dbmi/gehlenborglab-website/issues/new?assignees=&labels=paper-bot&projects=&template=paper.yml&zotero_id=${p.key}&title=${defaultIssueTitle}&members=nils-gehlenborg`
+    let openIssueLink =
+      `https://github.com/hms-dbmi/gehlenborglab-website/issues/new?assignees=&labels=paper-bot&projects=&template=paper.yml&zotero_id=${p.key}&title=${defaultIssueTitle}&members=nils-gehlenborg`;
     return `- [${p.key}](${zoteroLink}) - [Open issue](${openIssueLink}) - ${p.title}`;
   }
 
@@ -527,7 +531,9 @@ async function main() {
     spinner.stop(
       `Found ${colors.yellow(missingPapers.length.toString())} missing papers`,
     );
-    let body = createTodoGitHubIssueContents(missingPapers);
+    let body = createTodoGitHubIssueContents(missingPapers.filter(
+      (paper) => !paper.tags.includes(HIDIVE_WEBSITE_IGNORE_TAG),
+    ));
     if (!args["issue-file"]) {
       p.log.info(body);
     } else {
