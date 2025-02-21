@@ -44,8 +44,8 @@ let LabMemberSchema = z.object({
 	// alt: z.string().nullish(),
 	job_title: z.string(),
 	role: z.string(),
-	start: MonthDateSchema,
 	end: MonthDateSchema.nullish().transform((value) => value ?? null),
+	start: MonthDateSchema,
 }).transform(({ title, job_title, ...rest }) => ({
 	name: title,
 	title: job_title,
