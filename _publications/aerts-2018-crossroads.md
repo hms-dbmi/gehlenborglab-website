@@ -7,7 +7,7 @@ members:
 year: 2018
 type: other
 publisher: 'https://drops.dagstuhl.de/entities/document/10.4230/DagRep.8.4.32'
-doi: <TODO>
+# doi: <TODO>
 cite:
   authors: 'J Aerts, N Gehlenborg, GE Marai, KK Nieselt'
   published: '*Schloss Dagstuhl – Leibniz-Zentrum für Informatik* 32-71'
