@@ -46,6 +46,8 @@ let LabMemberSchema = z.object({
 	role: z.string(),
 	end: MonthDateSchema.nullish().transform((value) => value ?? null),
 	start: MonthDateSchema,
+	// NB: Ordering is important here. Last field cannot be nullable to encode CSV correctly
+	// https://github.com/denoland/std/issues/6439
 }).transform(({ title, job_title, ...rest }) => ({
 	name: title,
 	title: job_title,
