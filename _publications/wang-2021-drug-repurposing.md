@@ -1,6 +1,6 @@
 ---
 title: Interactive Visual Explanations for Deep Drug Repurposing
-image: wang-2021-2021-wang-drug-repurposing.png
+image: wang-2021-drug-repurposing.png
 image-alt: 'Application with multiple windows, showing a scatter plot and diagrams with diseases, drugs, proteins, and more.'
 members:
   - qianwen-wang
