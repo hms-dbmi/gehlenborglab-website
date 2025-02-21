@@ -6,8 +6,8 @@ members:
   - nils-gehlenborg
 year: 2019
 type: article
-publisher: https://pmc.ncbi.nlm.nih.gov/articles/PMC4720993/
-doi: 10.1109/TVCG.2014.2346248
+# publisher:
+# doi:
 cite:
   authors: 'K Gadhave, H Strobelt, N Gehlenborg, A Lex'
   published: '*Proceedings of the IEEE Information Visualization Conference–Posters (InfoVis’ 19)*'
