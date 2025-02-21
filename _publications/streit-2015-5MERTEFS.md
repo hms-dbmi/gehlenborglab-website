@@ -17,3 +17,8 @@ other-resources: []
 awards: []
 ---
 
+Use inherent properties of time to create effective visualizations.
+
+Time plays a central role in most studies of living things. When presenting and exploring temporal data, scientists can employ the unique properties of time to design compelling visualizations. Time is unidirectional, provides a natural order for events and has an inherent semantic structure. Temporal data are often cyclic and exhibit repeating patterns. The visualization challenge is that time, unlike spatial dimensions, cannot be directly perceived by humans.
+
+In general, there are three common approaches for visualizing temporal data: time is encoded using position, brightness or saturation, and/or animation. 
