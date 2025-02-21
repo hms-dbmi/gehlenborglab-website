@@ -3,7 +3,7 @@ title: >-
   How surgeons use risk calculators and non-clinical factors for informed consent and shared decision making: A
   qualitative study
 image: panton-2023-3LM2GF9G.png
-image-alt: Image
+image-alt: In addition to clinical factors, dictors must take into account non-clinical factors such as patient literacy in communicating risk.
 members:
   - nils-gehlenborg
 year: 2023
