@@ -115,6 +115,7 @@ let zoteroItemSchema = z.object({
     ISSN: maybeStringSchema,
     shortTitle: maybeStringSchema,
     url: maybeStringSchema,
+    tags: z.array(z.string()),
   }),
   csljson: z.object({
     issued: z.object({
@@ -527,7 +528,9 @@ async function main() {
     spinner.stop(
       `Found ${colors.yellow(missingPapers.length.toString())} missing papers`,
     );
-    let body = createTodoGitHubIssueContents(missingPapers);
+    let body = createTodoGitHubIssueContents(missingPapers.filter(
+      paper => paper.tags.includes("hidivelab-website-ignore")
+    ));
     if (!args["issue-file"]) {
       p.log.info(body);
     } else {
