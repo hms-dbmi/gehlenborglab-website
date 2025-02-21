@@ -88,5 +88,6 @@ zotero-key: FNMDGYQD
 videos: []
 other-resources: []
 awards: []
+website: authors
 ---
 Although the MYC oncogene has been implicated in cancer, a systematic assessment of alterations of MYC, related transcription factors, and co-regulatory proteins, forming the proximal MYC network (PMN), across human cancers is lacking. Using computational approaches, we define genomic and proteomic features associated with MYC and the PMN across the 33 cancers of The Cancer Genome Atlas. Pan-cancer, 28% of all samples had at least one of the MYC paralogs amplified. In contrast, the MYC antagonists MGA and MNT were the most frequently mutated or deleted members, proposing a role as tumor suppressors. MYC alterations were mutually exclusive with PIK3CA, PTEN, APC, or BRAF alterations, suggesting that MYC is a distinct oncogenic driver. Expression analysis revealed MYC-associated pathways in tumor subtypes, such as immune response and growth factor signaling; chromatin, translation, and DNA replication/repair were conserved pan-cancer. This analysis reveals insights into MYC biology and is a reference for biomarkers and therapeutics for cancers with alterations of MYC or the PMN.
