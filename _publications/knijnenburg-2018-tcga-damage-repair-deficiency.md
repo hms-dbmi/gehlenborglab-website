@@ -2,8 +2,8 @@
 title: Genomic and Molecular Landscape of DNA Damage Repair Deficiency across The Cancer Genome Atlas
 image: knijnenburg-2018-tcga-damage-repair-deficiency.png
 image-alt: >-
-  Graphical abstract. Machine learning predicts Ras activation across 33 cancer types using genomic data, identifying
-  phenocopying variants and MEK inhibition sensitivity.
+  Graphical abstract. PanCancer analysis of DNA damage repair alterations across 33 cancer types, linking mutations to
+  functional consequences, genomic instability, and clinical outcomes.
 members:
   - nils-gehlenborg
 year: 2018

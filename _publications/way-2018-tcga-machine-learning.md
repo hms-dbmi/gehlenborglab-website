@@ -2,8 +2,8 @@
 title: Machine Learning Detects Pan-cancer Ras Pathway Activation in The Cancer Genome Atlas
 image: way-2018-tcga-machine-learning.png
 image-alt: >-
-  Graphical abstract. PanCancer analysis of DNA damage repair alterations across 33 cancer types, linking mutations to
-  functional consequences, genomic instability, and clinical outcomes.
+  Graphical abstract. Machine learning predicts Ras activation across 33 cancer types using genomic data, identifying
+  phenocopying variants and MEK inhibition sensitivity.
 members:
   - nils-gehlenborg
 year: 2018
