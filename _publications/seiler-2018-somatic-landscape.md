@@ -17,4 +17,18 @@ videos: []
 other-resources: []
 awards: []
 ---
-
+DNA damage repair (DDR) pathways modulate cancer risk, progression, and
+therapeutic response. We systematically analyzed somatic alterations to provide
+a comprehensive view of DDR deficiency across 33 cancer types. Mutations with
+accompanying loss of heterozygosity were observed in over 1/3 of DDR genes,
+including TP53 and BRCA1/2. Other prevalent alterations included epigenetic
+silencing of the direct repair genes EXO5, MGMT, and ALKBH3 in ∼20% of samples.
+Homologous recombination deficiency (HRD) was present at varying frequency in
+many cancer types, most notably ovarian cancer. However, in contrast to ovarian
+cancer, HRD was associated with worse outcomes in several other cancers.
+Protein structure-based analyses allowed us to predict functional consequences
+of rare, recurrent DDR mutations. A new machine-learning-based classifier
+developed from gene expression data allowed us to identify alterations that
+phenocopy deleterious TP53 mutations. These frequent DDR gene alterations in
+many human cancers have functional consequences that may determine cancer
+progression and guide therapy.
