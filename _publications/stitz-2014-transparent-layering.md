@@ -1,7 +1,7 @@
 ---
 title: Transparent layering for visualizing dynamic graphs using the flip book metaphor
 image: stitz-2014-transparent-layering.png
-image-alt: Image
+# image-alt: <TODO>
 members:
   - nils-gehlenborg
   - stefan-luger
