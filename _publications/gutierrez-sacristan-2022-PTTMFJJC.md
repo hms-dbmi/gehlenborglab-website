@@ -2,7 +2,7 @@
 title: >-
   Hospitalizations Associated With Mental Health Conditions Among Adolescents in the US and France During the COVID-19
   Pandemic
-image: gutiérrez-sacristán-2022-PTTMFJJC.png
+image: gutierrez-sacristan-2022-PTTMFJJC.png
 image-alt: A series of graphs displaying an increase in mental health diagnoses among adolescent patients in multiple hospitals.
 members:
   - nils-gehlenborg
@@ -46,28 +46,55 @@ awards: []
 
 ## Importance
 
-The COVID-19 pandemic has been associated with an increase in mental health diagnoses among adolescents, though the extent of the increase, particularly for severe cases requiring hospitalization, has not been well characterized. Large-scale federated informatics approaches provide the ability to efficiently and securely query health care data sets to assess and monitor hospitalization patterns for mental health conditions among adolescents.
-            
-            
+The COVID-19 pandemic has been associated with an increase in mental health
+diagnoses among adolescents, though the extent of the increase, particularly
+for severe cases requiring hospitalization, has not been well characterized.
+Large-scale federated informatics approaches provide the ability to efficiently
+and securely query health care data sets to assess and monitor hospitalization
+patterns for mental health conditions among adolescents.
+
 ## Objective
 
-To estimate changes in the proportion of hospitalizations associated with mental health conditions among adolescents following onset of the COVID-19 pandemic.
+To estimate changes in the proportion of hospitalizations associated with
+mental health conditions among adolescents following onset of the COVID-19
+pandemic.
 
 
 ## Design, Setting, and Participants
 
-This retrospective, multisite cohort study of adolescents 11 to 17 years of age who were hospitalized with at least 1 mental health condition diagnosis between February 1, 2019, and April 30, 2021, used patient-level data from electronic health records of 8 children’s hospitals in the US and France.
+This retrospective, multisite cohort study of adolescents 11 to 17 years of age
+who were hospitalized with at least 1 mental health condition diagnosis between
+February 1, 2019, and April 30, 2021, used patient-level data from electronic
+health records of 8 children’s hospitals in the US and France.
 
 
 ## Main Outcomes and Measures
 
-Change in the monthly proportion of mental health condition–associated hospitalizations between the prepandemic (February 1, 2019, to March 31, 2020) and pandemic (April 1, 2020, to April 30, 2021) periods using interrupted time series analysis.
+Change in the monthly proportion of mental health condition–associated
+hospitalizations between the prepandemic (February 1, 2019, to March 31, 2020)
+and pandemic (April 1, 2020, to April 30, 2021) periods using interrupted time
+series analysis.
 
 
 ## Results
 
-There were 9696 adolescents hospitalized with a mental health condition during the prepandemic period (5966 [61.5%] female) and 11 101 during the pandemic period (7603 [68.5%] female). The mean (SD) age in the prepandemic cohort was 14.6 (1.9) years and in the pandemic cohort, 14.7 (1.8) years. The most prevalent diagnoses during the pandemic were anxiety (6066 [57.4%]), depression (5065 [48.0%]), and suicidality or self-injury (4673 [44.2%]). There was an increase in the proportions of monthly hospitalizations during the pandemic for anxiety (0.55%; 95% CI, 0.26%-0.84%), depression (0.50%; 95% CI, 0.19%-0.79%), and suicidality or self-injury (0.38%; 95% CI, 0.08%-0.68%). There was an estimated 0.60% increase (95% CI, 0.31%-0.89%) overall in the monthly proportion of mental health–associated hospitalizations following onset of the pandemic compared with the prepandemic period.
+There were 9696 adolescents hospitalized with a mental health condition during
+the prepandemic period (5966 [61.5%] female) and 11 101 during the pandemic
+period (7603 [68.5%] female). The mean (SD) age in the prepandemic cohort was
+14.6 (1.9) years and in the pandemic cohort, 14.7 (1.8) years. The most
+prevalent diagnoses during the pandemic were anxiety (6066 [57.4%]), depression
+(5065 [48.0%]), and suicidality or self-injury (4673 [44.2%]). There was an
+increase in the proportions of monthly hospitalizations during the pandemic for
+anxiety (0.55%; 95% CI, 0.26%-0.84%), depression (0.50%; 95% CI, 0.19%-0.79%),
+and suicidality or self-injury (0.38%; 95% CI, 0.08%-0.68%). There was an
+estimated 0.60% increase (95% CI, 0.31%-0.89%) overall in the monthly
+proportion of mental health–associated hospitalizations following onset of the
+pandemic compared with the prepandemic period.
 
 
-  Conclusions and Relevance
-  In this cohort study, onset of the COVID-19 pandemic was associated with increased hospitalizations with mental health diagnoses among adolescents. These findings support the need for greater resources within children’s hospitals to care for adolescents with mental health conditions during the pandemic and beyond.
+## Conclusions and Relevance
+In this cohort study, onset of the COVID-19 pandemic was associated with
+increased hospitalizations with mental health diagnoses among adolescents.
+These findings support the need for greater resources within children’s
+hospitals to care for adolescents with mental health conditions during the
+pandemic and beyond.
