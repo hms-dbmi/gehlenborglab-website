@@ -60,7 +60,7 @@ body:
     attributes:
       label: Image
       description: "Add an image related to the publication"
-      placeholder: "Drage and drop or paste an image... (ensure it uploads)"
+      placeholder: "Drag and drop or paste an image... (ensure it uploads)"
 
   - type: input
     id: website
