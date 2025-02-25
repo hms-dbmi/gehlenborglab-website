@@ -21,4 +21,4 @@ videos: []
 other-resources: []
 awards: []
 ---
-
+We conducted the largest investigation of predisposition variants in cancer to date, discovering 853 pathogenic or likely pathogenic variants in 8% of 10,389 cases from 33 cancer types. Twenty-one genes showed single or cross-cancer associations, including novel associations of SDHA in melanoma and PALB2 in stomach adenocarcinoma. The 659 predisposition variants and 18 additional large deletions in tumor suppressors, including ATM, BRCA1, and NF1, showed low gene expression and frequent (43%) loss of heterozygosity or biallelic two-hit events. We also discovered 33 such variants in oncogenes, including missenses in MET, RET, and PTPN11 associated with high gene expression. We nominated 47 additional predisposition variants from prioritized VUSs supported by multiple evidences involving case-control frequency, loss of heterozygosity, expression effect, and co-localization with mutations and modified residues. Our integrative approach links rare predisposition variants to functional consequences, informing future guidelines of variant classification and germline genetic testing in cancer.

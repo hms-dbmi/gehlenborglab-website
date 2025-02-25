@@ -21,4 +21,4 @@ videos: []
 other-resources: []
 awards: []
 ---
-
+We studied 137 primary testicular germ cell tumors (TGCTs) using high-dimensional assays of genomic, epigenomic, transcriptomic, and proteomic features. These tumors exhibited high aneuploidy and a paucity of somatic mutations. Somatic mutation of only three genes achieved significance—KIT, KRAS, and NRAS—exclusively in samples with seminoma components. Integrated analyses identified distinct molecular patterns that characterized the major recognized histologic subtypes of TGCT: seminoma, embryonal carcinoma, yolk sac tumor, and teratoma. Striking differences in global DNA methylation and microRNA expression between histology subtypes highlight a likely role of epigenomic processes in determining histologic fates in TGCTs. We also identified a subset of pure seminomas defined by KIT mutations, increased immune infiltration, globally demethylated DNA, and decreased KRAS copy number. We report potential biomarkers for risk stratification, such as miRNA specifically expressed in teratoma, and others with molecular diagnostic potential, such as CpH (CpA/CpC/CpT) methylation identifying embryonal carcinomas.

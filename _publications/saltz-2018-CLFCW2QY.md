@@ -19,4 +19,4 @@ videos: []
 other-resources: []
 awards: []
 ---
-
+Beyond sample curation and basic pathologic characterization, the digitized H&E-stained images of TCGA samples remain underutilized. To highlight this resource, we present mappings of tumor-infiltrating lymphocytes (TILs) based on H&E images from 13 TCGA tumor types. These TIL maps are derived through computational staining using a convolutional neural network trained to classify patches of images. Affinity propagation revealed local spatial structure in TIL patterns and correlation with overall survival. TIL map structural patterns were grouped using standard histopathological parameters. These patterns are enriched in particular T cell subpopulations derived from molecular measures. TIL densities and spatial structure were differentially enriched among tumor types, immune subtypes, and tumor molecular subtypes, implying that spatial infiltrate state could reflect particular tumor cell aberration states. Obtaining spatial lymphocytic patterns linked to the rich genomic characterization of TCGA samples demonstrates one use for the TCGA image archives with insights into the tumor-immune microenvironment.
