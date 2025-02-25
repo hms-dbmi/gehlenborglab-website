@@ -21,4 +21,5 @@ videos: []
 other-resources: []
 awards: []
 ---
+Genetic alterations in signaling pathways that control cell-cycle progression, apoptosis, and cell growth are common hallmarks of cancer, but the extent, mechanisms, and co-occurrence of alterations in these pathways differ between individual tumors and tumor types. Using mutations, copy-number changes, mRNA expression, gene fusions and DNA methylation in 9,125 tumors profiled by The Cancer Genome Atlas (TCGA), we analyzed the mechanisms and patterns of somatic alterations in ten canonical pathways: cell cycle, Hippo, Myc, Notch, Nrf2, PI-3-Kinase/Akt, RTK-RAS, TGFβ signaling, p53 and β-catenin/Wnt. We charted the detailed landscape of pathway alterations in 33 cancer types, stratified into 64 subtypes, and identified patterns of co-occurrence and mutual exclusivity. Eighty-nine percent of tumors had at least one driver alteration in these pathways, and 57% percent of tumors had at least one alteration potentially targetable by currently available drugs. Thirty percent of tumors had multiple targetable alterations, indicating opportunities for combination therapy.
 
