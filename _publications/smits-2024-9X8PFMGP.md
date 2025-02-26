@@ -1,6 +1,7 @@
 ---
 title: 'AltGosling: Automatic Generation of Text Descriptions for Accessible Genomics Data Visualization'
 image: altgosling-structure.png
+image-alt: "Schematic with two sections. On the top left is a file icon with ‘Gosling Spec’. This points to the right section, labeled ‘Gosling.js’ with a matrix visualization, and the bottom section, labeled ‘AltGosling’ with three text schematics."
 members:
   - thomas-smits
   - sehi-lyi
