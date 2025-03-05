@@ -47,7 +47,9 @@ let issueTemplateSchema = z.object({
     .nullable()
     .optional()
     .transform((x) => x?.trim())
-    .transform((x) => x === "" ? new Date().toISOString().split("T")[0] : x),
+    .transform((x) =>
+      (x === undefined || x === "") ? new Date().toISOString().split("T")[0] : x
+    ),
   lab_members: z.string()
     .nullable()
     .optional()
