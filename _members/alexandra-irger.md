@@ -15,7 +15,7 @@ services:
   linked-in: www.linkedin.com/in/alexandra-irger-3899871b8
 
 start: February 2025
-end:
+#end:
 ---
 Alexandra Irger, MSc, is a Visiting Graduate Student in the HIDIVE Lab, led by Nils Gehlenborg, at Harvard Medical School.
 She received her BSc in Media Informatics and Visual Computing at TU Vienna, Austria, and her MSc in Computer Science at KAUST, Saudi Arabia.
