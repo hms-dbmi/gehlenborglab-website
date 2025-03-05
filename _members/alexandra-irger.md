@@ -12,7 +12,7 @@ services:
   #home: https://member-website.com
   #github: https://github.com/
   #twitter: https://twitter.com/
-  linked-in: www.linkedin.com/in/alexandra-irger-3899871b8
+  linked-in: https://www.linkedin.com/in/alexandra-irger-3899871b8
 
 start: February 2025
 #end:
