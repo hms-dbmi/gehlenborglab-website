@@ -43,6 +43,13 @@ let issueTemplateSchema = z.object({
     .optional()
     .transform((x) => x?.trim())
     .transform((x) => x === "" ? undefined : x),
+  date: z.string()
+    .nullable()
+    .optional()
+    .transform((x) => x?.trim())
+    .transform((x) =>
+      (x === undefined || x === "") ? new Date().toISOString().split("T")[0] : x
+    ),
   lab_members: z.string()
     .nullable()
     .optional()
@@ -72,8 +79,7 @@ function toMarkdown({ announcement, ...frontmatter }: News): string {
   return `---\n${fm}---\n${body}${body.endsWith("\n") ? "" : "\n"}`;
 }
 
-function getFilename({ title, slug }: News): string {
-  let date = new Date().toISOString().split("T")[0];
+function getFilename({ title, slug, date }: News): string {
   let base = slug ?? title.toLowerCase().replace(/[^\w]+/g, "-");
   // ensure ends with .md
   if (!base.endsWith(".md")) {
