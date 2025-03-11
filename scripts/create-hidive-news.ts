@@ -10,7 +10,7 @@
  * {
  *   "title": "Announcement Title",
  *   "slug": "announcement-slug",
- *   "lab_members": "MEMBER1\nMEMBER2\n...",
+ *   "members": "MEMBER1\nMEMBER2\n...",
  *   "publications": "PUBLICATION1\nPUBLICATION2\n...",
  *   "projects": "PROJECT1\nPROJECT2\n...",
  *   "blurb": "Announcement blurb",
@@ -50,7 +50,7 @@ let issueTemplateSchema = z.object({
     .transform((x) =>
       (x === undefined || x === "") ? new Date().toISOString().split("T")[0] : x
     ),
-  lab_members: z.string()
+  members: z.string()
     .nullable()
     .optional()
     .transform(splitLines),
