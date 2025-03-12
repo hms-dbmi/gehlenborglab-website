@@ -182,7 +182,7 @@ async function processGitHubIssue(
         title: title,
         ...(image
           ? {
-            image: image,
+            image,
             "image-alt": issue.image_alt ?? todoValue,
           }
           : {}),
