@@ -10,7 +10,8 @@
  *   "slug": "jane-doe",
  *   "name": "Jane Doe",
  *   "degree": "PhD",
- *   "image": "<img alt=\"image\" src=\"https://github.com/user-attachments/assets/32f4b95c-7d2f-452e-85f5-c0351328023d\">",
+ *   "image": "<img src=\"https://github.com/user-attachments/assets/32f4b95c-7d2f-452e-85f5-c0351328023d\">",
+ *   "image_alt": "alt text for the image..",
  *   "job_title": "Postdoctoral Researcher",
  *   "role": "postdoc",
  *   "social_media": "linked-in | https://www.linkedin.com/in/jane-doe\ngithub | https://github.com/foo",
@@ -39,6 +40,10 @@ let issueTemplateSchema = z.object({
   image: z.string()
     .nullable()
     .transform(util.parseImageMarkdown),
+  image_alt: z.string()
+      .nullable()
+      .transform((x) => x?.trim())
+      .transform((x) => x === "" ? undefined : x),
   job_title: z.string().transform((x) => x.trim()),
   role: z.string().transform((x) => x.trim()),
   social_media: z
@@ -82,7 +87,7 @@ function toMarkdown({ biography, ...m }: Member): string {
     title: m.name,
     name_degree: m.degree ? `${m.name}, ${m.degree}` : m.name,
     photo: m.image.src ?? "<TODO>",
-    alt: m.image.alt ?? m.name,
+    alt: m.image_alt ?? m.name,
     job_title: m.job_title,
     role: m.role,
     services: m.social_media?.map((x) => `${x.title}: ${x.url}`) ?? [],
