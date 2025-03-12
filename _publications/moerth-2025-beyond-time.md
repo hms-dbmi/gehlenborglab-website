@@ -1,7 +1,7 @@
 ---
 title: 'Beyond Time and Accuracy: Strategies in Visual Problem-Solving'
 image: moerth-2025-beyond-time.png
-image-alt: Image
+image-alt: 'Graphical abstract showing eye-tracking methods (fixations, heatmaps, scarf plots) used to identify visual problem-solving strategies such as self-correction and cognitive slips'
 members:
   - eric-moerth
   - nils-gehlenborg
