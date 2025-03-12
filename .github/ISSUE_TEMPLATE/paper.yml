@@ -66,7 +66,7 @@ body:
     id: image_alt
     attributes:
       label: Image Alt Text
-      description: "Provide alternative text summarizing high-level concepts from the image for accessibility. See [other publications https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_publications) for examples."
+      description: "Provide alternative text summarizing image for accessibility. See [other publications](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_publications) for examples. If you have uploaded an image above, **alt text is required.**"
       placeholder: "E.g., Overview of eye-tracking methods and visual problem-solving strategies (self-correction, cognitive slips, uncertain reasoning)."
 
   - type: input
