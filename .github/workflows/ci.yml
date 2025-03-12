@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: main
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: test-${{ github.head_ref }}
+  cancel-in-progress: true
+
+jobs:
+
+  Test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Linting (scripts)
+        run: deno lint
+        working-directory: scripts
+
+      - name: Formatting (scripts)
+        run: deno fmt --check
+        working-directory: scripts
+
+      - name: Typecheck (scripts)
+        run: deno check *.ts
+        working-directory: scripts
+
