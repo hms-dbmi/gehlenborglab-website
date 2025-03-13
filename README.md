@@ -41,3 +41,30 @@ This workaround should do the trick:
 ```
 sudo gem install nokogiri -v '1.6.8.1' -- --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libxml2 --use-system-libraries
 ```
+
+## Automations
+
+The `scripts/` folder contains TypeScript automations for managing website
+content (e.g., creating or updating a publication). These scripts run via
+GitHub Actions in response to events like issue submissions.
+
+For example, submitting
+[./.github/ISSUE_TEMPLATE/new-member.yml](./.github/ISSUE_TEMPLATE/new-member.yml):
+
+- Triggers [`./.github/workflows/add-lab-member.yml`](./.github/workflows/add-lab-member.yml)
+- Calls [./scripts/create-hidive-member.ts](./scripts/create-hidive-member.ts)
+
+These scripts require [Deno](https://deno.land) but rarely need editing. Our CI
+enforces type checking, formatting, and linting.
+
+```sh
+cd scripts
+deno fmt
+deno lint
+deno check .
+```
+
+Verify any changes to these scripts pass these checks.
+
+For more information about these automations, please see the [guide](https://hms-dbmi.atlassian.net/wiki/spaces/GL/pages/3648880650/Maintaining+the+Lab+Preprint+and+Publication+Database)
+on Confluence.
