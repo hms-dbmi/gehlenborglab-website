@@ -1,0 +1,8 @@
+{
+  "lock": false,
+  "lint": {
+    "rules": {
+      "exclude": ["prefer-const"]
+    }
+  }
+}
