@@ -11,7 +11,8 @@
  *  "zotero_id": "ZOTERO_ITEM_ID" | ,
  *  "slug": "some-identifier",
  *  "preprint": "ZOTERO_ITEM_ID or URL",
- *  "image": "<img src='URL' alt='ALT'>",
+ *  "image": "<img src='URL'>",
+ *  "image_alt": "alt text for the image..",
  *  "lab_members": "MEMBER1\nMEMBER2\n...",
  *  "website": "URL",
  *  "code_repository": "URL",
@@ -56,19 +57,11 @@ let issueTemplateSchema = z.object({
     .transform((x) => x === "" ? undefined : x),
   image: z.string()
     .nullable()
-    .transform((imgTag) => {
-      imgTag = imgTag?.trim() ?? "";
-      let alt = null;
-      let src = null;
-      if (imgTag.match(/<img[^>]*>/)) {
-        alt = imgTag.match(/alt="([^"]*)"/)?.[1] ?? null;
-        src = imgTag.match(/src="([^"]*)"/)?.[1] ?? null;
-      } else if (imgTag.match(/!\[[^\]]*\]\([^\)]*\)/)) {
-        alt = imgTag.match(/!\[([^\]]*)\]/)?.[1] ?? null;
-        src = imgTag.match(/\(([^\)]*)\)/)?.[1] ?? null;
-      }
-      return { alt, src };
-    }),
+    .transform((txt) => util.parseImageMarkdown(txt).src),
+  image_alt: z.string()
+    .nullable()
+    .transform((x) => x?.trim())
+    .transform((x) => x === "" ? undefined : x),
   lab_members: z.string()
     .nullable()
     .transform((x) => x?.split("\n").map((y) => y.trim()).filter((y) => y)),
@@ -158,11 +151,11 @@ async function processGitHubIssue(
   });
 
   let image: string | undefined = undefined;
-  if (issue.image?.src) {
-    let response = await fetch(issue.image.src);
+  if (issue.image) {
+    let response = await fetch(issue.image);
     let type = response.headers.get("content-type");
     if (!response.ok || !type) {
-      console.error(`Failed to fetch image: ${issue.image.src}`);
+      console.error(`Failed to fetch image: ${issue.image}`);
     } else {
       // download the image
       let fname = `${stem}.${type.split("/")[1]}`;
@@ -178,8 +171,12 @@ async function processGitHubIssue(
     contents: {
       frontmatter: {
         title: title,
-        ...(issue.image?.src ? { image: image } : {}),
-        ...(issue.image?.alt ? { "image-alt": issue.image.alt } : {}),
+        ...(image
+          ? {
+            image,
+            "image-alt": issue.image_alt ?? todoValue,
+          }
+          : {}),
         members: issue.lab_members ?? [],
         year: year,
         type: ({

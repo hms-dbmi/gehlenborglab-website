@@ -30,6 +30,6 @@ jobs:
         working-directory: scripts
 
       - name: Typecheck (scripts)
-        run: deno check *.ts
+        run: deno check .
         working-directory: scripts
 
