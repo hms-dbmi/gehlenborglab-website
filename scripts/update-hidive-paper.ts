@@ -57,16 +57,7 @@ let issueTemplateSchema = z.object({
     .transform((x) => x === "" ? undefined : x),
   image: z.string()
     .nullable()
-    .transform((imgTag) => {
-      imgTag = imgTag?.trim() ?? "";
-      let src = null;
-      if (imgTag.match(/<img[^>]*>/)) {
-        src = imgTag.match(/src="([^"]*)"/)?.[1] ?? null;
-      } else if (imgTag.match(/!\[[^\]]*\]\([^\)]*\)/)) {
-        src = imgTag.match(/\(([^\)]*)\)/)?.[1] ?? null;
-      }
-      return src;
-    }),
+    .transform((txt) => util.parseImageMarkdown(txt).src),
   image_alt: z.string()
     .nullable()
     .transform((x) => x?.trim())
