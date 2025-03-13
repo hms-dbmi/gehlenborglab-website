@@ -6,12 +6,6 @@ layout: home
 
 hero:
   image: /assets/img/site/hero-gordonhall.jpg
-  callout:
-    alt: "We are hiring!"
-    text: New postdoc opportunities in biomedical data visualization.
-  button:
-    href: /team/open-positions/
-    text: View position details
 
 title: HIDIVE Lab
 tagline: Data visualization to drive discovery.
