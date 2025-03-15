@@ -47,7 +47,7 @@ body:
     id: image_alt
     attributes:
       label: Image Alt
-      description: "Provide alternative text summarizing image for accessibility. See [other members](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_members) for examples."
+      description: "[Alternative (alt) text](https://accessibility.huit.harvard.edu/describe-content-images) summarizing your profile image for accessibility. See [other members](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_members) for examples."
       placeholder: "e.g., Headshot of a smiling middle-aged white man with a shaved head and round glasses with brown frames. He is wearing a black button down shirt in front of a solid light-colored background."
     validations:
       required: true
