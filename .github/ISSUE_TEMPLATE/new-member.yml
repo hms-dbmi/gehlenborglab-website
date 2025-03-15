@@ -38,7 +38,7 @@ body:
     id: image
     attributes:
       label: Image
-      description: "Profile image. After uploading, please edit the 'alt' text to describe the image. See [Harvard Alt Text Guide](https://accessibility.huit.harvard.edu/describe-content-images) and [other lab members](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_members)."
+      description: "Profile image"
       placeholder: "Drage and drop or paste an image... (ensure it uploads)"
     validations:
       required: true
@@ -46,9 +46,11 @@ body:
   - type: textarea
     id: image_alt
     attributes:
-      label: Image Alt Text
-      description: "Provide alternative text summarizing image for accessibility. See [other members](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_members) for examples. If you have uploaded an image above, **alt text is required.**"
-      placeholder: "E.g., Headshot of a smiling middle-aged white man with a shaved head and round glasses with brown frames. He is wearing a black button down shirt in front of a solid light-colored background."
+      label: Image Alt
+      description: "Provide alternative text summarizing image for accessibility. See [other members](https://github.com/hms-dbmi/gehlenborglab-website/tree/main/_members) for examples."
+      placeholder: "e.g., Headshot of a smiling middle-aged white man with a shaved head and round glasses with brown frames. He is wearing a black button down shirt in front of a solid light-colored background."
+    validations:
+      required: true
 
   - type: input
     id: job_title
