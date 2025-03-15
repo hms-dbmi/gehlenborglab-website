@@ -38,7 +38,7 @@ body:
     id: image
     attributes:
       label: Image
-      description: "Profile image"
+      description: "A profile image."
       placeholder: "Drage and drop or paste an image... (ensure it uploads)"
     validations:
       required: true
