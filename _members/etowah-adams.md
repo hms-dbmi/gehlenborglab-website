@@ -12,7 +12,7 @@ services:
   github: https://github.com/etowahadams
   
 start: March 2023
-end: June 2024
+end: July 2024
 ---
 Etowah Adams is a software developer in the Department of Biomedical Informatics at Harvard Medical School.
 
