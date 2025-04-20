@@ -18,14 +18,14 @@ jobs:
         contents: read
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
-    - name: Set up Node 12
-      uses: actions/setup-node@v2
+    - name: Set up Node
+      uses: actions/setup-node@v4
       with:
-        node-version: '12'
+        node-version: '22'
         cache: 'npm'
-   
+
     - name: Install node dependencies
       run: npm install
 
