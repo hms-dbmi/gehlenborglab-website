@@ -7,7 +7,7 @@ jobs:
     if: github.repository == 'hms-dbmi/gehlenborglab-website'
     # Available versions:
     # https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     env:
       #sassc 2.2.1 which is a dependency of uswds-jekyll has issues with Ubuntu.
       #see https://github.com/sass/sassc-ruby/issues/146#issuecomment-542288556.
@@ -18,14 +18,14 @@ jobs:
         contents: read
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
 
-    - name: Set up Node 12
-      uses: actions/setup-node@v2
+    - name: Set up Node
+      uses: actions/setup-node@v4
       with:
-        node-version: '12'
+        node-version: '22'
         cache: 'npm'
-   
+
     - name: Install node dependencies
       run: npm install
 
@@ -34,6 +34,7 @@ jobs:
       with:
         ruby-version: '2.7.3'
         bundler-cache: true
+        cache-version: 1
 
     - name: Build Jekyll
       run: |
