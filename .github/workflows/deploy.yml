@@ -7,7 +7,7 @@ jobs:
     if: github.repository == 'hms-dbmi/gehlenborglab-website'
     # Available versions:
     # https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     env:
       #sassc 2.2.1 which is a dependency of uswds-jekyll has issues with Ubuntu.
       #see https://github.com/sass/sassc-ruby/issues/146#issuecomment-542288556.
