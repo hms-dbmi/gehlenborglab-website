@@ -3,7 +3,7 @@ title: Sehi L'Yi
 name_degree: Sehi L'Yi, PhD
 
 photo: sehi-lyi.jpg
-alt: Photograph of a Asian man with short black hair and eyeglasses with a hint of a smile. He’s wearing a blue shirt in front of buildings and trees.
+alt: Photograph of an Asian man with short black hair and eyeglasses with a hint of a smile. He’s wearing a blue shirt in front of buildings and trees.
 
 job_title: Research Fellow in Biomedical Informatics
 role: postdoc
