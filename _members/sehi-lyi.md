@@ -2,14 +2,14 @@
 title: Sehi L'Yi
 name_degree: Sehi L'Yi, PhD
 
-photo: sehi-lyi.png
-alt: Photograph of a young Asian man with short brown hair and a hint of a smile. He’s wearing a blue sweater in front of a white wall.
+photo: sehi-lyi.jpg
+alt: Photograph of an Asian man with short black hair and eyeglasses with a hint of a smile. He’s wearing a blue shirt in front of buildings and trees.
 
 job_title: Research Fellow in Biomedical Informatics
 role: postdoc
 
 services:
-  home: http://sehilyi.com
+  home: https://sehilyi.com
   github: https://github.com/sehilyi
   twitter: https://twitter.com/sehi_lyi
   linked-in: https://www.linkedin.com/in/sehilyi/
@@ -17,4 +17,4 @@ services:
 start: February 2020
 end:
 ---
-Sehi L’Yi received his PhD in Computer Science and Engineering at Seoul National University, where he studied Information Visualization and Human-Computer Interaction under the supervision of Dr. Jinwook Seo. His doctoral research includes designing and implementing visual analytics tools for bioinformaticians and helping people to effectively compare information using visualization techniques. In the HIDIVE lab, he is working on HiGlass project, which is a web-based viewer for genome interaction maps.
+Sehi L’Yi is an interdisciplinary researcher focusing on human-centered biomedical data visualization. His postdoctoral research has focused on building visualization tools to help a broad range of people interact with complex and large-scale biomedical data, including genomics, epigenomics, and electric health records (EHR) data. He received several major academic awards, including NIH K99/R00 Pathway to Independence Award, Best Paper Honorable Mention (Top 5%) at IEEE VIS 2024, and Best Abstract Award (Top 1) at ISMB BioVis 2021. Before joining the HIDIVE Lab, he received a PhD in Computer Science and Engineering from Seoul National University with the supervision of Dr. Jinwook Seo at the Human—Computer Interaction Lab.
