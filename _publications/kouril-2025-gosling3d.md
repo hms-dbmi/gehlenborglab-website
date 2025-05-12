@@ -2,8 +2,8 @@
 title: Design Space and Declarative Grammar for 3D Genomic Data Visualization
 image: kouril-2025-gosling3d.png
 image-alt: >-
-  Teaser image for the publication: on the left side there are genomic visualizations using a linear and circular
-  layouts; the right side of the image depicts 5 examples of genomic visualization using three-dimensional (spatial)
+  Teaser image for the publication: on the left side, there are genomic visualizations using linear and circular
+  layouts; the right side of the image depicts 5 examples of genomic visualization using a three-dimensional (spatial)
   layout
 members:
   - david-kouril
