@@ -23,7 +23,6 @@ arpahbdf_1aysax00000x:
   start: August 2024
   end: August 2027
   role: Principal Investigator 
-  status: active
   start_year: 2024
   end_date: "202708"
 
@@ -112,7 +111,6 @@ nih_k99hg007583:
   start: January 2014
   end: August 2015
   role: Principal Investigator
-  status: inactive  
   start_year: 2014
   end_date: "201508"
 
@@ -125,7 +123,6 @@ hsci_csbi:
   start: August 2014
   end: August 2018
   role: Principal Investigator
-  status: inactive  
   start_year: 2014
   end_date: "201808"
 
@@ -150,7 +147,6 @@ nih_u54hg007963:
   start: 
   end:
   role: Co-Investigator
-  status: inactive
   start_year: 2014
   end_date: "201808"
 
@@ -201,7 +197,6 @@ nih_1r01eb025024:
   start: September 2017
   end: June 2020
   role: Co-Investigator
-  status: inactive  
   start_year: 2017
   end_date: "202006"
 
@@ -239,6 +234,5 @@ nih_r00hg007583:
   start: August 2015
   end: August 2018
   role: Principal Investigator
-  status: inactive
   start_year: 2015
   end_date: "201808"
