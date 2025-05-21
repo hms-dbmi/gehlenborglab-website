@@ -41,7 +41,7 @@ permalink: /research/funding/
 <p>{{grant.start}} - {{grant.end}}</p>
 {% endif %}
 {% if grant.role %}
-<i>Role: {{grant.role}}</i>
+<p><i>Role: {{grant.role}}</i></p>
 {% endif %}
 <p>{{grant.summary}}</p>
 {% endfor %}
@@ -61,7 +61,7 @@ permalink: /research/funding/
 <p>{{grant.start}} - {{grant.end}}</p>
 {% endif %}
 {% if grant.role %}
-<i>Role: {{grant.role}}</i>
+<p><i>Role: {{grant.role}}</i></p>
 {% endif %}
 <p>{{grant.summary}}</p>
 {% endfor %}

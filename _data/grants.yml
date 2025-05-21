@@ -10,6 +10,23 @@ nih_u01ca200059:
   start_year: 2020
   end_date: "202508"
 
+arpahbdf_1aysax00000x: 
+  funder: Advanced Research Projects Agency - Health
+  number: ARPA-H AYSAX00000X
+  name: Accelerating Discovery with AI and Grammar-based Visual Exploration Interfaces for Biomedical Data Repositories
+  url: https://arpa-h.gov/research-and-funding/programs/arpa-h-bdf-toolbox 
+  summary: To build tools that will enable data consumers from a wide range of user
+    audiences to describe their discovery needs using a wide range of input modalities,
+    including text and speech prompts, to query biomedical data resources using knowledge-driven
+    LLMs that construct discovery interfaces based on their needs, and to visualize
+    and integrate retrieved datasets as part of the discovery process.
+  start: August 2024
+  end: August 2027
+  role: Principal Investigator 
+  status: active
+  start_year: 2024
+  end_date: "202708"
+
 uma_um1hg011536:
   funder: National Institutes of Health - Common Fund
   number: UMass Chan Medical School (NIH) Federal UM1 HG011536
@@ -86,9 +103,36 @@ uni_u24ca268108:
   start_year: 2021
   end_date: "202608"
 
+nih_k99hg007583:
+  funder: National Institutes of Health - NHGRI
+  number: NIH K99HG007583
+  name: Visualization of (Epi)Genomic Data for Discovery of Disease-Associated Variants
+  url: https://projectreporter.nih.gov/project_info_details.cfm?aid=9128459&icde=33407223
+  summary: This proposal combines an extensive mentored training program for the PI with a research project that aims to develop novel approaches for visualization and exploration that will accelerate the identification and validation of disease-associated variants in large and complex genomics and epigenomics data sets. An increasing number of such variants are discovered in studies that generate and analyze a wide range of molecular data types for thousands of patients or samples. This progress is enabled by the availability of computational analysis pipelines that employ sophisticated statistical methods for next-generation sequencing (NGS) data. Interpretation of analysis results by biological and clinical domain experts, however, is emerging as a major bottle- neck due to the amount and complexity of the pipeline outputs. To address this, we propose to develop inter- active visualization methods and a web-based infrastructure that will enable domain experts to identify disease-associated variants in large (epi)genomic data sets through visual exploration of computational predictions and the underlying data. This will have a significant impact on the rate at which predictions can be verified, interpreted and translated into clinically actionable finding. Our first priority is the design of methods and tools to visualize (epi) genomic data in a range of different contexts, for instance by grouping and representing features based on their function, chromatin state, transcriptional activity or genomic coordinates. We will also develop new non-linear genome representations to compare structural variants across genomes, complementing the functionality of the highly successful genome browsers. We then investigate how information external to the primary data - for instance from other studies, drug target or biomarker databases - can be applied to guide investigators through the data set. Finally, we implement a web-based exploration system for biological and clinical domain an expert that combines our interactive visualizations with large-scale public (epi) genomic data sets. The methods and tools developed under this proposal will be generally applicable and driving biological examples are chosen from The Cancer Genome Atlas (TCGA) and the Encyclopedia of DNA Elements (ENCODE and modENCODE).
+  start: January 2014
+  end: August 2015
+  role: Principal Investigator
+  status: inactive  
+  start_year: 2014
+  end_date: "201508"
+
+hsci_csbi:
+  funder: Harvard Stem Cell Institute
+  number:
+  name: Center for Stem Cell Bioinformatics
+  url:
+  summary:
+  start: August 2014
+  end: August 2018
+  role: Principal Investigator
+  status: inactive  
+  start_year: 2014
+  end_date: "201808"
+
 nih_r01hg011773:
   funder: National Institutes of Health - NHGRI
-  number: NIH/NHGRI Federal R01 HG011773
+  number: NIH/NHGRI Federal 1R01HG011773
+  url: https://reporter.nih.gov/search/Zuzr_8ZU6EW_Sa4f46nYKw/project-details/10452031   
   name: Grammar-Driven Genomic Data Visualization
   summary: To create a grammar, recommendation system, and design tools to democratize interactive genomic data visualization.
   start: June 2022
@@ -96,6 +140,19 @@ nih_r01hg011773:
   role: Principal Investigator
   start_year: 2022
   end_date: "202603"
+
+nih_u54hg007963:
+  funder: National Institutes of Health - NHGRI
+  number: NIH 5U54HG007963
+  name: Patient Centered Information Commons
+  url: https://reporter.nih.gov/search/CwmiX9NCR0qQGEEC9BhPZg/project-details/9483734#details
+  summary:
+  start: 
+  end:
+  role: Co-Investigator
+  status: inactive
+  start_year: 2014
+  end_date: "201808"
 
 nih_1Ot2Od033758:
   funder: National Institutes of Health - Common Fund
@@ -135,6 +192,19 @@ nih_m1da058230:
   start_year: 2023
   end_date: "202804"
 
+nih_1r01eb025024:
+  funder: National Institutes of Health (NIBIB) & National Science Foundation
+  number: NIH 1R01EB025024
+  name: QuBBD - Statistical & Visualization Methods for PGHD to Enable Precision Medicine
+  url: https://projectreporter.nih.gov/project_info_description.cfm?aid=9394127&icde=39934490
+  summary: The proposed research is relevant to public health by seeking to improve symptoms for patients with inflammatory bowel diseases, which are chronic, life-long conditions with waxing and waning symptoms. Developing novel statistical and visualization methods to provide a more nuanced understanding of the precise relationship between physical activity and sleep to disease activity is relevant to BD2K's mission.
+  start: September 2017
+  end: June 2020
+  role: Co-Investigator
+  status: inactive  
+  start_year: 2017
+  end_date: "202006"
+
 broad_500584-5500003090:
   funder: Broad Institute Research Agreement
   number: 500584-5500003090
@@ -146,22 +216,6 @@ broad_500584-5500003090:
   role: Principal Investigator
   start_year: 2024
   end_date: "202506"
-
-arpa_ax000028:
-  funder: ARPA-H Federal
-  number: AY 2AX000028
-  name: Accelerating Discovery with AI and Grammar-based Visual Exploration Interfaces
-    for Biomedical Data Repositories
-  summary: To build tools that will enable data consumers from a wide range of user
-    audiences to describe their discovery needs using a wide range of input modalities,
-    including text and speech prompts, to query biomedical data resources using knowledge-driven
-    LLMs that construct discovery interfaces based on their needs, and to visualize
-    and integrate retrieved datasets as part of the discovery process.
-  start: August 2024
-  end: August 2027
-  role: Principal Investigator
-  start_year: 2024
-  end_date: "202708"
 
 nih_u24od038421:
   funder: National Institutes of Health - Common Fund
@@ -175,3 +229,16 @@ nih_u24od038421:
   role: Principal Investigator
   start_year: 2024
   end_date: "202708"
+
+nih_r00hg007583:
+  funder: National Institutes of Health - NHGRI
+  number: NIH R00HG007583
+  name: Visualization of (Epi)Genomic Data for Discovery of Disease-Associated Variants
+  url: https://projectreporter.nih.gov/project_info_details.cfm?aid=9128459&icde=33407223
+  summary: This proposal combines an extensive mentored training program for the PI with a research project that aims to develop novel approaches for visualization and exploration that will accelerate the identification and validation of disease-associated variants in large and complex genomics and epigenomics data sets. An increasing number of such variants are discovered in studies that generate and analyze a wide range of molecular data types for thousands of patients or samples. This progress is enabled by the availability of computational analysis pipelines that employ sophisticated statistical methods for next-generation sequencing (NGS) data. Interpretation of analysis results by biological and clinical domain experts, however, is emerging as a major bottle- neck due to the amount and complexity of the pipeline outputs. To address this, we propose to develop inter- active visualization methods and a web-based infrastructure that will enable domain experts to identify disease-associated variants in large (epi)genomic data sets through visual exploration of computational predictions and the underlying data. This will have a significant impact on the rate at which predictions can be verified, interpreted and translated into clinically actionable finding. Our first priority is the design of methods and tools to visualize (epi) genomic data in a range of different contexts, for instance by grouping and representing features based on their function, chromatin state, transcriptional activity or genomic coordinates. We will also develop new non-linear genome representations to compare structural variants across genomes, complementing the functionality of the highly successful genome browsers. We then investigate how information external to the primary data - for instance from other studies, drug target or biomarker databases - can be applied to guide investigators through the data set. Finally, we implement a web-based exploration system for biological and clinical domain an expert that combines our interactive visualizations with large-scale public (epi) genomic data sets. The methods and tools developed under this proposal will be generally applicable and driving biological examples are chosen from The Cancer Genome Atlas (TCGA) and the Encyclopedia of DNA Elements (ENCODE and modENCODE).
+  start: August 2015
+  end: August 2018
+  role: Principal Investigator
+  status: inactive
+  start_year: 2015
+  end_date: "201808"
