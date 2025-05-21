@@ -1,168 +1,177 @@
-nih_u24od038421:
+nih_u01ca200059:
   funder: National Institutes of Health - Common Fund
-  number: NIH U24OD038421
-  name: Community Data Hub for Integrative Visualization
-  url: https://reporter.nih.gov/project-details/10993963
-  summary: We will build a collaborative data management and visualization platform for genomics and spatial single-cell data.
-  start: September 2024
-  end: August 2027
-  role: Principal Investigator
-  status: active
-  start_year: 2024
+  number: NIH/NCI Federal U01 CA200059
+  name: 4DN Nucleome Network Data Coordination and Integration Center (Phase 2)
+  summary: To develop a platform for data collection, curation, visualization, and
+    analysis of high-order chromatin interaction data.
+  start: September 2020
+  end: August 2025
+  role: Co-Investigator
+  start_year: 2020
+  end_date: "202508"
 
-arpahbdf_1aysax00000x: 
-  funder: Advanced Research Projects Agency - Health
-  number: ARPA-H AYSAX00000X
-  name: Accelerating Discovery with AI and Grammar-based Visual Exploration Interfaces for Biomedical Data Repositories
-  url: https://arpa-h.gov/research-and-funding/programs/arpa-h-bdf-toolbox 
-  summary: Define a discovery interface as a data-centric, visual user interface designed to support exploration and discovery in biomedical data resources.
-  start: August 2024
-  end: August 2026
-  role: Principal Investigator 
-  status: active
-  start_year: 2024
-
-nih_1Ot2Od033758:
+uma_um1hg011536:
   funder: National Institutes of Health - Common Fund
-  number: NIH OT2OD033758
-  name: Data Exploration and Visualization Tools for HuBMAP and a Human Reference Atlas
-  url: https://reporter.nih.gov/project-details/11128391
-  summary: To develop the Harvard Tools Component for the Human BioMolecular Atlas Program Integration, Visualization & Engagement (HIVE) Collaboration.
-  start: September 2022
-  end: June 2026
+  number: UMass Chan Medical School (NIH) Federal UM1 HG011536
+  name: 4D Nucleome Center for 3D Structure and Physics of the Genome (Phase 2)
+  summary: To determine how the human genome is folded inside the cell nucleus, and
+    how this organization changes as cells go through important transitions during
+    early differentiation and during aging.
+  url: https://reporter.nih.gov/project-details/10866485
+  start: June 2020
+  end: June 2025
+  role: Co-Investigator
+  start_year: 2020
+  end_date: "202506"
+   
+broad_520-364499:
+  funder: The Broad Institute (Schmidt Futures) Gift
+  number: 520-364499
+  name: Cell Annotation Platform (CAP)
+  summary: To create the Cell Annotation Platform web application for community-based
+    creation of cell atlases in collaboration with the Human Cell Atlas consortium.
+  start: June 2020
+  end: March 2025
   role: Principal Investigator
-  status: active
-  start_year: 2022
-
-nih_r01hg011773:
-  funder: National Institutes of Health - NHGRI
-  number: NIH R01HG011773
-  name: Grammar-Driven Genomic Data Visualization
-  url: https://reporter.nih.gov/project-details/10813062
-  summary: We will create a grammar, recommendation system, and design tools to democratize interactive genomic data visualization.
-  start: June 2022
-  end: March 2026
-  role: Principal Investigator
-  status: active
-  start_year: 2022
+  start_year: 2020
+  end_date: "202503"
 
 nih_t15lm007092:
   funder: National Institutes of Health - NLM
-  number: NIH T15LM007092
+  number: NIH/NLM Training Grant T15 LM007092
   name: Biomedical Informatics and Data Science Research Training Program (BIRT)
-  url: https://reporter.nih.gov/project-details/10846670
-  summary: A postdoctoral training program to educate the next generation of leaders in biomedical data science.
-  start: July 2022
+  summary: To further develop the Harvard Biomedical Informatics and Data Science
+    Research Training (BIRT) program and to contribute to the cadre of highly trained
+    independent and successful researchers in the field of biomedical informatics.
+  start: July 1992
   end: June 2027
   role: Principal Investigator
-  status: active
-  start_year: 2022
-
-nih_r33ca263666:
-  funder: National Institutes of Health - NCI
-  number: NIH R33CA263666
-  name: Integrative Visualization of Spatiotemporal Tumor Atlases
-  url: https://reporter.nih.gov/project-details/10293808
-  summary: We will create a framework for integrative, web-based visualization of human tumor atlases.
-  start: September 2021
-  end: August 2025
-  role: Principal Investigator
-  status: active
-  start_year: 2021
-
-nih_1O2Od026677:
-  funder: National Institutes of Health - Common Fund
-  number: NIH OT2OD026677
-  name: The Human BioMolecular Atlas Program (HuBMAP) Integration, Visualization & Engagement (HIVE) Initiative
-  url: https://projectreporter.nih.gov/project_info_details.cfm?aid=9687370&icde=45003314
-  summary: We propose to contribute a suite of cloud-based data visualization, exploration, and analysis tools that will make HuBMAP data FAIR and will enable broad re-use of this valuable resource within the community. We envision to support both batch and interactive analysis tools for power users, as well as task-speciﬁc UI-based analysis tools for end users without deep knowledge of computational approaches. Our goal is to also provide users with the ability to interact with analysis provenance in through visual interfaces. These will be based on the approaches that we developed for interaction with workﬂow-derived data provenance for reproducible biomedical research. Our visualization tools will be interactive and designed for both data exploration and communication. Based on our Vistories approach for reproducible visual analysis, we will create a bridge between these two distinct tasks. This will also make it possible to share observations and discoveries with remote collaborators. Both analysis and visualization tools will be embedded in a framework that will enable us to incorporate and deploy tools created by members of the HIVE, HuBMAP, and the broader community. Whenever possible, we will enhance existing tools and wrap them into a container-based, scalable, and cloud-agnostic deployment framework. To enable search and exploration of the enormous data space that will be generated by HuBMAP, we propose to implement a set of tools that enable systematic navigation and retrieval of omics and imaging data beyond text-based search. We will focus on the use of metadata and ontologies to accomplish this through interfaces similar to our SATORI system for ontology-guided visual exploration of biomedical data repositories. Finally, we will support collaboration within HuBMAP and the HIVE through visual analysis tools that enable monitoring of the overall project progress and data quality, including timelines for planned experiments, submitted data, and others.
-  start: September 2018
-  end: June 2022
-  role: Principal Investigator
-  status: inactive
-  start_year: 2018
-
-nih_r00hg007583:
-  funder: National Institutes of Health - NHGRI
-  number: NIH R00HG007583
-  name: Visualization of (Epi)Genomic Data for Discovery of Disease-Associated Variants
-  url: https://projectreporter.nih.gov/project_info_details.cfm?aid=9128459&icde=33407223
-  summary: This proposal combines an extensive mentored training program for the PI with a research project that aims to develop novel approaches for visualization and exploration that will accelerate the identification and validation of disease-associated variants in large and complex genomics and epigenomics data sets. An increasing number of such variants are discovered in studies that generate and analyze a wide range of molecular data types for thousands of patients or samples. This progress is enabled by the availability of computational analysis pipelines that employ sophisticated statistical methods for next-generation sequencing (NGS) data. Interpretation of analysis results by biological and clinical domain experts, however, is emerging as a major bottle- neck due to the amount and complexity of the pipeline outputs. To address this, we propose to develop inter- active visualization methods and a web-based infrastructure that will enable domain experts to identify disease-associated variants in large (epi)genomic data sets through visual exploration of computational predictions and the underlying data. This will have a significant impact on the rate at which predictions can be verified, interpreted and translated into clinically actionable finding. Our first priority is the design of methods and tools to visualize (epi) genomic data in a range of different contexts, for instance by grouping and representing features based on their function, chromatin state, transcriptional activity or genomic coordinates. We will also develop new non-linear genome representations to compare structural variants across genomes, complementing the functionality of the highly successful genome browsers. We then investigate how information external to the primary data - for instance from other studies, drug target or biomarker databases - can be applied to guide investigators through the data set. Finally, we implement a web-based exploration system for biological and clinical domain an expert that combines our interactive visualizations with large-scale public (epi) genomic data sets. The methods and tools developed under this proposal will be generally applicable and driving biological examples are chosen from The Cancer Genome Atlas (TCGA) and the Encyclopedia of DNA Elements (ENCODE and modENCODE).
-  start: August 2015
-  end: August 2018
-  role: Principal Investigator
-  status: inactive
-  start_year: 2015
-
-nih_k99hg007583:
-  funder: National Institutes of Health - NHGRI
-  number: NIH K99HG007583
-  name: Visualization of (Epi)Genomic Data for Discovery of Disease-Associated Variants
-  url: https://projectreporter.nih.gov/project_info_details.cfm?aid=9128459&icde=33407223
-  summary: This proposal combines an extensive mentored training program for the PI with a research project that aims to develop novel approaches for visualization and exploration that will accelerate the identification and validation of disease-associated variants in large and complex genomics and epigenomics data sets. An increasing number of such variants are discovered in studies that generate and analyze a wide range of molecular data types for thousands of patients or samples. This progress is enabled by the availability of computational analysis pipelines that employ sophisticated statistical methods for next-generation sequencing (NGS) data. Interpretation of analysis results by biological and clinical domain experts, however, is emerging as a major bottle- neck due to the amount and complexity of the pipeline outputs. To address this, we propose to develop inter- active visualization methods and a web-based infrastructure that will enable domain experts to identify disease-associated variants in large (epi)genomic data sets through visual exploration of computational predictions and the underlying data. This will have a significant impact on the rate at which predictions can be verified, interpreted and translated into clinically actionable finding. Our first priority is the design of methods and tools to visualize (epi) genomic data in a range of different contexts, for instance by grouping and representing features based on their function, chromatin state, transcriptional activity or genomic coordinates. We will also develop new non-linear genome representations to compare structural variants across genomes, complementing the functionality of the highly successful genome browsers. We then investigate how information external to the primary data - for instance from other studies, drug target or biomarker databases - can be applied to guide investigators through the data set. Finally, we implement a web-based exploration system for biological and clinical domain an expert that combines our interactive visualizations with large-scale public (epi) genomic data sets. The methods and tools developed under this proposal will be generally applicable and driving biological examples are chosen from The Cancer Genome Atlas (TCGA) and the Encyclopedia of DNA Elements (ENCODE and modENCODE).
-  start: January 2014
-  end: August 2015
-  role: Principal Investigator
-  status: inactive  
-  start_year: 2014
-
-hsci_csbi:
-  funder: Harvard Stem Cell Institute
-  number:
-  name: Center for Stem Cell Bioinformatics
-  url:
-  summary:
-  start: August 2014
-  end: August 2018
-  role: Principal Investigator
-  status: inactive  
-  start_year: 2014
+  start_year: 1992
+  end_date: "202706"
 
 nih_u01ca200059:
   funder: National Institutes of Health - Common Fund
-  number: NIH U01CA200059
-  name: 4D Nucleome Network Data Coordination and Integration Center
-  url: https://projectreporter.nih.gov/project_info_details.cfm?aid=9139427&icde=33407275
-  summary: The goals of the 4D Nucleome (4DN) Data Coordination and Integration Center (DCIC) are to collect, store, curate, display, and analyze data generated in the 4DN Network. We have assembled a team of investigators with a strong track record in analysis of chromatin interaction data, image processing and three-dimensional data visualization, integrative analysis of genomic and epigenomic data, data portal development, large-scale computing, and development of secure and flexible cloud technologies. In Aim 1, we will develop efficient submission pipelines for data and metadata from 4DN data production groups. We will define data/metadata requirements and quality metrics in conjunction with the production groups and ensure that high-quality, well- annotated data become available to the wider scientific community in a timely manner. In Aim 2, we will develop a user-friendly data portal for the broad scientific community. This portal will provide an easy-to-navigate interface for accessing raw and intermediate data ¿les, allow for programmatic access via APIs, and will incorporate novel analysis and visualization tools developed by DCIC as well as other Network members. For computing and storage scalability and cost-effectiveness, significant efforts will be devoted to development and deployment of cloud-based technology. We will conduct tutorials and workshops to facilitate the use of 4DN data and tools by external investigators. In Aim 3, we will coordinate and assist in conducting integrative analysis of the multiple data types. These efforts will examine key questions in higher-order chromatin organization using both sequence and image data, and the tools and algorithms developed here will be incorporated into the data portal for use by other investigators. These three aims will ensure that the data generated in 4DN will have maximal impact for the scientific community.
+  number: NIH/NCI Federal U01 CA200059
+  name: 4D Nucleome Data Coordination and Integration Center (Phase 1)
+  summary: To develop a platform for data collection, curation, visualization, and analysis of high-order chromatin interaction data.
   start: September 2015
-  end: September 2025
+  end: August 2020
   role: Co-Investigator
-  status: active
   start_year: 2015
+  end_date: "202008"
 
-nih_u01ca98935:
+nih_r33ca263666:
   funder: National Institutes of Health - NCI
-  number: NIH U01CA198935
-  name: Visual Analysis of Genomic and Clinical Data from Large Patient Cohorts
-  url: https://projectreporter.nih.gov/project_info_details.cfm?aid=9070659&icde=33408453
-  summary: Comprehensive large cohort studies that collect a wide variety of genomic, epigenomic and clinical data are increasingly commonplace in the life sciences. While large sample sizes are still limited to well-funded consortia, the continuous cost decrease of data acquisition will allow individual labs to create larger datasets with fewer resources and will make genomic data analysis for the diagnosis of patients feasible. While this opens unprecedented possibilities for understanding the molecular processes underlying many diseases, it also poses challenges, especially with respect to data analysis and data management. There is a high demand for better analysis and visualization methods to keep pace with the increasing amount of data. At the same time, these data acquisition methods will also revolutionize the discovery and diagnosis of rare diseases. The integration of genomics data with extensive patient records and large patient cohorts promises diagnosis and potentially treatment to those with rare or undiagnosed diseases. In this project we will create novel methods and provide unique software tools that will meet this significant demand. Our methods are a departure from existing visualization approaches that are typically focused on visualizing particular molecular and clinical data types while neglecting the context of a patient cohort. Our proposed approach is distinguished from previous work by taking into account these complex relationships between patients in a cohort. In addition, our approach is the first to integrate genomic data at all scales while supporting the interactive analysis, creation and refinement of patient subsets. We will address this challenge by (1) developing visualization techniques, deeply integrated with algorithmic support, to identify and characterize disease subtypes. Specifically, we will develop methods that will allow clinical and experimental investigators to go beyond analyzing simple relationships, creating the potential to reveal the less obvious and indirect molecular causes of many diseases. (2) We will create novel visualizations that employ algorithms to select and display important genomic characteristics and the patient's clinical history to study and diagnose rare diseases. (3) We will create a framework to support the development of web-based visual exploration tools, which we will use to create the visualizations for subtype and rare disease analysis. Additionally, we will also make this framework available for the community to use for other tools. This will allow future projects to produce visual analysis methods that scale to the challenges of big data with less engineering overhead. This project will be a close collaboration between a team of computational (epi) genomics and cancer researchers in the laboratory of the Principal Investigator Peter Park at the Harvard Medical School and data visualization experts in the laboratory of the Co-Investigator Hanspeter Pfister at the Harvard School of Engineering and Applied Sciences. This team possesses the unique combination of expertise that is required to successfully address the challenges that motivate this application.
-  start: June 2015
-  end: May 2018
-  role: Co-Investigator
-  status: inactive  
-  start_year: 2015
+  number: NIH/NCI Federal R33 CA263666
+  name: Integrative Visualization of Spatiotemporal Tumor Atlases
+  summary: To develop novel visualization tools for the interpretation of spatiotemporal
+    data from tumor atlas project.
+  start: September 2021
+  end: August 2025
+  role: Principal Investigator
+  start_year: 2021
+  end_date: "202508"
 
-nih_u54hg007963:
+uni_u24ca268108:
+  funder: National Institutes of Health - NCI
+  number: University of Pittsburgh (NIH) Federal U24 CA268108
+  name: Cellular Senescence Network (SenNet) Consortium Organization and Data Coordinating
+    Center (CODCC)
+  summary: To contribute data visualization tools for spatial single-cell data to
+    the SenNet Data Portal.
+  url: https://reporter.nih.gov/project-details/10705319
+  start: September 2021
+  end: August 2026
+  role: Co-Principal Investigator
+  start_year: 2021
+  end_date: "202608"
+
+nih_r01hg011773:
   funder: National Institutes of Health - NHGRI
-  number: NIH 5U54HG007963
-  name: Patient Centered Information Commons
-  url: https://projectreporter.nih.gov/project_info_details.cfm?aid=9483734&icde=39799723
-  summary:
-  start:
-  end:
-  role: Co-Investigator
-  status: inactive
-  start_year: 0
+  number: NIH/NHGRI Federal R01 HG011773
+  name: Grammar-Driven Genomic Data Visualization
+  summary: To create a grammar, recommendation system, and design tools to democratize interactive genomic data visualization.
+  start: June 2022
+  end: March 2026
+  role: Principal Investigator
+  start_year: 2022
+  end_date: "202603"
 
-nih_1r01eb025024:
-  funder: National Institutes of Health (NIBIB) & National Science Foundation
-  number: NIH 1R01EB025024
-  name: QuBBD - Statistical & Visualization Methods for PGHD to Enable Precision Medicine
-  url: https://projectreporter.nih.gov/project_info_description.cfm?aid=9394127&icde=39934490
-  summary: The proposed research is relevant to public health by seeking to improve symptoms for patients with inflammatory bowel diseases, which are chronic, life-long conditions with waxing and waning symptoms. Developing novel statistical and visualization methods to provide a more nuanced understanding of the precise relationship between physical activity and sleep to disease activity is relevant to BD2K's mission.
-  start: September 2017
-  end: June 2020
-  role: Co-Investigator
-  status: inactive  
-  start_year: 2017
+nih_1Ot2Od033758:
+  funder: National Institutes of Health - Common Fund
+  number: NIH/OD Federal OT2 OD033758
+  name: Data Exploration and Visualization Tools for HuBMAP and a Human Reference
+    Atlas
+  summary: To develop the Tools Component for the Human BioMolecular Atlas Program
+    Integration, Visualization & Engagement (HIVE) Collaboration.
+  start: August 2022
+  end: July 2025
+  role: Principal Investigator
+  start_year: 2022
+  end_date: "202507"
 
+umi_u01dk133090:
+  funder: National Institutes of Health - NIDDK
+  number: University of Michigan (NIH) Federal U01 DK133090
+  name: KPMP Kidney Mapping and Atlas Project (KMAP)
+  summary: To lead visualization-related research and software implementation activities
+    of the proposed KPMP Tissue Atlas Coordinating Center (KTACC).
+  url: https://reporter.nih.gov/project-details/10891596
+  start: September 2022
+  end: June 2027
+  role: Co-Principal Investigator
+  start_year: 2022
+  end_date: "202706"
+
+nih_m1da058230:
+  funder: NIH/NIDA Federal
+  number: UM1 DA058230
+  name: Data Analysis Center for Somatic Mosaicism Across Human Tissues Network
+  summary: To operate the NIH SMaHT consortium data coordination center, including
+    data analysis, curation and visualization in the SMaHT Data Portal.
+  start: May 2023
+  end: April 2028
+  role: Co-Investigator
+  start_year: 2023
+  end_date: "202804"
+
+broad_500584-5500003090:
+  funder: Broad Institute Research Agreement
+  number: 500584-5500003090
+  name: Human Cell Annotation Platform Fund
+  summary: To operate and extend the Cell Annotation Platform with additional features
+    for curation, community annotation, and integration of single-cell data.
+  start: July 2024
+  end: June 2025
+  role: Principal Investigator
+  start_year: 2024
+  end_date: "202506"
+
+arpa_ax000028:
+  funder: ARPA-H Federal
+  number: AY 2AX000028
+  name: Accelerating Discovery with AI and Grammar-based Visual Exploration Interfaces
+    for Biomedical Data Repositories
+  summary: To build tools that will enable data consumers from a wide range of user
+    audiences to describe their discovery needs using a wide range of input modalities,
+    including text and speech prompts, to query biomedical data resources using knowledge-driven
+    LLMs that construct discovery interfaces based on their needs, and to visualize
+    and integrate retrieved datasets as part of the discovery process.
+  start: August 2024
+  end: August 2027
+  role: Principal Investigator
+  start_year: 2024
+  end_date: "202708"
+
+nih_u24od038421:
+  funder: National Institutes of Health - Common Fund
+  number: NIH/OD Federal U24 OD038421
+  name: Community Data Hub for Integrative Visualization
+  summary: To develop a transformative cloud-based visualization hub to enable deep,
+    interactive exploration of multimodal biomedical data, using large omics and imaging
+    datasets sourced from CFDE DCCs and external consortia.
+  start: September 2024
+  end: August 2027
+  role: Principal Investigator
+  start_year: 2024
+  end_date: "202708"
