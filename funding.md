@@ -33,7 +33,7 @@ permalink: /research/funding/
 <h2>{{grant.name}}</h2>
 <h3>{{grant.funder}}</h3>
 {% if grant.url %}
-<a href="{{grant.url}}" class="link-title">{{grant.number}}</a>
+<a href="{{grant.url}}" class="link-title" target="_blank">{{grant.number}}</a>
 {% else %}
 <p>{{grant.number}}</p>
 {% endif %}
@@ -53,7 +53,7 @@ permalink: /research/funding/
 <h2>{{grant.name}}</h2>
 <h3>{{grant.funder}}</h3>
 {% if grant.url %}
-<a href="{{grant.url}}" class="link-title">{{grant.number}}</a>
+<a href="{{grant.url}}" class="link-title" target="_blank">{{grant.number}}</a>
 {% else %}
 <p>{{grant.number}}</p>
 {% endif %}
