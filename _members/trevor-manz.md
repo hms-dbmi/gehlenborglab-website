@@ -6,7 +6,7 @@ photo: trevor-manz.jpg
 alt: Headshot of a white male with a closed-mouth smile, wearing circular wire frame glasses. He has brown hair and the background is blurred blue sky.
 
 job_title: Research Fellow in Biomedical Informatics
-role: postdoc
+role: alumni
 
 services:
   github: https://github.com/manzt
@@ -14,7 +14,7 @@ services:
   linked-in: https://www.linkedin.com/in/trevor-manz/
 
 start: June 2018
-
+end: May 2025
 ---
 
 Trevor is a postdoctoral research fellow in the HIDIVE lab. He earned his PhD
