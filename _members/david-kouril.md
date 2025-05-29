@@ -12,7 +12,6 @@ role: postdoc # or postdoc, administration, staff, alumni, etc.
 services:
   home: https://davidkouril.com
   github: https://github.com/dvdkouril
-  twitter: https://twitter.com/dvdkouril
   linked-in: https://www.linkedin.com/in/dvdkouril
   
 start: July 2023
