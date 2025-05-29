@@ -10,7 +10,6 @@ role: pi
 
 services:
   github: https://github.com/ngehlenborg
-  twitter: https://twitter.com/ngehlenborg
   linked-in: https://www.linkedin.com/in/ngehlenborg/
   
 start: April 2015
