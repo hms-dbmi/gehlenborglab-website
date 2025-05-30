@@ -6,7 +6,8 @@ alt: Headshot of smiling woman in an orange and black dress
 job_title: Senior UI/UX Designer
 role: staff
 services:
-  - 'website: priyamisner.com'
+  home: https://www.priyamisner.com
+  linked-in: https://www.linkedin.com/in/priyamisner/
 start: March 2025
 end: 
 ---
