@@ -8,6 +8,6 @@ role: staff
 services:
   - 'website: priyamisner.com'
 start: March 2025
-end: null
+end: 
 ---
 Priya Misner is a senior designer at the HIDIVE Lab
