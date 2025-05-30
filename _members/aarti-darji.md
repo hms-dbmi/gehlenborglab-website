@@ -15,6 +15,6 @@ services:
   linked-in: https://www.linkedin.com/in/aarti-darji/
   
 start: June 2024
-end:
+end: May 2025
 ---
 Aarti Darji is a Summer HuBMAP Intern at the HIDIVE Lab. She is a rising senior at The University of Texas at Arlington majoring in Data Science with a concentration in Psychology and minoring in Mathematics. Aarti is working on integrating an LLM-based chatbot in Vitessce to allow users easier navigation and analysis of 3D Tissue Maps.

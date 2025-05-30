@@ -12,7 +12,7 @@ services:
   linked-in: https://www.linkedin.com/in/sofiarz/
   
 start: October 2023
-end:
+end: May 2025
 ---
 Sofia Rojas is a current master's candidate in Biomedical Informatics in the Department of Biomedical Informatics at Harvard Medical School.
 
