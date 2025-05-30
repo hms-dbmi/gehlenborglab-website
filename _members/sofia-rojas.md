@@ -6,13 +6,13 @@ photo: sofia-rojas.jpeg
 alt: Headshot of a young white woman with shoulder-length brown hair and green eyes. She is smiling in front of a muted mauve background wearing a pink ribbed turtleneck shirt.
 
 job_title: Research Assistant
-role: student
+role: alumni
 
 services:
   linked-in: https://www.linkedin.com/in/sofiarz/
   
 start: October 2023
-end:
+end: May 2025
 ---
 Sofia Rojas is a current master's candidate in Biomedical Informatics in the Department of Biomedical Informatics at Harvard Medical School.
 
