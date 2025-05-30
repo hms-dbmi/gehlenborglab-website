@@ -11,4 +11,4 @@ services:
 start: March 2025
 end: 
 ---
-Priya Misner is a senior designer at the HIDIVE Lab
+Priya Misner is a senior designer at the HIDIVE Lab.
