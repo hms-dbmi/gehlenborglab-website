@@ -1,14 +1,14 @@
 ---
 title: Michael Shewarega
-name_degree: 'Michael Shewarega, B.Sc.'
+name_degree: Michael Shewarega, B.Sc.
 photo: michael-shewarega.jpeg
-alt: Headshot of a smiling man next to a tree
+alt: Headshot of a smiling man next to a tree.
 job_title: Visiting Graduate Student
 role: student
 services:
-  - 'website: https://michaelshewarega.com/'
-  - 'linkedin: https://www.linkedin.com/in/michael-fekadu-shewarega-837795205/'
-  - 'github: https://github.com/michaelfekadu'
+  home: https://michaelshewarega.com
+  linked-in: https://www.linkedin.com/in/michael-fekadu-shewarega-837795205/
+  github: https://github.com/michaelfekadu
 start: April 2025
 end: null
 ---
