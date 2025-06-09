@@ -18,4 +18,4 @@ services:
 start: June 2025
 end:
 ---
-Arthea Valderrama is a summer HuBMAP intern at the HIDIVE lab. She is a senior at the University of Massachusetts Lowell majoring in Computer Science with a minor in Mathematics. The goal of Arthea's research is to develop a pipeline of converting genomics data inquiries into genomics visualizations to further AI powered exploratino of biomedical data.  
+Arthea Valderrama is a summer HuBMAP intern at the HIDIVE lab. She is a senior at the University of Massachusetts Lowell majoring in Computer Science with a minor in Mathematics. The goal of Arthea's research is to develop a pipeline of converting genomics data inquiries into genomics visualizations to further AI powered exploration of biomedical data.  
