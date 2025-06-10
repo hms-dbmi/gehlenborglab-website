@@ -17,6 +17,6 @@ end: August 8 2025
 ---
 Selena Luo, BSc is a HuBMAP Summer Intern in the Department of Biomedical Informatics at Harvard Medical School.
 
-Selena is a rising senior informatics major at the University of Massachusetts Amherst. 
+Selena is a senior Informatics major at the University of Massachusetts Amherst. 
  
 The goal of Selena's research is to investigate alternative ways to implement interactive visualizations of single-cell data. 
