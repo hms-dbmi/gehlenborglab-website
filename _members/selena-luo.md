@@ -9,8 +9,8 @@ job_title: HuBMAP Summer Intern
 role: student 
 
 services:
-  #github: https://github.com/luoselena
-  #linked-in: https://www.linkedin.com/in/selena-luo-0b670a252/
+  github: https://github.com/luoselena
+  linked-in: https://www.linkedin.com/in/selena-luo-0b670a252/
   
 start: June 9 2025
 end: August 8 2025
