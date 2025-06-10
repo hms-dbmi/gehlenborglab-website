@@ -41,12 +41,12 @@ When you are finished editing the markdown file, save it, and add it to your sta
 git add _members/firstname-lastname.md # replace with your name
 ```
 
-To add a photo, move it to `assets/img/members/firstname-lastname.png` and stage that as well.
+To add a photo, move it to `assets/img/members/fullsize/firstname-lastname.png` and stage that as well.
 
 Images must be smaller than 10k x 10k pixels. Most images should be less than 2k x 2k pixels.
 
 ```sh
-git add assets/img/members/firstname-lastname.png
+git add assets/img/members/fullsize/firstname-lastname.png
 git commit -m "Updated Firstname Lastname photo"
 ```
 
