@@ -1,6 +1,6 @@
 ---
 title: Selena Luo
-name_degree: BSc
+name_degree: Selena Luo
 
 photo: placeholder.png # this file is relative to `assets/img/members/fullsize`
 alt: # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
