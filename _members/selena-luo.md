@@ -12,8 +12,8 @@ services:
   github: https://github.com/luoselena
   linked-in: https://www.linkedin.com/in/selena-luo-0b670a252/
   
-start: June 9 2025
-end: August 8 2025
+start: June 2025
+end: August 2025
 ---
 Selena Luo, BSc is a HuBMAP Summer Intern in the Department of Biomedical Informatics at Harvard Medical School.
 
