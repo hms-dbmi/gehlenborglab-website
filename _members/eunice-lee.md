@@ -8,9 +8,9 @@ alt: >-
 job_title: SIBMI | DBMI Summer Institute Intern
 role: student
 services:
-  - 'home: https://prodbyeunice.xyz/'
-  - 'linked-in: https://www.linkedin.com/in/eunice-lee-3ba87553/'
-  - 'github: https://github.com/euniceyl'
+  home: https://prodbyeunice.xyz/
+  linked-in: https://www.linkedin.com/in/eunice-lee-3ba87553/
+  github: https://github.com/euniceyl
 start: June 2025
 end: null
 ---
