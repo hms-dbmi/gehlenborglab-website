@@ -13,6 +13,7 @@ services:
   home: https://davidkouril.com
   github: https://github.com/dvdkouril
   linked-in: https://www.linkedin.com/in/dvdkouril
+  bluesky: http://bsky.app/profile/dvdkouril.xyz
   
 start: July 2023
 end:
