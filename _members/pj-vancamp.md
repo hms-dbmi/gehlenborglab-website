@@ -6,14 +6,14 @@ photo: pj_vancamp.jpg
 alt: Headshot of a white male in his thirties on the lawn in front of the Harvard Medical School’s main building. He has brown eyes, short brown hair and a short beard and is slightly smiling. He’s wearing a blue button-up shirt with white specks.
 
 job_title: Curriculum Fellow in Biomedical Informatics
-role: postdoc
+role: alumni
 
 services:
   github: https://github.com/pieterjanvc
   linked-in: https://www.linkedin.com/in/pjvancamp/
 
 start: July 2022
-end:
+end: June 2025
 ---
 PJ Van Camp is a post-doctoral [Curriculum Fellow] (https://curriculumfellows.hms.harvard.edu) for the [Masters of Biomedical Informatics (MBI) program] (https://dbmi.hms.harvard.edu/education/master-biomedical-informatics) at the department of biomedical informatics at Harvard Medical School.
 
