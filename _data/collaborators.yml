@@ -14,6 +14,10 @@ peter-park:
   title: Peter J Park
   url: http://compbio.hms.harvard.edu/
   affiliation: Harvard Medical School
+pengwei-sui:
+  title: Pengwei Sui
+  url: https://dbmi.hms.harvard.edu/people/pengwei-sui
+  affiliation: Harvard Medical School
 peter-kharchenko:
   title: Peter Kharchenko
   url: http://pklab.med.harvard.edu/
@@ -69,4 +73,8 @@ david-kreda:
 marinka-zitnik:
   title: Marinka Zitnik
   url: https://dbmi.hms.harvard.edu/people/marinka-zitnik
+  affiliation: Harvard Medical School
+shanghua-gao:
+  title: Shanghua Gao
+  url: https://dbmi.hms.harvard.edu/people/shanghua-gao
   affiliation: Harvard Medical School
