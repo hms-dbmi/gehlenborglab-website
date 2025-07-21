@@ -10,8 +10,8 @@ members:
 
 collaborators:
   - marinka-zitnik
-  - shanghua-gao
-  - pengwei-sui
+  # - shanghua-gao
+  # - pengwei-sui
 
 publications:
   - lange-2025-12345
