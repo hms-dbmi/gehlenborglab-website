@@ -8,7 +8,7 @@ members:
   - priya-misner
   - austen-money
   - lisa-choy
-  - morgen-turner
+  - morgan-turner
 
 collaborators:
   - marinka-zitnik
