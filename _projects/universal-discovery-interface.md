@@ -7,6 +7,8 @@ members:
   - devin-lange
   - priya-misner
   - austen-money
+  - lisa-choy
+  - morgen-turner
 
 collaborators:
   - marinka-zitnik
