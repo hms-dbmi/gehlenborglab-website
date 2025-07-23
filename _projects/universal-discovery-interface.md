@@ -1,5 +1,5 @@
 ---
-name: Biomedical Data Fabric (BDF) Toolbox
+name: Universal Discovery Interface (UDI)
 active: true
 
 members:
