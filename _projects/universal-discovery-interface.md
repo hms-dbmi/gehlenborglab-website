@@ -34,7 +34,7 @@ websites:
 
 github_repositories:
   - name: Universal Discovery Interface Visualization Grammar
-    description: TypeScript typing definitions for the Universal Discovery Interface (UDI) Grammar.
+    description: The Universal Discovery Interface (UDI) Grammar repository includes TypeScript type definitions, a frontend visualization component for rendering UDI specifications, and a website with examples and a live editor.
     url: https://github.com/hms-dbmi/udi-grammar
     primary: true
   - name: Universal Discovery Interface Grammar Python
