@@ -18,23 +18,23 @@ publications:
 
 websites:
   - name: Universal Discovery Interface Visualization Grammar
-    description: Details on the visualization grammar
+    description: Details on the visualization grammar.
     url: https://hms-dbmi.github.io/udi-grammar/#/
     primary: true
   - name: OSF DQVis Dataset
-    description: Dataset of 1.08 million data-question-visualization triplets and 11.4 thousand two-step question samples
+    description: Dataset of 1.08 million data-question-visualization triplets and 11.4 thousand two-step question samples.
     url: https://huggingface.co/datasets/DevLan/DQVis
   - name: Universal Discovery Interface Toolkit
-    description: Viz toolkit npm package
+    description: Viz toolkit npm package.
     url: https://www.npmjs.com/package/udi-toolkit 
   - name: Universal Discovery Interface Visualization Grammar Python Package
-    description: Python code for generating [Universal Discovery Interface](https://github.com/hms-dbmi/udi-grammar) (UDI) specifications.
+    description: Python code for generating Universal Discovery Interface (UDI) specifications.
     url: https://pypi.org/project/udi-grammar-py/
   
 
 github_repositories:
   - name: Universal Discovery Interface Visualization Grammar
-    description:
+    description: TypeScript typing definitions for the Universal Discovery Interface (UDI) Grammar.
     url: https://github.com/hms-dbmi/udi-grammar
     primary: true
   - name: Universal Discovery Interface Grammar Python
