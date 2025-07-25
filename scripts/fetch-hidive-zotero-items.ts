@@ -154,27 +154,33 @@ async function getPubMedIds(
     let url = new URL("https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/");
     url.searchParams.set("ids", batch.join(","));
     url.searchParams.set("format", "json");
-    
+
     try {
       let response = await fetch(url);
       if (!response.ok) {
-        console.warn(`NCBI API request failed with status ${response.status}: ${response.statusText}`);
+        console.warn(
+          `NCBI API request failed with status ${response.status}: ${response.statusText}`
+        );
         continue;
       }
-      
+
       let data = await response.json();
       let parsedData = ncbiIdConverterResponseSchema.safeParse(data);
-      
+
       if (!parsedData.success) {
-        console.warn(`Invalid response from NCBI API for batch ${i + 1}:`, parsedData.error.issues);
+        console.warn(
+          `Invalid response from NCBI API for batch ${i + 1}:`, parsedData.error.issues
+        );
         continue;
       }
-      
+
       for (let record of parsedData.data.records) {
         if (record.pmid) records[record.doi] = record.pmid;
       }
     } catch (error) {
-      console.warn(`Error fetching PubMed IDs for batch ${i + 1}:`, error.message);
+      console.warn(
+        `Error fetching PubMed IDs for batch ${i + 1}:`, error.message
+      );
       continue;
     }
   }
@@ -498,8 +504,7 @@ async function main() {
     let spinner = p.spinner();
     spinner.start(
       colors.bold(
-        `Fetching PubMed IDs for ${
-          colors.cyan(dois.length.toString())
+        `Fetching PubMed IDs for ${colors.cyan(dois.length.toString())
         } DOIs...`,
       ),
     );
@@ -536,8 +541,7 @@ async function main() {
     );
 
     spinner.stop(
-      `Exported ${colors.yellow(items.length.toString())} papers to: ${
-        colors.cyan(outDir.toString())
+      `Exported ${colors.yellow(items.length.toString())} papers to: ${colors.cyan(outDir.toString())
       }`,
     );
   }
