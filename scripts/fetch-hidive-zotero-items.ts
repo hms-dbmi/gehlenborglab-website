@@ -154,10 +154,28 @@ async function getPubMedIds(
     let url = new URL("https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/");
     url.searchParams.set("ids", batch.join(","));
     url.searchParams.set("format", "json");
-    let response = await fetch(url);
-    let data = await response.json();
-    for (let record of ncbiIdConverterResponseSchema.parse(data).records) {
-      if (record.pmid) records[record.doi] = record.pmid;
+    
+    try {
+      let response = await fetch(url);
+      if (!response.ok) {
+        console.warn(`NCBI API request failed with status ${response.status}: ${response.statusText}`);
+        continue;
+      }
+      
+      let data = await response.json();
+      let parsedData = ncbiIdConverterResponseSchema.safeParse(data);
+      
+      if (!parsedData.success) {
+        console.warn(`Invalid response from NCBI API for batch ${i + 1}:`, parsedData.error.issues);
+        continue;
+      }
+      
+      for (let record of parsedData.data.records) {
+        if (record.pmid) records[record.doi] = record.pmid;
+      }
+    } catch (error) {
+      console.warn(`Error fetching PubMed IDs for batch ${i + 1}:`, error.message);
+      continue;
     }
   }
   return records;
