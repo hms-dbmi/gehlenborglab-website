@@ -133,7 +133,7 @@ let zoteroItemSchema = z.object({
 }).transform(({ data, csljson }) => ({ ...data, date: csljson.issued }));
 
 let ncbiIdConverterResponseSchema = z.object({
-  records: z.object({ doi: z.string(), pmid: z.string().optional() }).array(),
+  records: z.object({ doi: z.string(), pmid: z.number().optional() }).array(),
 });
 
 /**
@@ -157,7 +157,7 @@ async function getPubMedIds(
     let response = await fetch(url);
     let data = await response.json();
     for (let record of ncbiIdConverterResponseSchema.parse(data).records) {
-      if (record.pmid) records[record.doi] = record.pmid;
+      if (record.pmid) records[record.doi] = record.pmid.toString();
     }
   }
   return records;
