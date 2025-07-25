@@ -14,7 +14,7 @@ members:
 year: 2025
 type: preprint
 publisher: 'https://doi.org/10.31219/osf.io/gqy8k_v1'
-doi: <TODO>
+doi: '10.31219/osf.io/gqy8k_v1'
 cite:
   authors: 'TC Smits, L Weru, N Gehlenborg, S L''Yi'
   published: '*OSF Preprints*'
