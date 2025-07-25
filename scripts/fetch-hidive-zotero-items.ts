@@ -159,7 +159,7 @@ async function getPubMedIds(
       let response = await fetch(url);
       if (!response.ok) {
         console.warn(
-          `NCBI API request failed with status ${response.status}: ${response.statusText}`
+          `NCBI API request failed with status ${response.status}: ${response.statusText}`,
         );
         continue;
       }
@@ -169,7 +169,8 @@ async function getPubMedIds(
 
       if (!parsedData.success) {
         console.warn(
-          `Invalid response from NCBI API for batch ${i + 1}:`, parsedData.error.issues
+          `Invalid response from NCBI API for batch ${i + 1}:`,
+          parsedData.error.issues
         );
         continue;
       }
@@ -504,7 +505,8 @@ async function main() {
     let spinner = p.spinner();
     spinner.start(
       colors.bold(
-        `Fetching PubMed IDs for ${colors.cyan(dois.length.toString())
+        `Fetching PubMed IDs for ${
+          colors.cyan(dois.length.toString())
         } DOIs...`,
       ),
     );
@@ -541,7 +543,8 @@ async function main() {
     );
 
     spinner.stop(
-      `Exported ${colors.yellow(items.length.toString())} papers to: ${colors.cyan(outDir.toString())
+      `Exported ${colors.yellow(items.length.toString())} papers to: ${
+        colors.cyan(outDir.toString())
       }`,
     );
   }
