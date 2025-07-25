@@ -170,7 +170,7 @@ async function getPubMedIds(
       if (!parsedData.success) {
         console.warn(
           `Invalid response from NCBI API for batch ${i + 1}:`,
-          parsedData.error.issues
+          parsedData.error.issues,
         );
         continue;
       }
@@ -180,7 +180,8 @@ async function getPubMedIds(
       }
     } catch (error) {
       console.warn(
-        `Error fetching PubMed IDs for batch ${i + 1}:`, error.message
+        `Error fetching PubMed IDs for batch ${i + 1}:`,
+        error.message,
       );
       continue;
     }
