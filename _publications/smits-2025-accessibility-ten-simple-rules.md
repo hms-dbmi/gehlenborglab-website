@@ -2,9 +2,9 @@
 title: Ten Simple Rules for Making Biomedical Data Resources Accessible
 image: smits-2025-accessibility-ten-simple-rules.png
 image-alt: >-
-  A visual overview of the ten rules for making biomedical data resources accessible. Three boxes labeled with "assess,"
-  "construct," and "consider" are underneath each other. Each contains smaller boxes that represent individual rules, as
-  described in the main text. The six rules in the "construct" box are marked with one of the letters in the POUR
+  A visual overview of the ten rules for making biomedical data resources accessible. Three boxes labeled with assess,
+  construct, and consider are underneath each other. Each contains smaller boxes that represent individual rules, as
+  described in the main text. The six rules in the construct box are marked with one of the letters in the POUR
   acronym.
 members:
   - thomas-smits
