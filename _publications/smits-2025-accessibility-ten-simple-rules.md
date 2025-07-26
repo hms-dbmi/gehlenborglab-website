@@ -16,7 +16,7 @@ type: preprint
 publisher: 'https://doi.org/10.31219/osf.io/gqy8k_v1'
 doi: '10.31219/osf.io/gqy8k_v1'
 cite:
-  authors: 'TC Smits, L Weru, N Gehlenborg, S L''Yi'
+  authors: "TC Smits, L Weru, N Gehlenborg, S L'Yi"
   published: '*OSF Preprints*'
 zotero-key: IP5UGWUM
 videos: []
