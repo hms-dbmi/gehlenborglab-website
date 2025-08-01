@@ -8,13 +8,13 @@ members:
   - lawrence-weru
   - sofia-rojas
   - nils-gehlenborg
-year: 2024
+year: 2025
 type: preprint
-publisher: 'https://osf.io/5v98j'
-doi: 10.31219/osf.io/5v98j
+publisher: 'https://doi.org/10.1038/s41598-025-08731-7'
+doi: 10.1038/s41598-025-08731-7
 cite:
   authors: 'S L''Yi, HG Zhang, AP Mar, TC Smits, L Weru, S Rojas, A Lex, N Gehlenborg'
-  published: '*OSF Preprints*'
+  published: '*Scientific Reports*'
 zotero-key: F8FYKQP6
 videos: []
 other-resources: []
