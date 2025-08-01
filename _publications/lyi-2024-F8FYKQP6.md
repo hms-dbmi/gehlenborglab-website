@@ -9,7 +9,7 @@ members:
   - sofia-rojas
   - nils-gehlenborg
 year: 2025
-type: preprint
+type: article
 publisher: 'https://doi.org/10.1038/s41598-025-08731-7'
 doi: 10.1038/s41598-025-08731-7
 cite:
