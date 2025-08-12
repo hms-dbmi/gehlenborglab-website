@@ -5,7 +5,7 @@ blurb: >-
   genome-mapped data visualizations.
 slug: search-engine-user-study
 date: '2025-08-12'
-members: []
+members: ['nils-gehlenborg', 'huyen-nguyen', 'sehi-lyi', 'thomas-smits']
 publications:
   - nguyen-2025-multimodal-retrieval
 projects:
