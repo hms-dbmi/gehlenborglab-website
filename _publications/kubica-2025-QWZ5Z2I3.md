@@ -5,7 +5,6 @@ title: >-
 image: kubica-2025-QWZ5Z2I3.png
 image-alt: 'Five 3D models of chromatin, each labeled with a tool that generated it. Each model is distinctly different.'
 members:
-  - nils-gehlenborg
   - david-kouril
 year: 2025
 type: article
