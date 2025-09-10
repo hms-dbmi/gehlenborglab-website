@@ -27,9 +27,9 @@
  * deno run -A scripts/update-hidive-paper.ts paper.json
  * ```
  */
-import * as yaml from "jsr:@std/yaml@1.0.5";
-import { deepMerge } from "jsr:@std/collections@^1.0.5";
-import { z } from "npm:zod@3.9.8";
+import * as yaml from "@std/yaml";
+import { deepMerge } from "@std/collections";
+import { z } from "zod";
 import * as util from "./util.ts";
 
 import {

@@ -1,4 +1,4 @@
-import * as io from "jsr:@std/io@0.224.9";
+import * as io from "@std/io";
 
 async function readAllBytes(fname: string): Promise<Uint8Array> {
   if (fname === "-") {
