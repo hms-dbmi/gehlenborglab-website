@@ -8,9 +8,9 @@
  * deno run -A export-lab-members.ts
  * ```
  */
-import * as csv from "jsr:@std/csv@1.0.4";
-import * as frontMatter from "jsr:@std/front-matter@1.0.5";
-import * as z from "npm:zod@3.23.3";
+import * as csv from "@std/csv";
+import * as frontMatter from "@std/front-matter";
+import * as z from "zod";
 
 let MONTHS = [
   "January",

@@ -25,8 +25,8 @@
  * deno run -A scripts/create-hidive-member.ts paper.json
  * ```
  */
-import * as yaml from "jsr:@std/yaml@1.0.5";
-import { z } from "npm:zod@3.9.8";
+import * as yaml from "@std/yaml";
+import { z } from "zod";
 import * as util from "./util.ts";
 
 type Member = z.infer<typeof issueTemplateSchema>;

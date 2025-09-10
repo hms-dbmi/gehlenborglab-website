@@ -11,16 +11,16 @@
  * # writes assets/papers/pubs.csv, assets/papers/preprints.csv, and missing-papers.md
  * ```
  */
-import * as cli from "jsr:@std/cli@1.0.6";
-import * as colors from "jsr:@std/fmt@1.0.2/colors";
-import * as frontMatter from "jsr:@std/front-matter@1.0.5";
-import * as fs from "jsr:@std/fs@1.0.4";
-import * as p from "npm:@clack/prompts@0.7.0";
-import * as path from "jsr:@std/path@1.0.6";
-import * as yaml from "jsr:@std/yaml@1.0.5";
-import { assert } from "jsr:@std/assert@1.0.6";
-import { stringify } from "jsr:@std/csv@1.0.3";
-import { z } from "npm:zod@3.23.8";
+import * as cli from "@std/cli";
+import * as colors from "@std/fmt/colors";
+import * as frontMatter from "@std/front-matter";
+import * as fs from "@std/fs";
+import * as p from "@clack/prompts";
+import * as path from "@std/path";
+import * as yaml from "@std/yaml";
+import { assert } from "@std/assert";
+import { stringify } from "@std/csv";
+import { z } from "zod";
 
 let HIDIVE_GROUP_ID = "5145258" as const;
 let HIDIVE_PUBLICATIONS_COLLECTION_ID = "YGTEVG73" as const;
