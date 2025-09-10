@@ -17,6 +17,6 @@
     "@std/path": "jsr:@std/path@1.0.6",
     "@std/yaml": "jsr:@std/yaml@1.0.5",
     "@clack/prompts": "npm:@clack/prompts@0.7.0",
-    "zod": "npm:zod@3.9.8",
+    "zod": "npm:zod@3.9.8"
   }
 }
