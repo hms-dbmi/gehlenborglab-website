@@ -1,5 +1,5 @@
 ---
-title: Characterizing the use of the ICD-10 Code for Long COVID in 3 US Healthcare Systems
+title: Potential pitfalls in the use of real world data to study Long COVID
 image: zhang-2023-4LPK46NQ.png
 image-alt: |-
   Clinical characteristics of patients with the PASC code ICD-10 U09.9 in three healthcare
@@ -8,15 +8,15 @@ members:
   - nils-gehlenborg
   - sehi-lyi
 year: 2023
-type: preprint
-publisher: 'http://medrxiv.org/lookup/doi/10.1101/2023.02.12.23285701'
-doi: 10.1101/2023.02.12.23285701
+type: article
+publisher: 'https://www.nature.com/articles/s41591-023-02274-y'
+doi: 10.1038/s41591-023-02274-y
 cite:
   authors: >-
     HG Zhang, JP Honerlaw, M Maripuri, MJ Samayamuthu, BR Beaulieu-Jones, HS Baig, S L’Yi, YL Ho, M Morris, VA Panickan,
     X Wang, C Hong, GM Weber, KP Liao, S Visweswaran, BWQ Tan, W Yuan, N Gehlenborg, S Muralidhar, RB Ramoni, *The
     Consortium for Clinical Characterization of COVID-19 by EHR (4CE)*, IS Kohane, Z Xia, K Cho, T Cai, GA Brat
-  published: '*medRxiv*'
+  published: '*Nature Medicine* **29**, 1040-1043'
 zotero-key: 4LPK46NQ
 videos: []
 other-resources: []
