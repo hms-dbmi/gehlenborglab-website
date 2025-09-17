@@ -1,6 +1,6 @@
 ---
 title: 'Uchimata: a toolkit for visualization of 3D genome structures on the web and in computational notebooks'
-image: kouřil-2025-ZT2RCM7U.png
+image: kouril-2025-ZT2RCM7U.png
 image-alt: >-
   A diagram overviewing the uchimata tool: the figure shows its two parts (javascript and python) and highlights
   important features (expressive encoding configuration, spatial and genomic selections). There are also two specific
@@ -8,6 +8,7 @@ image-alt: >-
   individual chromosomes to highlight telomere locations.
 members:
   - david-kouril
+  - trevor-manz
   - nils-gehlenborg
 year: 2025
 type: preprint
