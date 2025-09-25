@@ -1,5 +1,5 @@
 ---
-title: A Generative AI System for Biomedical Data Discovery with Grammar-Based Visualizations
+title: "YAC: Bridging Natural Language and Interactive Visual Exploration with Generative AI for Biomedical Data Discovery"
 image: lange-2025-yac.png
 image-alt: >-
   Screenshot YAC discovery interface, combining a chat panel and a linked visualization dashboard for interactive data
@@ -16,16 +16,17 @@ members:
   - nils-gehlenborg
 year: 2025
 type: preprint
-publisher: "https://arxiv.org/abs/2509.16454"
-doi: 10.48550/ARXIV.2509.16454
+publisher: "https://arxiv.org/abs/2509.19182"
+doi: 10.48550/arXiv.2509.19182
 cite:
   authors: "D Lange, S Gao, P Sui, A Money, P Misner, M Zitnik, N Gehlenborg"
   published: "*arXiv*"
-zotero-key: CN74ZXPV
+zotero-key: LQL6VZRP
 videos: []
 other-resources: []
 awards: []
 code: "https://github.com/hms-dbmi/udi-chat"
 ---
 
-We explore the potential for combining generative AI with grammar-based visualizations for biomedical data discovery. In our prototype, we use a multi-agent system to generate visualization specifications and apply filters. These visualizations are linked together, resulting in an interactive dashboard that is progressively constructed. Our system leverages the strengths of natural language while maintaining the utility of traditional user interfaces. Furthermore, we utilize generated interactive widgets enabling user adjustment. Finally, we demonstrate the potential utility of this system for biomedical data discovery with a case study.
+Incorporating natural language input has the potential to improve the capabilities of biomedical data discovery interfaces. However, user interface elements and visualizations are still powerful tools for interacting with data, even in the new world of generative AI. In our prototype system, YAC, Yet Another Chatbot, we bridge the gap between natural language and interactive visualizations by generating structured declarative output with a multi-agent system and interpreting that output to render linked interactive visualizations and apply data filters. Furthermore, we include widgets, which allow users to adjust the values of that structured output through user interface elements.
+We reflect on the capabilities and design of this system with an analysis of its technical dimensions and illustrate the capabilities through four usage scenarios.
