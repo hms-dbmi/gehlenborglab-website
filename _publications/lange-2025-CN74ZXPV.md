@@ -4,7 +4,7 @@ image: lange-2025-CN74ZXPV.png
 image-alt: >-
   The schematic figure illustrates how user queries flow through a multi-agent system that generates filters and
   visualizations, producing interactive system outputs. On the left, a user enters natural-language queries the example
-  query is "Is there a correlation between height and weight for donors with weight between 30-130?" These inputs are
+  query is \"Is there a correlation between height and weight for donors with weight between 30-130?\" These inputs are
   routed to an orchestrator agent, which forwards them to specialized agents one that can filter data and one that can
   produce visualizations. The filter agent produces JSON filter specifications (e.g., limiting donor weight between
   30–130), while the visualization agent produces JSON chart specifications. Both outputs are sent to the system for
