@@ -13,7 +13,7 @@ publisher: 'https://osf.io/p47z5'
 doi: 10.31219/osf.io/p47z5_v4
 cite:
   authors: HN Nguyen and N Gehlenborg
-  published: '*OSF Preprints*'
+  published: '*2025 IEEE Visualization and Visual Analytics (VIS)*. To appear'
 zotero-key: AJ92WHNU
 videos: []
 other-resources: []
