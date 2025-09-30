@@ -6,7 +6,7 @@ photo: skylar-walters.png # this file is relative to `assets/img/members/fullsiz
 alt: Blonde woman with hexagonal glasses smiles in front of a brick building. # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 
 job_title: SIBMI Summer Intern
-role: alumni
+role: student
 
 services:
   #home: https://member-website.com
@@ -15,7 +15,7 @@ services:
   linked-in: https://www.linkedin.com/in/skylar-sargent-walters
   
 start: June 2025
-end: August 2025
+end:
 ---
 Skylar Walters, ScB, is a SIBMI summer scholar in the Department of Biomedical Informatics at Harvard Medical School.
 
