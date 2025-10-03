@@ -20,7 +20,7 @@ publications:
 
 websites:
   - name: Universal Discovery Interface Visualization Grammar
-    description: Details on the visualization grammar
+    description: Details on the visualization grammar.
     url: https://hms-dbmi.github.io/udi-grammar/#/
     primary: true
  
