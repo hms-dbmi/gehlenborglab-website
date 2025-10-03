@@ -6,7 +6,7 @@ photo: skylar-walters.png # this file is relative to `assets/img/members/fullsiz
 alt: Blonde woman with hexagonal glasses smiles in front of a brick building. # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 
 job_title: SIBMI Summer Intern
-role: student # or postdoc, administration, staff, alumni, etc.
+role: student
 
 services:
   #home: https://member-website.com
