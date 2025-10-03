@@ -25,6 +25,9 @@ websites:
     description: Details on the visualization grammar.
     url: https://hms-dbmi.github.io/udi-grammar/#/
     primary: true
+ 
+    url: https://hms-dbmi.github.io/udi-grammar/#/
+    primary: true
   - name: OSF DQVis Dataset
     description: Dataset of 1.08 million data-question-visualization triplets and 11.4 thousand two-step question samples.
     url: https://huggingface.co/datasets/DevLan/DQVis
@@ -53,8 +56,10 @@ github_repositories:
 grants:
   - arpahbdf_1aysax00000x
 
-# gallery:
-#   placeholder-lab-logo.png: 'Accelerating Discovery with AI and Grammar-based Visual Exploration Interfaces for Biomedical Data Repositories'
+gallery:
+  udi-chat-withfilters.png: An image showing a chat conversation asking about the number of donor records on the left hand side and a collection of five charts on the right hand side. Clockwise from the upper left, the charts depict a CDF chart of donor age colored by race, a scatter plot of donor height vs weight colored by sex, a bar chart of donor sex, a table showing number of donor records and a bar chart of the donor count by race. 
+  udi-examples.png: A screenshot of the UDI webpage showing a collection of charts that the interface supports. 
+  udi-grammar.png: A screenshot of the UDI grammar webpage depicting the a scatterplot on the right and the grammar needed to generate the plot on the left. 
 
 blurb: Connect biomedical research data from thousands of sources and overcome barriers caused by incompatible data dialects.
 ---
