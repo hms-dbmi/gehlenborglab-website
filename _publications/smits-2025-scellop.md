@@ -2,8 +2,8 @@
 title: 'scellop: A Scalable Redesign of Cell Population Plots for Single-Cell Data'
 image: smits-2025-scellop.png
 image-alt: >-
-  Three panels (A-C) with cell population plots. A) Heatmap with bar charts on the top and left and colored legeds on
-  the right and bottom. B) Same heatmap pas A, but two rows are now bar charts. C) Stacked bar chart with colors for
+  Three panels (A-C) with cell population plots. A) Heatmap with bar charts on the top and left and colored legends on
+  the right and bottom. B) Same heatmap as A, but two rows are now bar charts. C) Stacked bar chart with colors for
   cell types.
 members:
   - thomas-smits
