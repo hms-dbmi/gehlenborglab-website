@@ -16,12 +16,12 @@ members:
   - priya-misner
   - nils-gehlenborg
 year: 2025
-type: preprint
+type: article
 publisher: 'https://arxiv.org/abs/2509.16454'
 doi: 10.48550/ARXIV.2509.16454
 cite:
   authors: 'D Lange, S Gao, P Sui, A Money, P Misner, M Zitnik, N Gehlenborg'
-  published: '*arXiv*'
+  published: '*2025 IEEE VIS Workshop on GenAI, Agents, and the Future of VIS (VISxGenAI)*'
 zotero-key: CN74ZXPV
 videos: []
 other-resources: []

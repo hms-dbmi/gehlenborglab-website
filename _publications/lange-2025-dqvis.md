@@ -9,7 +9,8 @@ type: preprint
 publisher: "https://osf.io/preprints/osf/rqb7u_v1"
 doi: 10.31219/osf.io/rqb7u_v1
 cite:
-  authors: "Lange, D., Sui, P., Gao, S., Zitnik, M., & Gehlenborg, N. "
+  authors: "D Lange, P Sui, S Gao, M Zitnik, N Gehlenborg"
+  published: "*Advances in Neural Information Processing Systems (NeurIPS)*. To appear"
 zotero-key: 376CQGS4
 videos: []
 other-resources:
