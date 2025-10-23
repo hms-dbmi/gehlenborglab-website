@@ -16,7 +16,7 @@ publisher: 'http://arxiv.org/abs/2510.19499'
 doi: 10.48550/arXiv.2510.19499
 cite:
   authors: >-
-    MS Keller, N Lucarelli, Y Chen, S Border, A Janowczyk, J Himmelfarb, M Kretzler, J Hodgin, L Barisoni, D Demeke, L Herlitz, G Moeckel, AZ Rosenberg, Y Ding, Kidney Precision Meidicne Project, HuBMAP Consortium, P Sarder, N Gehlenborg
+    MS Keller, N Lucarelli, Y Chen, S Border, A Janowczyk, J Himmelfarb, M Kretzler, J Hodgin, L Barisoni, D Demeke, L Herlitz, G Moeckel, AZ Rosenberg, Y Ding, Kidney Precision Medicine Project, HuBMAP Consortium, P Sarder, N Gehlenborg
   published: '*arXiv*'
 zotero-key: U38UHYDG
 videos: []
