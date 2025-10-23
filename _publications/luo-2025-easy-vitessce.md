@@ -7,6 +7,8 @@ image-alt: >-
 members:
   - selena-luo
   - mark-keller
+  - tabassum-kakar
+  - lisa-choy
   - nils-gehlenborg
 year: 2025
 type: preprint
