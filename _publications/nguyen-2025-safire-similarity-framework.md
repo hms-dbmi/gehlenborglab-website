@@ -10,7 +10,7 @@ members:
 year: 2025
 type: preprint
 publisher: 'https://osf.io/p47z5'
-doi: 10.31219/osf.io/p47z5_v4
+doi: 10.48550/arXiv.2510.16662
 cite:
   authors: HN Nguyen and N Gehlenborg
   published: '*2025 IEEE Visualization and Visual Analytics (VIS)*. To appear'
