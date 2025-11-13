@@ -22,10 +22,10 @@ members:
   - andrew-mar
 
 publications:
-  - smits-2024-9X8PFMGP
+  - smits-2024-altgosling
   - lyi-2024-F8FYKQP6
   - weru-2024-accessibility-keyboard
-  - smits-2024-P3XRGF6H
+  - smits-2024-transitioning-charts
   - smits-2025-accessibility-ten-simple-rules
 
 collaborators:

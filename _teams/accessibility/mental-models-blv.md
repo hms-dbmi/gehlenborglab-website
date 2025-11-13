@@ -5,12 +5,12 @@ name: Mental Models of Visualizations
 team_id: accessibility
 active: false
 
-image: smits-2024-S4RH9GKM-2.png
+image: smits-2024-transitioning-charts.png
 image_alt: Two-by-two grid with sketches (top row) and schematics (bottom row). The columns are labeled ‘direct’ and ‘gradual’, and the rows are labeled ‘sketch’ and ‘mental model’. The direct sketch (A1) has two axes and a few black and colored vertical lines. The gradual sketch (B1) has two axes and colored letters (A, C, T, G) in it. The ‘mental models’ below (A2, B2) are neater versions of the sketches. The gradual charts are closer to a sequence logos plot than the direct charts.
 
 
 publications:
-  - smits-2024-P3XRGF6H
+  - smits-2024-transitioning-charts
 
 ---
 
