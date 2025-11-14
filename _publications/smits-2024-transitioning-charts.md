@@ -1,6 +1,6 @@
 ---
 title: Explaining Unfamiliar Genomics Data Visualizations to a Blind Individual through Transitions
-image: smits-2024-P3XRGF6H.png
+image: smits-2024-transitioning-charts.png
 image-alt: >-
   Two-by-two grid with sketches (top row) and schematics (bottom row) from a direct (left) and gradual (right) approach.
   The direct approach has a few black and colored vertical lines, the gradual one has colored letters (A, C, T, G)
