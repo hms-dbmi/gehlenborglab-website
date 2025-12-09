@@ -1,6 +1,6 @@
 ---
-title: Morgan Turner
-name_degree: Morgan Turner, PhD
+title: Morgan L. Turner
+name_degree: Morgan L. Turner, PhD
 
 photo: morgan-turner.jpg # this file is relative to `assets/img/members/`
 alt: Headshot of a young white woman with a full smile and long, curly brown hair. She is wearing round browline glasses and a white button-up, standing in front of a blue glass background.
@@ -10,7 +10,7 @@ role: staff
 
 services:
   home: https://morganlturner.com/
-  linked-in: https://www.linkedin.com/in/morgan-turner-phd-802190bb
+  linked-in: https://www.linkedin.com/in/morgan-turner-phd/
   twitter: https://twitter.com/MorganLTurner_
   
 start: December 2022
