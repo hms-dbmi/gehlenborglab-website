@@ -5,7 +5,7 @@ members:
   - trevor-manz
   - fritz-lekschas
   - nils-gehlenborg
-year: 2024
+year: 2025
 type: article
 publisher: 'https://ieeexplore.ieee.org/document/10672535/'
 doi: 10.1109/TVCG.2024.3456370
@@ -13,7 +13,7 @@ zotero-key: EBDFTS7Q
 preprint: 'https://doi.org/10.31219/osf.io/puxnf'
 cite:
   authors: 'T Manz, F Lekschas, E Greene, G Finak, N Gehlenborg'
-  published: '*IEEE Transactions on Visualization and Computer Graphics* 1-11'
+  published: '*IEEE Transactions on Visualization and Computer Graphics* **31**(1):283-293'
 videos: []
 other-resources: []
 awards: []
