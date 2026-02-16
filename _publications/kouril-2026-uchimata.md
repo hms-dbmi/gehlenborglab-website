@@ -16,7 +16,7 @@ publisher: 'https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/
 doi: 10.1093/bioinformatics/btag035
 cite:
   authors: 'D Kouřil, T Manz, T Clarence, N Gehlenborg'
-  published: '*Bioinformatics* btag035'
+  published: '*Bioinformatics* **42**(2):btag035'
 zotero-key: 9FGGN8JL
 videos: []
 other-resources: []
