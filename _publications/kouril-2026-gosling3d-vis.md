@@ -16,7 +16,7 @@ publisher: 'https://ieeexplore.ieee.org/document/11300332/'
 doi: 10.1109/TVCG.2025.3634654
 cite:
   authors: 'D Kouřil, T Manz, S L''Yi, N Gehlenborg'
-  published: '*IEEE Transactions on Visualization and Computer Graphics* **32**(1):1-11'
+  published: '*IEEE Transactions on Visualization and Computer Graphics* **32**(1):890-900'
 zotero-key: 8GS2LAKW
 videos: []
 other-resources: []
