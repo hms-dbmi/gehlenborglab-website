@@ -5,12 +5,13 @@ members:
   - devin-lange
   - nils-gehlenborg
 year: 2025
-type: preprint
-publisher: "https://osf.io/preprints/osf/rqb7u_v1"
-doi: 10.31219/osf.io/rqb7u_v1
+type: article
+publisher: "https://openreview.net/pdf/4b20780b4cc521df9459f434e1f957a52bf6416d.pdf"
+# doi: 10.31219/osf.io/rqb7u_v1
+# neurips papers do not get a DOI
 cite:
   authors: "D Lange, P Sui, S Gao, M Zitnik, N Gehlenborg"
-  published: "*Advances in Neural Information Processing Systems (NeurIPS)*. To appear"
+  published: "*Advances in Neural Information Processing Systems (NeurIPS)*."
 zotero-key: 376CQGS4
 videos: []
 other-resources:
