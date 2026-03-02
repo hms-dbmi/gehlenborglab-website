@@ -11,7 +11,7 @@ publisher: "https://openreview.net/pdf/4b20780b4cc521df9459f434e1f957a52bf6416d.
 # neurips papers do not get a DOI
 cite:
   authors: "D Lange, P Sui, S Gao, M Zitnik, N Gehlenborg"
-  published: "*Advances in Neural Information Processing Systems (NeurIPS)*."
+  published: "*39th Conference on Neural Information Processing Systems (NeurIPS 2025) Track on Datasets and Benchmark*."
 zotero-key: 376CQGS4
 videos: []
 other-resources:
