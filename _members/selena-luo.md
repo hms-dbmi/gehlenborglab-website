@@ -6,7 +6,7 @@ photo: placeholder.png # this file is relative to `assets/img/members/fullsize`
 alt: # the alt text that describes this photo for screen reader users. Mandatory if you use a photo.
 
 job_title: HuBMAP Summer Intern
-role: student 
+role: alumni 
 
 services:
   github: https://github.com/luoselena
