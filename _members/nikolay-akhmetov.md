@@ -2,10 +2,10 @@
 title: Nikolay Akhmetov
 name_degree: Nikolay Akhmetov, BS
 
-photo: nick-akhmetov.png # this file is relative to `assets/img/members/`
-alt: Headshot of a young white man with short, curly brown hair, wearing a black hoodie, smiling in front of a colorful indoor blurred background.
+photo: nick-akhmetov.jpg # this file is relative to `assets/img/members/`
+alt: Smiling young white man with short curly brown hair and a beard, wearing a black shirt, in front of a blurred gray background.  
 
-job_title: Software Developer
+job_title: Senior Software Developer
 role: staff
 
 services:
@@ -17,4 +17,4 @@ start: September 2020
 end:
 ---
 
-Nikolay Akhmetov is a software developer in the Department of Biomedical Informatics at Harvard Medical School.
+Nikolay Akhmetov is a senior software developer in the Department of Biomedical Informatics at Harvard Medical School.
