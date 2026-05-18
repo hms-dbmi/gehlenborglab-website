@@ -1,30 +1,33 @@
 ---
 title: 'Geranium: Multimodal Retrieval of Genomics Data Visualizations'
-image: nguyen-2025-multimodal-retrieval.png
-image-alt: >-
-  Top: Overview of the database system for retrieval and authoring genomics data visualizations. Bottom: Search
-  interface (left) and authoring interface (right).
+image: nguyen-2026-multimodal-retrieval.png
+image-alt: <TODO>
 members:
   - nils-gehlenborg
   - huyen-nguyen
   - sehi-lyi
   - thomas-smits
-year: 2025
-type: preprint
-publisher: 'https://osf.io/zatw9'
-doi: 10.31219/osf.io/zatw9_v5
+year: 2026
+type: article
+publisher: 'https://ieeexplore.ieee.org/document/11480764'
+doi: 10.1109/TVCG.2026.3683429
 cite:
   authors: 'HN Nguyen, S L''Yi, TC Smits, S Gao, M Zitnik, N Gehlenborg'
-  published: '*OSF Preprints*'
+  published: '*IEEE Transactions on Visualization and Computer Graphics*'
 zotero-key: 2NUI34VT
 videos:
   - title: Demo video
     url: 'https://osf.io/fn4k7'
+  - title: Demo video
+    url: 'https://osf.io/f4y5a/files/fn4k7'
+  - title: Supplementary Materials
+    url: 'https://osf.io/f4y5a/files/nkj6a'
 other-resources:
   - title: Supplementary material
     url: 'https://osf.io/f4y5a/files/osfstorage'
 awards: []
 code: 'https://github.com/gosling-lang/geranium'
-website: 'https://gosling-lang.github.io/geranium/'
+website: 'https://ieeexplore.ieee.org/document/11480764'
+preprint: 'https://ieeexplore.ieee.org/document/11480764'
 ---
-To address the challenge of efficiently retrieving information from the vast landscape of genomics data visualizations, we introduce Geranium, a data visualization retrieval system designed for searching and authoring genomics visualizations. The system supports multimodal retrieval, enabling users to query using images, text, or grammar-based specifications. Retrieved examples serve as scaffolds in the authoring process by providing template structures that researchers can modify with their own data, allowing them to focus on analysis rather than low-level visualization construction. Our approach incorporates three embedding methods to leverage both specialized and general knowledge: context-free grammar embeddings tailored for genomics visualizations, multimodal embeddings from a biomedical vision-language foundation model, and textual embeddings from our fine-tuned specification-to-text large language model. For each visualization, we construct a multimodal representation, including declarative specifications using the Gosling grammar, pixel-based renderings, and natural language descriptions. We experiment with different embedding strategies to maximize top-k retrieval accuracy and conduct user studies with domain collaborators to gather feedback on tool usability. The current collection consists of 3,200 visualization examples across approximately 50 categories, spanning single-view to coordinated multi-view visualizations, and covering applications from single-cell epigenomics to structural variation analysis.
+Effective visualization is essential for interpreting genomics data, yet researchers often face challenges in finding relevant, reusable examples. Existing tools offer limited support for searching the vast landscape of genomics visualizations, making the process of authoring new visualizations time-consuming and inefficient. To address this gap, we introduce Geranium, a data visualization retrieval system for searching and authoring genomics visualizations. Geranium supports multimodal retrieval, enabling users to query with images, text, or grammar based specifications. Retrieved examples serve as scaffolds for authoring, providing templates that researchers can adapt with their own data, thereby streamlining the mechanics of visualization construction. Geranium integrates three embedding methods to combine specialized and general knowledge: grammar-based embeddings tailored to genomics visualizations, multimodalem beddings from a biomedical vision-language foundation model, and text embeddings from a fine-tuned large language model. For each visualization, we construct a multimodal representation that includes a Gosling specification, a pixel-based rendering, and natural language descriptions. We evaluate embedding strategies to maximize top-k retrieval accuracy and conduct user studies with domain collaborators to gather feedback on usability. Our collection comprises 3,200 visualizations across 50 categories, ranging from single-view to coordinated multi-view designs and supporting applications from single-cell epigenomics to structural variation analysis.
