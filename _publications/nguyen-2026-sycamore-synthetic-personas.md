@@ -17,9 +17,9 @@ zotero-key: LS3Y9MNS
 videos:
   - title: Demo video
     url: 'https://osf.io/kdfr3/files/be38c'
+other-resources: 
   - title: Supplementary materials
     url: 'https://osf.io/kdfr3'
-other-resources: []
 awards: []
 code: 'https://github.com/huyen-nguyen/sycamore'
 preprint: 'https://arxiv.org/abs/2605.08630'
