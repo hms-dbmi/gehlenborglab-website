@@ -7,7 +7,7 @@ slug: search-engine-user-study
 date: '2025-08-12'
 members: ['nils-gehlenborg', 'huyen-nguyen', 'sehi-lyi', 'thomas-smits']
 publications:
-  - nguyen-2025-multimodal-retrieval
+  - nguyen-2026-multimodal-retrieval
 projects:
   - gosling
 ---
