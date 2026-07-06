@@ -6,7 +6,7 @@ alt: >-
   Portrait of a smiling young East Asian woman with long brunette hair. 
   She is wearing a dark blue gown over a floral dress, with gothic architecture and sunset in the background.
 job_title: Associate in Biomedical Informatics
-role: associate
+role: staff
 services:
   home: https://euniceyl.github.io/
   linked-in: https://www.linkedin.com/in/eunice-lee-3ba87553/
