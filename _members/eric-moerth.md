@@ -6,7 +6,7 @@ photo: eric-moerth.jpg # this file is relative to `assets/img/members/`
 alt: Headshot of a white man with medium long brown hair with hints of gray and a reddish-brown beard, wearing a blue shirt. The background of the image is white.
 
 job_title: Research Fellow in Biomedical Informatics
-role: postdoc # or postdoc, administration, staff, alumni, etc.
+role: alumni
 
 services:
   github: https://github.com/EricMoerthVis
@@ -14,7 +14,7 @@ services:
   linked-in: https://www.linkedin.com/in/ericmoerth
 
 start: April 2023
-end:
+end: June 2026
 ---
 Eric Moerth is a Research Fellow in Biomedical Informatics at Harvard Medical School.
 
