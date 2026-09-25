@@ -1,11 +1,11 @@
 ---
 title: Lisa Choy
-name_degree: Lisa Choy
+name_degree: Lisa Choy, MS
 
 photo: lisa-choy.jpg
-alt: Photograph of an Asian female with shoulder length black hair wearing thin tortoiseshell glasses and a navy cardigan over a maroon sweater in front of a solid-colored light background.
+alt: A waist-up professional portrait of an Asian woman looking at the camera with a gentle smile against a softly blurred background. She has shoulder-length black hair, thin tortoiseshell glasses, and is wearing a deep purple cable-knit crewneck sweater. 
 
-job_title: Principal Software Developer
+job_title: Director of Software Engineering
 role: staff 
 
 services:
@@ -15,4 +15,4 @@ services:
 start: March 2023
 end:
 ---
-Lisa Choy is a software developer in the Department of Biomedical Informatics at Harvard Medical School.
+Lisa Choy leads software development efforts for the HIDIVE Lab in the Department of Biomedical Informatics at Harvard Medical School.
