@@ -6,7 +6,7 @@ photo: devin-lange.jpg
 alt: Headshot of a white man with medium curly brown hair and a short somewhat scruffy beard. He is smiling cheerfully in front of a neutral grey background.
 
 job_title: Research Fellow in Biomedical Informatics
-role: postdoc
+role: alumni
 
 services:
   home: https://www.devinlange.com/
@@ -14,7 +14,7 @@ services:
   linked-in: https://www.linkedin.com/in/devin-lange/
   
 start: August 2024
-end:
+end: August 2026
 ---
 Devin Lange, PhD, is a postdoctoral research fellow in the Department of Biomedical Informatics at Harvard Medical School and a member of the HIDIVE lab.
 
