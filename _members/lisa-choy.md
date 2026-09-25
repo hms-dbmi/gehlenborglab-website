@@ -1,6 +1,6 @@
 ---
 title: Lisa Choy
-name_degree: Lisa Choy
+name_degree: Lisa Choy, MS
 
 photo: lisa-choy.jpg
 alt: A waist-up professional portrait of an Asian woman looking at the camera with a gentle smile against a softly blurred background. She has shoulder-length black hair, thin tortoiseshell glasses, and is wearing a deep purple cable-knit crewneck sweater. 
