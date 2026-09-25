@@ -6,7 +6,7 @@ photo: huyen-nguyen.jpg
 alt: Headshot of a young Asian female smiling, with medium-length straight black hair, wearing a navy shirt in front of a colorful indoor blurred background.
 
 job_title: Research Fellow in Biomedical Informatics
-role: postdoc 
+role: alumni 
 
 services:
   home: https://huyennguyen.com
@@ -15,7 +15,7 @@ services:
   linked-in: https://www.linkedin.com/in/huyen-n-nguyen
   
 start: September 2023
-end:
+end: August 2026
 ---
 Huyen N. Nguyen, PhD, is a Postdoctoral Research Fellow in the HIDIVE Lab, led by Nils Gehlenborg, at the Department of Biomedical Informatics at Harvard Medical School.
 
