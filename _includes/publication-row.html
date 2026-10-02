@@ -15,6 +15,21 @@
     {% assign has_awards = true %}
     {% break %}
   {% endfor %}
+  {% if publication.type == "preprint" %}
+    <ul class="icon-list">
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.43 10.43" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" class="icon">
+          <ellipse cx="5.25" cy="8.51" rx=".36" ry="1.42" transform="translate(-.09 .06) rotate(-.62)" />
+          <ellipse cx="2.38" cy="6.89" rx="1.42" ry=".36" transform="translate(-3.18 2.17) rotate(-30.62)" />
+          <ellipse cx="2.34" cy="3.6" rx=".36" ry="1.42" transform="translate(-1.94 3.88) rotate(-60.62)" />
+          <ellipse cx="5.18" cy="1.92" rx=".36" ry="1.42" transform="translate(-.02 .06) rotate(-.62)" />
+          <ellipse cx="8.05" cy="3.54" rx="1.42" ry=".36" transform="translate(-.68 4.59) rotate(-30.62)" />
+          <ellipse cx="8.09" cy="6.83" rx=".36" ry="1.42" transform="translate(-1.83 10.53) rotate(-60.62)" />
+        </svg>
+        <b>Preprint</b>
+      </li>
+    </ul>
+  {% endif %}
   {% if has_awards %}
     {% comment %}
       WCAG level A: container elements such as UL must not be empty
