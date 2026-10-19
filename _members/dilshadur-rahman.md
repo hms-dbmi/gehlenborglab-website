@@ -2,7 +2,7 @@
 title: Md Dilshadur Rahman
 name_degree: Md Dilshadur Rahman, PhD
 
-photo: dilshadur-rahman.jpg
+photo: dilshadur-rahman.png
 alt: Portrait of Md Dilshadur Rahman with short black hair and a short beard, wearing a navy blue collared shirt against a blurred indoor background.
 
 job_title: Research Fellow in Biomedical Informatics
