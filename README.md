@@ -20,7 +20,7 @@ $ jekyll serve &
 ```
 
 When Jekyll is watching the filesystem, it won't run post-processing hooks that
-generate thumbnails. You can do this manually:
+copy the USWDS assets from `node_modules` and generate thumbnails. You can do this manually:
 
 ```
 brew install imagemagick

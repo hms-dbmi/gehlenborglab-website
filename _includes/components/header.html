@@ -1,45 +1,44 @@
 {% if header %}
-<header class="usa-header site-header usa-header-{{ header.type | default: 'extended' }}" role="banner">
+<header class="usa-header site-header usa-header--{{ header.type | default: 'extended' }}">
   {% include banner.html %}
 
-  {% if header %}
   <div class="usa-navbar">
-    <button class="usa-menu-btn">Menu</button>
     <div class="site-logo">
       <a href="/" accesskey="1" title="Home" aria-label="Home">
         {% include logo.svg %}
       </a>
     </div>
+    <button class="usa-menu-btn">Menu</button>
   </div>
 
-  <nav role="navigation" class="usa-nav">
-    <div class="usa-nav-inner">
-      <button class="usa-nav-close">
-        <img src="{{ site.baseurl }}/assets/uswds/img/close.svg" alt="close">
+  <nav aria-label="Primary navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close">
+        <img src="{{ site.baseurl }}/assets/uswds/img/usa-icons/close.svg" role="img" alt="close">
       </button>
 
       {% assign _primary = header.primary.links %}
       {% assign primary_links = site.data.navigation[_primary] | default: _primary %}
       {% if primary_links %}
-      <ul class="usa-nav-primary usa-accordion">
+      <ul class="usa-nav__primary usa-accordion">
         {% for _section in primary_links %}
-        <li>
+        <li class="usa-nav__primary-item">
           {% if _section.links %}
             {% assign section_links = site.data.navigation[_section.links] | default: _section.links %}
             {% assign _section_id = _section.id %}
             {% unless _section_id %}{% assign _section_id = 'nav-' | append: forloop.index %}{% endunless %}
-          <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ _section_id }}">
             <span>{{ _section.text }}</span>
           </button>
-          <ul id="{{ _section_id }}" class="usa-nav-submenu">
+          <ul id="{{ _section_id }}" class="usa-nav__submenu">
             {% for _link in section_links %}
-            <li>
+            <li class="usa-nav__submenu-item">
               <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
             </li>
             {% endfor %}
           </ul>
           {% else %}
-          <a class="usa-nav-link" href="{{ _section.href | relative_url }}">
+          <a class="usa-nav__link" href="{{ _section.href | relative_url }}">
             <span>{{ _section.text }}</span>
           </a>
           {% endif %}
@@ -47,55 +46,8 @@
         {% endfor %}
       </ul>
       {% endif %}
-
-      {% assign _secondary = header.secondary %}
-      {% if _secondary %}
-      <div class="usa-nav-secondary">
-        {% if _secondary.search %}
-          <form action="{{ _secondary.search.action | relative_url }}" class="usa-search usa-search-small js-search-form">
-          <div role="search">
-            <label class="usa-sr-only" for="search-field-small">Search small</label>
-            <input id="search-field-small" type="search" name="{{ _secondary.search.query | default: 'search' }}">
-            <button type="submit">
-              <span class="usa-sr-only">Search</span>
-            </button>
-          </div>
-        </form>
-        {% endif %}
-        {% comment %}
-        necessary to ensure that there are no empty ULs, which is a WCAG Level A accessibility guideline
-        {% endcomment %}
-        {% assign secondary_links = site.data.navigation[_secondary.links] | default: _secondary.links %}
-        {% assign has_secondary_links = false %}
-        {% for _link in secondary_links %}
-          {% if _link.href and _link.text %}
-            {% assign has_secondary_links = true %}
-          {% endif %}
-        {% endfor %}
-
-        {% if _secondary.search or has_secondary_links %}
-          <ul class="usa-unstyled-list usa-nav-secondary-links">
-            {% if _secondary.search %}
-              <li class="js-search-button-container">
-                <button class="usa-header-search-button js-search-button">Search</button>
-              </li>
-            {% endif %}
-            {% for _link in secondary_links %}
-              {% if _link.href and _link.text %}
-              <li>
-                <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
-              </li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        {% endif %}
-      </div>
-      {% endif %}
-
     </div>
   </nav>
-  {% endif %}
-
 </header>
 <div class="usa-overlay"></div>
 {% endif %}

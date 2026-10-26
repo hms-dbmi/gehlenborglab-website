@@ -1,0 +1,37 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+  <head>
+    {% include meta.html %}
+    {% include styles.html %}
+  </head>
+  <body>
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+    {% include header.html %}
+
+    {% assign hero = page.hero %}
+    {% include components/hero.html %}
+
+    {% if page.tagline and page.intro %}
+    <section class="grid-container usa-section">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-4">
+          <h2>{{ page.tagline }}</h2>
+        </div>
+        <div class="tablet:grid-col-8">
+          {{ page.intro | markdownify }}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    <main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+    <script src="{{ '/assets/uswds/js/uswds.min.js' | relative_url }}"></script>
+  </body>
+</html>
