@@ -38,7 +38,8 @@ jobs:
       run: |
         set -e
         bundle exec jekyll build
-        ! grep -n '<ERROR' -r _site
+        # `! grep` would not trip `set -e`, so fail explicitly.
+        if grep -n '<ERROR' -r _site; then exit 1; fi
         bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
 
     - name: Configure AWS Credentials
