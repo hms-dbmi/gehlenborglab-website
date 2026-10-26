@@ -41,6 +41,10 @@ exclude:
   - README.md
   - CLAUDE.md
   - Dockerfile
+  - post-build.sh
+  - LICENSE
+  - cloudformation
+  - scripts
   - docs/*
   - _members/template.md
   - .travis.yml
