@@ -36,6 +36,7 @@ gems:
 exclude:
   - node_modules
   - package.json
+  - package-lock.json
   - Gemfile
   - Gemfile.lock
   - README.md
