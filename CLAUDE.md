@@ -6,17 +6,17 @@ Jekyll site for the HIDIVE Lab (hidivelab.org). It uses Jekyll plugins that GitH
 
 ## Commands
 
-Site (Ruby 3.4 from `.ruby-version`, Jekyll 4.4, theme `uswds-jekyll` pinned to a git ref). Docker is the easiest route; the `Dockerfile` duplicates the Ruby version, so bump both together:
+Site: Ruby 3.4 (from `.ruby-version`), Jekyll 4.4, and USWDS 2 from npm (`uswds@2.14.0`). There is no theme gem. Docker is the easiest route. The `Dockerfile` duplicates the Ruby version, so bump both together:
 
 ```sh
 docker build -t hidivelab-site .
-docker run --rm -it -p 4000:4000 -u "$(id -u):$(id -g)" -v "$PWD":/site hidivelab-site
+docker run --rm -it -p 4000:4000 -u "$(id -u):$(id -g)" -v "$PWD":/site -v /site/node_modules hidivelab-site
 # or natively:
-bundle install
+bundle install && npm install
 bundle exec jekyll serve
 ```
 
-Gemfile pins are deliberate. `jekyll-sass-converter ~> 2.2` keeps libsass, because the uswds 1.x SCSS predates Dart Sass. `html-proofer ~> 3.19` keeps the CI flags valid. The `uswds-jekyll` git ref stays on uswds 1.x. `_plugins/no-theme-data.rb` stops Jekyll from merging the theme's demo `_data/` into `site.data`.
+The Gemfile pins are deliberate. `jekyll-sass-converter ~> 2.2` keeps libsass, because 3.x moves to Dart Sass, which deprecates the `@import` that USWDS 2 uses. `html-proofer ~> 3.19` keeps the CI flags valid.
 
 Full CI check (there is no test suite; this is the validation):
 
@@ -26,7 +26,7 @@ grep -n '<ERROR' -r _site    # must print nothing
 bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
 ```
 
-`_plugins/post.rb` runs `./post-build.sh` after each site write. That script uses ImageMagick `convert` to generate thumbnails in `_site/assets/img/{publications,members}/thumbnail/`. Per the README, `jekyll serve` in watch mode does not run it, so run `./post-build.sh` manually.
+`_plugins/post.rb` runs `./post-build.sh` after each site write. That script copies `node_modules/uswds/dist/{fonts,img,js}` into `_site/assets/uswds/`. It then uses ImageMagick `convert` to generate thumbnails in `_site/assets/img/{publications,members}/thumbnail/`. Per the README, `jekyll serve` in watch mode does not run it, so run `./post-build.sh` manually.
 
 Deno automation scripts (CI runs these three checks from inside `scripts/`):
 
@@ -67,6 +67,14 @@ Top-level `*.md` pages (`members.md`, `publications.md`, and so on) are index pa
 Front matter links entities by slug (the filename without `.md`). Examples: `members: [nils-gehlenborg]`, `publications: [kerpedjiev-2018-genome-biology]`, and `projects`, `collaborators`, `grants`. The `_includes/list-*.html` templates resolve each slug by building the expected URL and matching it against the collection. Collaborators come from `_data/collaborators.yml` and grants come from `_data/grants.yml`, keyed by slug.
 
 When a slug does not resolve, the include renders a literal `<ERROR ...>` tag instead of failing. CI greps `_site` for `<ERROR` and fails the build if it finds one. A renamed member or publication file therefore breaks every page that references the old slug. Repo-root files that are not pages (such as this one) must be listed under `exclude` in `_config.yml`, or Jekyll publishes them.
+
+### Styling (USWDS 2)
+
+The site's own layouts and includes are the whole template layer: `_layouts/default.html` → `home.html` → `page.html` → per-collection layouts. They use USWDS 2 markup (`grid-container`, `grid-row grid-gap`, `tablet:grid-col-*`, and `usa-*__element` names). `assets/main.scss` imports `_sass/_uswds-theme.scss`, which holds the USWDS settings, then imports USWDS from `node_modules`.
+
+The site was built on USWDS 1. The first block of `main.scss` restores the USWDS 1 rules its look depends on: global element typography, 1040px containers, section spacing and first/last-child margin resets. Changes there move every page. Compare screenshots before and after.
+
+`$theme-utility-breakpoints` only enables `tablet`. Using a `desktop:` or `mobile-lg:` utility class requires enabling that breakpoint.
 
 ### Images
 
