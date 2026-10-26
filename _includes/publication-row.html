@@ -8,7 +8,7 @@
   <td>
   {% capture doi %}{% if publication.doi and publication.publisher %} doi:[{{ publication.doi }}]({{ publication.publisher }}){% endif %}{% endcapture %}
   {% capture citation %}{{ publication.cite.authors }}. "[{{ publication.title }}]({{ publication.url }})", {{ publication.cite.published }} ({{ publication.year }}).{{ doi }}{% endcapture %}
-  <p style="text-wrap: balance">{{ citation | markdownify }}</p>
+  <div style="text-wrap: balance">{{ citation | markdownify }}</div>
 
   {% assign has_awards = false %}
   {% for award in publication.awards %}

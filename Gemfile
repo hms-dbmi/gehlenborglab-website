@@ -8,7 +8,12 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "4.0.0"
+gem "jekyll", "~> 4.4"
+# Stay on libsass (sassc): 3.x switches to Dart Sass, which deprecates the
+# @import that USWDS 2's Sass is written with.
+gem "jekyll-sass-converter", "~> 2.2"
+# Required by liquid 4.x; no longer a default gem as of Ruby 3.4.
+gem "bigdecimal"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -24,4 +29,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 ### Local additions:
 
-gem "html-proofer"
+# 4.x+ renamed the CLI flags used in .github/workflows/deploy.yml.
+gem "html-proofer", "~> 3.19"

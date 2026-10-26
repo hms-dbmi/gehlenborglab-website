@@ -6,17 +6,25 @@ Looking for [website updating instructions](./docs/)?
 
 The HIDIVE Lab website uses Jekyll plugins beyond those supported by GitHub Pages.
 Instead, when the main branch is updated, Github Actions builds `_site` and pushes it
-to the appropriate S3 bucket. You will need to need to have a working, up-to-date ruby environment.
+to the appropriate S3 bucket.
 
-Install `rvm` [https://rvm.io/rvm/install]. RVM should load or prompt for installation of the ruby version in .ruby_version on entry to the project folder.
+The easiest way to preview the site locally is with Docker:
+
+```
+$ docker build -t hidivelab-site .
+$ docker run --rm -it -p 4000:4000 -u "$(id -u):$(id -g)" -v "$PWD":/site -v /site/node_modules hidivelab-site
+```
+
+Then open http://localhost:4000. `-v /site/node_modules` keeps the image's npm packages visible under the mounted repo. Rebuild the image after `Gemfile.lock` or `package-lock.json` changes.
+
+Alternatively, install Ruby natively. Install `rvm` [https://rvm.io/rvm/install]. RVM should load or prompt for installation of the ruby version in .ruby-version on entry to the project folder.
 
 With Ruby fixed, then:
 
 ```
-$ gem install bundler -v 2.4.22
 $ bundle install
 $ npm install
-$ jekyll serve &
+$ bundle exec jekyll serve &
 ```
 
 When Jekyll is watching the filesystem, it won't run post-processing hooks that
@@ -33,14 +41,6 @@ For smaller edits, you can just use the editor on the github site, though it's s
 
 For larger edits, check out this repo locally. Our convention for branch names is `username/description`, so it's easy to tell whose contribution it is.
 Run jekyll locally to get a preview of the site.
-
-## Troubleshooting
-
-If using `OS X >=10.12` you may run into errors installing `nokogiri` with the `bundle install step`.
-This workaround should do the trick:
-```
-sudo gem install nokogiri -v '1.6.8.1' -- --with-xml2-include=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/libxml2 --use-system-libraries
-```
 
 ## Automations
 
