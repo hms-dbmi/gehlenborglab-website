@@ -31,14 +31,21 @@ styles:
 sass:
     sass_dir: _sass
     style: compressed
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - node_modules
   - package.json
+  - package-lock.json
   - Gemfile
   - Gemfile.lock
   - README.md
+  - CLAUDE.md
+  - Dockerfile
+  - post-build.sh
+  - LICENSE
+  - cloudformation
+  - scripts
   - docs/*
   - _members/template.md
   - .travis.yml
