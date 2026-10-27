@@ -19,13 +19,11 @@ $ npm install
 $ jekyll serve &
 ```
 
-When Jekyll is watching the filesystem, it won't run post-processing hooks that
-generate thumbnails. You can do this manually:
-
-```
-brew install imagemagick
-./post-build.sh
-```
+After every build, including each rebuild under `jekyll serve`, `_plugins/post.rb`
+runs `./post-build.sh`, which copies the USWDS assets from `node_modules` and
+generates thumbnails. It needs ImageMagick (`brew install imagemagick`). The hook
+hides errors, so if thumbnails or the nav menus are missing, run `./post-build.sh`
+by hand to see why.
 
 ## Workflow
 

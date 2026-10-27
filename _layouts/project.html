@@ -5,8 +5,8 @@ layout: page
 
 <h1>{{ page.name }}</h1>
 
-<div class="usa-grid-full">
-  <div class="usa-width-two-thirds">
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col-8">
     <h2>Description</h2>
     {{ content }}
 
@@ -109,7 +109,7 @@ layout: page
     {% endif %}
   </div>
 
-  <aside class="usa-width-one-third">
+  <aside class="tablet:grid-col-4">
     <h3>Team</h3>
     {% include list-members.html %}
 

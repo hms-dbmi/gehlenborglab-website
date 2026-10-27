@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
+# USWDS fonts, images and JS, referenced from main.css and the layouts.
+mkdir -p _site/assets/uswds
+cp -r node_modules/uswds/dist/{fonts,img,js} _site/assets/uswds/
+
 DIR=_site/assets/img/publications
 mkdir $DIR/thumbnail || echo "Couldn't mkdir: may already exist. Continuing."
 for F in $(ls $DIR/fullsize); do

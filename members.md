@@ -5,25 +5,6 @@ permalink: /team/members/
 
 hero:
   image: /assets/img/site/hero_team.jpg
-
-sidenav:
-  - text: Team
-    href: /team/members/
-subnav:
-  - text: Principal Investigator
-    href: '#pi'
-  - text: Administration
-    href: '#administration'
-  - text: Postdoctoral Fellows
-    href: '#postdoc'
-  - text: Staff
-    href: '#staff'
-  - text: Students
-    href: '#student'
-  - text: Alumni
-    href: '#alumni'
-  - text: Collaborators
-    href: '#collaborators'
 ---
 # Team
 

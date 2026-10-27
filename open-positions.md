@@ -10,7 +10,7 @@ permalink: /team/open-positions/
 ---
 # Open Positions
 
-<p class="usa-font-lead">
+<p class="usa-intro">
 We currently have {{ site.positions | size }} open positions. 
 {% unless site.positions == empty %}
   Please see individual position descriptions for application instructions.
