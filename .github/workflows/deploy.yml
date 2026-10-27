@@ -9,7 +9,7 @@ jobs:
     # https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
     runs-on: ubuntu-22.04
     env:
-      #sassc 2.2.1 which is a dependency of uswds-jekyll has issues with Ubuntu.
+      #sassc (used by jekyll-sass-converter 2.x) fails to build on Ubuntu without this.
       #see https://github.com/sass/sassc-ruby/issues/146#issuecomment-542288556.
       BUNDLE_BUILD__SASSC: "--disable-march-tune-native" 
     # These permissions are needed to interact with GitHub's OIDC Token endpoint.
@@ -38,6 +38,8 @@ jobs:
     - name: Build Jekyll
       run: |
         set -e
+        # USWDS 1 class names render unstyled on USWDS 2. (usa-button--* and usa-button-group are USWDS 2.)
+        if grep -rnP 'usa-(grid|width-|font-lead|button-(?!-|group))' --include='*.md' --include='*.html' _[a-z]* *.md; then exit 1; fi
         bundle exec jekyll build
         ! grep -n '<ERROR' -r _site
         bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site

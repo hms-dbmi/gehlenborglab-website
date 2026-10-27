@@ -21,6 +21,9 @@ $theme-utility-breakpoints: (
   "widescreen": false,
 );
 
+// Keep false: true makes the root 100%, which would scale main.scss's 10px-based
+// rems by 1.6. main.scss sets the root to 62.5% instead, so it still follows the
+// user's font size.
 $theme-respect-user-font-size: false;
 $theme-root-font-size: 10px;
 

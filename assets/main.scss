@@ -7,6 +7,7 @@
 // USWDS 1 styled bare elements globally; USWDS 2 only styles its components.
 // These are the USWDS 1 base rules the site was built on.
 html {
+  font-size: 62.5%; // 10px at the default 16px, but follows the user's font size.
   line-height: normal;
 }
 
