@@ -26,7 +26,7 @@ grep -n '<ERROR' -r _site    # must print nothing
 bundle exec htmlproofer --alt-ignore '/.*/' --check-html --disable-external --assume-extension ./_site
 ```
 
-`_plugins/post.rb` runs `./post-build.sh` after each site write. That script copies `node_modules/uswds/dist/{fonts,img,js}` into `_site/assets/uswds/`. It then uses ImageMagick `convert` to generate thumbnails in `_site/assets/img/{publications,members}/thumbnail/`. Per the README, `jekyll serve` in watch mode does not run it, so run `./post-build.sh` manually.
+`_plugins/post.rb` runs `./post-build.sh` after each site write. That script copies `node_modules/uswds/dist/{fonts,img,js}` into `_site/assets/uswds/`. It then uses ImageMagick `convert` to generate thumbnails in `_site/assets/img/{publications,members}/thumbnail/`. It also runs on every `jekyll serve` rebuild (about 30s, mostly thumbnails). The hook discards the script's output and exit status, so run `./post-build.sh` by hand to debug missing thumbnails or USWDS assets.
 
 Deno automation scripts (CI runs these three checks from inside `scripts/`):
 
