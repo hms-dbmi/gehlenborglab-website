@@ -17,11 +17,11 @@ intro: |
 
 # HIDIVE Lab
 
-<div class="usa-grid-full">
-  <div class="usa-width-one-third">
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col-4">
   <h2>Latest News</h2>
   </div>
-  <div class="usa-width-two-thirds">
+  <div class="tablet:grid-col-8">
   {% assign latest_news = site.news | reverse | slice: 0,5 %}
   {% for news in latest_news %}
     <h3>{{ news.title }}</h3>

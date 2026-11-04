@@ -26,11 +26,11 @@ github_username:  ngehlenborg
 
 # Build settings
 markdown: kramdown
-theme: "uswds-jekyll"
 styles:
   - /assets/main.css
 sass:
     sass_dir: _sass
+    style: compressed
 gems:
   - jekyll-feed
 exclude:

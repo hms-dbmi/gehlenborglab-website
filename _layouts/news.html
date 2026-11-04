@@ -7,8 +7,8 @@ layout: page
     {{ page.title }}
 </h1>
 
-<div class="usa-grid-full">
-  <div class="usa-width-two-thirds">
+<div class="grid-row grid-gap">
+  <div class="tablet:grid-col-8">
     <p><small>Posted on {{ page.date | date: "%-d %B %Y" }}</small></p>
 
     {{ content }}
@@ -19,7 +19,7 @@ layout: page
     {% endif %}
   </div>
 
-  <aside class="usa-width-one-third">
+  <aside class="tablet:grid-col-4">
 
     {% if page.members.size > 0 %}
       <h3>People</h3>

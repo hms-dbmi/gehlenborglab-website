@@ -34,8 +34,6 @@ primary:
   - text: Contact
     href: /contact/
 
-secondary: []
-
 members:
   - text: Biography
     href: '#biography'

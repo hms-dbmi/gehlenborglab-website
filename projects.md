@@ -5,7 +5,7 @@ permalink: /research/projects/
 ---
 # Research Projects
 
-<p class="usa-font-lead">The following list is a sample of research projects that the lab is involved in.</p>
+<p class="usa-intro">The following list is a sample of research projects that the lab is involved in.</p>
 
 
 <h2>Active</h2>

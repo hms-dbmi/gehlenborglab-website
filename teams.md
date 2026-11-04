@@ -16,7 +16,7 @@ If you are not redirected automatically, <a href='{{ page.redirect }}'>follow th
 {% else %}
 
 
-<p class="usa-font-lead">
+<p class="usa-intro">
 The following list is a list of the lab's research themes.
 </p>
 

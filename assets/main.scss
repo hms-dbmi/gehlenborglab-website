@@ -1,15 +1,206 @@
 ---
 ---
 
-$font-path: 'uswds/fonts';
-$image-path: 'uswds/img';
+@import 'uswds-theme';
+@import '../node_modules/uswds/dist/scss/uswds';
 
-@import '../node_modules/uswds/src/stylesheets/uswds.scss';
-@import 'variables.scss';// Custom Sass variables file
-@import '../node_modules/uswds/src/stylesheets/uswds.scss';
+// USWDS 1 styled bare elements globally; USWDS 2 only styles its components.
+// These are the USWDS 1 base rules the site was built on.
+html {
+  font-size: 62.5%; // 10px at the default 16px, but follows the user's font size.
+  line-height: normal;
+}
+
+body {
+  color: #212121;
+  font-size: 1.7rem;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+a {
+  color: #111;
+  text-decoration: underline;
+  &:hover,
+  &:active {
+    color: #070707;
+  }
+  &:visited {
+    color: #4c2c92;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  line-height: 1.3;
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+}
+h1 { font-size: 4rem; font-weight: 700; }
+h2 { font-size: 3rem; font-weight: 700; }
+h3 { font-size: 2rem; font-weight: 700; }
+h4 { font-size: 1.7rem; font-weight: 700; }
+h5 { font-size: 1.5rem; font-weight: 700; }
+h6 { font-size: 1.3rem; font-weight: 400; line-height: 1.5; text-transform: uppercase; }
+
+ul, ol {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 1.94em;
+}
+li {
+  line-height: 1.5;
+  margin-bottom: 0.5em;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+table {
+  border-spacing: 0;
+  margin: 2em 0;
+}
+thead th {
+  font-weight: 700;
+}
+thead th, thead td {
+  background-color: #f1f1f1;
+}
+th {
+  text-align: left;
+}
+th, td {
+  background-color: #fff;
+  border: 1px solid #5b616b;
+  font-weight: 400;
+  padding: 1rem 1.5rem;
+}
+
+cite, var, address, dfn {
+  font-style: normal;
+}
+
+// USWDS 1 .usa-font-lead
+.usa-intro {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.7;
+  max-width: 77rem;
+}
+
+// USWDS 1 layout: 1040px containers with 1.5rem/3rem side padding,
+// section spacing, and no outer margins on first/last children.
+@mixin uswds1-container {
+  max-width: 104rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  @media screen and (min-width: 600px) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+.grid-container,
+.usa-footer__secondary-section > .grid-container {
+  @include uswds1-container;
+}
+@media screen and (min-width: 1024px) {
+  .usa-header--extended .usa-navbar,
+  .usa-header--extended .usa-nav__inner {
+    @include uswds1-container;
+  }
+}
+
+.usa-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  @media screen and (min-width: 600px) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+.usa-section, .grid-container, .grid-row {
+  > :first-child { margin-top: 0; }
+  > :last-child { margin-bottom: 0; }
+}
+[class*="grid-col"]:first-child > :first-child { margin-top: 0; }
+[class*="grid-col"]:last-child > :last-child { margin-bottom: 0; }
+// USWDS 1 .usa-layout-docs made <main> a flex column below 1201px, so margins
+// between its blocks don't collapse there.
+@media screen and (max-width: 1200px) {
+  .site-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+// Stacked columns were plain blocks in USWDS 1, so their margins collapse.
+@media screen and (max-width: 639px) {
+  .grid-row {
+    display: block;
+  }
+}
+// Columns sit side by side from the tablet breakpoint.
+@media screen and (min-width: 640px) {
+  [class*="grid-col"] {
+    > :first-child { margin-top: 0; }
+    > :last-child { margin-bottom: 0; }
+  }
+}
+
+// USWDS 1 mobile header: 40px bar with the menu button at the right edge.
+@media screen and (max-width: 1023px) {
+  .usa-navbar {
+    height: 4rem;
+    border-bottom-color: #aeb0b5;
+  }
+  .usa-menu-btn {
+    background-color: #111;
+    height: 4rem;
+    margin-left: auto;
+    padding: 0;
+    width: 5.8rem;
+  }
+}
+
+.usa-header, .usa-footer {
+  font-size: 1.7rem;
+  line-height: normal;
+}
+
+@media screen and (min-width: 1024px) {
+  .usa-header--extended {
+    border-bottom: 1px solid #d6d7d9;
+  }
+  .usa-header--extended .usa-nav {
+    border-top-color: #d6d7d9;
+  }
+  .usa-header--extended .usa-nav__primary {
+    margin-left: -1.5rem;
+  }
+  .usa-header--extended .usa-nav__primary > .usa-nav__primary-item > .usa-nav__link {
+    font-size: 1.5rem;
+    padding: 1.8rem 1.5rem;
+  }
+}
+
+// Site styles
+
+// Readable line length, as USWDS 1's .usa-content did.
+.site-content {
+  p, ul:not(.usa-accordion), ol:not(.usa-accordion) {
+    max-width: 66ch;
+  }
+}
+
+.page-content > :first-child {
+  margin-top: 0;
+}
 
 .site-header {
-  background-color: $color-white;
+  background-color: #fff;
 }
 
 .site-logo {
@@ -32,7 +223,7 @@ $image-path: 'uswds/img';
   opacity: 0.8;
 }
 
-@media screen and (min-width: 951px) {
+@media screen and (min-width: 1024px) {
   .site-logo {
     margin: 3rem 0;
   }
@@ -42,23 +233,17 @@ $image-path: 'uswds/img';
   }
 }
 
-.usa-logo {
-  a {
-    color: $color-primary-darkest;
-  }
-}
-
 .usa-hero {
   min-height: 350px;
 }
 
-.usa-footer-primary-section {
-  background-color: $color-white;
-}
-
-.usa-footer-secondary_section {
-  border-top: 1px $color-gray-light solid;
-  background-color: $color-white;
+.usa-footer__secondary-section {
+  border-top: 1px #aeb0b5 solid;
+  background-color: #fff;
+  color: #212121;
+  a {
+    color: #212121;
+  }
 }
 
 img.thumb {
@@ -85,16 +270,16 @@ table.publications td, table.projects td, table.positions td {
   }
 }
 
-.usa-footer-contact-links {
+.usa-footer__contact-links {
   text-align: left;
-  font-size: $small-font-size;
+  font-size: 1.4rem;
 }
 
 dt.media-mention {
-  line-height: $base-line-height;
+  line-height: 1.5;
 }
 dd.media-mention p {
-  font-size: $small-font-size;
+  font-size: 1.4rem;
 }
 
 .member-thumb {
@@ -174,7 +359,7 @@ ul.members-rows {
 }
 
 .link-title{
-  color: $color-cool-blue;
+  color: #205493;
 }
 
 .display-lg-only{

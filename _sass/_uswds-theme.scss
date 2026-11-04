@@ -1,0 +1,53 @@
+// USWDS 2 settings. Must be imported before USWDS itself.
+// Values keep the look the site had on USWDS 1: Inter everywhere,
+// a 10px root with rem sizes, and a black/gray palette.
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+$theme-font-path: "uswds/fonts";
+$theme-image-path: "uswds/img";
+$theme-show-notifications: false;
+// The site's only responsive classes are tablet:grid-col-*; generating
+// utilities for other breakpoints would add ~100KB to main.css.
+$theme-utility-breakpoints: (
+  "card": false,
+  "card-lg": false,
+  "mobile": false,
+  "mobile-lg": false,
+  "tablet": true,
+  "tablet-lg": false,
+  "desktop": false,
+  "desktop-lg": false,
+  "widescreen": false,
+);
+
+// Keep false: true makes the root 100%, which would scale main.scss's 10px-based
+// rems by 1.6. main.scss sets the root to 62.5% instead, so it still follows the
+// user's font size.
+$theme-respect-user-font-size: false;
+$theme-root-font-size: 10px;
+
+// Cap height equal to USWDS's base (362px) disables size normalization.
+$theme-typeface-tokens: (
+  "inter": (
+    "display-name": "Inter",
+    "cap-height": 362px,
+  ),
+);
+$theme-font-type-sans: "inter";
+$theme-font-type-serif: "inter";
+$theme-font-sans-custom-stack: sans-serif;
+$theme-font-serif-custom-stack: sans-serif;
+$theme-font-role-heading: "sans";
+$theme-font-role-alt: "sans";
+
+// ~23px gutter, as USWDS 1 had at full width.
+$theme-column-gap-desktop: 3;
+
+$theme-color-primary-family: "gray";
+$theme-color-primary-lighter: "gray-10";
+$theme-color-primary-light: "gray-30";
+$theme-color-primary: "gray-90";
+$theme-color-primary-vivid: "gray-90";
+$theme-color-primary-dark: "black";
+$theme-color-primary-darker: "black";

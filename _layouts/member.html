@@ -10,8 +10,8 @@ layout: page
 
 <h1>{{ page.name_degree | default: page.title }}</h1>
 
-<div class="usa-grid-full">
-  <aside class="usa-width-one-third">
+<div class="grid-row grid-gap">
+  <aside class="tablet:grid-col-4">
     <div>
       <img src="/assets/img/members/fullsize/{{ page.photo }}" alt="{{ altText }}">
     </div>
@@ -88,7 +88,7 @@ layout: page
 
   </aside>
 
-  <div class="usa-width-two-thirds">
+  <div class="tablet:grid-col-8">
     <h2 id="biography">Biography</h2>
     <h3>{{ page.job_title }}</h3>
     

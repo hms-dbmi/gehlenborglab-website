@@ -13,11 +13,11 @@ permalink: /news/
 {% for year in years %}
   {% capture year_string %}{{ year }}{% endcapture %}
 
-  <div class="usa-grid-full">
-    <div class="usa-width-one-third">
+  <div class="grid-row grid-gap">
+    <div class="tablet:grid-col-4">
       <h2>{{ year }}</h2>
     </div>
-    <div class="usa-width-two-thirds">
+    <div class="tablet:grid-col-8">
 
       {% for news in latest_news %}
         {% assign news_year = news.date | date: "%Y" %}
