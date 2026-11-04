@@ -2,10 +2,7 @@
 title: 'HuBMAP Data Portal: a resource for multimodal spatial and single-cell data of healthy human tissues'
 image: turner-2026-hubmap-data-portal.png
 image-alt: >-
-  Schematic of data flow, with data submitter on left and data consumer on right. In between, arrows flow from data
-  ingestion (data submission and data processing) to resources (metadata and data) to interfaces (browsing and search,
-  visualizations, workspaces, download, and APIs). Data, Browsing and Search, Visualizations, and Workspaces are
-  highlighted with color.
+  Grid of 18 screenshots showing Vitessce visualization configurations available on the HuBMAP Data Portal, organized by spatial vs. non-spatial (columns) and single modality vs. multimodal (rows). Each image illustrates a distinct visualization tailored to a specific data type.
 members:
   - morgan-turner
   - thomas-smits
@@ -21,9 +18,9 @@ members:
   - eric-moerth
   - nils-gehlenborg
 year: 2026
-type: preprint
-publisher: 'https://arxiv.org/abs/2511.05708'
-doi: 10.48550/ARXIV.2511.05708
+type: article
+publisher: 'https://www.nature.com/articles/s41467-026-77835-z'
+doi: https://doi.org/10.1038/s41467-026-77835-z
 cite:
   authors: >-
     ML Turner, TC Smits, TS Liaw, B Honick, B Shirey, L Choy, N Akhmetov, S An, D Betancur, D Bordelon, K Burke, I
@@ -31,7 +28,7 @@ cite:
     Ma, A McWilliams, A Money, R Morgan, E Moerth, J Muerto, MA Musen, E Nic, MJ O'Connor, G Phillips, AJ Ropelewski, R
     Sablosky, S Saripalli, M Sibilla, D Simmel, A Simmons, X Tang, J Welling, Z Yuan, M Hemberg, HuBMAP Consortium, M Ruffalo, J
     Silverstein, P Blood, N Gehlenborg
-  published: '*arXiv*'
+  published: '*Nature Communications*'
 zotero-key: FBTDBRDJ
 videos: []
 other-resources: []
