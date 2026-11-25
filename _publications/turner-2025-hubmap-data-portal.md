@@ -20,7 +20,7 @@ members:
 year: 2026
 type: article
 publisher: 'https://www.nature.com/articles/s41467-026-77835-z'
-doi: https://doi.org/10.1038/s41467-026-77835-z
+doi: 10.1038/s41467-026-77835-z
 cite:
   authors: >-
     ML Turner, TC Smits, TS Liaw, B Honick, B Shirey, L Choy, N Akhmetov, S An, D Betancur, D Bordelon, K Burke, I
